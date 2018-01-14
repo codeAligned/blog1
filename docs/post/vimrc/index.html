@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Tags - Coding Blog</title>
+  <title>Vimrc - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,7 +17,10 @@
 
 
 <meta name="author" content="Henry Tseng" />
-  <meta name="description" content="程式筆記" />
+  <meta name="description" content="My personal vimrc for programming
+
+" />
+
   <meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -28,9 +31,7 @@
 <meta name="generator" content="Hugo 0.32.4" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/tags/" />
-<link href="https://henrybear327.github.io/blog/tags/index.xml" rel="alternate" type="application/rss+xml" title="Coding Blog" />
-  <link href="https://henrybear327.github.io/blog/tags/index.xml" rel="feed" type="application/rss+xml" title="Coding Blog" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/vimrc/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -48,14 +49,18 @@
 <link href="/blog/dist/even.min.css?v=2.7.2" rel="stylesheet">
 <link href="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
-<meta property="og:title" content="Tags" />
-<meta property="og:description" content="程式筆記" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/tags/" />
+<meta property="og:title" content="Vimrc" />
+<meta property="og:description" content="My personal vimrc for programming
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/vimrc/" />
 
 
 
-<meta property="og:updated_time" content="2018-01-14T12:59:54&#43;08:00"/>
+<meta property="article:published_time" content="2018-01-14T17:58:04&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-01-14T17:58:04&#43;08:00"/>
 
 
 
@@ -66,11 +71,24 @@
 
 
 
-<meta itemprop="name" content="Tags">
-<meta itemprop="description" content="程式筆記">
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content="程式筆記"/>
+<meta itemprop="name" content="Vimrc">
+<meta itemprop="description" content="My personal vimrc for programming
+
+">
+
+
+<meta itemprop="datePublished" content="2018-01-14T17:58:04&#43;08:00" />
+<meta itemprop="dateModified" content="2018-01-14T17:58:04&#43;08:00" />
+<meta itemprop="wordCount" content="181">
+
+
+
+<meta itemprop="keywords" content="vim," />
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Vimrc"/>
+<meta name="twitter:description" content="My personal vimrc for programming
+
+"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -130,47 +148,139 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          
-  
-    <div class="tag-cloud">
-      <div class="tag-cloud-title">
-          
-          5 Tags In Total
-        
-      </div>
-      <div class="tag-cloud-tags">
-        
-          <a href="/blog/tags/apcs/">
-            apcs
-            <span class="tag-count">2</span>
-          </a>
-        
-          <a href="/blog/tags/implementation/">
-            implementation
-            <span class="tag-count">2</span>
-          </a>
-        
-          <a href="/blog/tags/binary-search/">
-            binary-search
-            <span class="tag-count">1</span>
-          </a>
-        
-          <a href="/blog/tags/greedy/">
-            greedy
-            <span class="tag-count">1</span>
-          </a>
-        
-          <a href="/blog/tags/vim/">
-            vim
-            <span class="tag-count">1</span>
-          </a>
-        
-      </div>
-    </div>
-  
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Vimrc</h1>
 
+      <div class="post-meta">
+        <span class="post-time"> 2018-01-14 </span>
+        <div class="post-category">
+            
+              <a href="/blog/categories/osx/"> OSX </a>
+            
+          </div>
+        <span class="more-meta"> 181 word </span>
+        <span class="more-meta"> 1 min read </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#vimrc">Vimrc</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>My personal vimrc for programming</p>
+
+<p></p>
+
+<h2 id="vimrc">Vimrc</h2>
+
+<pre><code class="language-bash">&quot;General
+set number	&quot; Show line numbers
+set linebreak	&quot; Break lines at word (requires Wrap lines)
+set showbreak=+++	&quot; Wrap-broken line prefix
+set showmatch	&quot; Highlight matching brace
+set visualbell	&quot;  Use visual bell (no beeping)
+ 
+set hlsearch	&quot; Highlight all search results
+set smartcase	&quot; Enable smart-case search
+set ignorecase	&quot; Always case-insensitive
+set incsearch	&quot; Searches for strings incrementally
+
+set expandtab   &quot; For python code indentation to work correctly
+set autoindent	&quot; Auto-indent new lines
+set shiftwidth=4	 &quot; Number of auto-indent spaces
+set smartindent	&quot; Enable smart-indent
+set smarttab	&quot; Enable smart-tabs
+set tabstop=4	 &quot; Number of spaces per Tab
+set cursorline	&quot; Show underline
+set cursorcolumn
+set ruler	&quot; Show row and column ruler information
+
+set mouse=a
+ 
+set undolevels=10000	&quot; Number of undo levels
+set backspace=indent,eol,start	&quot; Backspace behaviour
+ 
+set splitbelow	&quot;New spilt starts below
+set splitright	&quot;New split starts on the right
+set scrolloff=5 &quot;auto scroll on the bottom 5 lines
+
+filetype on	&quot;enable file detection
+syntax on	&quot;syntax highlight
+
+highlight Comment ctermfg=cyan
+set showmode
+
+set encoding=utf-8
+set fileencoding=utf-8
+scriptencoding=utf-8
+</code></pre>
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Henry Tseng</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-01-14</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/blog/tags/vim/">vim</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/blog/post/apcs1060304/">
+            <span class="next-text nav-default">APCS 1060304 試題解析</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
         </div>
         
+  
+
+  
+
+  
       </div>
     </main>
 
@@ -213,6 +323,18 @@
   <script type="text/javascript" src="/blog/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
 <script type="text/javascript" src="/blog/dist/even.min.js?v=2.7.2"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+    </script>
+  <script async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
 
 
 <script>
