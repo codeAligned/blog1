@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://henrybear327.github.io/blog/post/even-theme-setup/</loc>
+    <lastmod>2018-01-14T18:13:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://henrybear327.github.io/blog/post/vimrc/</loc>
     <lastmod>2018-01-14T17:58:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -72,8 +79,22 @@
   </url>
   
   <url>
+    <loc>https://henrybear327.github.io/blog/tags/even/</loc>
+    <lastmod>2018-01-14T18:13:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://henrybear327.github.io/blog/tags/greedy/</loc>
     <lastmod>2018-01-13T00:10:47+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog/categories/hugo/</loc>
+    <lastmod>2018-01-14T18:13:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -102,6 +123,13 @@
   <url>
     <loc>https://henrybear327.github.io/blog/tags/</loc>
     <lastmod>2018-01-15T13:39:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog/tags/theme/</loc>
+    <lastmod>2018-01-14T18:13:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
