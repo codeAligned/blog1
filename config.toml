@@ -5,10 +5,11 @@ title = "Coding Blog"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "even"
+publishdir = "docs"
 
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 10                                              # 首页每页显示的文章数
-disqusShortname = ""      # disqus_shortname
+disqusShortname = "github-page-blog"      # disqus_shortname
 googleAnalytics = "UA-81902328-2"      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
@@ -19,27 +20,6 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
-
-[[menu.main]]             # config your menu              # 配置目录
-  name = "Home"
-  weight = 10
-  identifier = "home"
-  url = "/"
-[[menu.main]]
-  name = "Archives"
-  weight = 20
-  identifier = "archives"
-  url = "/post/"
-[[menu.main]]
-  name = "Tags"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "Categories"
-  weight = 40
-  identifier = "categories"
-  url = "/categories/"
 
 [params]
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
@@ -129,3 +109,24 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #  section = ["HTML", "RSS"]
 #  taxonomy = ["HTML", "RSS"]
 #  taxonomyTerm = ["HTML"]
+
+[[menu.main]]             # config your menu              # 配置目录
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Archives"
+  weight = 20
+  identifier = "archives"
+  url = "/post/"
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "Categories"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"
