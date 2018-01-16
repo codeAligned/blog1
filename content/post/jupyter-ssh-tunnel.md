@@ -35,6 +35,7 @@ passwd("[your desired password]")
 
 * 產生與修改設定檔案
     * `jupyter notebook --generate-config`
+    * 記得用 `netstat -ntulp` 先找一個沒人用的 port 喔！
 
 ```
 c.NotebookApp.ip = '*'
