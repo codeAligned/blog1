@@ -25,7 +25,7 @@ chmod +x [filename]
 * `conda create -n tt python=3.6`
 * `source activate tt`
 * `pip install jupyter`: 安裝 Jupyter 
-* 設定 Jupyter，請參考[隊友的教學](https://amoshyc.github.io/blog/zai-yuan-duan-de-yun-suan-dian-nao-jia-she-jupyter.html#start-jupyter)
+* 設定 Jupyter，請參考[隊友的教學](https://amoshyc.github.io/blog/zai-yuan-duan-de-yun-suan-dian-nao-jia-she-jupyter.html#start-jupyter)，或是[官方文件](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html)
     * 執行 `python3` 生成 hashed password，並複製$sha1$代碼
 
 ```python
