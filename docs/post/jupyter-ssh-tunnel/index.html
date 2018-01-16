@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Vimrc - Coding Blog</title>
+  <title>Jupyter - 在 CCU 工學院電腦架設工作站 - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,9 +17,7 @@
 
 
 <meta name="author" content="Henry Tseng" />
-  <meta name="description" content="My personal vimrc for programming
-
-" />
+  <meta name="description" content="在工學院電腦架設 Jupyter 非常麻煩，經過一番研究之後，寫成筆記，希望以後大家可以方便使用！ 在此先感謝 黃鈺程 隊友的 Jupyter 安裝教學，看來我 python 真的用得太少，連" />
 
   <meta name="keywords" content="Hugo, theme, even" />
 
@@ -31,7 +29,7 @@
 <meta name="generator" content="Hugo 0.32.4" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/vimrc/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/jupyter-ssh-tunnel/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -49,22 +47,16 @@
 <link href="/blog/dist/even.min.css?v=2.7.2" rel="stylesheet">
 <link href="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
-<meta property="og:title" content="Vimrc" />
-<meta property="og:description" content="My personal vimrc for programming
-
-" />
+<meta property="og:title" content="Jupyter - 在 CCU 工學院電腦架設工作站" />
+<meta property="og:description" content="在工學院電腦架設 Jupyter 非常麻煩，經過一番研究之後，寫成筆記，希望以後大家可以方便使用！ 在此先感謝 黃鈺程 隊友的 Jupyter 安裝教學，看來我 python 真的用得太少，連" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/vimrc/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/jupyter-ssh-tunnel/" />
 
 
 
-<meta property="article:published_time" content="2018-01-14T17:58:04&#43;08:00"/>
+<meta property="article:published_time" content="2018-01-16T19:56:09&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-01-14T17:58:04&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-01-16T19:56:09&#43;08:00"/>
 
 
 
@@ -72,23 +64,23 @@
 
 
 
-<meta itemprop="name" content="Vimrc">
-<meta itemprop="description" content="My personal vimrc for programming
-
-">
-
-
-<meta itemprop="datePublished" content="2018-01-14T17:58:04&#43;08:00" />
-<meta itemprop="dateModified" content="2018-01-14T17:58:04&#43;08:00" />
-<meta itemprop="wordCount" content="181">
 
 
 
-<meta itemprop="keywords" content="vim," />
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Vimrc"/>
-<meta name="twitter:description" content="My personal vimrc for programming
 
-"/>
+<meta itemprop="name" content="Jupyter - 在 CCU 工學院電腦架設工作站">
+<meta itemprop="description" content="在工學院電腦架設 Jupyter 非常麻煩，經過一番研究之後，寫成筆記，希望以後大家可以方便使用！ 在此先感謝 黃鈺程 隊友的 Jupyter 安裝教學，看來我 python 真的用得太少，連">
+
+
+<meta itemprop="datePublished" content="2018-01-16T19:56:09&#43;08:00" />
+<meta itemprop="dateModified" content="2018-01-16T19:56:09&#43;08:00" />
+<meta itemprop="wordCount" content="470">
+
+
+
+<meta itemprop="keywords" content="python,jupyter,ssh," />
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Jupyter - 在 CCU 工學院電腦架設工作站"/>
+<meta name="twitter:description" content="在工學院電腦架設 Jupyter 非常麻煩，經過一番研究之後，寫成筆記，希望以後大家可以方便使用！ 在此先感謝 黃鈺程 隊友的 Jupyter 安裝教學，看來我 python 真的用得太少，連"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -151,16 +143,16 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Vimrc</h1>
+      <h1 class="post-title">Jupyter - 在 CCU 工學院電腦架設工作站</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-01-14 </span>
+        <span class="post-time"> 2018-01-16 </span>
         <div class="post-category">
             
-              <a href="/blog/categories/osx/"> OSX </a>
+              <a href="/blog/categories/python/"> Python </a>
             
           </div>
-        <span class="more-meta"> 181 word </span>
+        <span class="more-meta"> 470 word </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -176,7 +168,8 @@
 <ul>
 <li>
 <ul>
-<li><a href="#vimrc">Vimrc</a></li>
+<li><a href="#安裝-miniconda-和-jupyter">安裝 miniconda 和 jupyter</a></li>
+<li><a href="#ssh-tunnel">SSH Tunnel</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -185,53 +178,83 @@
 
     
     <div class="post-content">
-      <p>My personal vimrc for programming</p>
+      
 
-<p></p>
+<p>在工學院電腦架設 Jupyter 非常麻煩，經過一番研究之後，寫成筆記，希望以後大家可以方便使用！</p>
 
-<h2 id="vimrc">Vimrc</h2>
+<p>在此先感謝 黃鈺程 隊友的 Jupyter 安裝教學，看來我 python 真的用得太少，連這基本的 environment 都不會架&hellip;</p>
 
-<pre><code class="language-bash">&quot;General
-set number	&quot; Show line numbers
-set linebreak	&quot; Break lines at word (requires Wrap lines)
-set showbreak=+++	&quot; Wrap-broken line prefix
-set showmatch	&quot; Highlight matching brace
-set visualbell	&quot;  Use visual bell (no beeping)
- 
-set hlsearch	&quot; Highlight all search results
-set smartcase	&quot; Enable smart-case search
-set ignorecase	&quot; Always case-insensitive
-set incsearch	&quot; Searches for strings incrementally
+<h2 id="安裝-miniconda-和-jupyter">安裝 miniconda 和 jupyter</h2>
 
-set expandtab   &quot; For python code indentation to work correctly
-set autoindent	&quot; Auto-indent new lines
-set shiftwidth=4	 &quot; Number of auto-indent spaces
-set smartindent	&quot; Enable smart-indent
-set smarttab	&quot; Enable smart-tabs
-set tabstop=4	 &quot; Number of spaces per Tab
-set cursorline	&quot; Show underline
-set cursorcolumn
-set ruler	&quot; Show row and column ruler information
+<ul>
+<li><a href="https://conda.io/miniconda.html">下載</a> miniconda 並且安裝
 
-set mouse=a
- 
-set undolevels=10000	&quot; Number of undo levels
-set backspace=indent,eol,start	&quot; Backspace behaviour
- 
-set splitbelow	&quot;New spilt starts below
-set splitright	&quot;New split starts on the right
-set scrolloff=5 &quot;auto scroll on the bottom 5 lines
+<ul>
+<li>可以直接將下載網址<code>wget</code>一下</li>
+</ul></li>
+</ul>
 
-filetype on	&quot;enable file detection
-syntax on	&quot;syntax highlight
-
-highlight Comment ctermfg=cyan
-set showmode
-
-set encoding=utf-8
-set fileencoding=utf-8
-scriptencoding=utf-8
+<pre><code>wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+chmod +x [filename]
+./[filename]
 </code></pre>
+
+<ul>
+<li><code>conda create -n tt python=3.6</code></li>
+<li><code>source activate tt</code></li>
+<li><code>pip install jupyter</code>: 安裝 Jupyter</li>
+<li>設定 Jupyter，請參考<a href="https://amoshyc.github.io/blog/zai-yuan-duan-de-yun-suan-dian-nao-jia-she-jupyter.html#start-jupyter">隊友的教學</a>
+
+<ul>
+<li>執行 <code>python3</code> 生成 hashed password，並複製$sha1$代碼</li>
+</ul></li>
+</ul>
+
+<pre><code class="language-python">from notebook.auth import passwd
+passwd(&quot;[your desired password]&quot;)
+</code></pre>
+
+<ul>
+<li>產生與修改設定檔案
+
+<ul>
+<li><code>jupyter notebook --generate-config</code></li>
+</ul></li>
+</ul>
+
+<pre><code>c.NotebookApp.ip = '*'
+c.NotebookApp.password = 'sha1:xxxxxxx' # paste the sha1 code you generated
+c.NotebookApp.open_browser = False
+c.NotebookApp.port = 50507
+</code></pre>
+
+<ul>
+<li>執行 Jupyter <code>nohup jupyter notebook &amp;</code>
+
+<ul>
+<li>kill: <code>kill $(pgrep jupyter)</code></li>
+</ul></li>
+</ul>
+
+<h2 id="ssh-tunnel">SSH Tunnel</h2>
+
+<ul>
+<li>工學院電腦 <code>port 50507</code> $\leftrightarrow$ $csie1$ <code>port 50507</code> $\leftrightarrow$ 自己電腦 <code>port 50507</code></li>
+<li>在<strong>工學院</strong>電腦上執行 <code>ssh -NR 50507:0.0.0.0:50507 [workstation username]@csie1.cs.ccu.edu.tw</code>
+
+<ul>
+<li>只有 <code>csie1.cs.ccu.edu.tw</code> 允許開 port</li>
+<li><code>ssh [user workstation username]@csie1.cs.ccu.edu.tw</code> 大家都懂，其實就是對於 <code>csie1.cs.ccu.edu.tw</code> 的 <code>port22</code> 開 ssh tunnel。</li>
+<li><code>-NR 50507:0.0.0.0:50507</code> （左邊是csie1上的port, 右邊是工學院電腦上的port） ，其實就是說: 我們走我們 <code>port 22</code> 的 ssh tunnel 傳輸資料，至於傳輸的資料是什麼呢？ 回想剛剛我們在工學院電腦上開 jupyter 指定資料都從 <code>port 50507</code> 進出，所以我們就把工學院電腦的 <code>port 50507</code> 進出資料都 forward 到 <code>csie1.cs.ccu.edu.tw</code> 上的 <code>port 50507</code></li>
+</ul></li>
+<li>在<strong>自己</strong>電腦上執行 <code>ssh -NL 50507:localhost:50507 [workstation username]@csie1.cs.ccu.edu.tw</code>
+
+<ul>
+<li><code>-NL 50507:localhost:50507</code> （左邊是自己電腦上的port, 右邊是csie1上的port）</li>
+<li>開啟 chrome，網址輸入 <code>localhost:50507</code>: magic!</li>
+</ul></li>
+</ul>
+
     </div>
 
     
@@ -243,7 +266,7 @@ scriptencoding=utf-8
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
-    <span class="item-content">2018-01-14</span>
+    <span class="item-content">2018-01-16</span>
   </p>
   
   <p class="copyright-item">
@@ -258,21 +281,20 @@ scriptencoding=utf-8
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags/vim/">vim</a>
+          <a href="/blog/tags/python/">python</a>
+          
+          <a href="/blog/tags/jupyter/">jupyter</a>
+          
+          <a href="/blog/tags/ssh/">ssh</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/jupyter-ssh-tunnel/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Jupyter - 在 CCU 工學院電腦架設工作站</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/blog/post/apcs1060304/">
-            <span class="next-text nav-default">APCS 1060304 題解</span>
+          <a class="next" href="/blog/post/vimrc/">
+            <span class="next-text nav-default">Vimrc</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
