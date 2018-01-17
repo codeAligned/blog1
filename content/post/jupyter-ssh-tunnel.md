@@ -1,5 +1,5 @@
 ---
-title: "Jupyter - 在 CCU 工學院電腦架設工作站"
+title: "架設 Jupyter 於 CCU 工學院電腦"
 date: 2018-01-16T19:56:09+08:00
 draft: false
 lastmod: 2018-01-16T19:56:09+08:00
