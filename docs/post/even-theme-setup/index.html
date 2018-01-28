@@ -25,7 +25,7 @@
 
 
 
-
+<meta name="google-site-verification" content="FuwyG1La_DaZH-n3M2NtQYJYF5GYtRVtthFpCVWuoaU" />
 
 
 <meta name="generator" content="Hugo 0.32.4" />
@@ -80,7 +80,7 @@
 
 <meta itemprop="datePublished" content="2018-01-14T18:13:28&#43;08:00" />
 <meta itemprop="dateModified" content="2018-01-14T18:13:28&#43;08:00" />
-<meta itemprop="wordCount" content="90">
+<meta itemprop="wordCount" content="143">
 
 
 
@@ -98,14 +98,6 @@
   <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
 <![endif]-->
-
-  
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-81902328-2', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
 
 </head>
 <body>
@@ -168,7 +160,7 @@ ga('send', 'pageview');
               <a href="/blog/categories/hugo/"> Hugo </a>
             
           </div>
-        <span class="more-meta"> 90 word </span>
+        <span class="more-meta"> 143 word </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -185,8 +177,9 @@ ga('send', 'pageview');
 <li>
 <ul>
 <li><a href="#setup">Setup</a></li>
-<li><a href="#git-submodule">Git submodule</a></li>
+<li><a href="#use-this-theme">Use this theme</a></li>
 <li><a href="#config-file">Config file</a></li>
+<li><a href="#git-submodule-小記">Git submodule 小記</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -201,7 +194,32 @@ ga('send', 'pageview');
 
 <h2 id="setup">Setup</h2>
 
-<h2 id="git-submodule">Git submodule</h2>
+<h2 id="use-this-theme">Use this theme</h2>
+
+<ol>
+<li>下載 theme <code>git submodule add https://github.com/olOwOlo/hugo-theme-even themes/even &amp;&amp; git submodule update</code></li>
+<li>使用此 theme 所自帶的 config file <code>cp themes/even/exampleSite/config.toml .</code></li>
+</ol>
+
+<h2 id="config-file">Config file</h2>
+
+<ol>
+<li>更改 <code>hugo</code> 時的 Publish directory:
+
+<ul>
+<li><code>config.toml</code> 加入 <code>publishdir = &quot;docs&quot;</code>，讓 Github Pages 可以從此資料夾獲取資料</li>
+</ul></li>
+<li>放置 Disqus 留言板:
+
+<ul>
+<li>於 <a href="https://disqus.com">官方網站</a> 註冊帳號</li>
+<li>創建一個新的網站並記錄下 _disqus<em>shortname</em></li>
+<li><code>config.toml</code> 加入 <code>comment = true</code> 和 設置 <code>disqusShortname = &quot;...&quot;</code></li>
+</ul></li>
+<li>設置 googleAnalytics</li>
+</ol>
+
+<h2 id="git-submodule-小記">Git submodule 小記</h2>
 
 <p>To remove a submodule, <a href="https://stackoverflow.com/questions/29850029/what-is-the-current-way-to-remove-a-git-submodule">do</a></p>
 
@@ -209,22 +227,6 @@ ga('send', 'pageview');
 git rm &lt;asubmodule&gt;
 rm -rf .git/modules/&lt;asubmodule&gt;
 </code></pre>
-
-<h2 id="config-file">Config file</h2>
-
-<ol>
-<li>Publish directory:
-
-<ul>
-<li>加入 <code>publishdir = &quot;docs&quot;</code>，讓 Github Pages 可以從此資料夾獲取資料</li>
-</ul></li>
-<li>Disqus 留言板:
-
-<ul>
-<li>於 <a href="https://disqus.com">官方網站</a> 註冊帳號</li>
-<li>創建一個新的網站並記錄下 _disqus<em>shortname</em></li>
-</ul></li>
-</ol>
     </div>
 
     
@@ -260,9 +262,9 @@ rm -rf .git/modules/&lt;asubmodule&gt;
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/macbook-setup-notes/">
+          <a class="prev" href="/blog/post/jupyter-ssh-tunnel/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Macbook Setup Notes</span>
+            <span class="prev-text nav-default">架設 Jupyter 於 CCU 工學院電腦</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
         
@@ -336,18 +338,23 @@ rm -rf .git/modules/&lt;asubmodule&gt;
   <script type="text/javascript" src="/blog/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
 <script type="text/javascript" src="/blog/dist/even.min.js?v=2.7.2"></script>
-  <script type="text/javascript">
-    window.MathJax = {
-      showProcessingMessages: false,
-      messageStyle: 'none'
-    };
-  </script>
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
-      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
     });
-    </script>
-  <script async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-81902328-2', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
 
 
 </body>

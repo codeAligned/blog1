@@ -1,7 +1,7 @@
 ---
 title: "Even Theme Setup"
 date: 2018-01-14T18:13:28+08:00
-draft: true
+draft: false
 lastmod: 2018-01-14T18:13:28+08:00
 tags: ["Theme", "Even"]
 categories: ["Hugo"]
