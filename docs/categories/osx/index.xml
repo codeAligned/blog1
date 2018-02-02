@@ -17,8 +17,9 @@
       <pubDate>Fri, 02 Feb 2018 08:40:30 +0800</pubDate>
       
       <guid>https://henrybear327.github.io/blog/post/sshfs/</guid>
-      <description> Installation  brew cask install osxfuse brew install sshfs  Usage Create a directory by using mkdir (mount point for sshfs)
- Mounting: sshfs username@host:/path/to/folder/on/remote /path/to/folder/you/just/created Umounting: umount /path/to/folder/you/just/created  </description>
+      <description>&lt;p&gt;Mount your remote host&amp;rsquo;s folders onto local filesystem!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

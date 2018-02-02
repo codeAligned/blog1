@@ -7,6 +7,10 @@ tags: ["ssh"]
 categories: ["OSX"]
 ---
 
+Mount your remote host's folders onto local filesystem!
+
+<!--more-->
+
 ## Installation
 
 1. `brew cask install osxfuse`
