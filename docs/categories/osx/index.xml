@@ -6,10 +6,20 @@
     <description>Recent content in Osx on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jan 2018 17:58:04 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 02 Feb 2018 08:40:30 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/categories/osx/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SSHFS</title>
+      <link>https://henrybear327.github.io/blog/post/sshfs/</link>
+      <pubDate>Fri, 02 Feb 2018 08:40:30 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/sshfs/</guid>
+      <description> Installation  brew cask install osxfuse brew install sshfs  Usage Create a directory by using mkdir (mount point for sshfs)
+ Mounting: sshfs username@host:/path/to/folder/on/remote /path/to/folder/you/just/created Umounting: umount /path/to/folder/you/just/created  </description>
+    </item>
     
     <item>
       <title>Vimrc</title>

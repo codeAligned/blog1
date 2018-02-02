@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Macbook Setup Notes - Coding Blog</title>
+  <title>SSHFS - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,19 +17,20 @@
 
 
 <meta name="author" content="Henry Tseng" />
-  <meta name="description" content=" Test " />
+  <meta name="description" content=" Installation  brew cask install osxfuse brew install sshfs  Usage Create a directory by using mkdir (mount point for sshfs)
+ Mounting: sshfs username@host:/path/to/folder/on/remote /path/to/folder/you/just/created Umounting: umount /path/to/folder/you/just/created  " />
 
   <meta name="keywords" content="Hugo, theme, even" />
 
 
 
+<meta name="google-site-verification" content="FuwyG1La_DaZH-n3M2NtQYJYF5GYtRVtthFpCVWuoaU" />
 
 
+<meta name="generator" content="Hugo 0.35" />
 
-<meta name="generator" content="Hugo 0.32.4" />
 
-
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/macbook-setup-notes/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/sshfs/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -47,20 +48,17 @@
 <link href="/blog/dist/even.min.css?v=2.7.2" rel="stylesheet">
 <link href="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
-<meta property="og:title" content="Macbook Setup Notes" />
-<meta property="og:description" content=" Test " />
+<meta property="og:title" content="SSHFS" />
+<meta property="og:description" content=" Installation  brew cask install osxfuse brew install sshfs  Usage Create a directory by using mkdir (mount point for sshfs)
+ Mounting: sshfs username@host:/path/to/folder/on/remote /path/to/folder/you/just/created Umounting: umount /path/to/folder/you/just/created  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/macbook-setup-notes/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/sshfs/" />
 
 
 
-<meta property="article:published_time" content="2018-01-15T13:39:50&#43;08:00"/>
+<meta property="article:published_time" content="2018-02-02T08:40:30&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-01-15T13:39:50&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-02-02T08:40:30&#43;08:00"/>
 
 
 
@@ -68,19 +66,26 @@
 
 
 
-<meta itemprop="name" content="Macbook Setup Notes">
-<meta itemprop="description" content=" Test ">
-
-
-<meta itemprop="datePublished" content="2018-01-15T13:39:50&#43;08:00" />
-<meta itemprop="dateModified" content="2018-01-15T13:39:50&#43;08:00" />
-<meta itemprop="wordCount" content="1">
 
 
 
-<meta itemprop="keywords" content="," />
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Macbook Setup Notes"/>
-<meta name="twitter:description" content=" Test "/>
+
+<meta itemprop="name" content="SSHFS">
+<meta itemprop="description" content=" Installation  brew cask install osxfuse brew install sshfs  Usage Create a directory by using mkdir (mount point for sshfs)
+ Mounting: sshfs username@host:/path/to/folder/on/remote /path/to/folder/you/just/created Umounting: umount /path/to/folder/you/just/created  ">
+
+
+<meta itemprop="datePublished" content="2018-02-02T08:40:30&#43;08:00" />
+<meta itemprop="dateModified" content="2018-02-02T08:40:30&#43;08:00" />
+<meta itemprop="wordCount" content="26">
+
+
+
+<meta itemprop="keywords" content="ssh," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="SSHFS"/>
+<meta name="twitter:description" content=" Installation  brew cask install osxfuse brew install sshfs  Usage Create a directory by using mkdir (mount point for sshfs)
+ Mounting: sshfs username@host:/path/to/folder/on/remote /path/to/folder/you/just/created Umounting: umount /path/to/folder/you/just/created  "/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -90,14 +95,6 @@
   <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
 <![endif]-->
-
-  
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-81902328-2', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
 
 </head>
 <body>
@@ -151,16 +148,16 @@ ga('send', 'pageview');
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Macbook Setup Notes</h1>
+      <h1 class="post-title">SSHFS</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-01-15 </span>
+        <span class="post-time"> 2018-02-02 </span>
         <div class="post-category">
             
-              <a href="/blog/categories/competitive-programming/"> Competitive Programming </a>
+              <a href="/blog/categories/osx/"> OSX </a>
             
           </div>
-        <span class="more-meta"> 1 word </span>
+        <span class="more-meta"> 26 word </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -176,7 +173,8 @@ ga('send', 'pageview');
 <ul>
 <li>
 <ul>
-<li><a href="#test">Test</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#usage">Usage</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -187,7 +185,21 @@ ga('send', 'pageview');
     <div class="post-content">
       
 
-<h2 id="test">Test</h2>
+<h2 id="installation">Installation</h2>
+
+<ol>
+<li><code>brew cask install osxfuse</code></li>
+<li><code>brew install sshfs</code></li>
+</ol>
+
+<h2 id="usage">Usage</h2>
+
+<p>Create a directory by using <code>mkdir</code> (mount point for sshfs)</p>
+
+<ul>
+<li>Mounting: <code>sshfs username@host:/path/to/folder/on/remote /path/to/folder/you/just/created</code></li>
+<li>Umounting: <code>umount /path/to/folder/you/just/created</code></li>
+</ul>
 
     </div>
 
@@ -200,7 +212,7 @@ ga('send', 'pageview');
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
-    <span class="item-content">2018-01-15</span>
+    <span class="item-content">2018-02-02</span>
   </p>
   
   <p class="copyright-item">
@@ -215,7 +227,7 @@ ga('send', 'pageview');
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags//"></a>
+          <a href="/blog/tags/ssh/">ssh</a>
           
         </div>
 
@@ -223,8 +235,8 @@ ga('send', 'pageview');
       <nav class="post-nav">
         
         
-          <a class="next" href="/blog/post/even-theme-setup/">
-            <span class="next-text nav-default">Even Theme Setup</span>
+          <a class="next" href="/blog/post/jupyter-ssh-tunnel/">
+            <span class="next-text nav-default">架設 Jupyter 於 CCU 工學院電腦</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
@@ -293,18 +305,23 @@ ga('send', 'pageview');
   <script type="text/javascript" src="/blog/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
 <script type="text/javascript" src="/blog/dist/even.min.js?v=2.7.2"></script>
-  <script type="text/javascript">
-    window.MathJax = {
-      showProcessingMessages: false,
-      messageStyle: 'none'
-    };
-  </script>
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
-      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
     });
-    </script>
-  <script async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-81902328-2', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
 
 
 </body>

@@ -4,7 +4,7 @@ date: 2018-01-16T19:56:09+08:00
 draft: false
 lastmod: 2018-01-16T19:56:09+08:00
 tags: ["python", "jupyter", "ssh"]
-categories: ["Python"]
+categories: ["python"]
 ---
 
 在工學院電腦架設 Jupyter 非常麻煩，經過一番研究之後，寫成筆記，希望以後大家可以方便使用！
