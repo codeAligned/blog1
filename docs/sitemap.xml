@@ -3,6 +3,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://henrybear327.github.io/blog/post/python_virtual_environment/</loc>
+    <lastmod>2018-02-04T10:58:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog/post/apache_virtualhost/</loc>
+    <lastmod>2018-02-04T10:48:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://henrybear327.github.io/blog/post/sshfs/</loc>
     <lastmod>2018-02-02T08:40:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -45,6 +59,20 @@
   </url>
   
   <url>
+    <loc>https://henrybear327.github.io/blog/categories/apache/</loc>
+    <lastmod>2018-02-04T10:48:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog/tags/apache/</loc>
+    <lastmod>2018-02-04T10:48:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://henrybear327.github.io/blog/tags/apcs/</loc>
     <lastmod>2018-01-14T12:59:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -60,13 +88,14 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/categories/</loc>
+    <lastmod>2018-02-04T10:48:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://henrybear327.github.io/blog/</loc>
-    <lastmod>2018-02-02T08:40:30+08:00</lastmod>
+    <lastmod>2018-02-04T10:58:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -74,6 +103,13 @@
   <url>
     <loc>https://henrybear327.github.io/blog/categories/competitive-programming/</loc>
     <lastmod>2018-01-14T12:59:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog/tags/conda/</loc>
+    <lastmod>2018-02-04T10:58:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -121,22 +157,29 @@
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/post/</loc>
-    <lastmod>2018-02-02T08:40:30+08:00</lastmod>
+    <loc>https://henrybear327.github.io/blog/tags/pip/</loc>
+    <lastmod>2018-02-04T10:58:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/tags/python/</loc>
-    <lastmod>2018-01-16T19:56:09+08:00</lastmod>
+    <loc>https://henrybear327.github.io/blog/post/</loc>
+    <lastmod>2018-02-04T10:58:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://henrybear327.github.io/blog/categories/python/</loc>
-    <lastmod>2018-01-16T19:56:09+08:00</lastmod>
+    <lastmod>2018-02-04T10:58:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog/tags/python/</loc>
+    <lastmod>2018-02-04T10:58:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -150,7 +193,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/tags/</loc>
-    <lastmod>2018-01-14T12:59:54+08:00</lastmod>
+    <lastmod>2018-02-04T10:48:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -165,6 +208,27 @@
   <url>
     <loc>https://henrybear327.github.io/blog/tags/vim/</loc>
     <lastmod>2018-01-14T17:58:04+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog/tags/virtual-environment/</loc>
+    <lastmod>2018-02-04T10:58:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog/tags/virtual-host/</loc>
+    <lastmod>2018-02-04T10:48:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog/tags/virtualenv/</loc>
+    <lastmod>2018-02-04T10:58:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

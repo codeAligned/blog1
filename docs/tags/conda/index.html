@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>SSHFS - Coding Blog</title>
+  <title>Conda · Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,10 +17,7 @@
 
 
 <meta name="author" content="Henry Tseng" />
-  <meta name="description" content="Mount your remote host&amp;rsquo;s folders onto local filesystem!
-
-" />
-
+  <meta name="description" content="程式筆記" />
   <meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -31,7 +28,9 @@
 <meta name="generator" content="Hugo 0.35" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/sshfs/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/tags/conda/" />
+<link href="https://henrybear327.github.io/blog/tags/conda/index.xml" rel="alternate" type="application/rss+xml" title="Coding Blog" />
+  <link href="https://henrybear327.github.io/blog/tags/conda/index.xml" rel="feed" type="application/rss+xml" title="Coding Blog" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -49,18 +48,14 @@
 <link href="/blog/dist/even.min.css?v=2.7.2" rel="stylesheet">
 <link href="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
-<meta property="og:title" content="SSHFS" />
-<meta property="og:description" content="Mount your remote host&rsquo;s folders onto local filesystem!
-
-" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/sshfs/" />
+<meta property="og:title" content="Conda" />
+<meta property="og:description" content="程式筆記" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/tags/conda/" />
 
 
 
-<meta property="article:published_time" content="2018-02-02T08:40:30&#43;08:00"/>
-
-<meta property="article:modified_time" content="2018-02-02T08:40:30&#43;08:00"/>
+<meta property="og:updated_time" content="2018-02-04T10:58:36&#43;08:00"/>
 
 
 
@@ -71,25 +66,12 @@
 
 
 
+<meta itemprop="name" content="Conda">
+<meta itemprop="description" content="程式筆記">
 
-<meta itemprop="name" content="SSHFS">
-<meta itemprop="description" content="Mount your remote host&rsquo;s folders onto local filesystem!
-
-">
-
-
-<meta itemprop="datePublished" content="2018-02-02T08:40:30&#43;08:00" />
-<meta itemprop="dateModified" content="2018-02-02T08:40:30&#43;08:00" />
-<meta itemprop="wordCount" content="34">
-
-
-
-<meta itemprop="keywords" content="ssh," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="SSHFS"/>
-<meta name="twitter:description" content="Mount your remote host&rsquo;s folders onto local filesystem!
-
-"/>
+<meta name="twitter:title" content="Conda"/>
+<meta name="twitter:description" content="程式筆記"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -149,130 +131,37 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          <article class="post">
-    
-    <header class="post-header">
-      <h1 class="post-title">SSHFS</h1>
+          
 
-      <div class="post-meta">
-        <span class="post-time"> 2018-02-02 </span>
-        <div class="post-category">
-            
-              <a href="/blog/categories/osx/"> OSX </a>
-            
-          </div>
-        <span class="more-meta"> 34 word </span>
-        <span class="more-meta"> 1 min read </span>
-        
+<section id="archive" class="archive">
+  
+    
+      <div class="archive-title tag">
+        <h2 class="archive-name">Conda</h2>
       </div>
-    </header>
-
     
-    
-<div class="post-toc" id="post-toc">
-  <h2 class="post-toc-title">Contents</h2>
   
-  <div class="post-toc-content always-active">
-    <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#installation">Installation</a></li>
-<li><a href="#usage">Usage</a></li>
-</ul></li>
-</ul>
-</nav>
-  </div>
-</div>
 
-    
-    <div class="post-content">
-      <p>Mount your remote host&rsquo;s folders onto local filesystem!</p>
-
-<p></p>
-
-<h2 id="installation">Installation</h2>
-
-<ol>
-<li><code>brew cask install osxfuse</code></li>
-<li><code>brew install sshfs</code></li>
-</ol>
-
-<h2 id="usage">Usage</h2>
-
-<p>Create a directory by using <code>mkdir</code> (mount point for sshfs)</p>
-
-<ul>
-<li>Mounting: <code>sshfs username@host:/path/to/folder/on/remote /path/to/folder/you/just/created</code></li>
-<li>Umounting: <code>umount /path/to/folder/you/just/created</code></li>
-</ul>
+  
+    <div class="archive-post">
+      <span class="archive-post-time">
+        2018-02-04
+      </span>
+      <span class="archive-post-title">
+        <a href="/blog/post/python_virtual_environment/" class="archive-post-link">
+          Python Virtual Environment
+        </a>
+      </span>
     </div>
-
-    
-    
-<div class="post-copyright">
-  <p class="copyright-item">
-    <span class="item-title">Author</span>
-    <span class="item-content">Henry Tseng</span>
-  </p>
-  <p class="copyright-item">
-    <span class="item-title">LastMod</span>
-    <span class="item-content">2018-02-02</span>
-  </p>
   
-  <p class="copyright-item">
-    <span class="item-title">License</span>
-    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
-  </p>
-</div>
+</section>
 
-    
-    
+<nav class="pagination">
+  
+</nav>
 
-    <footer class="post-footer">
-      <div class="post-tags">
-          
-          <a href="/blog/tags/ssh/">ssh</a>
-          
-        </div>
-
-      
-      <nav class="post-nav">
-        
-          <a class="prev" href="/blog/post/apache_virtualhost/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Apache Virtual Host</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
-        
-          <a class="next" href="/blog/post/jupyter-ssh-tunnel/">
-            <span class="next-text nav-default">架設 Jupyter 於 CCU 工學院電腦</span>
-            <span class="prev-text nav-mobile">Next</span>
-            <i class="iconfont icon-right"></i>
-          </a>
-      </nav>
-    </footer>
-  </article>
         </div>
         
-  <div id="disqus_thread"></div>
-    <script type="text/javascript">
-    (function() {
-      
-      
-      if (window.location.hostname === 'localhost') return;
-
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      var disqus_shortname = 'github-page-blog';
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-  
-
-  
       </div>
     </main>
 
@@ -315,14 +204,6 @@
   <script type="text/javascript" src="/blog/lib/slideout/slideout-1.0.1.min.js"></script>
   <script type="text/javascript" src="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
 <script type="text/javascript" src="/blog/dist/even.min.js?v=2.7.2"></script>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-      showProcessingMessages: false,
-      messageStyle: 'none'
-    });
-  </script>
-  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 
 <script>
