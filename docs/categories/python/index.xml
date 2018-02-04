@@ -23,6 +23,17 @@
     </item>
     
     <item>
+      <title>Building a simple website using Flask</title>
+      <link>https://henrybear327.github.io/blog/post/flask_and_c3/</link>
+      <pubDate>Sat, 03 Feb 2018 10:48:17 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/flask_and_c3/</guid>
+      <description>&lt;p&gt;Flask is a really fast and simple framework to use. It&amp;rsquo;s not packed with all sorts of features that you might not need at all, instead, they only give you the essentials. You are free to decide what to do for the rest.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>架設 Jupyter 於 CCU 工學院電腦</title>
       <link>https://henrybear327.github.io/blog/post/jupyter-ssh-tunnel/</link>
       <pubDate>Tue, 16 Jan 2018 19:56:09 +0800</pubDate>

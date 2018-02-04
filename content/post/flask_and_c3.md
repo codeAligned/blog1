@@ -1,7 +1,7 @@
 ---
 title: "Building a simple website using Flask"
 date: 2018-02-03T10:48:17+08:00
-draft: true
+draft: false
 lastmod: 2018-02-03T10:48:17+08:00
 tags: ["python", "flask", "WSGI"]
 categories: ["Python", "Flask"]
