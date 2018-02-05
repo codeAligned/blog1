@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Python Virtual Environment - Coding Blog</title>
+  <title>Vimrc - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,7 +17,7 @@
 
 
 <meta name="author" content="Henry Tseng" />
-  <meta name="description" content="Some notes on virtual environment for Python. Dependency management with ease.
+  <meta name="description" content="My personal vimrc for programming
 
 " />
 
@@ -31,7 +31,7 @@
 <meta name="generator" content="Hugo 0.35" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/python_virtual_environment/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/osx/vimrc/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -49,22 +49,18 @@
 <link href="/blog/dist/even.min.css?v=2.7.2" rel="stylesheet">
 <link href="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
-<meta property="og:title" content="Python Virtual Environment" />
-<meta property="og:description" content="Some notes on virtual environment for Python. Dependency management with ease.
+<meta property="og:title" content="Vimrc" />
+<meta property="og:description" content="My personal vimrc for programming
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/python_virtual_environment/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/osx/vimrc/" />
 
 
 
-<meta property="article:published_time" content="2018-02-04T10:58:36&#43;08:00"/>
+<meta property="article:published_time" content="2018-01-14T17:58:04&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-02-04T10:58:36&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-01-14T17:58:04&#43;08:00"/>
 
 
 
@@ -72,22 +68,26 @@
 
 
 
-<meta itemprop="name" content="Python Virtual Environment">
-<meta itemprop="description" content="Some notes on virtual environment for Python. Dependency management with ease.
+
+
+
+
+<meta itemprop="name" content="Vimrc">
+<meta itemprop="description" content="My personal vimrc for programming
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-02-04T10:58:36&#43;08:00" />
-<meta itemprop="dateModified" content="2018-02-04T10:58:36&#43;08:00" />
-<meta itemprop="wordCount" content="215">
+<meta itemprop="datePublished" content="2018-01-14T17:58:04&#43;08:00" />
+<meta itemprop="dateModified" content="2018-01-14T17:58:04&#43;08:00" />
+<meta itemprop="wordCount" content="181">
 
 
 
-<meta itemprop="keywords" content="python,virtual environment,pip,conda,virtualenv," />
+<meta itemprop="keywords" content="vim," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Python Virtual Environment"/>
-<meta name="twitter:description" content="Some notes on virtual environment for Python. Dependency management with ease.
+<meta name="twitter:title" content="Vimrc"/>
+<meta name="twitter:description" content="My personal vimrc for programming
 
 "/>
 
@@ -152,17 +152,17 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Python Virtual Environment</h1>
+      <h1 class="post-title">Vimrc</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-02-04 </span>
+        <span class="post-time"> 2018-01-14 </span>
         <div class="post-category">
             
-              <a href="/blog/categories/python/"> python </a>
+              <a href="/blog/categories/osx/"> OSX </a>
             
           </div>
-        <span class="more-meta"> 215 word </span>
-        <span class="more-meta"> 2 min read </span>
+        <span class="more-meta"> 181 word </span>
+        <span class="more-meta"> 1 min read </span>
         
       </div>
     </header>
@@ -175,14 +175,9 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#virtual-environment">Virtual environment</a>
+<li>
 <ul>
-<li><a href="#virtualenv-pip"><code>virtualenv</code> + <code>pip</code></a>
-<ul>
-<li><a href="#virtualenv"><code>virtualenv</code></a></li>
-<li><a href="#pip"><code>pip</code></a></li>
-</ul></li>
-<li><a href="#conda"><code>conda</code></a></li>
+<li><a href="#vimrc">Vimrc</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -191,60 +186,53 @@
 
     
     <div class="post-content">
-      <p>Some notes on virtual environment for Python. Dependency management with ease.</p>
+      <p>My personal vimrc for programming</p>
 
 <p></p>
 
-<h1 id="virtual-environment">Virtual environment</h1>
+<h2 id="vimrc">Vimrc</h2>
 
-<p>Usually it&rsquo;s about choosing between <code>virtualenv</code> + <code>pip</code> or <code>conda</code>.</p>
+<pre><code class="language-bash">&quot;General
+set number	&quot; Show line numbers
+set linebreak	&quot; Break lines at word (requires Wrap lines)
+set showbreak=+++	&quot; Wrap-broken line prefix
+set showmatch	&quot; Highlight matching brace
+set visualbell	&quot;  Use visual bell (no beeping)
+ 
+set hlsearch	&quot; Highlight all search results
+set smartcase	&quot; Enable smart-case search
+set ignorecase	&quot; Always case-insensitive
+set incsearch	&quot; Searches for strings incrementally
 
-<p>The <a href="http://stuarteberg.github.io/conda-docs/_downloads/conda-pip-virtualenv-translator.html">site</a> has a great table on comparing the differences between them.</p>
+set expandtab   &quot; For python code indentation to work correctly
+set autoindent	&quot; Auto-indent new lines
+set shiftwidth=4	 &quot; Number of auto-indent spaces
+set smartindent	&quot; Enable smart-indent
+set smarttab	&quot; Enable smart-tabs
+set tabstop=4	 &quot; Number of spaces per Tab
+set cursorline	&quot; Show underline
+set cursorcolumn
+set ruler	&quot; Show row and column ruler information
 
-<h2 id="virtualenv-pip"><code>virtualenv</code> + <code>pip</code></h2>
+set mouse=a
+ 
+set undolevels=10000	&quot; Number of undo levels
+set backspace=indent,eol,start	&quot; Backspace behaviour
+ 
+set splitbelow	&quot;New spilt starts below
+set splitright	&quot;New split starts on the right
+set scrolloff=5 &quot;auto scroll on the bottom 5 lines
 
-<p>First we setup <code>virtualenv</code>, and after activating it, we install packages in it using normal <code>pip</code> operations.</p>
+filetype on	&quot;enable file detection
+syntax on	&quot;syntax highlight
 
-<h3 id="virtualenv"><code>virtualenv</code></h3>
+highlight Comment ctermfg=cyan
+set showmode
 
-<ul>
-<li>create: <code>cd $ENV_BASE_DIR; virtualenv $ENVIRONMENT_NAME</code></li>
-<li>activate: <code>source $ENV_BASE_DIR/$ENVIRONMENT_NAME/bin/activate</code></li>
-<li>deactivate: <code>deactivate</code></li>
-<li>install: Normal <code>pip</code> operations (Regardless of whether you are using Python 2 or Python 3, when the virtual environment is activated, we should use the <code>pip</code> command (not <code>pip3</code>))</li>
-</ul>
-
-<h3 id="pip"><code>pip</code></h3>
-
-<ul>
-<li>install package: <code>pip install $PACKAGE_NAME</code></li>
-<li>upgrade package: <code>pip install --upgrade $PACKAGE_NAME</code></li>
-<li>uninstall package: <code>pip uninstall $PACKAGE_NAME</code></li>
-<li>search package: <code>pip search $SEARCH_TERM</code></li>
-<li>upgrade <code>pip</code>: <code>pip install -U pip</code></li>
-<li>list: <code>pip list</code></li>
-<li>generate requirement file (for installation): <code>pip freeze</code></li>
-</ul>
-
-<h2 id="conda"><code>conda</code></h2>
-
-<p>Conda does it all! No separate commands, they are all-in-one.</p>
-
-<ul>
-<li>create: <code>conda create -n $ENVIRONMENT_NAME python[=3.6]</code></li>
-<li>activate: <code>source activate $ENVIRONMENT_NAME</code></li>
-<li>deactivate: <code>source deactivate</code></li>
-<li>install package: <code>conda install $PACKAGE_NAME</code></li>
-<li>upgrade package: <code>conda update --name $ENVIRONMENT_NAME $PACKAGE_NAME</code></li>
-<li>uninstall package: <code>conda remove --name $ENVIRONMENT_NAME $PACKAGE_NAME</code></li>
-<li>search package: <code>conda search $SEARCH_TERM</code></li>
-<li>upgrade <code>pip</code>: <code>conda update conda</code></li>
-<li>list: <code>conda list --name $ENVIRONMENT_NAME</code></li>
-<li>generate requirement file (for installation): <code>conda list --export</code></li>
-<li>list envs: <code>conda info --envs</code></li>
-<li>install python: <code>conda install python=x.x</code></li>
-<li>upgrade python: <code>conda update python *</code></li>
-</ul>
+set encoding=utf-8
+set fileencoding=utf-8
+scriptencoding=utf-8
+</code></pre>
     </div>
 
     
@@ -256,7 +244,7 @@
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
-    <span class="item-content">2018-02-04</span>
+    <span class="item-content">2018-01-14</span>
   </p>
   
   <p class="copyright-item">
@@ -271,24 +259,21 @@
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags/python/">python</a>
-          
-          <a href="/blog/tags/virtual-environment/">virtual environment</a>
-          
-          <a href="/blog/tags/pip/">pip</a>
-          
-          <a href="/blog/tags/conda/">conda</a>
-          
-          <a href="/blog/tags/virtualenv/">virtualenv</a>
+          <a href="/blog/tags/vim/">vim</a>
           
         </div>
 
       
       <nav class="post-nav">
         
+          <a class="prev" href="/blog/post/hugo/even-theme-setup/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Even Theme Setup</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
         
-          <a class="next" href="/blog/post/apache_virtualhost/">
-            <span class="next-text nav-default">Apache Virtual Host</span>
+          <a class="next" href="/blog/post/competitive_programming/apcs1060304/">
+            <span class="next-text nav-default">APCS 1060304 題解</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

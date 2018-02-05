@@ -3,77 +3,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://henrybear327.github.io/blog/post/python_virtual_environment/</loc>
+    <loc>https://henrybear327.github.io/blog/post/python/python_virtual_environment/</loc>
     <lastmod>2018-02-04T10:58:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/post/apache_virtualhost/</loc>
+    <loc>https://henrybear327.github.io/blog/post/apache/apache_virtualhost/</loc>
     <lastmod>2018-02-04T10:48:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/post/flask_and_c3/</loc>
+    <loc>https://henrybear327.github.io/blog/post/python/flask_and_c3/</loc>
     <lastmod>2018-02-03T10:48:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/post/sshfs/</loc>
+    <loc>https://henrybear327.github.io/blog/post/osx/sshfs/</loc>
     <lastmod>2018-02-02T08:40:30+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/post/jupyter-ssh-tunnel/</loc>
+    <loc>https://henrybear327.github.io/blog/post/python/jupyter-ssh-tunnel/</loc>
     <lastmod>2018-01-16T19:56:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/post/even-theme-setup/</loc>
+    <loc>https://henrybear327.github.io/blog/post/hugo/even-theme-setup/</loc>
     <lastmod>2018-01-14T18:13:28+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/post/vimrc/</loc>
+    <loc>https://henrybear327.github.io/blog/post/osx/vimrc/</loc>
     <lastmod>2018-01-14T17:58:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/post/apcs1060304/</loc>
+    <loc>https://henrybear327.github.io/blog/post/competitive_programming/apcs1060304/</loc>
     <lastmod>2018-01-14T12:59:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/post/apcs1061028/</loc>
+    <loc>https://henrybear327.github.io/blog/post/competitive_programming/apcs1061028/</loc>
     <lastmod>2018-01-13T00:10:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/categories/apache/</loc>
+    <loc>https://henrybear327.github.io/blog/tags/apache/</loc>
     <lastmod>2018-02-04T10:48:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/tags/apache/</loc>
+    <loc>https://henrybear327.github.io/blog/categories/apache/</loc>
     <lastmod>2018-02-04T10:48:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -129,14 +129,14 @@
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/categories/flask/</loc>
+    <loc>https://henrybear327.github.io/blog/tags/flask/</loc>
     <lastmod>2018-02-03T10:48:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/tags/flask/</loc>
+    <loc>https://henrybear327.github.io/blog/categories/flask/</loc>
     <lastmod>2018-02-03T10:48:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
@@ -192,14 +192,14 @@
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/categories/python/</loc>
+    <loc>https://henrybear327.github.io/blog/tags/python/</loc>
     <lastmod>2018-02-04T10:58:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog/tags/python/</loc>
+    <loc>https://henrybear327.github.io/blog/categories/python/</loc>
     <lastmod>2018-02-04T10:58:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>

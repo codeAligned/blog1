@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>APCS 1061028 題解 - Coding Blog</title>
+  <title>APCS 1060304 題解 - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -18,7 +18,7 @@
 
 <meta name="author" content="Henry Tseng" />
   <meta name="description" content="官方試題本
-第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。
+第一題為基本字串題，第二三題基本上都算是實作偏重的題目，第四題是經典binary search題目。
 
 " />
 
@@ -32,7 +32,7 @@
 <meta name="generator" content="Hugo 0.35" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/apcs1061028/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/competitive_programming/apcs1060304/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -50,24 +50,20 @@
 <link href="/blog/dist/even.min.css?v=2.7.2" rel="stylesheet">
 <link href="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
-<meta property="og:title" content="APCS 1061028 題解" />
+<meta property="og:title" content="APCS 1060304 題解" />
 <meta property="og:description" content="官方試題本
 
-第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。
+第一題為基本字串題，第二三題基本上都算是實作偏重的題目，第四題是經典binary search題目。
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/apcs1061028/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/competitive_programming/apcs1060304/" />
 
 
 
-<meta property="article:published_time" content="2018-01-13T00:10:47&#43;08:00"/>
+<meta property="article:published_time" content="2018-01-14T12:59:54&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-01-13T00:10:47&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-01-14T12:59:54&#43;08:00"/>
 
 
 
@@ -75,26 +71,30 @@
 
 
 
-<meta itemprop="name" content="APCS 1061028 題解">
+
+
+
+
+<meta itemprop="name" content="APCS 1060304 題解">
 <meta itemprop="description" content="官方試題本
 
-第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。
+第一題為基本字串題，第二三題基本上都算是實作偏重的題目，第四題是經典binary search題目。
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-01-13T00:10:47&#43;08:00" />
-<meta itemprop="dateModified" content="2018-01-13T00:10:47&#43;08:00" />
-<meta itemprop="wordCount" content="960">
+<meta itemprop="datePublished" content="2018-01-14T12:59:54&#43;08:00" />
+<meta itemprop="dateModified" content="2018-01-14T12:59:54&#43;08:00" />
+<meta itemprop="wordCount" content="723">
 
 
 
-<meta itemprop="keywords" content="APCS,Greedy,Implementation," />
+<meta itemprop="keywords" content="APCS,Binary search,Implementation," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="APCS 1061028 題解"/>
+<meta name="twitter:title" content="APCS 1060304 題解"/>
 <meta name="twitter:description" content="官方試題本
 
-第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。
+第一題為基本字串題，第二三題基本上都算是實作偏重的題目，第四題是經典binary search題目。
 
 "/>
 
@@ -159,16 +159,16 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">APCS 1061028 題解</h1>
+      <h1 class="post-title">APCS 1060304 題解</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-01-13 </span>
+        <span class="post-time"> 2018-01-14 </span>
         <div class="post-category">
             
               <a href="/blog/categories/competitive-programming/"> Competitive Programming </a>
             
           </div>
-        <span class="more-meta"> 960 word </span>
+        <span class="more-meta"> 723 word </span>
         <span class="more-meta"> 2 min read </span>
         
       </div>
@@ -179,27 +179,25 @@
 <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">Contents</h2>
   
-  <div class="post-toc-content">
+  <div class="post-toc-content always-active">
     <nav id="TableOfContents">
 <ul>
 <li>
 <ul>
-<li><a href="#c461-apcs-邏輯運算子-logic-operators">c461: apcs 邏輯運算子 (Logic Operators)</a>
+<li><a href="#c290-apcs-2017-0304-1秘密差">c290: APCS 2017-0304-1秘密差</a>
 <ul>
 <li><a href="#ac-code">AC Code</a></li>
 </ul></li>
-<li><a href="#c462-apcs-交錯字串-alternating-strings">c462: apcs 交錯字串 (Alternating Strings)</a>
+<li><a href="#c291-apcs-2017-0304-2小群體">c291: APCS 2017-0304-2小群體</a>
 <ul>
 <li><a href="#ac-code-1">AC Code</a></li>
 </ul></li>
-<li><a href="#c463-apcs-樹狀圖分析-tree-analyses">c463: apcs 樹狀圖分析 (Tree Analyses)</a>
+<li><a href="#c292-apcs2017-0304-3數字龍捲風">c292: APCS2017-0304-3數字龍捲風</a>
 <ul>
 <li><a href="#ac-code-2">AC Code</a></li>
 </ul></li>
-<li><a href="#c471-apcs-物品堆疊-stacking">c471: apcs 物品堆疊 (Stacking)</a>
+<li><a href="#基地台">基地台</a>
 <ul>
-<li><a href="#hint">Hint</a></li>
-<li><a href="#solution">Solution</a></li>
 <li><a href="#ac-code-3">AC Code</a></li>
 </ul></li>
 </ul></li>
@@ -210,17 +208,17 @@
 
     
     <div class="post-content">
-      <p>官方<a href="https://apcs.csie.ntnu.edu.tw/files/1061028APCSImplementation.pdf">試題</a>本</p>
+      <p>官方<a href="https://apcs.csie.ntnu.edu.tw/files/1060304APCSImplementation.pdf">試題</a>本</p>
 
-<p>第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。</p>
+<p>第一題為基本字串題，第二三題基本上都算是實作偏重的題目，第四題是經典binary search題目。</p>
 
 <p></p>
 
-<h2 id="c461-apcs-邏輯運算子-logic-operators">c461: apcs 邏輯運算子 (Logic Operators)</h2>
+<h2 id="c290-apcs-2017-0304-1秘密差">c290: APCS 2017-0304-1秘密差</h2>
 
-<p><a href="https://zerojudge.tw/ShowProblem?problemid=c461">題目連結</a></p>
+<p><a href="https://zerojudge.tw/ShowProblem?problemid=c290">題目連結</a></p>
 
-<p>基本位元運算題</p>
+<p>字串的基本操作題</p>
 
 <h3 id="ac-code">AC Code</h3>
 
@@ -230,40 +228,31 @@ using namespace std;
 
 int main()
 {
-	int a, b, c;
-	scanf(&quot;%d %d %d&quot;, &amp;a, &amp;b, &amp;c);
-	a = a &gt; 0 ? 1 : 0;
-	b = b &gt; 0 ? 1 : 0;
-	c = c &gt; 0 ? 1 : 0;
-	
-	bool ok = false;
-	if((a &amp; b) == c) {
-		printf(&quot;AND\n&quot;);
-		ok = true;
-	}
-	if((a | b) == c) {
-		printf(&quot;OR\n&quot;);
-		ok = true;
-	}
-	if((a ^ b) == c) {
-		printf(&quot;XOR\n&quot;);
-		ok = true;
-	}
+    char inp[1111];
+    scanf(&quot;%s&quot;, inp);
 
-	if(!ok)
-		printf(&quot;IMPOSSIBLE\n&quot;);
-	
-	return 0;
+    int len = strlen(inp);
+
+    int odd = 0, even = 0;
+    for (int i = 0; i &lt; len; i++) {
+        if (i % 2 == 0)
+            odd += inp[i] - '0';
+        else
+            even += inp[i] - '0';
+    }
+
+    printf(&quot;%d\n&quot;, abs(odd - even));
+
+    return 0;
 }
+
 </code></pre>
 
-<h2 id="c462-apcs-交錯字串-alternating-strings">c462: apcs 交錯字串 (Alternating Strings)</h2>
+<h2 id="c291-apcs-2017-0304-2小群體">c291: APCS 2017-0304-2小群體</h2>
 
-<p><a href="https://zerojudge.tw/ShowProblem?problemid=c462">題目連結</a></p>
+<p><a href="https://zerojudge.tw/ShowProblem?problemid=c291">題目連結</a></p>
 
-<p>可以先對大小寫進行01編碼後，壓縮一下 (run-length encoding)</p>
-
-<p>之後就是找 頭尾 $\ge k$ 且 中間均 $=k$ 的 最長子字串即可</p>
+<p>基本上就是找圖上有幾個環，做法非常多種！(我直接DFS)</p>
 
 <h3 id="ac-code-1">AC Code</h3>
 
@@ -271,82 +260,46 @@ int main()
 
 using namespace std;
 
-int k;
-char inp[111111];
+bool seen[55555];
+int inp[55555];
+void dfs(int i)
+{
+    if (seen[i])
+        return;
+    seen[i] = true;
 
+    dfs(inp[i]);
+}
 int main()
 {
-	scanf(&quot;%d %s&quot;, &amp;k, inp);
-	
-	int len = strlen(inp);
-	int data[len];
-	for(int i = 0; i &lt; len; i++) {
-		if('a' &lt;= inp[i] &amp;&amp; inp[i] &lt;= 'z') {
-			data[i] = 0;
-		} else {
-			data[i] = 1;
-		}
-	}
-	
-	int cnt = 1;
-	vector&lt;int&gt; compressed;
-	for(int i = 1; i &lt; len; i++) {
-		if(data[i] == data[i - 1]) {
-			cnt++;
-		} else {
-			compressed.push_back(cnt);
-			cnt = 1;
-		}
-	}
-	compressed.push_back(cnt);
-	/*
-	for(auto i : compressed)
-		printf(&quot;%d &quot;, i);
-	printf(&quot;\n&quot;);
-	*/
-	
-	bool active = false;
-	int ans = 0;
-	int tmp = 0;
-	// head tail is ok to be &gt;= k, other must be == k
-	for(int i = 0; i &lt; (int)compressed.size(); i++) {
-		if(active == false) {
-			if(compressed[i] &gt;= k) {
-				active = true;
-				tmp++;
-			}
-		} else {
-			if(compressed[i] == k) {
-				tmp++;
-			} else {
-				if(compressed[i] &gt;= k)
-					tmp++;
-				tmp *= k;
-				ans = max(ans, tmp);
-				tmp = 0;
-				i--; // current one might be the start for another one
+    int n;
+    scanf(&quot;%d&quot;, &amp;n);
 
-				active = false;
-			}
-		}
-	}
+    for (int i = 0; i &lt; n; i++)
+        scanf(&quot;%d&quot;, &amp;inp[i]);
 
-	tmp *= k;
-	ans = max(ans, tmp);
+    memset(seen, false, sizeof(seen));
+    int ans = 0;
+    for (int i = 0; i &lt; n; i++) {
+        if (seen[i] == false) {
+            dfs(i);
+            ans++;
+        }
+    }
+    printf(&quot;%d\n&quot;, ans);
 
-	printf(&quot;%d\n&quot;, ans);
-
-	return 0;
+    return 0;
 }
+
 </code></pre>
 
-<h2 id="c463-apcs-樹狀圖分析-tree-analyses">c463: apcs 樹狀圖分析 (Tree Analyses)</h2>
+<h2 id="c292-apcs2017-0304-3數字龍捲風">c292: APCS2017-0304-3數字龍捲風</h2>
 
-<p><a href="https://zerojudge.tw/ShowProblem?problemid=c463">題目連結</a></p>
+<p><a href="https://zerojudge.tw/ShowProblem?problemid=c292">題目連結</a></p>
 
-<p>Bottom up DP</p>
+<p>實作難度不低！</p>
 
-<p>從 leaf 開始拔，並且一路更新 parent 的解即可。</p>
+<p>先推出他的步數增加規律，加上發現他只會往右轉的特性，就可以打code啦！</p>
 
 <h3 id="ac-code-2">AC Code</h3>
 
@@ -354,101 +307,62 @@ int main()
 
 using namespace std;
 
-typedef long long ll;
+const int dx[4] = {0, -1, 0, 1}; // up right down left
+const int dy[4] = {-1, 0, 1, 0};
 
 int main()
 {
-	int n;
-	scanf(&quot;%d&quot;, &amp;n);
+    int n;
+    scanf(&quot;%d&quot;, &amp;n);
+    int dir;
+    scanf(&quot;%d&quot;, &amp;dir); // left, up, right, down
 
-	if(n == 1) {
-		printf(&quot;1\n0\n&quot;);
-		return 0;
-	}
+    int inp[n][n];
+    for (int i = 0; i &lt; n; i++)
+        for (int j = 0; j &lt; n; j++)
+            scanf(&quot;%d&quot;, &amp;inp[i][j]);
 
-	int dp[n];
-	int par[n];
-	int deg[n];
-	memset(par, -1, sizeof(par));
-	memset(dp, 0, sizeof(dp));
+    int step = 1, stepCnt = 0;
+    int cnt = 1;
+    int x = n / 2, y = n / 2;
+    printf(&quot;%d&quot;, inp[x][y]);
+    while (cnt &lt; n * n) {
+        for (int i = 0; i &lt; step; i++) {
+            x += dx[dir];
+            y += dy[dir];
+            printf(&quot;%d&quot;, inp[x][y]);
+            cnt++;
+            if (i == step)
+                break;
+            if (cnt == n * n)
+                break;
+        }
 
-	queue&lt;int&gt; q;
-	for(int p = 0; p &lt; n; p++) {
-		int k;
-		scanf(&quot;%d&quot;, &amp;k);
-		if(k == 0)
-			q.push(p);
+        if (cnt == n * n)
+            break;
 
-		deg[p] = k;
+        stepCnt++;
+        if (stepCnt % 2 == 0)
+            step++;
 
-		for(int j = 0; j &lt; k; j++) {
-			int child;
-			scanf(&quot;%d&quot;, &amp;child);
-			child--;
-			par[child] = p;
-		}
-	}	
+        dir++;
+        dir %= 4;
+    }
 
-	while(q.size() &gt; 0) {
-		int cur = q.front();
-		q.pop();
-
-		if(par[cur] != -1) {
-			dp[par[cur]] = max(dp[par[cur]], dp[cur] + 1);
-			deg[par[cur]]--;
-			if(deg[par[cur]] == 0)
-				q.push(par[cur]);
-		}
-	}
-
-	ll ans = 0;
-	for(int i = 0; i &lt; n; i++) {
-		if(par[i] == -1)
-			printf(&quot;%d\n&quot;, i + 1);
-		ans += dp[i];
-	}
-	printf(&quot;%lld\n&quot;, ans);
-
-	return 0;
+    return 0;
 }
+
 </code></pre>
 
-<h2 id="c471-apcs-物品堆疊-stacking">c471: apcs 物品堆疊 (Stacking)</h2>
+<h2 id="基地台">基地台</h2>
 
-<p><a href="https://zerojudge.tw/ShowProblem?problemid=c471">題目連結</a></p>
+<p>(Zerojudge 上沒有)</p>
 
-<h3 id="hint">Hint</h3>
+<p>有個觀察：直徑大於一個數值的話，我們一定可以用 $\leq k$ 的基地台完成覆蓋。</p>
 
-<p>Greedy！</p>
+<p>所以說對於 <em>直徑</em> 進行 binary search，我們可以得到最小的直徑使得 $\leq k$ 個基地台下可以完整個覆蓋所有住戶。</p>
 
-<p>推看看，如果我們只交換某兩物品的位置，他的影響範圍大概如何？</p>
-
-<h3 id="solution">Solution</h3>
-
-<p>假設目前的堆疊狀態從上到下為
-$$ w_1, w_2, &hellip;, w_i, w_{i + 1}, &hellip;, w_n$$
-$$ f_1, f_2, &hellip;, f_i, f_{i + 1}, &hellip;, f_n$$</p>
-
-<p>如果我們交換 $i$ 跟 $i + 1$，堆疊狀態從上到下會變成
-$$ w_1, w_2, &hellip;, w_{i + 1}, w_i, &hellip;, w_n$$
-$$ f_1, f_2, &hellip;, f_{i + 1}, f_i, &hellip;, f_n$$</p>
-
-<p>令
-$$ A = w_1 + w_2 + &hellip; + w_{i - 1} $$
-$$ B = f_{i + 2} + f_{i + 3} + &hellip; + f_n $$</p>
-
-<p>交換之前（只列出會變動的部分），我們的 cost 是
-$$ &hellip; +  (A + w_i) (f_{i + 1}) + &hellip; $$</p>
-
-<p>交換之後（只列出會變動的部分），我們的 cost 是
-$$ &hellip; +  (A + w_{i + 1}) (f_i)+ &hellip; $$</p>
-
-<p>相減可以得到 $$w_i f_{i + 1} - w_{i + 1} f_i$$</p>
-
-<p>所以，我們透過 sorting 時將 compare function 寫成
-$$w_i f_{i + 1} &lt; w_{i + 1} f_i$$</p>
-
-<p>就可以讓 cost 小的堆疊方式被逐漸產生。</p>
+<p>結論： Binary search 經典題</p>
 
 <h3 id="ac-code-3">AC Code</h3>
 
@@ -456,41 +370,46 @@ $$w_i f_{i + 1} &lt; w_{i + 1} f_i$$</p>
 
 using namespace std;
 
-typedef long long ll;
-
-struct Data {
-	int w, f;
-};
-
-bool cmp(const Data&amp; a, const Data &amp;b)
+int n, k;
+bool check(int inp[], int mid)
 {
-	return a.w * b.f &lt; b.w * a.f;
+    int cnt = 1;
+    int right = inp[0] + mid;
+    for (int i = 1; i &lt; n; i++) {
+        if (inp[i] &lt;= right) {
+            continue;
+        }
+        right = inp[i] + mid;
+        cnt++;
+    }
+
+    // printf(&quot;%d %d\n&quot;, mid, cnt);
+    return cnt &lt;= k;
 }
 
 int main()
 {
-	int n;
-	scanf(&quot;%d&quot;, &amp;n);
+    scanf(&quot;%d %d&quot;, &amp;n, &amp;k);
 
-	Data data[n];
-	for(int i = 0; i &lt; n; i++) {
-		scanf(&quot;%d&quot;, &amp;data[i].w);
-	}
+    int inp[n];
+    for (int i = 0; i &lt; n; i++)
+        scanf(&quot;%d&quot;, &amp;inp[i]);
+    sort(inp, inp + n);
 
-	for(int i = 0; i &lt; n; i++) {
-		scanf(&quot;%d&quot;, &amp;data[i].f);
-	}
-	sort(data, data + n, cmp);
+    int l = 0, r = 0x3f3f3f3f;
+    while (r - l &gt; 1) {
+        int mid = (l + r) / 2;
 
-	ll ans = 0, accum = 0;
-	for(int i = 0; i &lt; n - 1; i++) {
-		accum += data[i].w;
-		ans += accum * data[i + 1].f;
-	}
+        // printf(&quot;%d %d %d\n&quot;, l, mid, r);
+        // 0 0 0 0 0 0 1 1 1 1 1 1
+        if (check(inp, mid))
+            r = mid;
+        else
+            l = mid;
+    }
+    printf(&quot;%d\n&quot;, r);
 
-	printf(&quot;%lld\n&quot;, ans);
-
-	return 0;
+    return 0;
 }
 </code></pre>
     </div>
@@ -504,7 +423,7 @@ int main()
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
-    <span class="item-content">2018-01-13</span>
+    <span class="item-content">2018-01-14</span>
   </p>
   
   <p class="copyright-item">
@@ -521,7 +440,7 @@ int main()
           
           <a href="/blog/tags/apcs/">APCS</a>
           
-          <a href="/blog/tags/greedy/">Greedy</a>
+          <a href="/blog/tags/binary-search/">Binary search</a>
           
           <a href="/blog/tags/implementation/">Implementation</a>
           
@@ -530,12 +449,17 @@ int main()
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/apcs1060304/">
+          <a class="prev" href="/blog/post/osx/vimrc/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">APCS 1060304 題解</span>
+            <span class="prev-text nav-default">Vimrc</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
         
+          <a class="next" href="/blog/post/competitive_programming/apcs1061028/">
+            <span class="next-text nav-default">APCS 1061028 題解</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
       </nav>
     </footer>
   </article>

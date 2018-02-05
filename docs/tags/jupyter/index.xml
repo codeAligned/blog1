@@ -13,10 +13,10 @@
     
     <item>
       <title>架設 Jupyter 於 CCU 工學院電腦</title>
-      <link>https://henrybear327.github.io/blog/post/jupyter-ssh-tunnel/</link>
+      <link>https://henrybear327.github.io/blog/post/python/jupyter-ssh-tunnel/</link>
       <pubDate>Tue, 16 Jan 2018 19:56:09 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/jupyter-ssh-tunnel/</guid>
+      <guid>https://henrybear327.github.io/blog/post/python/jupyter-ssh-tunnel/</guid>
       <description>在工學院電腦架設 Jupyter 非常麻煩，經過一番研究之後，寫成筆記，希望以後大家可以方便使用！ 在此先感謝 黃鈺程 隊友的 Jupyter 安裝教學，看來我 python 真的用得太少，連</description>
     </item>
     

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Even Theme Setup - Coding Blog</title>
+  <title>Building a simple website using Flask - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,7 +17,7 @@
 
 
 <meta name="author" content="Henry Tseng" />
-  <meta name="description" content="Even theme 設定筆記
+  <meta name="description" content="Flask is a really fast and simple framework to use. It&amp;rsquo;s not packed with all sorts of features that you might not need at all, instead, they only give you the essentials. You are free to decide what to do for the rest.
 
 " />
 
@@ -31,7 +31,7 @@
 <meta name="generator" content="Hugo 0.35" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/even-theme-setup/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/python/flask_and_c3/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -49,22 +49,18 @@
 <link href="/blog/dist/even.min.css?v=2.7.2" rel="stylesheet">
 <link href="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
-<meta property="og:title" content="Even Theme Setup" />
-<meta property="og:description" content="Even theme 設定筆記
+<meta property="og:title" content="Building a simple website using Flask" />
+<meta property="og:description" content="Flask is a really fast and simple framework to use. It&rsquo;s not packed with all sorts of features that you might not need at all, instead, they only give you the essentials. You are free to decide what to do for the rest.
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/even-theme-setup/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/python/flask_and_c3/" />
 
 
 
-<meta property="article:published_time" content="2018-01-14T18:13:28&#43;08:00"/>
+<meta property="article:published_time" content="2018-02-03T10:48:17&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-01-14T18:13:28&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-02-03T10:48:17&#43;08:00"/>
 
 
 
@@ -72,22 +68,26 @@
 
 
 
-<meta itemprop="name" content="Even Theme Setup">
-<meta itemprop="description" content="Even theme 設定筆記
+
+
+
+
+<meta itemprop="name" content="Building a simple website using Flask">
+<meta itemprop="description" content="Flask is a really fast and simple framework to use. It&rsquo;s not packed with all sorts of features that you might not need at all, instead, they only give you the essentials. You are free to decide what to do for the rest.
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-01-14T18:13:28&#43;08:00" />
-<meta itemprop="dateModified" content="2018-01-14T18:13:28&#43;08:00" />
-<meta itemprop="wordCount" content="143">
+<meta itemprop="datePublished" content="2018-02-03T10:48:17&#43;08:00" />
+<meta itemprop="dateModified" content="2018-02-03T10:48:17&#43;08:00" />
+<meta itemprop="wordCount" content="293">
 
 
 
-<meta itemprop="keywords" content="Theme,Even," />
+<meta itemprop="keywords" content="python,flask,WSGI," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Even Theme Setup"/>
-<meta name="twitter:description" content="Even theme 設定筆記
+<meta name="twitter:title" content="Building a simple website using Flask"/>
+<meta name="twitter:description" content="Flask is a really fast and simple framework to use. It&rsquo;s not packed with all sorts of features that you might not need at all, instead, they only give you the essentials. You are free to decide what to do for the rest.
 
 "/>
 
@@ -152,16 +152,18 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Even Theme Setup</h1>
+      <h1 class="post-title">Building a simple website using Flask</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-01-14 </span>
+        <span class="post-time"> 2018-02-03 </span>
         <div class="post-category">
             
-              <a href="/blog/categories/hugo/"> Hugo </a>
+              <a href="/blog/categories/python/"> Python </a>
+            
+              <a href="/blog/categories/flask/"> Flask </a>
             
           </div>
-        <span class="more-meta"> 143 word </span>
+        <span class="more-meta"> 293 word </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -175,13 +177,17 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
 <ul>
-<li>
+<li><a href="#flask">Flask</a>
 <ul>
+<li><a href="#apache-wsgi">Apache WSGI</a>
+<ul>
+<li><a href="#installation">Installation</a></li>
 <li><a href="#setup">Setup</a></li>
-<li><a href="#use-this-theme">Use this theme</a></li>
-<li><a href="#config-file">Config file</a></li>
-<li><a href="#git-submodule-小記">Git submodule 小記</a></li>
+<li><a href="#wsgi-file"><code>.WSGI</code> file</a></li>
+<li><a href="#debugging">Debugging</a></li>
 </ul></li>
+</ul></li>
+<li><a href="#jetbrain-pycharm-professional">Jetbrain Pycharm Professional</a></li>
 </ul>
 </nav>
   </div>
@@ -189,45 +195,75 @@
 
     
     <div class="post-content">
-      <p>Even theme 設定筆記</p>
+      <p>Flask is a really fast and simple framework to use. It&rsquo;s not packed with all sorts of features that you might not need at all, instead, they only give you the essentials. You are free to decide what to do for the rest.</p>
 
 <p></p>
 
-<h2 id="setup">Setup</h2>
+<h1 id="flask">Flask</h1>
 
-<h2 id="use-this-theme">Use this theme</h2>
+<p>Simply install with <code>pip install Flask</code>, or use virtualenv/conda to install it</p>
 
-<ol>
-<li>下載 theme <code>git submodule add https://github.com/olOwOlo/hugo-theme-even themes/even &amp;&amp; git submodule update</code></li>
-<li>使用此 theme 所自帶的 config file <code>cp themes/even/exampleSite/config.toml .</code></li>
-</ol>
+<p>Create a <code>test.py</code> and paste in the following code</p>
 
-<h2 id="config-file">Config file</h2>
+<pre><code class="language-python">from flask import Flask
+app = Flask(__name__)
 
-<ol>
-<li>更改 <code>hugo</code> 時的 Publish directory:
+@app.route(&quot;/&quot;)
+def hello():
+    return &quot;Hello World!&quot;
 
-<ul>
-<li><code>config.toml</code> 加入 <code>publishdir = &quot;docs&quot;</code>，讓 Github Pages 可以從此資料夾獲取資料</li>
-</ul></li>
-<li>放置 Disqus 留言板:
-
-<ul>
-<li>於 <a href="https://disqus.com">官方網站</a> 註冊帳號</li>
-<li>創建一個新的網站並記錄下 _disqus<em>shortname</em></li>
-<li><code>config.toml</code> 加入 <code>comment = true</code> 和 設置 <code>disqusShortname = &quot;...&quot;</code></li>
-</ul></li>
-<li>設置 googleAnalytics</li>
-</ol>
-
-<h2 id="git-submodule-小記">Git submodule 小記</h2>
-
-<p>To remove a submodule, <a href="https://stackoverflow.com/questions/29850029/what-is-the-current-way-to-remove-a-git-submodule">do</a></p>
-
-<pre><code class="language-bash">git submodule deinit &lt;asubmodule&gt;    
-git rm &lt;asubmodule&gt;
-rm -rf .git/modules/&lt;asubmodule&gt;
+if __name__ == '__main__':
+    app.run(debug=True)  
 </code></pre>
+
+<p>Run <code>python test.py</code>, you should have a local development server running on <code>localhost:5000</code></p>
+
+<h2 id="apache-wsgi">Apache WSGI</h2>
+
+<p>For Flask to run on production server using python 3, we need the to install the appropriate WSGI package and configure it properly.</p>
+
+<h3 id="installation">Installation</h3>
+
+<ul>
+<li><code>sudo apt-get install libapache2-mod-wsgi-py3</code></li>
+<li><code>sudo service apache2 restart</code></li>
+</ul>
+
+<h3 id="setup">Setup</h3>
+
+<p>Just like the normal <a href="https://henrybear327.github.io/blog/post/apache/apache_virtualhost/">virtual host</a> setup, with just one tweak required (WSGIScriptAlias line).</p>
+
+<pre><code>&lt;VirtualHost *:80&gt;
+    ServerName [site url]
+
+    WSGIScriptAlias / /www/var/my_site/my_site.wsgi
+    &lt;Directory /www/var/my_site/&gt;
+        ...
+    &lt;/Directory&gt;
+
+&lt;/VirtualHost&gt;
+</code></pre>
+
+<p>Only WSGIScriptAlias is specific to WSGI. WSGIScriptAlias tells the ULR path “/” should be handled by a Python program  <code>/www/var/my_site/my_site.wsgi</code>.</p>
+
+<h3 id="wsgi-file"><code>.WSGI</code> file</h3>
+
+<p>Setting up this file is another painful story. Read <a href="http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/#creating-a-wsgi-file">this</a></p>
+
+<h3 id="debugging">Debugging</h3>
+
+<ul>
+<li>The default Apache2 server on Ubunut should have its error log at <code>/var/log/apache2/error.log</code>. When receiving internal error 500 or any sort of failures during development, you can simply go to error log and see what went wrong.</li>
+<li>One of the main issue of developing Flask applications might be the webpage simply kept showing the old version instead of the new one. The issue is explained clearly <a href="http://modwsgi.readthedocs.io/en/develop/user-guides/reloading-source-code.html">here</a>. It&rsquo;s not a bug.
+
+<ul>
+<li>Dirty workaround: add <code>MaxRequestsPerChild 1</code> to <code>/etc/apache2/apache2.conf</code>, and then <code>service apache2 restart</code></li>
+</ul></li>
+</ul>
+
+<h1 id="jetbrain-pycharm-professional">Jetbrain Pycharm Professional</h1>
+
+<p>直接支援 Flask 和 virtualenv/conda! 這真的太讚了~</p>
     </div>
 
     
@@ -239,7 +275,7 @@ rm -rf .git/modules/&lt;asubmodule&gt;
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
-    <span class="item-content">2018-01-14</span>
+    <span class="item-content">2018-02-03</span>
   </p>
   
   <p class="copyright-item">
@@ -254,23 +290,25 @@ rm -rf .git/modules/&lt;asubmodule&gt;
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags/theme/">Theme</a>
+          <a href="/blog/tags/python/">python</a>
           
-          <a href="/blog/tags/even/">Even</a>
+          <a href="/blog/tags/flask/">flask</a>
+          
+          <a href="/blog/tags/wsgi/">WSGI</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/jupyter-ssh-tunnel/">
+          <a class="prev" href="/blog/post/apache/apache_virtualhost/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">架設 Jupyter 於 CCU 工學院電腦</span>
+            <span class="prev-text nav-default">Apache Virtual Host</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
         
-          <a class="next" href="/blog/post/vimrc/">
-            <span class="next-text nav-default">Vimrc</span>
+          <a class="next" href="/blog/post/osx/sshfs/">
+            <span class="next-text nav-default">SSHFS</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
