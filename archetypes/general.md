@@ -4,15 +4,6 @@ date: {{ .Date }}
 draft: false
 lastmod: {{ .Date }}
 tags: [""]
-categories: ["Competitive Programming"]
+categories: [""]
 ---
 
-# 題目名稱
-
-[題目連結]()
-
-## AC Code
-
-```c++
-
-```
