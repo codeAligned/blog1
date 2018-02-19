@@ -7,6 +7,10 @@ tags: ["QT"]
 categories: ["QT"]
 ---
 
+Some notes on installing QT 4.8.6 on Ubuntu 16.04.3 LTS 64-bit OS.
+
+<!--more-->
+
 # Get files
 
 1. [QT source code](http://download.qt.io/archive/qt/4.8/4.8.6/qt-everywhere-opensource-src-4.8.6.tar.gz)

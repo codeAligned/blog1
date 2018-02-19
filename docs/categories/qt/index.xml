@@ -17,7 +17,9 @@
       <pubDate>Mon, 19 Feb 2018 22:19:29 +0800</pubDate>
       
       <guid>https://henrybear327.github.io/blog/post/qt/install_qt/</guid>
-      <description>Get files  QT source code QT Creator  Installation QT compiler  Install sudo apt install libx11-dev libxext-dev libxtst-dev  For solving Basic XLib functionality test failed error  tar xzvf qt-everywhere-opensource-src-4.8.6.tar.gz cd qt-everywhere-opensource-src-4.8.6 ./configure &amp;amp;&amp;amp; make &amp;amp;&amp;amp; sudo make install In your .zshrc, add  export QTDIR=/usr/local/Trolltech/Qt-4.8.6 export PATH=$QTDIR/bin:$PATH export MANPATH=$QTDIR/man:$MANPATH export LD_LIBRARY_PATH=$QTDIR/lib:$LD_LIBRARY_PATH  QT creator  chmod +x qt-creator-linux-x86-opensource-2.5.2.bin ./qt-creator-linux-x86-opensource-2.5.2.bin  Try it!  Go to cd /usr/local/Trolltech/Qt-4.</description>
+      <description>&lt;p&gt;Some notes on installing QT 4.8.6 on Ubuntu 16.04.3 LTS 64-bit OS.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
