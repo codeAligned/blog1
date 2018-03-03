@@ -82,7 +82,7 @@
 
 <meta itemprop="datePublished" content="2018-03-03T10:47:04&#43;08:00" />
 <meta itemprop="dateModified" content="2018-03-03T10:47:04&#43;08:00" />
-<meta itemprop="wordCount" content="107">
+<meta itemprop="wordCount" content="136">
 
 
 
@@ -163,7 +163,7 @@
               <a href="/blog/categories/elastic-search/"> Elastic Search </a>
             
           </div>
-        <span class="more-meta"> 107 words </span>
+        <span class="more-meta"> 136 words </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -177,11 +177,15 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#installation-guide-for-mac">Installation guide for Mac</a>
+<li><a href="#install-elastic-search-on-mac">Install Elastic Search on Mac</a>
 <ul>
 <li><a href="#install-java-8">Install Java 8</a></li>
-<li><a href="#install-elastic-search">Install elastic search</a></li>
-<li><a href="#start-elastic-search">Start elastic search</a></li>
+<li><a href="#install-elastic-search">Install Elastic Search</a></li>
+<li><a href="#start-elastic-search">Start Elastic Search</a></li>
+</ul></li>
+<li><a href="#elastic-search-usages">Elastic Search Usages</a>
+<ul>
+<li><a href="#python-api">Python API</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -194,7 +198,7 @@
 
 <p></p>
 
-<h1 id="installation-guide-for-mac">Installation guide for Mac</h1>
+<h1 id="install-elastic-search-on-mac">Install Elastic Search on Mac</h1>
 
 <p>Make sure you have <code>homebrew</code> installed first!</p>
 
@@ -205,7 +209,7 @@
 <li><code>brew cask install java8</code></li>
 </ol>
 
-<h2 id="install-elastic-search">Install elastic search</h2>
+<h2 id="install-elastic-search">Install Elastic Search</h2>
 
 <ol>
 <li><code>brew install elasticsearch</code></li>
@@ -218,7 +222,7 @@ Plugins: /usr/local/var/elasticsearch/plugins/
 Config:  /usr/local/etc/elasticsearch/
 </code></pre>
 
-<h2 id="start-elastic-search">Start elastic search</h2>
+<h2 id="start-elastic-search">Start Elastic Search</h2>
 
 <p>Simply run <code>elasticsearch</code> in the terminal, you will see a lot of messages being thrown to your screen.</p>
 
@@ -228,6 +232,20 @@ Config:  /usr/local/etc/elasticsearch/
 </code></pre>
 
 <p>You are good to go!</p>
+
+<h1 id="elastic-search-usages">Elastic Search Usages</h1>
+
+<h2 id="python-api">Python API</h2>
+
+<p>We will use <a href="https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html">elasticsearch-py</a>.</p>
+
+<ol>
+<li>Setup virtual environment: <code>virtualenv venv</code>, or use conda if you wish</li>
+<li><code>source venv/bin/activate</code></li>
+<li><code>pip install elasticsearch</code></li>
+</ol>
+
+<p>Read the <a href="http://elasticsearch-py.readthedocs.io/en/master/">documentation</a></p>
     </div>
 
     

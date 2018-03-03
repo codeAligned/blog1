@@ -11,7 +11,7 @@ Elastic search installation notes
 
 <!--more-->
 
-# Installation guide for Mac
+#  Install Elastic Search on Mac
 
 Make sure you have `homebrew` installed first!
 
@@ -20,7 +20,7 @@ Make sure you have `homebrew` installed first!
 1. `brew tap caskroom/versions`: installing elastic search using homebrew requires Java8...
 2. `brew cask install java8`
 
-## Install elastic search
+## Install Elastic Search
 
 1. `brew install elasticsearch`
 2. Run `brew info elasticsearch`, you will see where the data is stored. For example, you will see...
@@ -32,7 +32,7 @@ Plugins: /usr/local/var/elasticsearch/plugins/
 Config:  /usr/local/etc/elasticsearch/
 ```
 
-## Start elastic search
+## Start Elastic Search
 
 Simply run `elasticsearch` in the terminal, you will see a lot of messages being thrown to your screen.
 
@@ -43,3 +43,15 @@ Wait for a while until you see something like this...
 ```
 
 You are good to go!
+
+# Elastic Search Usages
+
+## Python API
+
+We will use [elasticsearch-py](https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html).
+
+1. Setup virtual environment: `virtualenv venv`, or use conda if you wish
+2. `source venv/bin/activate`
+3. `pip install elasticsearch`
+
+Read the [documentation](http://elasticsearch-py.readthedocs.io/en/master/)
