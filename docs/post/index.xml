@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Feb 2018 22:19:29 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 03 Mar 2018 10:47:04 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Elastic Search Installation</title>
+      <link>https://henrybear327.github.io/blog/post/elasticsearch/install/</link>
+      <pubDate>Sat, 03 Mar 2018 10:47:04 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/elasticsearch/install/</guid>
+      <description> Installation guide for Mac Make sure you have homebrew installed first!
+Install Java 8  brew tap caskroom/versions: installing elastic search using homebrew requires Java8&amp;hellip; brew cask install java8  Install elastic search  brew install elasticsearch Run brew info elasticsearch, you will see where the data is stored. For example, you will see&amp;hellip;  Data: /usr/local/var/lib/elasticsearch/elasticsearch_henrybear327/ Logs: /usr/local/var/log/elasticsearch/elasticsearch_henrybear327.log Plugins: /usr/local/var/elasticsearch/plugins/ Config: /usr/local/etc/elasticsearch/  </description>
+    </item>
     
     <item>
       <title>Install QT 4.8.6 on Linux</title>

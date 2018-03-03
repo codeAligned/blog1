@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elastic Search on Coding Blog</title>
+    <link>https://henrybear327.github.io/blog/categories/elastic-search/</link>
+    <description>Recent content in Elastic Search on Coding Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 03 Mar 2018 10:47:04 +0800</lastBuildDate>
+    
+	<atom:link href="https://henrybear327.github.io/blog/categories/elastic-search/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Elastic Search Installation</title>
+      <link>https://henrybear327.github.io/blog/post/elasticsearch/install/</link>
+      <pubDate>Sat, 03 Mar 2018 10:47:04 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/elasticsearch/install/</guid>
+      <description> Installation guide for Mac Make sure you have homebrew installed first!
+Install Java 8  brew tap caskroom/versions: installing elastic search using homebrew requires Java8&amp;hellip; brew cask install java8  Install elastic search  brew install elasticsearch Run brew info elasticsearch, you will see where the data is stored. For example, you will see&amp;hellip;  Data: /usr/local/var/lib/elasticsearch/elasticsearch_henrybear327/ Logs: /usr/local/var/log/elasticsearch/elasticsearch_henrybear327.log Plugins: /usr/local/var/elasticsearch/plugins/ Config: /usr/local/etc/elasticsearch/  </description>
+    </item>
+    
+  </channel>
+</rss>
