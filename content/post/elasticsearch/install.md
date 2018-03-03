@@ -7,6 +7,10 @@ tags: ["Elastic Search"]
 categories: ["Elastic Search"]
 ---
 
+Elastic search installation notes
+
+<!--more-->
+
 # Installation guide for Mac
 
 Make sure you have `homebrew` installed first!

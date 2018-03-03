@@ -17,8 +17,9 @@
       <pubDate>Sat, 03 Mar 2018 10:47:04 +0800</pubDate>
       
       <guid>https://henrybear327.github.io/blog/post/elasticsearch/install/</guid>
-      <description> Installation guide for Mac Make sure you have homebrew installed first!
-Install Java 8  brew tap caskroom/versions: installing elastic search using homebrew requires Java8&amp;hellip; brew cask install java8  Install elastic search  brew install elasticsearch Run brew info elasticsearch, you will see where the data is stored. For example, you will see&amp;hellip;  Data: /usr/local/var/lib/elasticsearch/elasticsearch_henrybear327/ Logs: /usr/local/var/log/elasticsearch/elasticsearch_henrybear327.log Plugins: /usr/local/var/elasticsearch/plugins/ Config: /usr/local/etc/elasticsearch/  </description>
+      <description>&lt;p&gt;Elastic search installation notes&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
