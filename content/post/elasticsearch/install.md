@@ -51,7 +51,7 @@ You are good to go!
 We will use [elasticsearch-py](https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html).
 
 1. Setup virtual environment: `virtualenv venv`, or use conda if you wish
-2. `source venv/bin/activate`
-3. `pip install elasticsearch`
+2. Activate the virtual environment: `source venv/bin/activate`
+3. Install the package: `pip install elasticsearch`
 
 Read the [documentation](http://elasticsearch-py.readthedocs.io/en/master/)
