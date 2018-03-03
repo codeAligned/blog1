@@ -25,7 +25,7 @@ Make sure you have `homebrew` installed first!
 1. `brew install elasticsearch`
 2. Run `brew info elasticsearch`, you will see where the data is stored. For example, you will see...
 
-```
+```text
 Data:    /usr/local/var/lib/elasticsearch/elasticsearch_henrybear327/
 Logs:    /usr/local/var/log/elasticsearch/elasticsearch_henrybear327.log
 Plugins: /usr/local/var/elasticsearch/plugins/
