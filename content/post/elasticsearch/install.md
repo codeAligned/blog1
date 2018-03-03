@@ -31,3 +31,15 @@ Logs:    /usr/local/var/log/elasticsearch/elasticsearch_henrybear327.log
 Plugins: /usr/local/var/elasticsearch/plugins/
 Config:  /usr/local/etc/elasticsearch/
 ```
+
+## Start elastic search
+
+Simply run `elasticsearch` in the terminal, you will see a lot of messages being thrown to your screen.
+
+Wait for a while until you see something like this...
+
+```text
+[2018-03-03T11:02:49,111][INFO ][o.e.h.n.Netty4HttpServerTransport] [FOq2ljA] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+```
+
+You are good to go!
