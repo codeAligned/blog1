@@ -6,10 +6,23 @@
     <description>Recent content in Stack on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Apr 2018 11:43:48 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Apr 2018 22:28:41 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/tags/stack/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>394. Decode String</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/394/</link>
+      <pubDate>Sun, 15 Apr 2018 22:28:41 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/394/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/decode-string/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;利用 Stack 做 parsing 的經典題！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>388. Longest Absolute File Path</title>

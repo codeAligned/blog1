@@ -6,10 +6,25 @@
     <description>Recent content in Two Pointer on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Apr 2018 11:54:35 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Apr 2018 22:42:44 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/tags/two-pointer/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>259. 3Sum Smaller</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/259/</link>
+      <pubDate>Sun, 15 Apr 2018 22:42:44 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/259/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/3sum-smaller/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;雙指針好題！&lt;/p&gt;
+
+&lt;p&gt;思考看看，如何透過雙指針來達成 $O(N^2)$！（hint: 枚舉一數字）&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>340. Longest Substring with At Most K Distinct Characters</title>

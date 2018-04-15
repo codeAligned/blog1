@@ -6,10 +6,157 @@
     <description>Recent content on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Apr 2018 12:00:35 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Apr 2018 22:47:53 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>279. Perfect Squares</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/279/</link>
+      <pubDate>Sun, 15 Apr 2018 22:47:53 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/279/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/perfect-squares/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Coin change!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>218. The Skyline Problem</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/218/</link>
+      <pubDate>Sun, 15 Apr 2018 22:45:04 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/218/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/the-skyline-problem/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;每個轉折點都會是當下的max height!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>259. 3Sum Smaller</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/259/</link>
+      <pubDate>Sun, 15 Apr 2018 22:42:44 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/259/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/3sum-smaller/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;雙指針好題！&lt;/p&gt;
+
+&lt;p&gt;思考看看，如何透過雙指針來達成 $O(N^2)$！（hint: 枚舉一數字）&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>766. Toeplitz Matrix</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/766/</link>
+      <pubDate>Sun, 15 Apr 2018 22:41:23 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/766/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/toeplitz-matrix/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;想想看&amp;hellip; 怎麼 one pass 進行檢查呢？&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>280. Wiggle Sort</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/280/</link>
+      <pubDate>Sun, 15 Apr 2018 22:40:16 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/280/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/wiggle-sort/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;觀察題。&lt;/p&gt;
+
+&lt;p&gt;Linear time solution 真的太牛逼了！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>687. Longest Univalue Path</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/687/</link>
+      <pubDate>Sun, 15 Apr 2018 22:38:51 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/687/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/longest-univalue-path/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;經典 DFS 題！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>271. Encode and Decode Strings</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/271/</link>
+      <pubDate>Sun, 15 Apr 2018 22:30:18 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/271/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/encode-and-decode-strings/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一題很讚的設計題。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>394. Decode String</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/394/</link>
+      <pubDate>Sun, 15 Apr 2018 22:28:41 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/394/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/decode-string/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;利用 Stack 做 parsing 的經典題！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>737. Sentence Similarity II</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/737/</link>
+      <pubDate>Sun, 15 Apr 2018 22:26:26 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/737/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/sentence-similarity-ii/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Transitive relation on undirected graph $\rightarrow$ 善用並查集可以解！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>753. Cracking the Safe</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/753/</link>
+      <pubDate>Sun, 15 Apr 2018 22:24:10 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/753/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/cracking-the-safe/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;暴力搜尋！（證明靠尤拉路徑）&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>298. Binary Tree Longest Consecutive Sequence</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/298/</link>
+      <pubDate>Sun, 15 Apr 2018 22:15:16 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/298/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DFS 練習好題！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>418. Sentence Screen Fitting</title>

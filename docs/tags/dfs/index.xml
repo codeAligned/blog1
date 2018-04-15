@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dfs on Coding Blog</title>
+    <link>https://henrybear327.github.io/blog/tags/dfs/</link>
+    <description>Recent content in Dfs on Coding Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Apr 2018 22:38:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://henrybear327.github.io/blog/tags/dfs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>687. Longest Univalue Path</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/687/</link>
+      <pubDate>Sun, 15 Apr 2018 22:38:51 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/687/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/longest-univalue-path/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;經典 DFS 題！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>753. Cracking the Safe</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/753/</link>
+      <pubDate>Sun, 15 Apr 2018 22:24:10 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/753/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/cracking-the-safe/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;暴力搜尋！（證明靠尤拉路徑）&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>298. Binary Tree Longest Consecutive Sequence</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/298/</link>
+      <pubDate>Sun, 15 Apr 2018 22:15:16 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/298/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DFS 練習好題！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
