@@ -6,10 +6,91 @@
     <description>Recent content in Posts on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Mar 2018 10:47:04 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Apr 2018 12:00:35 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>418. Sentence Screen Fitting</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/418/</link>
+      <pubDate>Sun, 15 Apr 2018 12:00:35 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/418/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/sentence-screen-fitting/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DP紀錄什麼呢？紀錄下如果用某字開頭的話，這個row可以裝下多少字！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>686. Repeated String Match</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/686/</link>
+      <pubDate>Sun, 15 Apr 2018 11:59:27 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/686/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/repeated-string-match/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;枚舉，或是用hash!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>308. Range Sum Query 2D - Mutable</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/308/</link>
+      <pubDate>Sun, 15 Apr 2018 11:55:52 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/308/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/range-sum-query-2d-mutable/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2D Fenwick Tree 基本題！2D 跟 1D 的沒啥大的差別，只要用雙層for迴圈，一個row一個row的把要更新的地方列舉出來並更新就是啦！&lt;/p&gt;
+
+&lt;p&gt;注意他的update function的定義&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>340. Longest Substring with At Most K Distinct Characters</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/340/</link>
+      <pubDate>Sun, 15 Apr 2018 11:54:35 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/340/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;雙指針基本題！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>683. K Empty Slots</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/683/</link>
+      <pubDate>Sun, 15 Apr 2018 11:47:44 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/683/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/k-empty-slots/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;如果我們有哪個地方何時開花的資料 $\rightarrow$，我們是不是就可以快速的檢查是否有一個大小 $=k$ 的區間
+且 區間內的開花時間都比兩端後面呢！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>388. Longest Absolute File Path</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/388/</link>
+      <pubDate>Sun, 15 Apr 2018 11:43:48 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/388/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/longest-absolute-file-path/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;如何有效率的拆解並分析字串呢？請善用stack!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Elastic Search Installation</title>
