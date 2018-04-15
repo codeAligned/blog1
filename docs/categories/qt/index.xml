@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qt on Coding Blog</title>
+    <link>https://henrybear327.github.io/blog/categories/qt/</link>
+    <description>Recent content in Qt on Coding Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Feb 2018 22:19:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://henrybear327.github.io/blog/categories/qt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install QT 4.8.6 on Linux</title>
+      <link>https://henrybear327.github.io/blog/post/qt/install_qt/</link>
+      <pubDate>Mon, 19 Feb 2018 22:19:29 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/qt/install_qt/</guid>
+      <description>&lt;p&gt;Some notes on installing QT 4.8.6 on Ubuntu 16.04.3 LTS 64-bit OS.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

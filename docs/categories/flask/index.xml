@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flask on Coding Blog</title>
+    <link>https://henrybear327.github.io/blog/categories/flask/</link>
+    <description>Recent content in Flask on Coding Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 03 Feb 2018 10:48:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://henrybear327.github.io/blog/categories/flask/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building a simple website using Flask</title>
+      <link>https://henrybear327.github.io/blog/post/python/flask_and_c3/</link>
+      <pubDate>Sat, 03 Feb 2018 10:48:17 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/python/flask_and_c3/</guid>
+      <description>&lt;p&gt;Flask is a really fast and simple framework to use. It&amp;rsquo;s not packed with all sorts of features that you might not need at all, instead, they only give you the essentials. You are free to decide what to do for the rest.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

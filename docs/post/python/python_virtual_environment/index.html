@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Python Virtual Environment - Coding Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Henry Tseng" />
+  <meta name="description" content="Some notes on virtual environment for Python. Dependency management with ease.
+
+" />
+
+  <meta name="keywords" content="Hugo, theme, even" />
+
+
+
+<meta name="google-site-verification" content="FuwyG1La_DaZH-n3M2NtQYJYF5GYtRVtthFpCVWuoaU" />
+
+
+<meta name="generator" content="Hugo 0.38.2" />
+
+
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/python/python_virtual_environment/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
+<link rel="manifest" href="/blog/manifest.json">
+<link rel="mask-icon" href="/blog/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/blog/dist/even.min.css?v=3.0.0" rel="stylesheet">
+<link href="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Python Virtual Environment" />
+<meta property="og:description" content="Some notes on virtual environment for Python. Dependency management with ease.
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/python/python_virtual_environment/" />
+
+
+
+<meta property="article:published_time" content="2018-02-04T10:58:36&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-02-04T10:58:36&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Python Virtual Environment">
+<meta itemprop="description" content="Some notes on virtual environment for Python. Dependency management with ease.
+
+">
+
+
+<meta itemprop="datePublished" content="2018-02-04T10:58:36&#43;08:00" />
+<meta itemprop="dateModified" content="2018-02-04T10:58:36&#43;08:00" />
+<meta itemprop="wordCount" content="215">
+
+
+
+<meta itemprop="keywords" content="python,virtual environment,pip,conda,virtualenv," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Python Virtual Environment"/>
+<meta name="twitter:description" content="Some notes on virtual environment for Python. Dependency management with ease.
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/blog/" class="logo">Coding Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/blog/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/blog/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/blog/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/blog/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/blog/" class="logo">Coding Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/blog/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/blog/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/blog/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/blog/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Python Virtual Environment</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-02-04 </span>
+        <div class="post-category">
+            
+              <a href="/blog/categories/python/"> python </a>
+            
+          </div>
+        <span class="more-meta"> 215 words </span>
+        <span class="more-meta"> 2 mins read </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#virtual-environment">Virtual environment</a>
+<ul>
+<li><a href="#virtualenv-pip"><code>virtualenv</code> + <code>pip</code></a>
+<ul>
+<li><a href="#virtualenv"><code>virtualenv</code></a></li>
+<li><a href="#pip"><code>pip</code></a></li>
+</ul></li>
+<li><a href="#conda"><code>conda</code></a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>Some notes on virtual environment for Python. Dependency management with ease.</p>
+
+<p></p>
+
+<h1 id="virtual-environment">Virtual environment</h1>
+
+<p>Usually it&rsquo;s about choosing between <code>virtualenv</code> + <code>pip</code> or <code>conda</code>.</p>
+
+<p>The <a href="http://stuarteberg.github.io/conda-docs/_downloads/conda-pip-virtualenv-translator.html">site</a> has a great table on comparing the differences between them.</p>
+
+<h2 id="virtualenv-pip"><code>virtualenv</code> + <code>pip</code></h2>
+
+<p>First we setup <code>virtualenv</code>, and after activating it, we install packages in it using normal <code>pip</code> operations.</p>
+
+<h3 id="virtualenv"><code>virtualenv</code></h3>
+
+<ul>
+<li>create: <code>cd $ENV_BASE_DIR; virtualenv $ENVIRONMENT_NAME</code></li>
+<li>activate: <code>source $ENV_BASE_DIR/$ENVIRONMENT_NAME/bin/activate</code></li>
+<li>deactivate: <code>deactivate</code></li>
+<li>install: Normal <code>pip</code> operations (Regardless of whether you are using Python 2 or Python 3, when the virtual environment is activated, we should use the <code>pip</code> command (not <code>pip3</code>))</li>
+</ul>
+
+<h3 id="pip"><code>pip</code></h3>
+
+<ul>
+<li>install package: <code>pip install $PACKAGE_NAME</code></li>
+<li>upgrade package: <code>pip install --upgrade $PACKAGE_NAME</code></li>
+<li>uninstall package: <code>pip uninstall $PACKAGE_NAME</code></li>
+<li>search package: <code>pip search $SEARCH_TERM</code></li>
+<li>upgrade <code>pip</code>: <code>pip install -U pip</code></li>
+<li>list: <code>pip list</code></li>
+<li>generate requirement file (for installation): <code>pip freeze</code></li>
+</ul>
+
+<h2 id="conda"><code>conda</code></h2>
+
+<p>Conda does it all! No separate commands, they are all-in-one.</p>
+
+<ul>
+<li>create: <code>conda create -n $ENVIRONMENT_NAME python[=3.6]</code></li>
+<li>activate: <code>source activate $ENVIRONMENT_NAME</code></li>
+<li>deactivate: <code>source deactivate</code></li>
+<li>install package: <code>conda install $PACKAGE_NAME</code></li>
+<li>upgrade package: <code>conda update --name $ENVIRONMENT_NAME $PACKAGE_NAME</code></li>
+<li>uninstall package: <code>conda remove --name $ENVIRONMENT_NAME $PACKAGE_NAME</code></li>
+<li>search package: <code>conda search $SEARCH_TERM</code></li>
+<li>upgrade <code>pip</code>: <code>conda update conda</code></li>
+<li>list: <code>conda list --name $ENVIRONMENT_NAME</code></li>
+<li>generate requirement file (for installation): <code>conda list --export</code></li>
+<li>list envs: <code>conda info --envs</code></li>
+<li>install python: <code>conda install python=x.x</code></li>
+<li>upgrade python: <code>conda update python *</code></li>
+</ul>
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/blog/tags/python/">python</a>
+          
+          <a href="/blog/tags/virtual-environment/">virtual environment</a>
+          
+          <a href="/blog/tags/pip/">pip</a>
+          
+          <a href="/blog/tags/conda/">conda</a>
+          
+          <a href="/blog/tags/virtualenv/">virtualenv</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/blog/post/qt/install_qt/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Install QT 4.8.6 on Linux</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/blog/post/apache/apache_virtualhost/">
+            <span class="next-text nav-default">Apache Virtual Host</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'github-page-blog';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  
+
+  
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://github.com/henrybear327?tab=repositories" class="iconfont icon-github" title="github"></a>
+  <a href="https://henrybear327.github.io/blog/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Henry Tseng</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/blog/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/blog/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/blog/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/blog/dist/even.min.js?v=3.0.0"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-81902328-2', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>

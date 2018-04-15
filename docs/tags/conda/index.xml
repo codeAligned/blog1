@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conda on Coding Blog</title>
+    <link>https://henrybear327.github.io/blog/tags/conda/</link>
+    <description>Recent content in Conda on Coding Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Feb 2018 10:58:36 +0800</lastBuildDate>
+    
+	<atom:link href="https://henrybear327.github.io/blog/tags/conda/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python Virtual Environment</title>
+      <link>https://henrybear327.github.io/blog/post/python/python_virtual_environment/</link>
+      <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/python/python_virtual_environment/</guid>
+      <description>&lt;p&gt;Some notes on virtual environment for Python. Dependency management with ease.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
