@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Coding Blog</title>
+  <title>315. Count of Smaller Numbers After Self - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -17,7 +17,11 @@
 
 
 <meta name="author" content="Henry Tseng" />
-  <meta name="description" content="程式筆記" />
+  <meta name="description" content="題目連結
+1D Fenwick Tree 經典應用。
+
+" />
+
   <meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -28,9 +32,7 @@
 <meta name="generator" content="Hugo 0.38.2" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/" />
-<link href="https://henrybear327.github.io/blog/index.xml" rel="alternate" type="application/rss+xml" title="Coding Blog" />
-  <link href="https://henrybear327.github.io/blog/index.xml" rel="feed" type="application/rss+xml" title="Coding Blog" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/315/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -50,14 +52,20 @@
 
 
 
-<meta property="og:title" content="Coding Blog" />
-<meta property="og:description" content="程式筆記" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/" />
+<meta property="og:title" content="315. Count of Smaller Numbers After Self" />
+<meta property="og:description" content="題目連結
+
+1D Fenwick Tree 經典應用。
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/315/" />
 
 
 
-<meta property="og:updated_time" content="2018-04-15T22:55:42&#43;08:00"/>
+<meta property="article:published_time" content="2018-04-15T22:53:32&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-04-15T22:53:32&#43;08:00"/>
 
 
 
@@ -68,12 +76,29 @@
 
 
 
-<meta itemprop="name" content="Coding Blog">
-<meta itemprop="description" content="程式筆記">
 
+<meta itemprop="name" content="315. Count of Smaller Numbers After Self">
+<meta itemprop="description" content="題目連結
+
+1D Fenwick Tree 經典應用。
+
+">
+
+
+<meta itemprop="datePublished" content="2018-04-15T22:53:32&#43;08:00" />
+<meta itemprop="dateModified" content="2018-04-15T22:53:32&#43;08:00" />
+<meta itemprop="wordCount" content="226">
+
+
+
+<meta itemprop="keywords" content="BIT,Fenwick Tree," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Coding Blog"/>
-<meta name="twitter:description" content="程式筆記"/>
+<meta name="twitter:title" content="315. Count of Smaller Numbers After Self"/>
+<meta name="twitter:description" content="題目連結
+
+1D Fenwick Tree 經典應用。
+
+"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -133,174 +158,192 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          
-  <section id="posts" class="posts">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">315. Count of Smaller Numbers After Self</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-04-15 </span>
+        <div class="post-category">
+            
+              <a href="/blog/categories/leetcode/"> Leetcode </a>
+            
+          </div>
+        <span class="more-meta"> 226 words </span>
+        <span class="more-meta"> 1 min read </span>
+        
+      </div>
+    </header>
+
     
     
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/leetcode/146/">146. LRU Cache</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-04-15 </span>
-      <div class="post-category">
-          
-            <a href="/blog/categories/leetcode/"> Leetcode </a>
-          
-        </div>
-      <span class="more-meta"> 300 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
   
-  <div class="post-content">
-    <div class="post-summary">
-      <p><a href="https://leetcode.com/problems/lru-cache/description/">題目連結</a></p>
-
-<p>Linked list 實作能力考察題。</p>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/blog/post/leetcode/146/" class="read-more-link">Read more..</a>
-    </div>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#ac-code">AC Code</a></li>
+</ul></li>
+</ul>
+</nav>
   </div>
-</article>
+</div>
 
     
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/leetcode/341/">341. Flatten Nested List Iterator</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-04-15 </span>
-      <div class="post-category">
-          
-            <a href="/blog/categories/leetcode/"> Leetcode </a>
-          
-        </div>
-      <span class="more-meta"> 271 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p><a href="https://leetcode.com/problems/flatten-nested-list-iterator/description/">題目連結</a></p>
-
-<p>考驗著你對於 stack 和 iterator 的應用能力！</p>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/blog/post/leetcode/341/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/leetcode/315/">315. Count of Smaller Numbers After Self</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-04-15 </span>
-      <div class="post-category">
-          
-            <a href="/blog/categories/leetcode/"> Leetcode </a>
-          
-        </div>
-      <span class="more-meta"> 226 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
+    <div class="post-content">
       <p><a href="https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/">題目連結</a></p>
 
 <p>1D Fenwick Tree 經典應用。</p>
 
 <p></p>
+
+<h2 id="ac-code">AC Code</h2>
+
+<pre><code class="language-c++">#ifdef LOCAL
+#include &lt;bits/stdc++.h&gt;
+using namespace std;
+
+// tree node stuff here...
+#endif
+
+static int __initialSetup = []()
+{
+    std::ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    return 0;
+}
+();
+
+struct BIT {
+    int *data;
+    int N;
+    void init(int _n)
+    {
+        N = _n + 10;
+        data = (int *)malloc(sizeof(int) * N); // 1-based
+        for (int i = 0; i &lt; N; i++)
+            data[i] = 0;
+    }
+
+#define LSB(x) (x &amp; -x)
+
+    void add(int pos, int val)
+    {
+        for (; pos &lt; N; pos += LSB(pos))
+            data[pos] += val;
+    }
+
+    int query(int pos)
+    {
+        int res = 0;
+        for (; pos &gt; 0; pos -= LSB(pos))
+            res += data[pos];
+        return res;
+    }
+};
+
+class Solution
+{
+public:
+    vector&lt;int&gt; countSmaller(vector&lt;int&gt; &amp;nums)
+    {
+        // lisan
+        vector&lt;int&gt; lisan = nums;
+        {
+            sort(lisan.begin(), lisan.end());
+            auto it = unique(lisan.begin(), lisan.end());
+            lisan.resize(distance(lisan.begin(), it));
+        }
+
+        for (auto &amp;i : nums) {
+            int pos = lower_bound(lisan.begin(), lisan.end(), i) - lisan.begin();
+            i = pos + 2; // !!
+        }
+
+        BIT bit;
+        bit.init(lisan.size());
+
+        vector&lt;int&gt; ans(nums.size(), 0);
+        for (int i = (int)nums.size() - 1; i &gt;= 0; i--) {
+            ans[i] = bit.query(nums[i] - 1);
+            bit.add(nums[i], 1);
+        }
+
+        return ans;
+    }
+};
+
+#ifdef LOCAL
+int main()
+{
+    vector&lt;int&gt; inp({-1, -2, -3, -4});
+    auto ans = Solution().countSmaller(inp);
+    for (auto i : ans)
+        printf(&quot;%d &quot;, i);
+    puts(&quot;&quot;);
+
+    return 0;
+}
+#endif
+</code></pre>
     </div>
-    <div class="read-more">
-      <a href="/blog/post/leetcode/315/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
 
     
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/leetcode/317/">317. Shortest Distance from All Buildings</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-04-15 </span>
-      <div class="post-category">
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
           
-            <a href="/blog/categories/leetcode/"> Leetcode </a>
+          <a href="/blog/tags/bit/">BIT</a>
+          
+          <a href="/blog/tags/fenwick-tree/">Fenwick Tree</a>
           
         </div>
-      <span class="more-meta"> 314 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p><a href="https://leetcode.com/problems/shortest-distance-from-all-buildings/description/">題目連結</a></p>
 
-<p>BFS 應用題！讚！</p>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/blog/post/leetcode/317/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/leetcode/279/">279. Perfect Squares</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-04-15 </span>
-      <div class="post-category">
-          
-            <a href="/blog/categories/leetcode/"> Leetcode </a>
-          
-        </div>
-      <span class="more-meta"> 158 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p><a href="https://leetcode.com/problems/perfect-squares/description/">題目連結</a></p>
-
-<p>Coin change!</p>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/blog/post/leetcode/279/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-  </section>
-  
-  <nav class="pagination">
-    
-    
-      <a class="next" href="/blog/page/2/">
-        <span class="next-text">Next</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-  </nav>
-
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/blog/post/leetcode/341/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">341. Flatten Nested List Iterator</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/blog/post/leetcode/317/">
+            <span class="next-text nav-default">317. Shortest Distance from All Buildings</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
         </div>
         
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'github-page-blog';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  
+
+  
       </div>
     </main>
 

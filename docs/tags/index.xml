@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Bfs</title>
+      <link>https://henrybear327.github.io/blog/tags/bfs/</link>
+      <pubDate>Sun, 15 Apr 2018 22:52:14 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/tags/bfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Binary Search</title>
       <link>https://henrybear327.github.io/blog/tags/binary-search/</link>
       <pubDate>Sun, 14 Jan 2018 12:59:54 +0800</pubDate>
@@ -50,7 +59,7 @@
     <item>
       <title>Bit</title>
       <link>https://henrybear327.github.io/blog/tags/bit/</link>
-      <pubDate>Sun, 15 Apr 2018 11:55:52 +0800</pubDate>
+      <pubDate>Sun, 15 Apr 2018 22:53:32 +0800</pubDate>
       
       <guid>https://henrybear327.github.io/blog/tags/bit/</guid>
       <description></description>
@@ -122,7 +131,7 @@
     <item>
       <title>Fenwick Tree</title>
       <link>https://henrybear327.github.io/blog/tags/fenwick-tree/</link>
-      <pubDate>Sun, 15 Apr 2018 11:55:52 +0800</pubDate>
+      <pubDate>Sun, 15 Apr 2018 22:53:32 +0800</pubDate>
       
       <guid>https://henrybear327.github.io/blog/tags/fenwick-tree/</guid>
       <description></description>
@@ -156,11 +165,29 @@
     </item>
     
     <item>
+      <title>Iterator</title>
+      <link>https://henrybear327.github.io/blog/tags/iterator/</link>
+      <pubDate>Sun, 15 Apr 2018 22:54:34 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/tags/iterator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Jupyter</title>
       <link>https://henrybear327.github.io/blog/tags/jupyter/</link>
       <pubDate>Tue, 16 Jan 2018 19:56:09 +0800</pubDate>
       
       <guid>https://henrybear327.github.io/blog/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linked List</title>
+      <link>https://henrybear327.github.io/blog/tags/linked-list/</link>
+      <pubDate>Sun, 15 Apr 2018 22:55:42 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/tags/linked-list/</guid>
       <description></description>
     </item>
     
@@ -230,7 +257,7 @@
     <item>
       <title>Stack</title>
       <link>https://henrybear327.github.io/blog/tags/stack/</link>
-      <pubDate>Sun, 15 Apr 2018 22:28:41 +0800</pubDate>
+      <pubDate>Sun, 15 Apr 2018 22:54:34 +0800</pubDate>
       
       <guid>https://henrybear327.github.io/blog/tags/stack/</guid>
       <description></description>
