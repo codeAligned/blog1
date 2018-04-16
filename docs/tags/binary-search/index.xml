@@ -6,10 +6,23 @@
     <description>Recent content in Binary Search on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jan 2018 12:59:54 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Apr 2018 20:43:50 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/tags/binary-search/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>162. Find Peak Element</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/162/</link>
+      <pubDate>Mon, 16 Apr 2018 20:43:50 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/162/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/find-peak-element/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;想想看二分搜！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>APCS 1060304 題解</title>

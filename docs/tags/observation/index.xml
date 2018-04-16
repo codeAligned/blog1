@@ -6,10 +6,36 @@
     <description>Recent content in Observation on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Apr 2018 22:40:16 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Apr 2018 20:57:49 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/tags/observation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>31. Next Permutation</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/31/</link>
+      <pubDate>Mon, 16 Apr 2018 20:57:49 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/31/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/next-permutation/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;觀察（右到左）！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>240. Search a 2D Matrix II</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/240/</link>
+      <pubDate>Mon, 16 Apr 2018 20:52:29 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/240/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/search-a-2d-matrix-ii/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;左下走到右上，有啥發現嗎？&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>280. Wiggle Sort</title>

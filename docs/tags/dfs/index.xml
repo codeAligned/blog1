@@ -6,10 +6,60 @@
     <description>Recent content in Dfs on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Apr 2018 22:38:51 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Apr 2018 20:56:34 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/tags/dfs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>22. Generate Parentheses</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/22/</link>
+      <pubDate>Mon, 16 Apr 2018 20:56:34 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/22/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/generate-parentheses/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;基本爆搜題&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>10. Regular Expression Matching</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/10/</link>
+      <pubDate>Mon, 16 Apr 2018 20:49:18 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/10/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/regular-expression-matching/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DFS/DP 好題！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>139. Word Break</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/139/</link>
+      <pubDate>Mon, 16 Apr 2018 20:45:00 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/139/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/word-break/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>297. Serialize and Deserialize Binary Tree</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/297/</link>
+      <pubDate>Mon, 16 Apr 2018 20:41:18 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/297/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DFS 練習好題！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>687. Longest Univalue Path</title>

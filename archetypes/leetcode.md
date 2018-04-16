@@ -9,6 +9,8 @@ categories: ["Leetcode"]
 
 [題目連結]()
 
+
+
 <!--more-->
 
 ## AC Code

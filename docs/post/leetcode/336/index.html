@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>336. Palindrome Pairs - Coding Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Henry Tseng" />
+  <meta name="description" content="題目連結
+枚舉 ＋ 組合一下字串！
+
+" />
+
+  <meta name="keywords" content="Hugo, theme, even" />
+
+
+
+<meta name="google-site-verification" content="FuwyG1La_DaZH-n3M2NtQYJYF5GYtRVtthFpCVWuoaU" />
+
+
+<meta name="generator" content="Hugo 0.38.2" />
+
+
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/336/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
+<link rel="manifest" href="/blog/manifest.json">
+<link rel="mask-icon" href="/blog/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/blog/dist/even.min.css?v=3.0.0" rel="stylesheet">
+<link href="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="336. Palindrome Pairs" />
+<meta property="og:description" content="題目連結
+
+枚舉 ＋ 組合一下字串！
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/336/" />
+
+
+
+<meta property="article:published_time" content="2018-04-16T21:00:28&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-04-16T21:00:28&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="336. Palindrome Pairs">
+<meta itemprop="description" content="題目連結
+
+枚舉 ＋ 組合一下字串！
+
+">
+
+
+<meta itemprop="datePublished" content="2018-04-16T21:00:28&#43;08:00" />
+<meta itemprop="dateModified" content="2018-04-16T21:00:28&#43;08:00" />
+<meta itemprop="wordCount" content="457">
+
+
+
+<meta itemprop="keywords" content="enumeration,string,Palindrome," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="336. Palindrome Pairs"/>
+<meta name="twitter:description" content="題目連結
+
+枚舉 ＋ 組合一下字串！
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/blog/" class="logo">Coding Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/blog/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/blog/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/blog/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/blog/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/blog/" class="logo">Coding Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/blog/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/blog/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/blog/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/blog/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">336. Palindrome Pairs</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-04-16 </span>
+        <div class="post-category">
+            
+              <a href="/blog/categories/leetcode/"> Leetcode </a>
+            
+          </div>
+        <span class="more-meta"> 457 words </span>
+        <span class="more-meta"> 1 min read </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#ac-code">AC Code</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p><a href="https://leetcode.com/problems/palindrome-pairs/description/">題目連結</a></p>
+
+<p>枚舉 ＋ 組合一下字串！</p>
+
+<p></p>
+
+<h2 id="ac-code">AC Code</h2>
+
+<p>```c++
+#ifdef LOCAL
+#include <bits/stdc++.h>
+using namespace std;</p>
+
+<p>// tree node stuff here&hellip;
+#endif</p>
+
+<p>static int __initialSetup = []()
+{
+    std::ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    return 0;
+}
+();</p>
+
+<p>class Solution
+{
+private:
+    bool isPalindrome(string inp)
+    {
+        if (inp.length() == 0)
+            return true;</p>
+
+<pre><code>    for (int i = 0; i &lt; (int)inp.size() / 2; i++)
+        if (inp[i] != inp[(int)inp.size() - 1 - i])
+            return false;
+    return true;
+}
+
+void go(vector&lt;string&gt; &amp;words, unordered_map&lt;string, int&gt; &amp;mapping,
+        set&lt;pair&lt;int, int&gt;&gt; &amp;s, int i, int j)
+{
+    // [0, j) | [j, word_length)
+    string lhs = words[i].substr(0, j);
+    string rhs = words[i].substr(j, (int)words[i].size());
+    if (isPalindrome(lhs)) {
+        // ss\sll -&gt; rev rhs | lhs | rhs
+        // (lls) | ss | sll (look for lls: rev rhs)
+        reverse(rhs.begin(), rhs.end());
+        if (mapping.find(rhs) != mapping.end()) {
+            if (mapping[rhs] != i)
+                s.insert(make_pair(mapping[rhs], i));
+        }
+        reverse(rhs.begin(), rhs.end());
+    }
+
+    if (isPalindrome(rhs)) {
+        // abc\ll -&gt; lhs | rhs | rev lhs
+        // abc | ll | (cba) (look for cba: rev lhs)
+        reverse(lhs.begin(), lhs.end());
+        if (mapping.find(lhs) != mapping.end()) {
+            if (mapping[lhs] != i)
+                s.insert(make_pair(i, mapping[lhs]));
+        }
+        reverse(lhs.begin(), lhs.end());
+    }
+}
+</code></pre>
+
+<p>public:
+    vector<vector<int>&gt; palindromePairs(vector<string> &amp;words)
+    {
+        set<pair<int, int>&gt; s;</p>
+
+<pre><code>    // build string index for searching
+    unordered_map&lt;string, int&gt; mapping;
+    for (int i = 0; i &lt; (int)words.size(); i++) {
+        string ins = words[i];
+        mapping[ins] = i;
+    }
+
+    for (int i = 0; i &lt; (int)words.size(); i++) {
+        if (words[i].length() == 0) {
+            for (int j = 0; j &lt; (int)words.size(); j++) {
+                if (isPalindrome(words[j])) {
+                    if (j != i) {
+                        s.insert(make_pair(j, i));
+                        s.insert(make_pair(i, j));
+                    }
+                }
+            }
+        } else {
+            for (int j = 0; j &lt; (int)words[i].size(); j++) {
+                go(words, mapping, s, i, j);
+            }
+        }
+    }
+
+    vector&lt;vector&lt;int&gt;&gt; ans;
+    for (auto i : s) {
+        ans.push_back(vector&lt;int&gt;({i.first, i.second}));
+    }
+    return ans;
+}
+</code></pre>
+
+<p>};</p>
+
+<p>// class Solution
+// {
+// private:
+//     bool isPalindrome(string inp)
+//     {
+//         for (int i = 0; i &lt; (int)inp.size() / 2; i++)
+//             if (inp[i] != inp[(int)inp.size() - 1 - i])
+//                 return false;
+//         return true;
+//     }</p>
+
+<p>// public:
+//     vector<vector<int>&gt; palindromePairs(vector<string> &amp;words)
+//     {
+//         vector<vector<int>&gt; ans;
+//         if (words.size() == 0)
+//             return ans;</p>
+
+<p>//         for (int i = 0; i &lt; (int)words.size(); i++)
+//             for (int j = 0; j &lt; (int)words.size(); j++) {
+//                 if (i == j)
+//                     continue;
+//                 if (isPalindrome(words[i] + words[j])) {
+//                     vector<int> tmp({i, j});
+//                     ans.push_back(tmp);
+//                 }
+//             }</p>
+
+<p>//         return ans;
+//     }
+// };</p>
+
+<p>// handle special cases first
+// [], &ldquo;&rdquo;, &hellip;</p>
+
+<p>#ifdef LOCAL
+int main()
+{
+    vector<string> inp({&ldquo;abcd&rdquo;, &ldquo;dcba&rdquo;, &ldquo;lls&rdquo;, &ldquo;s&rdquo;, &ldquo;sssll&rdquo;});
+    auto ans = Solution().palindromePairs(inp);
+    for (auto i : ans) {
+        cout &lt;&lt; i[0] &lt;&lt; &ldquo; &rdquo; &lt;&lt; i[1] &lt;&lt; endl;
+    }
+    return 0;
+}
+#endif```</p>
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/blog/tags/enumeration/">enumeration</a>
+          
+          <a href="/blog/tags/string/">string</a>
+          
+          <a href="/blog/tags/palindrome/">Palindrome</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/blog/post/leetcode/421/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">421. Maximum XOR of Two Numbers in an Array</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/blog/post/leetcode/50/">
+            <span class="next-text nav-default">50. $Pow(x, n)$</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'github-page-blog';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  
+
+  
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://github.com/henrybear327?tab=repositories" class="iconfont icon-github" title="github"></a>
+  <a href="https://henrybear327.github.io/blog/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Henry Tseng</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/blog/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/blog/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/blog/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/blog/dist/even.min.js?v=3.0.0"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-81902328-2', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>
