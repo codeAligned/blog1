@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>214. Shortest Palindrome - Coding Blog</title>
+  <title>316. Remove Duplicate Letters - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -18,7 +18,7 @@
 
 <meta name="author" content="Henry Tseng" />
   <meta name="description" content="題目連結
-從頭枚舉，你發現什麼？
+好題。
 
 " />
 
@@ -32,7 +32,7 @@
 <meta name="generator" content="Hugo 0.38.2" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/214/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/316/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -52,24 +52,20 @@
 
 
 
-<meta property="og:title" content="214. Shortest Palindrome" />
+<meta property="og:title" content="316. Remove Duplicate Letters" />
 <meta property="og:description" content="題目連結
 
-從頭枚舉，你發現什麼？
+好題。
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/214/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/316/" />
 
 
 
-<meta property="article:published_time" content="2018-04-16T21:05:21&#43;08:00"/>
+<meta property="article:published_time" content="2018-04-16T21:22:30&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-04-16T21:05:21&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-04-16T21:22:30&#43;08:00"/>
 
 
 
@@ -77,26 +73,30 @@
 
 
 
-<meta itemprop="name" content="214. Shortest Palindrome">
+
+
+
+
+<meta itemprop="name" content="316. Remove Duplicate Letters">
 <meta itemprop="description" content="題目連結
 
-從頭枚舉，你發現什麼？
+好題。
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-04-16T21:05:21&#43;08:00" />
-<meta itemprop="dateModified" content="2018-04-16T21:05:21&#43;08:00" />
-<meta itemprop="wordCount" content="140">
+<meta itemprop="datePublished" content="2018-04-16T21:22:30&#43;08:00" />
+<meta itemprop="dateModified" content="2018-04-16T21:22:30&#43;08:00" />
+<meta itemprop="wordCount" content="182">
 
 
 
-<meta itemprop="keywords" content="Palindrome," />
+<meta itemprop="keywords" content="stack,greedy," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="214. Shortest Palindrome"/>
+<meta name="twitter:title" content="316. Remove Duplicate Letters"/>
 <meta name="twitter:description" content="題目連結
 
-從頭枚舉，你發現什麼？
+好題。
 
 "/>
 
@@ -161,7 +161,7 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">214. Shortest Palindrome</h1>
+      <h1 class="post-title">316. Remove Duplicate Letters</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2018-04-16 </span>
@@ -170,7 +170,7 @@
               <a href="/blog/categories/leetcode/"> Leetcode </a>
             
           </div>
-        <span class="more-meta"> 140 words </span>
+        <span class="more-meta"> 182 words </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -195,9 +195,9 @@
 
     
     <div class="post-content">
-      <p><a href="https://leetcode.com/problems/shortest-palindrome/description/">題目連結</a></p>
+      <p><a href="https://leetcode.com/problems/remove-duplicate-letters/description/">題目連結</a></p>
 
-<p>從頭枚舉，你發現什麼？</p>
+<p>好題。</p>
 
 <p></p>
 
@@ -218,35 +218,47 @@ static int __initialSetup = []()
 }
 ();
 
-// handle special cases first
-// [], &quot;&quot;, ...
-// range of input?
 class Solution
 {
-private:
-    bool isPalindrome(string s)
-    {
-        int n = (int)s.length();
-        for (int i = 0; i &lt; n / 2; i++) {
-            if (s[i] != s[n - 1 - i])
-                return false;
-        }
-        return true;
-    }
-
 public:
-    string shortestPalindrome(string s)
+    string removeDuplicateLetters(string s)
     {
-        for (int i = (int)s.length(); i &gt;= 1; i--) {
-            // [0, i]
-            if (isPalindrome(s.substr(0, i))) {
-                string front = s.substr(i);
-                reverse(front.begin(), front.end());
-                return front + s;
+        int cnt[26] = {0};
+        for (auto i : s)
+            cnt[i - 'a']++;
+
+        bool in[26] = {false};
+        stack&lt;char&gt; st;
+        for (auto cc : s) {
+            int c = cc - 'a';
+            cnt[c]--;  // oops
+            if (in[c]) // no need to insert again
+                continue;
+
+            // observation
+            // if the current character is better than the top character in the stack
+            // and
+            // the top character still has occurrence after the current one:
+            // pop it
+            while (st.size() &gt; 0 &amp;&amp; cc &lt; st.top() &amp;&amp; cnt[st.top() - 'a'] &gt; 0) {
+                // cnt[st.top() - 'a']++; // don't do this
+                in[st.top() - 'a'] = false;
+                st.pop();
             }
+
+            st.push(cc);
+            in[c] = true;
         }
 
-        return s;
+        // ans
+        string ans = &quot;&quot;;
+        while (st.size() &gt; 0) {
+            ans += st.top();
+            st.pop();
+        }
+
+        reverse(ans.begin(), ans.end());
+        return ans;
     }
 };
 
@@ -268,21 +280,23 @@ int main()
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags/palindrome/">Palindrome</a>
+          <a href="/blog/tags/stack/">stack</a>
+          
+          <a href="/blog/tags/greedy/">greedy</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/leetcode/316/">
+          <a class="prev" href="/blog/post/leetcode/312/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">316. Remove Duplicate Letters</span>
+            <span class="prev-text nav-default">312. Burst Balloons</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
         
-          <a class="next" href="/blog/post/leetcode/421/">
-            <span class="next-text nav-default">421. Maximum XOR of Two Numbers in an Array</span>
+          <a class="next" href="/blog/post/leetcode/214/">
+            <span class="next-text nav-default">214. Shortest Palindrome</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

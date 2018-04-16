@@ -6,10 +6,36 @@
     <description>Recent content in Posts on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Apr 2018 21:05:21 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Apr 2018 21:23:14 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>312. Burst Balloons</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/312/</link>
+      <pubDate>Mon, 16 Apr 2018 21:23:14 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/312/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/burst-balloons/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Cutting stick! From bottom to top!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>316. Remove Duplicate Letters</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/316/</link>
+      <pubDate>Mon, 16 Apr 2018 21:22:30 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/316/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/remove-duplicate-letters/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;好題。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>214. Shortest Palindrome</title>
