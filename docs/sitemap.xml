@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://henrybear327.github.io/blog/post/leetcode/560/</loc>
+    <lastmod>2018-04-17T11:53:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://henrybear327.github.io/blog/post/leetcode/312/</loc>
     <lastmod>2018-04-16T21:23:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -445,7 +452,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/</loc>
-    <lastmod>2018-04-16T21:23:14+08:00</lastmod>
+    <lastmod>2018-04-17T11:53:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -585,7 +592,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/categories/leetcode/</loc>
-    <lastmod>2018-04-16T21:23:14+08:00</lastmod>
+    <lastmod>2018-04-17T11:53:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -634,7 +641,14 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/post/</loc>
-    <lastmod>2018-04-16T21:23:14+08:00</lastmod>
+    <lastmod>2018-04-17T11:53:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog/tags/prefix-sum/</loc>
+    <lastmod>2018-04-17T11:53:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

@@ -6,10 +6,23 @@
     <description>Recent content on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Apr 2018 21:23:14 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 17 Apr 2018 11:53:02 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>560. Subarray Sum Equals K</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/560/</link>
+      <pubDate>Tue, 17 Apr 2018 11:53:02 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/560/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/subarray-sum-equals-k/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;把 prefix sum 放在 map 裡面！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>312. Burst Balloons</title>
