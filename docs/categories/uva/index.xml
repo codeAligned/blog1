@@ -6,10 +6,32 @@
     <description>Recent content in Uva on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 May 2018 17:53:41 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 11 May 2018 21:25:16 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/categories/uva/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>10401 - Injured Queen Problem</title>
+      <link>https://henrybear327.github.io/blog/post/uva/10401/</link>
+      <pubDate>Fri, 11 May 2018 21:25:16 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/uva/10401/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1342&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;掰咖的n皇后問題，如果我們拿 column 來看的話，他只跟前一個 column 有關而已了！&lt;/p&gt;
+
+&lt;p&gt;令 $dp[i][j]$ 為 把皇后擺在 row $i$ column $j$ 這個位置的話，有幾種擺法。&lt;/p&gt;
+
+&lt;p&gt;因此&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;如果這個 column 沒有指定后位的話，我們就 $dp[i][j] += dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$&lt;/li&gt;
+&lt;li&gt;如果這個 column 有指定后位的話，我們就 $dp[queenPosition][j] += dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>10721 - Bar Codes</title>

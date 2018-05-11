@@ -57,7 +57,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-05-11T17:53:41&#43;08:00"/>
+<meta property="og:updated_time" content="2018-05-11T21:25:16&#43;08:00"/>
 
 
 
@@ -140,12 +140,55 @@
     
       <article class="post">
   <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/blog/post/uva/10401/">10401 - Injured Queen Problem</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2018-05-11 </span>
+      <div class="post-category">
+          
+            <a href="/blog/categories/uva/"> UVa </a>
+          
+            <a href="/blog/categories/competitive-programming/"> competitive programming </a>
+          
+        </div>
+      <span class="more-meta"> 392 words </span>
+      <span class="more-meta"> 1 min read </span>
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      <p><a href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1342">題目連結</a></p>
+
+<p>掰咖的n皇后問題，如果我們拿 column 來看的話，他只跟前一個 column 有關而已了！</p>
+
+<p>令 $dp[i][j]$ 為 把皇后擺在 row $i$ column $j$ 這個位置的話，有幾種擺法。</p>
+
+<p>因此</p>
+
+<ol>
+<li>如果這個 column 沒有指定后位的話，我們就 $dp[i][j] += dp[k][j - 1]$ where $1 \leq k &lt; n, |{i-k}| &gt; 1$</li>
+<li>如果這個 column 有指定后位的話，我們就 $dp[queenPosition][j] += dp[k][j - 1]$ where $1 \leq k &lt; n, |{i-k}| &gt; 1$</li>
+</ol>
+
+<p></p>
+    </div>
+    <div class="read-more">
+      <a href="/blog/post/uva/10401/" class="read-more-link">Read more..</a>
+    </div>
+  </div>
+</article>
+
+    
+      <article class="post">
+  <header class="post-header">
     <h1 class="post-title"><a class="post-link" href="/blog/post/uva/10721/">10721 - Bar Codes</a></h1>
     <div class="post-meta">
       <span class="post-time"> 2018-05-11 </span>
       <div class="post-category">
           
             <a href="/blog/categories/uva/"> UVa </a>
+          
+            <a href="/blog/categories/competitive-programming/"> competitive programming </a>
           
         </div>
       <span class="more-meta"> 499 words </span>
@@ -264,57 +307,6 @@
     </div>
     <div class="read-more">
       <a href="/blog/post/uva/116/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/google/kickstart/2018b/">No nine</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-04-24 </span>
-      <div class="post-category">
-          
-            <a href="/blog/categories/google/"> Google </a>
-          
-            <a href="/blog/categories/kickstart/"> kickstart </a>
-          
-            <a href="/blog/categories/competitive-programming/"> Competitive Programming&#34; </a>
-          
-        </div>
-      <span class="more-meta"> 412 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p><a href="https://code.google.com/codejam/contest/10284486/dashboard#s=p0">題目</a></p>
-
-<h2 id="題目敘述">題目敘述</h2>
-
-<p>給你一個區間 $[a, b]$，保證端點都 valid，要你求取區間中 valid 的數字個數。</p>
-
-<p>所謂 valid 的數字，他要符合</p>
-
-<ol>
-<li>該數字沒有包含9 e.g. 1可以, 191不行</li>
-<li>該數字並非9的倍數 e.g. 1可以, 18不行</li>
-</ol>
-
-<h2 id="思路">思路</h2>
-
-<p>我們可以如何排除包含9的數字呢？用九進位來看！</p>
-
-<p>試想，如果把 $[0, 26)$ 這個區間的所有數字都列出來，你會刪掉的數字分別是 $9, 19$。誒，這不就是 $[0, 26)$ 用九進位來看會自動排除掉的數字嗎？利用這個性質，我們可以很簡單的獲得區間內數字個數了！</p>
-
-<p>排除了包含九的數字後，九的倍數怎麼辦？傷為觀察一下就有囉！</p>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/blog/post/google/kickstart/2018b/" class="read-more-link">Read more..</a>
     </div>
   </div>
 </article>
