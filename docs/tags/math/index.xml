@@ -6,10 +6,25 @@
     <description>Recent content in Math on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 May 2018 09:56:36 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 11 May 2018 14:29:54 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/tags/math/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>828. Unique Letter String</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/828/</link>
+      <pubDate>Fri, 11 May 2018 14:29:54 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/828/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/contest/weekly-contest-83/problems/unique-letter-string/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;想想看，與其窮舉所有的 substring ，我們改成: 對於每一個 $S[i] $，看看有哪些子字串計算unique時會算到 $S[i]$！&lt;/p&gt;
+
+&lt;p&gt;對於每一個 $S[i]$，我們找出他的最遠左右端點，端點內的 $S[j]$ 要符合 $S[i] \neq S[j]$ 且 $0 &amp;lt;= j &amp;lt; S.length()$。因此，我們可以輕鬆得到包含 $S[i]$ 的 substring 會有 $(i - left + 1) * (right - i + 1)$ 個啦！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>829. Consecutive Numbers Sum</title>
