@@ -6,10 +6,30 @@
     <description>Recent content in Math on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Apr 2018 20:54:29 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 11 May 2018 09:56:36 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/tags/math/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>829. Consecutive Numbers Sum</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/829/</link>
+      <pubDate>Fri, 11 May 2018 09:56:36 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/829/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/consecutive-numbers-sum/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2 pointers 小範圍可以做，只是這題範圍太大&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;那轉用數學吧！&lt;/p&gt;
+
+&lt;p&gt;假設某一種合法的答案為 $$N = (s+1) + (s+2) + (s+3) + &amp;hellip; + (s+k)$$
+那我們可以推得 $$N = s*k + \frac{(1 + k) * k}{2} = 2N = k(2s + k + 1)$$&lt;/p&gt;
+
+&lt;p&gt;我們可以觀察到 $2N &amp;gt; k$，進一步觀察右邊其實有 $k^2$，所以其實我們的搜尋範圍只有 $2N &amp;gt; k^2$&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>166. Fraction to Recurring Decimal</title>
