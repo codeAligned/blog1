@@ -6,10 +6,25 @@
     <description>Recent content on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 May 2018 14:29:54 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 11 May 2018 17:53:41 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>10721 - Bar Codes</title>
+      <link>https://henrybear327.github.io/blog/post/uva/10721/</link>
+      <pubDate>Fri, 11 May 2018 17:53:41 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/uva/10721/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1662&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;非常好的題目！先想三維再想二維！&lt;/p&gt;
+
+&lt;p&gt;核心的想法是，如果能延伸，我們就延伸！延伸長度的話呢？枚舉他！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>828. Unique Letter String</title>

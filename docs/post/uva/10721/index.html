@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>828. Unique Letter String - Coding Blog</title>
+  <title>10721 - Bar Codes - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -18,8 +18,8 @@
 
 <meta name="author" content="Henry Tseng" />
   <meta name="description" content="題目連結
-想想看，與其窮舉所有的 substring ，我們改成: 對於每一個 $S[i] $，看看有哪些子字串計算unique時會算到 $S[i]$！
-對於每一個 $S[i]$，我們找出他的最遠左右端點，端點內的 $S[j]$ 要符合 $S[i] \neq S[j]$ 且 $0 &amp;lt;= j &amp;lt; S.length()$。因此，我們可以輕鬆得到包含 $S[i]$ 的 substring 會有 $(i - left &#43; 1) * (right - i &#43; 1)$ 個啦！
+非常好的題目！先想三維再想二維！
+核心的想法是，如果能延伸，我們就延伸！延伸長度的話呢？枚舉他！
 
 " />
 
@@ -33,7 +33,7 @@
 <meta name="generator" content="Hugo 0.40.3" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/828/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/uva/10721/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -53,26 +53,22 @@
 
 
 
-<meta property="og:title" content="828. Unique Letter String" />
+<meta property="og:title" content="10721 - Bar Codes" />
 <meta property="og:description" content="題目連結
 
-想想看，與其窮舉所有的 substring ，我們改成: 對於每一個 $S[i] $，看看有哪些子字串計算unique時會算到 $S[i]$！
+非常好的題目！先想三維再想二維！
 
-對於每一個 $S[i]$，我們找出他的最遠左右端點，端點內的 $S[j]$ 要符合 $S[i] \neq S[j]$ 且 $0 &lt;= j &lt; S.length()$。因此，我們可以輕鬆得到包含 $S[i]$ 的 substring 會有 $(i - left &#43; 1) * (right - i &#43; 1)$ 個啦！
+核心的想法是，如果能延伸，我們就延伸！延伸長度的話呢？枚舉他！
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/828/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/uva/10721/" />
 
 
 
-<meta property="article:published_time" content="2018-05-11T14:29:54&#43;08:00"/>
+<meta property="article:published_time" content="2018-05-11T17:53:41&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-05-11T14:29:54&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-05-11T17:53:41&#43;08:00"/>
 
 
 
@@ -80,30 +76,34 @@
 
 
 
-<meta itemprop="name" content="828. Unique Letter String">
+
+
+
+
+<meta itemprop="name" content="10721 - Bar Codes">
 <meta itemprop="description" content="題目連結
 
-想想看，與其窮舉所有的 substring ，我們改成: 對於每一個 $S[i] $，看看有哪些子字串計算unique時會算到 $S[i]$！
+非常好的題目！先想三維再想二維！
 
-對於每一個 $S[i]$，我們找出他的最遠左右端點，端點內的 $S[j]$ 要符合 $S[i] \neq S[j]$ 且 $0 &lt;= j &lt; S.length()$。因此，我們可以輕鬆得到包含 $S[i]$ 的 substring 會有 $(i - left &#43; 1) * (right - i &#43; 1)$ 個啦！
+核心的想法是，如果能延伸，我們就延伸！延伸長度的話呢？枚舉他！
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-05-11T14:29:54&#43;08:00" />
-<meta itemprop="dateModified" content="2018-05-11T14:29:54&#43;08:00" />
-<meta itemprop="wordCount" content="350">
+<meta itemprop="datePublished" content="2018-05-11T17:53:41&#43;08:00" />
+<meta itemprop="dateModified" content="2018-05-11T17:53:41&#43;08:00" />
+<meta itemprop="wordCount" content="499">
 
 
 
-<meta itemprop="keywords" content="string,math," />
+<meta itemprop="keywords" content="DP," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="828. Unique Letter String"/>
+<meta name="twitter:title" content="10721 - Bar Codes"/>
 <meta name="twitter:description" content="題目連結
 
-想想看，與其窮舉所有的 substring ，我們改成: 對於每一個 $S[i] $，看看有哪些子字串計算unique時會算到 $S[i]$！
+非常好的題目！先想三維再想二維！
 
-對於每一個 $S[i]$，我們找出他的最遠左右端點，端點內的 $S[j]$ 要符合 $S[i] \neq S[j]$ 且 $0 &lt;= j &lt; S.length()$。因此，我們可以輕鬆得到包含 $S[i]$ 的 substring 會有 $(i - left &#43; 1) * (right - i &#43; 1)$ 個啦！
+核心的想法是，如果能延伸，我們就延伸！延伸長度的話呢？枚舉他！
 
 "/>
 
@@ -168,16 +168,16 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">828. Unique Letter String</h1>
+      <h1 class="post-title">10721 - Bar Codes</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2018-05-11 </span>
         <div class="post-category">
             
-              <a href="/blog/categories/leetcode/"> Leetcode </a>
+              <a href="/blog/categories/uva/"> UVa </a>
             
           </div>
-        <span class="more-meta"> 350 words </span>
+        <span class="more-meta"> 499 words </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -193,7 +193,8 @@
 <ul>
 <li>
 <ul>
-<li><a href="#ac-code">AC Code</a></li>
+<li><a href="#ac-code-3d-recursive-dp">AC Code (3D Recursive DP)</a></li>
+<li><a href="#ac-code-2d-dp">AC Code (2D DP)</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -202,83 +203,102 @@
 
     
     <div class="post-content">
-      <p><a href="https://leetcode.com/contest/weekly-contest-83/problems/unique-letter-string/">題目連結</a></p>
+      <p><a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1662">題目連結</a></p>
 
-<p>想想看，與其窮舉所有的 substring ，我們改成: 對於每一個 $S[i] $，看看有哪些子字串計算unique時會算到 $S[i]$！</p>
+<p>非常好的題目！先想三維再想二維！</p>
 
-<p>對於每一個 $S[i]$，我們找出他的最遠左右端點，端點內的 $S[j]$ 要符合 $S[i] \neq S[j]$ 且 $0 &lt;= j &lt; S.length()$。因此，我們可以輕鬆得到包含 $S[i]$ 的 substring 會有 $(i - left + 1) * (right - i + 1)$ 個啦！</p>
+<p>核心的想法是，如果能延伸，我們就延伸！延伸長度的話呢？枚舉他！</p>
 
 <p></p>
 
-<h2 id="ac-code">AC Code</h2>
+<h2 id="ac-code-3d-recursive-dp">AC Code (3D Recursive DP)</h2>
 
-<pre><code class="language-c++">#ifdef LOCAL
-#include &lt;bits/stdc++.h&gt;
+<p>$dp(n, k, m)$是不是只跟$dp(n - i, k - 1, min(m, n - i))$有關係呢？</p>
+
+<p>核心精神是：我們嘗試去對於$dp(&hellip;, k - 1, &hellip;)$做延伸，至於延伸長度呢？就是 $n - i$!</p>
+
+<pre><code class="language-c++">#include &lt;bits/stdc++.h&gt;
+
 using namespace std;
 
-// tree node stuff here...
-#endif
+typedef long long ll;
+typedef pair&lt;int, int&gt; ii;
 
-static int __initialSetup = []()
+ll dp[55][55][55];
+ll cal(int n, int k, int m)
 {
-    std::ios::sync_with_stdio(false);
-    cin.tie(NULL);
-    return 0;
+    if (n == 0 || k == 0 || m == 0)
+        return 0;
+    if (k &gt; n || m &gt; n)
+        return 0;
+    if (k == 1) {
+        if (n == m)
+            return 1;
+        return 0;
+    }
+
+    if (dp[n][k][m] != -1)
+        return dp[n][k][m];
+
+    ll ret = 0;
+    for (int i = 1; i &lt;= m; i++) {
+        // add one group of bar with length i to the end of the set (n - i, k - 1,
+        // ...) so just make sure that i is not longer than m also, change the m
+        // when recursing
+        ret += cal(n - i, k - 1, min(m, n - i));
+    }
+    return dp[n][k][m] = ret;
 }
-();
 
-// handle special cases first
-// [], &quot;&quot;, ...
-// range of input?
-const int MOD = 1e9 + 7;
-class Solution
-{
-private:
-    void inc(long long &amp;ans, int amount)
-    {
-        ans = (ans + amount) % MOD;
-    }
-
-public:
-    int uniqueLetterString(string S)
-    {
-        int n = S.length();
-        long long ans = 0;
-        for (int i = 0; i &lt; n; i++) {
-            int lb = i, rb = i;
-            bool doneL = false, doneR = false;
-            for (int j = 1; j &lt; n; j++) {
-                if (doneL == false &amp;&amp; i - j &gt;= 0) {
-                    if (S[i] != S[i - j]) {
-                        lb = i - j;
-                    } else {
-                        doneL = true;
-                    }
-                }
-
-                if (doneR == false &amp;&amp; i + j &lt; n) {
-                    if (S[i] != S[i + j]) {
-                        rb = i + j;
-                    } else {
-                        doneR = true;
-                    }
-                }
-            }
-
-            inc(ans, (i - lb + 1) * (rb - i + 1));
-        }
-
-        return ans;
-    }
-};
-
-#ifdef LOCAL
 int main()
 {
-    cout &lt;&lt; Solution().uniqueLetterString(&quot;ABC&quot;) &lt;&lt; endl;
+    int n, k, m;
+    while (scanf(&quot;%d %d %d&quot;, &amp;n, &amp;k, &amp;m) == 3) {
+        memset(dp, -1, sizeof(dp));
+        dp[1][1][1] = 1;
+        printf(&quot;%lld\n&quot;, cal(n, k, m));
+    }
+
     return 0;
 }
-#endif
+</code></pre>
+
+<h2 id="ac-code-2d-dp">AC Code (2D DP)</h2>
+
+<p>上面的那種做法你會發現 $m$ 參數其實有點多餘！</p>
+
+<p>那就拿掉吧！</p>
+
+<pre><code class="language-c++">#include &lt;bits/stdc++.h&gt;
+
+using namespace std;
+
+typedef long long ll;
+typedef pair&lt;int, int&gt; ii;
+
+int main()
+{
+    int n, k, m;
+    while (scanf(&quot;%d %d %d&quot;, &amp;n, &amp;k, &amp;m) == 3) {
+        ll dp[55][55];
+        memset(dp, 0, sizeof(dp));
+        dp[0][0] = 1;
+        // dp[i][j] = ans for i groups, j bars, and at most m bars per groups
+        // start with 1 group, 1...n bars
+        //            2 groups, for every bar count j, try to extent it with 1 group (j - (1 ~ m))
+        for (int i = 1; i &lt;= k; i++) {     // groups
+            for (int j = 1; j &lt;= n; j++) {   // bars
+                for (int x = 1; x &lt;= m; x++) { // at most x bars
+                    if (j - x &gt;= 0)
+                        dp[i][j] += dp[i - 1][j - x];
+                }
+            }
+        }
+        printf(&quot;%lld\n&quot;, dp[k][n]); // (k, n, m), m is fixed for this dp table
+    }
+
+    return 0;
+}
 </code></pre>
     </div>
 
@@ -291,23 +311,16 @@ int main()
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags/string/">string</a>
-          
-          <a href="/blog/tags/math/">math</a>
+          <a href="/blog/tags/dp/">DP</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/uva/10721/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">10721 - Bar Codes</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/blog/post/leetcode/829/">
-            <span class="next-text nav-default">829. Consecutive Numbers Sum</span>
+          <a class="next" href="/blog/post/leetcode/828/">
+            <span class="next-text nav-default">828. Unique Letter String</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
