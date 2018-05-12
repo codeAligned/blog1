@@ -57,7 +57,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-04-17T11:53:02&#43;08:00"/>
+<meta property="og:updated_time" content="2018-04-24T10:25:48&#43;08:00"/>
 
 
 
@@ -137,6 +137,57 @@
   <section id="posts" class="posts">
     
     
+    
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/blog/post/google/kickstart/2018b/">No nine</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2018-04-24 </span>
+      <div class="post-category">
+          
+            <a href="/blog/categories/google/"> Google </a>
+          
+            <a href="/blog/categories/kickstart/"> kickstart </a>
+          
+            <a href="/blog/categories/competitive-programming/"> Competitive Programming </a>
+          
+        </div>
+      <span class="more-meta"> 412 words </span>
+      <span class="more-meta"> 1 min read </span>
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      <p><a href="https://code.google.com/codejam/contest/10284486/dashboard#s=p0">題目</a></p>
+
+<h2 id="題目敘述">題目敘述</h2>
+
+<p>給你一個區間 $[a, b]$，保證端點都 valid，要你求取區間中 valid 的數字個數。</p>
+
+<p>所謂 valid 的數字，他要符合</p>
+
+<ol>
+<li>該數字沒有包含9 e.g. 1可以, 191不行</li>
+<li>該數字並非9的倍數 e.g. 1可以, 18不行</li>
+</ol>
+
+<h2 id="思路">思路</h2>
+
+<p>我們可以如何排除包含9的數字呢？用九進位來看！</p>
+
+<p>試想，如果把 $[0, 26)$ 這個區間的所有數字都列出來，你會刪掉的數字分別是 $9, 19$。誒，這不就是 $[0, 26)$ 用九進位來看會自動排除掉的數字嗎？利用這個性質，我們可以很簡單的獲得區間內數字個數了！</p>
+
+<p>排除了包含九的數字後，九的倍數怎麼辦？傷為觀察一下就有囉！</p>
+
+<p></p>
+    </div>
+    <div class="read-more">
+      <a href="/blog/post/google/kickstart/2018b/" class="read-more-link">Read more..</a>
+    </div>
+  </div>
+</article>
+
     
       <article class="post">
   <header class="post-header">
@@ -253,36 +304,6 @@
     </div>
     <div class="read-more">
       <a href="/blog/post/leetcode/214/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/leetcode/421/">421. Maximum XOR of Two Numbers in an Array</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-04-16 </span>
-      <div class="post-category">
-          
-            <a href="/blog/categories/leetcode/"> Leetcode </a>
-          
-        </div>
-      <span class="more-meta"> 382 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p><a href="https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/">題目連結</a></p>
-
-<p>找最多相反 -&gt; Trie!</p>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/blog/post/leetcode/421/" class="read-more-link">Read more..</a>
     </div>
   </div>
 </article>
