@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>10944 - Nuts for nuts.. - Coding Blog</title>
+  <title>10911 - Forming Quiz Teams - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -18,11 +18,10 @@
 
 <meta name="author" content="Henry Tseng" />
   <meta name="description" content="題目連結
-位元DP。
-我們定義 $dp[i][j] = k$, $j$ 為已經拾取過果實的地方，$i$ 為最後所停之處，$dp[i][j]$為拾取果實後停在$i$的總步數。
-初始化的話，$dp[i][1&amp;lt;&amp;lt;i] = $ 從出發點到此的距離，其餘 $\infty$。
-計算的話，假設我們有三個點，我們現在要求取$dp[0][3]$（已經在0, 1拿完果實，並停在0），那我們的其中一種可行走法為$dp[1][2] &#43; dist[1][0]$，也就是說，從只去過1的狀態走到0來！所以更新的話，就是:
-dp[i][j] = min(dp[i][j], dp[k][j - (1 &amp;lt;&amp;lt; i)] &#43; dist[i][k]);  
+For every $dp[i] = k$, we define $i$ as the collection of people that&amp;rsquo;re not paired yet, and $k$ is the minimum cost to pair those people up, if possible.
+Starting with (1 &amp;lt;&amp;lt; n) - 1, we can pair 2 of them at a time, and recurse on (state ^ (1 &amp;lt;&amp;lt; i) ^ (1 &amp;lt;&amp;lt; j)).
+Notice the base case is $dp[0] = 0$.
+
 " />
 
   <meta name="keywords" content="Hugo, theme, even" />
@@ -35,7 +34,7 @@ dp[i][j] = min(dp[i][j], dp[k][j - (1 &amp;lt;&amp;lt; i)] &#43; dist[i][k]);
 <meta name="generator" content="Hugo 0.40.3" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/uva/10944/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/uva/10911/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -55,33 +54,24 @@ dp[i][j] = min(dp[i][j], dp[k][j - (1 &amp;lt;&amp;lt; i)] &#43; dist[i][k]);
 
 
 
-<meta property="og:title" content="10944 - Nuts for nuts.." />
+<meta property="og:title" content="10911 - Forming Quiz Teams" />
 <meta property="og:description" content="題目連結
 
-位元DP。
+For every $dp[i] = k$, we define $i$ as the collection of people that&rsquo;re not paired yet, and $k$ is the minimum cost to pair those people up, if possible.
 
-我們定義 $dp[i][j] = k$, $j$ 為已經拾取過果實的地方，$i$ 為最後所停之處，$dp[i][j]$為拾取果實後停在$i$的總步數。
+Starting with (1 &lt;&lt; n) - 1, we can pair 2 of them at a time, and recurse on (state ^ (1 &lt;&lt; i) ^ (1 &lt;&lt; j)).
 
-初始化的話，$dp[i][1&lt;&lt;i] = $ 從出發點到此的距離，其餘 $\infty$。
-
-計算的話，假設我們有三個點，我們現在要求取$dp[0][3]$（已經在0, 1拿完果實，並停在0），那我們的其中一種可行走法為$dp[1][2] &#43; dist[1][0]$，也就是說，從只去過1的狀態走到0來！所以更新的話，就是:
-
-dp[i][j] = min(dp[i][j], dp[k][j - (1 &lt;&lt; i)] &#43; dist[i][k]);
-
+Notice the base case is $dp[0] = 0$.
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/uva/10944/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/uva/10911/" />
 
 
 
-<meta property="article:published_time" content="2018-05-12T22:38:28&#43;08:00"/>
+<meta property="article:published_time" content="2018-05-13T00:12:48&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-05-12T22:38:28&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-05-13T00:12:48&#43;08:00"/>
 
 
 
@@ -89,44 +79,38 @@ dp[i][j] = min(dp[i][j], dp[k][j - (1 &lt;&lt; i)] &#43; dist[i][k]);
 
 
 
-<meta itemprop="name" content="10944 - Nuts for nuts..">
+
+
+
+
+<meta itemprop="name" content="10911 - Forming Quiz Teams">
 <meta itemprop="description" content="題目連結
 
-位元DP。
+For every $dp[i] = k$, we define $i$ as the collection of people that&rsquo;re not paired yet, and $k$ is the minimum cost to pair those people up, if possible.
 
-我們定義 $dp[i][j] = k$, $j$ 為已經拾取過果實的地方，$i$ 為最後所停之處，$dp[i][j]$為拾取果實後停在$i$的總步數。
+Starting with (1 &lt;&lt; n) - 1, we can pair 2 of them at a time, and recurse on (state ^ (1 &lt;&lt; i) ^ (1 &lt;&lt; j)).
 
-初始化的話，$dp[i][1&lt;&lt;i] = $ 從出發點到此的距離，其餘 $\infty$。
-
-計算的話，假設我們有三個點，我們現在要求取$dp[0][3]$（已經在0, 1拿完果實，並停在0），那我們的其中一種可行走法為$dp[1][2] &#43; dist[1][0]$，也就是說，從只去過1的狀態走到0來！所以更新的話，就是:
-
-dp[i][j] = min(dp[i][j], dp[k][j - (1 &lt;&lt; i)] &#43; dist[i][k]);
-
+Notice the base case is $dp[0] = 0$.
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-05-12T22:38:28&#43;08:00" />
-<meta itemprop="dateModified" content="2018-05-12T22:38:28&#43;08:00" />
-<meta itemprop="wordCount" content="519">
+<meta itemprop="datePublished" content="2018-05-13T00:12:48&#43;08:00" />
+<meta itemprop="dateModified" content="2018-05-13T00:12:48&#43;08:00" />
+<meta itemprop="wordCount" content="348">
 
 
 
-<meta itemprop="keywords" content="DP," />
+<meta itemprop="keywords" content="," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="10944 - Nuts for nuts.."/>
+<meta name="twitter:title" content="10911 - Forming Quiz Teams"/>
 <meta name="twitter:description" content="題目連結
 
-位元DP。
+For every $dp[i] = k$, we define $i$ as the collection of people that&rsquo;re not paired yet, and $k$ is the minimum cost to pair those people up, if possible.
 
-我們定義 $dp[i][j] = k$, $j$ 為已經拾取過果實的地方，$i$ 為最後所停之處，$dp[i][j]$為拾取果實後停在$i$的總步數。
+Starting with (1 &lt;&lt; n) - 1, we can pair 2 of them at a time, and recurse on (state ^ (1 &lt;&lt; i) ^ (1 &lt;&lt; j)).
 
-初始化的話，$dp[i][1&lt;&lt;i] = $ 從出發點到此的距離，其餘 $\infty$。
-
-計算的話，假設我們有三個點，我們現在要求取$dp[0][3]$（已經在0, 1拿完果實，並停在0），那我們的其中一種可行走法為$dp[1][2] &#43; dist[1][0]$，也就是說，從只去過1的狀態走到0來！所以更新的話，就是:
-
-dp[i][j] = min(dp[i][j], dp[k][j - (1 &lt;&lt; i)] &#43; dist[i][k]);
-
+Notice the base case is $dp[0] = 0$.
 
 "/>
 
@@ -191,10 +175,10 @@ dp[i][j] = min(dp[i][j], dp[k][j - (1 &lt;&lt; i)] &#43; dist[i][k]);
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">10944 - Nuts for nuts..</h1>
+      <h1 class="post-title">10911 - Forming Quiz Teams</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-05-12 </span>
+        <span class="post-time"> 2018-05-13 </span>
         <div class="post-category">
             
               <a href="/blog/categories/uva/"> UVa </a>
@@ -202,8 +186,8 @@ dp[i][j] = min(dp[i][j], dp[k][j - (1 &lt;&lt; i)] &#43; dist[i][k]);
               <a href="/blog/categories/competitive-programming/"> Competitive programming </a>
             
           </div>
-        <span class="more-meta"> 519 words </span>
-        <span class="more-meta"> 2 mins read </span>
+        <span class="more-meta"> 348 words </span>
+        <span class="more-meta"> 1 min read </span>
         
       </div>
     </header>
@@ -227,18 +211,13 @@ dp[i][j] = min(dp[i][j], dp[k][j - (1 &lt;&lt; i)] &#43; dist[i][k]);
 
     
     <div class="post-content">
-      <p><a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1885">題目連結</a></p>
+      <p><a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1852">題目連結</a></p>
 
-<p>位元DP。</p>
+<p>For every $dp[i] = k$, we define $i$ as the collection of people that&rsquo;re not paired yet, and $k$ is the minimum cost to pair those people up, if possible.</p>
 
-<p>我們定義 $dp[i][j] = k$, $j$ 為已經拾取過果實的地方，$i$ 為最後所停之處，$dp[i][j]$為拾取果實後停在$i$的總步數。</p>
+<p>Starting with <code>(1 &lt;&lt; n) - 1</code>, we can pair 2 of them at a time, and recurse on <code>(state ^ (1 &lt;&lt; i) ^ (1 &lt;&lt; j))</code>.</p>
 
-<p>初始化的話，$dp[i][1&lt;&lt;i] = $ 從出發點到此的距離，其餘 $\infty$。</p>
-
-<p>計算的話，假設我們有三個點，我們現在要求取$dp[0][3]$（已經在0, 1拿完果實，並停在0），那我們的其中一種可行走法為$dp[1][2] + dist[1][0]$，也就是說，從只去過1的狀態走到0來！所以更新的話，就是:</p>
-
-<pre><code class="language-c++">dp[i][j] = min(dp[i][j], dp[k][j - (1 &lt;&lt; i)] + dist[i][k]);
-</code></pre>
+<p>Notice the base case is $dp[0] = 0$.</p>
 
 <p></p>
 
@@ -251,65 +230,66 @@ using namespace std;
 typedef long long ll;
 typedef pair&lt;int, int&gt; ii;
 
-const int oo = 0x3f3f3f3f;
+const double oo = 1e9;
+
+double dist[22][22];
+
+void dfs(int s, double dp[], int n)
+{
+	if (dp[s] != oo)
+		return;
+	// 1 means not paired uet
+	for (int i = 0; i &lt; n; i++) {
+		if ((s &gt;&gt; i) &amp; 1) {
+			for (int j = i + 1; j &lt; n; j++) {
+				if (i == j) // pair with self, cont.
+					continue;
+				if ((s &gt;&gt; j) &amp; 1) {
+					int nxt = s ^ (1 &lt;&lt; i) ^ (1 &lt;&lt; j);
+					dfs(nxt, dp, n);
+					dp[s] = min(dp[s], dp[nxt] + dist[i][j]);
+				}
+			}
+		}
+	}
+}
+
+double solve(int n)
+{
+	n *= 2;
+	ii pos[n];
+	for (int i = 0; i &lt; n; i++) {
+		char inp[111];
+		scanf(&quot;%s %d %d&quot;, inp, &amp;pos[i].first, &amp;pos[i].second);
+	}
+	for (int i = 0; i &lt; n; i++) {
+		for (int j = 0; j &lt; n; j++) {
+			int dx = pos[i].first - pos[j].first;
+			int dy = pos[i].second - pos[j].second;
+			dist[i][j] = sqrt(dx * dx + dy * dy);
+		}
+	}
+
+	// for (int i = 0; i &lt; n; i++)
+	// 	for (int j = 0; j &lt; n; j++) {
+	// 		printf(&quot;%7.2f%c&quot;, dist[i][j], j == n - 1 ? '\n' : ' ');
+	// 	}
+
+	double dp[1 &lt;&lt; n];
+	fill(dp, dp + (1 &lt;&lt; n), oo);
+	dp[0] = 0; // base case
+	dfs((1 &lt;&lt; n) - 1, dp, n);
+	return dp[(1 &lt;&lt; n) - 1];
+}
 
 int main()
 {
-    int n, m;
-    while (scanf(&quot;%d %d&quot;, &amp;n, &amp;m) == 2) {
-        int sx = -1, sy = -1;
-        vector&lt;ii&gt; loc;
-        for (int i = 0; i &lt; n; i++) {
-            char str[m + 2];
-            scanf(&quot;%s&quot;, str);
-            for (int j = 0; j &lt; m; j++) {
-                if (str[j] == 'L') {
-                    sx = i;
-                    sy = j;
-                } else if (str[j] == '.') {
-                } else {
-                    loc.push_back(ii(i, j));
-                }
-            }
-        }
-        loc.push_back(ii(sx, sy));
-        int pts = loc.size();
+	int n;
+	for (int i = 1; scanf(&quot;%d&quot;, &amp;n) == 1 &amp;&amp; n; i++) {
+		printf(&quot;Case %d: %.2f\n&quot;, i, solve(n));
+	}
 
-        // get dist
-        int dist[pts][pts];
-        for (int i = 0; i &lt; pts; i++)
-            fill(dist[i], dist[i] + pts, oo);
-
-        for (int i = 0; i &lt; pts; i++)
-            for (int j = 0; j &lt; pts; j++)
-                dist[i][j] = max(abs(loc[i].first - loc[j].first),
-                                 abs(loc[i].second - loc[j].second));
-
-        // dp
-        // init
-        pts--; // #pts is the starting point
-        int dp[pts][(1 &lt;&lt; pts)];
-        for (int i = 0; i &lt; pts; i++) {
-            fill(dp[i], dp[i] + (1 &lt;&lt; pts), oo);
-            dp[i][1 &lt;&lt; i] = dist[i][pts];
-        }
-        for (int j = 0; j &lt; (1 &lt;&lt; pts); j++) {
-            for (int i = 0; i &lt; pts; i++) {
-                for (int k = 0; k &lt; pts; k++) {
-                    if (((j &gt;&gt; k) &amp; 1) == 1 &amp;&amp; k != i) {
-                        dp[i][j] = min(dp[i][j], dp[k][j - (1 &lt;&lt; i)] + dist[i][k]);
-                    }
-                }
-            }
-        }
-
-        int mx = oo;
-        for (int i = 0; i &lt; pts; i++)
-            mx = min(mx, dp[i][(1 &lt;&lt; pts) - 1] + dist[pts][i]);
-        printf(&quot;%d\n&quot;, mx == oo ? 0 : mx); // WA: might have no nuts
-    }
-
-    return 0;
+	return 0;
 }
 
 </code></pre>
@@ -324,21 +304,16 @@ int main()
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags/dp/">DP</a>
+          <a href="/blog/tags//"></a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/uva/10911/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">10911 - Forming Quiz Teams</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/blog/post/uva/108/">
-            <span class="next-text nav-default">108 - Maximum Sum</span>
+          <a class="next" href="/blog/post/uva/10944/">
+            <span class="next-text nav-default">10944 - Nuts for nuts..</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

@@ -6,10 +6,27 @@
     <description>Recent content in Posts on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 May 2018 22:38:28 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 13 May 2018 00:12:48 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>10911 - Forming Quiz Teams</title>
+      <link>https://henrybear327.github.io/blog/post/uva/10911/</link>
+      <pubDate>Sun, 13 May 2018 00:12:48 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/uva/10911/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1852&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For every $dp[i] = k$, we define $i$ as the collection of people that&amp;rsquo;re not paired yet, and $k$ is the minimum cost to pair those people up, if possible.&lt;/p&gt;
+
+&lt;p&gt;Starting with &lt;code&gt;(1 &amp;lt;&amp;lt; n) - 1&lt;/code&gt;, we can pair 2 of them at a time, and recurse on &lt;code&gt;(state ^ (1 &amp;lt;&amp;lt; i) ^ (1 &amp;lt;&amp;lt; j))&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Notice the base case is $dp[0] = 0$.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>10944 - Nuts for nuts..</title>
@@ -21,9 +38,9 @@
 
 &lt;p&gt;位元DP。&lt;/p&gt;
 
-&lt;p&gt;我們定義 $dp[i][j] = k$, $j$ 為已經拾取過果實的地方，$i$ 為最後所停之處，$dp[i][j]$為拾取果實後停在i的總步數。&lt;/p&gt;
+&lt;p&gt;我們定義 $dp[i][j] = k$, $j$ 為已經拾取過果實的地方，$i$ 為最後所停之處，$dp[i][j]$為拾取果實後停在$i$的總步數。&lt;/p&gt;
 
-&lt;p&gt;初始化的話，$dp[i][1&amp;lt;&amp;lt;i] = $ 從出發點到此的距離，其餘 &lt;code&gt;INF&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;初始化的話，$dp[i][1&amp;lt;&amp;lt;i] = $ 從出發點到此的距離，其餘 $\infty$。&lt;/p&gt;
 
 &lt;p&gt;計算的話，假設我們有三個點，我們現在要求取$dp[0][3]$（已經在0, 1拿完果實，並停在0），那我們的其中一種可行走法為$dp[1][2] + dist[1][0]$，也就是說，從只去過1的狀態走到0來！所以更新的話，就是:&lt;/p&gt;
 
