@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>490. The Maze - Coding Blog</title>
+  <title>348 - Optimal Array Multiplication Sequence - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -18,8 +18,9 @@
 
 <meta name="author" content="Henry Tseng" />
   <meta name="description" content="題目連結
-BFS 變形，走的一步其實是多步（一次走到底）
-
+經典的最少矩陣乘法次數，但是要輸出最終結果！
+第一次使用 tuple，感覺不錯。
+ tuple&amp;lt;type, type, ...&amp;gt; make_tuple(var, var) get&amp;lt;index&amp;gt; tupleName  c&#43;&#43; int a; int b; tie(a, b) = someReturnedTuple   
 " />
 
   <meta name="keywords" content="Hugo, theme, even" />
@@ -32,7 +33,7 @@ BFS 變形，走的一步其實是多步（一次走到底）
 <meta name="generator" content="Hugo 0.40.3" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/490/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/uva/348/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -52,24 +53,34 @@ BFS 變形，走的一步其實是多步（一次走到底）
 
 
 
-<meta property="og:title" content="490. The Maze" />
+<meta property="og:title" content="348 - Optimal Array Multiplication Sequence" />
 <meta property="og:description" content="題目連結
 
-BFS 變形，走的一步其實是多步（一次走到底）
+經典的最少矩陣乘法次數，但是要輸出最終結果！
+
+第一次使用 tuple，感覺不錯。
+
+
+tuple&lt;type, type, ...&gt;
+make_tuple(var, var)
+get&lt;index&gt; tupleName
+
+c&#43;&#43;
+int a;
+int b;
+tie(a, b) = someReturnedTuple
+
+
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/490/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/uva/348/" />
 
 
 
-<meta property="article:published_time" content="2018-05-12T13:23:43&#43;08:00"/>
+<meta property="article:published_time" content="2018-05-12T17:43:18&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-05-12T13:23:43&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-05-12T17:43:18&#43;08:00"/>
 
 
 
@@ -77,26 +88,58 @@ BFS 變形，走的一步其實是多步（一次走到底）
 
 
 
-<meta itemprop="name" content="490. The Maze">
+
+
+
+
+<meta itemprop="name" content="348 - Optimal Array Multiplication Sequence">
 <meta itemprop="description" content="題目連結
 
-BFS 變形，走的一步其實是多步（一次走到底）
+經典的最少矩陣乘法次數，但是要輸出最終結果！
+
+第一次使用 tuple，感覺不錯。
+
+
+tuple&lt;type, type, ...&gt;
+make_tuple(var, var)
+get&lt;index&gt; tupleName
+
+c&#43;&#43;
+int a;
+int b;
+tie(a, b) = someReturnedTuple
+
+
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-05-12T13:23:43&#43;08:00" />
-<meta itemprop="dateModified" content="2018-05-12T13:23:43&#43;08:00" />
-<meta itemprop="wordCount" content="302">
+<meta itemprop="datePublished" content="2018-05-12T17:43:18&#43;08:00" />
+<meta itemprop="dateModified" content="2018-05-12T17:43:18&#43;08:00" />
+<meta itemprop="wordCount" content="309">
 
 
 
-<meta itemprop="keywords" content="BFS," />
+<meta itemprop="keywords" content="DP," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="490. The Maze"/>
+<meta name="twitter:title" content="348 - Optimal Array Multiplication Sequence"/>
 <meta name="twitter:description" content="題目連結
 
-BFS 變形，走的一步其實是多步（一次走到底）
+經典的最少矩陣乘法次數，但是要輸出最終結果！
+
+第一次使用 tuple，感覺不錯。
+
+
+tuple&lt;type, type, ...&gt;
+make_tuple(var, var)
+get&lt;index&gt; tupleName
+
+c&#43;&#43;
+int a;
+int b;
+tie(a, b) = someReturnedTuple
+
+
 
 "/>
 
@@ -161,16 +204,18 @@ BFS 變形，走的一步其實是多步（一次走到底）
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">490. The Maze</h1>
+      <h1 class="post-title">348 - Optimal Array Multiplication Sequence</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2018-05-12 </span>
         <div class="post-category">
             
-              <a href="/blog/categories/leetcode/"> Leetcode </a>
+              <a href="/blog/categories/uva/"> UVa </a>
+            
+              <a href="/blog/categories/competitive-programming/"> Competitive programming </a>
             
           </div>
-        <span class="more-meta"> 302 words </span>
+        <span class="more-meta"> 309 words </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -195,128 +240,93 @@ BFS 變形，走的一步其實是多步（一次走到底）
 
     
     <div class="post-content">
-      <p><a href="https://leetcode.com/problems/the-maze/">題目連結</a></p>
+      <p><a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=284">題目連結</a></p>
 
-<p>BFS 變形，走的一步其實是多步（一次走到底）</p>
+<p>經典的最少矩陣乘法次數，但是要輸出最終結果！</p>
+
+<p>第一次使用 tuple，感覺不錯。</p>
+
+<ol>
+<li><code>tuple&lt;type, type, ...&gt;</code></li>
+<li><code>make_tuple(var, var)</code></li>
+<li><code>get&lt;index&gt; tupleName</code></li>
+<li>
+<code>c++
+int a;
+int b;
+tie(a, b) = someReturnedTuple
+</code></li>
+</ol>
 
 <p></p>
 
 <h2 id="ac-code">AC Code</h2>
 
-<pre><code class="language-c++">#ifdef LOCAL
-#include &lt;bits/stdc++.h&gt;
+<pre><code class="language-c++">#include &lt;bits/stdc++.h&gt;
+
 using namespace std;
 
-// tree node stuff here...
-#endif
+typedef long long ll;
+typedef pair&lt;int, int&gt; ii;
 
-/*
-[[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]]
-[0,4]
-[4,4]
-[[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]]
-[0,4]
-[3,2]
-[[0,0,0,0,1,0,0],[0,0,1,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,1],[0,1,0,0,0,0,0],[0,0,0,1,0,0,0],[0,0,0,0,0,0,0],[0,0,1,0,0,0,1],[0,0,0,0,1,0,0]]
-[0,0]
-[8,6]
-*/
-
-static int __initialSetup = []()
+tuple&lt;int, string&gt; dfs(int l, int r, ii inp[], int n,
+                       vector&lt;vector&lt;tuple&lt;int, string&gt;&gt;&gt; &amp;dp) // [l, r]
 {
-    std::ios::sync_with_stdio(false);
-    cin.tie(NULL);
-    return 0;
+    if (l == r)
+        return make_tuple(0, &quot;A&quot; + to_string(l + 1));
+    if (r - l == 1)
+        return make_tuple(inp[l].first * inp[l].second * inp[r].second,
+                          &quot;(A&quot; + to_string(l + 1) + &quot; x A&quot; + to_string(r + 1) +
+                          &quot;)&quot;);
+    if (get&lt;0&gt;(dp[l][r]) != -1)
+        return make_tuple(get&lt;0&gt;(dp[l][r]), get&lt;1&gt;(dp[l][r]));
+
+    int mn = INT_MAX;
+    string retString = &quot;&quot;;
+    for (int i = l; i &lt; r; i++) {
+        tuple&lt;int, string&gt; left = dfs(l, i, inp, n, dp);
+        tuple&lt;int, string&gt; right = dfs(i + 1, r, inp, n, dp);
+        int current = inp[l].first * inp[i].second * inp[r].second;
+
+        int res = get&lt;0&gt;(left) + current + get&lt;0&gt;(right);
+        if (mn &gt; res) {
+            mn = res;
+            retString = &quot;(&quot; + get&lt;1&gt;(left) + &quot; x &quot; + get&lt;1&gt;(right) + &quot;)&quot;;
+        }
+    }
+
+    return dp[l][r] = tie(mn, retString);
 }
-();
 
-// handle special cases first
-// [], &quot;&quot;, ...
-// range of input?
-
-struct Data {
-    int x, y;
-
-    bool operator&lt;(const Data &amp;b) const
-    {
-        if (x == b.x) {
-            return y &lt; b.y;
-        }
-        return x &lt; b.x;
-    }
-
-    bool operator!=(const Data &amp;b) const
-    {
-        return !(x == b.x &amp;&amp; y == b.y);
-    }
-};
-
-class Solution
+string solve(int n)
 {
-private:
-    int n, m;
-    const int dx[4] = {0, 0, 1, -1};
-    const int dy[4] = {1, -1, 0, 0};
+    ii inp[n];
+    for (int i = 0; i &lt; n; i++)
+        cin &gt;&gt; inp[i].first &gt;&gt; inp[i].second;
 
-    bool in(Data &amp;data)
-    {
-        return (0 &lt;= data.x &amp;&amp; data.x &lt; n) &amp;&amp; (0 &lt;= data.y &amp;&amp; data.y &lt; m);
-    }
+    vector&lt;vector&lt;tuple&lt;int, string&gt;&gt;&gt; dp(
+        n, vector&lt;tuple&lt;int, string&gt;&gt;(n, make_tuple(-1, &quot;&quot;)));
 
-public:
-    bool hasPath(vector&lt;vector&lt;int&gt;&gt; &amp;maze, vector&lt;int&gt; &amp;start,
-                 vector&lt;int&gt; &amp;destination)
-    {
-        // Use BFS
-        // DFS will will have worse case that's really bad
-        n = maze.size();
-        if (n == 0)
-            return false;
-        m = maze[0].size();
-        if (m == 0)
-            return false;
+    auto ret = dfs(0, n - 1, inp, n, dp);
+    // cout &lt;&lt; get&lt;0&gt;(ret) &lt;&lt; &quot; &quot; &lt;&lt; get&lt;1&gt;(ret) &lt;&lt; endl;
+    return get&lt;1&gt;(ret);
+}
 
-        queue&lt;Data&gt; q;
-        set&lt;Data&gt; seen;
-
-        Data nxt = Data{start[0], start[1]};
-        q.push(nxt);
-        seen.insert(nxt);
-        while (q.size() &gt; 0) {
-            Data &amp;cur = q.front();
-            q.pop();
-
-            if (cur.x == destination[0] &amp;&amp; cur.y == destination[1])
-                return true;
-
-            for (int i = 0; i &lt; 4; i++) {
-                nxt = Data{cur.x, cur.y};
-                while (in(nxt) &amp;&amp; maze[nxt.x][nxt.y] == 0) {
-                    nxt.x += dx[i];
-                    nxt.y += dy[i];
-                }
-                nxt.x -= dx[i];
-                nxt.y -= dy[i];
-
-                if (in(nxt) &amp;&amp; nxt != cur &amp;&amp; maze[nxt.x][nxt.y] == 0) {
-                    if (seen.count(nxt) == 0) {
-                        q.push(nxt);
-                        seen.insert(nxt);
-                    }
-                }
-            }
-        }
-
-        return false;
-    }
-};
-
-#ifdef LOCAL
 int main()
 {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int n;
+    for (int i = 1; cin &gt;&gt; n; i++) {
+        if (n == 0)
+            break;
+        cout &lt;&lt; &quot;Case &quot; &lt;&lt; i &lt;&lt; &quot;: &quot; &lt;&lt; solve(n) &lt;&lt; endl;
+    }
+
     return 0;
 }
-#endif
+
 </code></pre>
     </div>
 
@@ -329,21 +339,21 @@ int main()
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags/bfs/">BFS</a>
+          <a href="/blog/tags/dp/">DP</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/uva/348/">
+          <a class="prev" href="/blog/post/uva/108/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">348 - Optimal Array Multiplication Sequence</span>
+            <span class="prev-text nav-default">108 - Maximum Sum</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
         
-          <a class="next" href="/blog/post/uva/497/">
-            <span class="next-text nav-default">497 - Strategic Defense Initiative</span>
+          <a class="next" href="/blog/post/leetcode/490/">
+            <span class="next-text nav-default">490. The Maze</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

@@ -6,10 +6,52 @@
     <description>Recent content in Competitive Programming on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 May 2018 11:15:06 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 12 May 2018 18:05:52 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/categories/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>108 - Maximum Sum</title>
+      <link>https://henrybear327.github.io/blog/post/uva/108/</link>
+      <pubDate>Sat, 12 May 2018 18:05:52 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/uva/108/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=44&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2D prefix sum!&lt;/p&gt;
+
+&lt;p&gt;枚舉起始行、結束行、跟列！這樣就可以轉回 1D 的 prefix sum 題目了。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>348 - Optimal Array Multiplication Sequence</title>
+      <link>https://henrybear327.github.io/blog/post/uva/348/</link>
+      <pubDate>Sat, 12 May 2018 17:43:18 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/uva/348/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=284&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;經典的最少矩陣乘法次數，但是要輸出最終結果！&lt;/p&gt;
+
+&lt;p&gt;第一次使用 tuple，感覺不錯。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;tuple&amp;lt;type, type, ...&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;make_tuple(var, var)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;get&amp;lt;index&amp;gt; tupleName&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;c++
+int a;
+int b;
+tie(a, b) = someReturnedTuple
+&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>497 - Strategic Defense Initiative</title>
