@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>360. Sort Transformed Array - Coding Blog</title>
+  <title>417. Pacific Atlantic Water Flow - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -18,6 +18,7 @@
 
 <meta name="author" content="Henry Tseng" />
   <meta name="description" content="題目連結
+Think reversely! DFS from the nodes that touches the sea, and those that are reachable from both seas -&amp;gt; answer!
 
 " />
 
@@ -31,7 +32,7 @@
 <meta name="generator" content="Hugo 0.40.3" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/360/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/417/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -51,22 +52,20 @@
 
 
 
-<meta property="og:title" content="360. Sort Transformed Array" />
+<meta property="og:title" content="417. Pacific Atlantic Water Flow" />
 <meta property="og:description" content="題目連結
+
+Think reversely! DFS from the nodes that touches the sea, and those that are reachable from both seas -&gt; answer!
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/360/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/417/" />
 
 
 
-<meta property="article:published_time" content="2018-05-13T18:04:29&#43;08:00"/>
+<meta property="article:published_time" content="2018-05-13T23:18:56&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-05-13T18:04:29&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-05-13T23:18:56&#43;08:00"/>
 
 
 
@@ -74,22 +73,30 @@
 
 
 
-<meta itemprop="name" content="360. Sort Transformed Array">
+
+
+
+
+<meta itemprop="name" content="417. Pacific Atlantic Water Flow">
 <meta itemprop="description" content="題目連結
+
+Think reversely! DFS from the nodes that touches the sea, and those that are reachable from both seas -&gt; answer!
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-05-13T18:04:29&#43;08:00" />
-<meta itemprop="dateModified" content="2018-05-13T18:04:29&#43;08:00" />
-<meta itemprop="wordCount" content="194">
+<meta itemprop="datePublished" content="2018-05-13T23:18:56&#43;08:00" />
+<meta itemprop="dateModified" content="2018-05-13T23:18:56&#43;08:00" />
+<meta itemprop="wordCount" content="284">
 
 
 
-<meta itemprop="keywords" content="two pointer," />
+<meta itemprop="keywords" content="," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="360. Sort Transformed Array"/>
+<meta name="twitter:title" content="417. Pacific Atlantic Water Flow"/>
 <meta name="twitter:description" content="題目連結
+
+Think reversely! DFS from the nodes that touches the sea, and those that are reachable from both seas -&gt; answer!
 
 "/>
 
@@ -154,7 +161,7 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">360. Sort Transformed Array</h1>
+      <h1 class="post-title">417. Pacific Atlantic Water Flow</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2018-05-13 </span>
@@ -163,7 +170,7 @@
               <a href="/blog/categories/leetcode/"> Leetcode </a>
             
           </div>
-        <span class="more-meta"> 194 words </span>
+        <span class="more-meta"> 284 words </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -188,7 +195,9 @@
 
     
     <div class="post-content">
-      <p><a href="https://leetcode.com/problems/sort-transformed-array/description/">題目連結</a></p>
+      <p><a href="https://leetcode.com/problems/pacific-atlantic-water-flow/description/">題目連結</a></p>
+
+<p>Think reversely! DFS from the nodes that touches the sea, and those that are reachable from both seas -&gt; answer!</p>
 
 <p></p>
 
@@ -216,52 +225,61 @@ static int __initialSetup = []()
 class Solution
 {
 private:
-	int aa, bb, cc;
-	int cal(int x)
-	{
-		return aa * x * x + bb * x + cc;
-	}
+	const int dx[4] = {0, 0, 1, -1};
+	const int dy[4] = {1, -1, 0, 0};
 
-	bool cmp(int l, int r)
+	vector&lt;vector&lt;int&gt;&gt; *mat;
+
+	vector&lt;vector&lt;int&gt;&gt; dp[2];
+	int n, m;
+	bool in(int x, int y)
 	{
-		if (aa &gt; 0)
-			return l &gt; r;
-		return l &lt; r;
+		return (0 &lt;= x &amp;&amp; x &lt; n) &amp;&amp; (0 &lt;= y &amp;&amp; y &lt; m);
+	}
+	void dfs(int x, int y, int type)
+	{
+		if (dp[type][x][y] != 0)
+			return;
+		dp[type][x][y] = 1;
+
+		for (int i = 0; i &lt; 4; i++) {
+			int xx = x + dx[i];
+			int yy = y + dy[i];
+			if (in(xx, yy) &amp;&amp; (*mat)[xx][yy] &gt;= (*mat)[x][y]) {
+				dfs(xx, yy, type);
+			}
+		}
 	}
 
 public:
-	vector&lt;int&gt; sortTransformedArray(vector&lt;int&gt; &amp;nums, int a, int b, int c)
+	vector&lt;pair&lt;int, int&gt;&gt; pacificAtlantic(vector&lt;vector&lt;int&gt;&gt; &amp;matrix)
 	{
-		vector&lt;int&gt; ans;
-		ans.reserve(nums.size());
-		aa = a;
-		bb = b;
-		cc = c;
-
-		if (nums.size() == 0)
+		vector&lt;pair&lt;int, int&gt;&gt; ans;
+		n = matrix.size();
+		if (n == 0)
 			return ans;
+		m = matrix[0].size();
+		if (m == 0)
+			return ans;
+		mat = &amp;matrix;
 
-		int left = 0, right = (int)nums.size() - 1;
-		while (left &lt; right) {
-			int l = cal(nums[left]);
-			int r = cal(nums[right]);
+		dp[0] = vector&lt;vector&lt;int&gt;&gt;(n, vector&lt;int&gt;(m, 0));
+		dp[1] = vector&lt;vector&lt;int&gt;&gt;(n, vector&lt;int&gt;(m, 0));
 
-			// cout &lt;&lt; left &lt;&lt; &quot; &quot; &lt;&lt; right &lt;&lt; endl;
-			// cout &lt;&lt; l &lt;&lt; &quot; &quot; &lt;&lt; r &lt;&lt; endl;
-
-			if (cmp(l, r)) {
-				left++;
-				ans.push_back(l);
-			} else {
-				right--;
-				ans.push_back(r);
-			}
+		for (int i = 0; i &lt; n; i++) {
+			dfs(i, 0, 0);
+			dfs(i, m - 1, 1);
 		}
 
-		ans.push_back(cal(nums[left]));
+		for (int i = 0; i &lt; m; i++) {
+			dfs(0, i, 0);
+			dfs(n - 1, i, 1);
+		}
 
-		if (a &gt; 0)
-			reverse(ans.begin(), ans.end());
+		for (int i = 0; i &lt; n; i++)
+			for (int j = 0; j &lt; m; j++)
+				if (dp[0][i][j] + dp[1][i][j] == 2)
+					ans.push_back(pair&lt;int, int&gt;(i, j));
 
 		return ans;
 	}
@@ -285,21 +303,16 @@ int main()
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags/two-pointer/">two pointer</a>
+          <a href="/blog/tags//"></a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/leetcode/417/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">417. Pacific Atlantic Water Flow</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/blog/post/uva/10911/">
-            <span class="next-text nav-default">10911 - Forming Quiz Teams</span>
+          <a class="next" href="/blog/post/leetcode/360/">
+            <span class="next-text nav-default">360. Sort Transformed Array</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
