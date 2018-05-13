@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>417. Pacific Atlantic Water Flow - Coding Blog</title>
+  <title>294. Flip Game II - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -18,7 +18,8 @@
 
 <meta name="author" content="Henry Tseng" />
   <meta name="description" content="題目連結
-Think reversely! DFS from the nodes that touches the sea, and those that are reachable from both seas -&amp;gt; answer!
+Good DFS problem!
+Think about the returning conditions carefully!
 
 " />
 
@@ -32,7 +33,7 @@ Think reversely! DFS from the nodes that touches the sea, and those that are rea
 <meta name="generator" content="Hugo 0.40.3" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/417/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/294/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -52,24 +53,22 @@ Think reversely! DFS from the nodes that touches the sea, and those that are rea
 
 
 
-<meta property="og:title" content="417. Pacific Atlantic Water Flow" />
+<meta property="og:title" content="294. Flip Game II" />
 <meta property="og:description" content="題目連結
 
-Think reversely! DFS from the nodes that touches the sea, and those that are reachable from both seas -&gt; answer!
+Good DFS problem!
+
+Think about the returning conditions carefully!
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/417/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/294/" />
 
 
 
-<meta property="article:published_time" content="2018-05-13T23:18:56&#43;08:00"/>
+<meta property="article:published_time" content="2018-05-13T23:52:04&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-05-13T23:18:56&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-05-13T23:52:04&#43;08:00"/>
 
 
 
@@ -77,26 +76,34 @@ Think reversely! DFS from the nodes that touches the sea, and those that are rea
 
 
 
-<meta itemprop="name" content="417. Pacific Atlantic Water Flow">
+
+
+
+
+<meta itemprop="name" content="294. Flip Game II">
 <meta itemprop="description" content="題目連結
 
-Think reversely! DFS from the nodes that touches the sea, and those that are reachable from both seas -&gt; answer!
+Good DFS problem!
+
+Think about the returning conditions carefully!
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-05-13T23:18:56&#43;08:00" />
-<meta itemprop="dateModified" content="2018-05-13T23:18:56&#43;08:00" />
-<meta itemprop="wordCount" content="284">
+<meta itemprop="datePublished" content="2018-05-13T23:52:04&#43;08:00" />
+<meta itemprop="dateModified" content="2018-05-13T23:52:04&#43;08:00" />
+<meta itemprop="wordCount" content="229">
 
 
 
 <meta itemprop="keywords" content="DFS," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="417. Pacific Atlantic Water Flow"/>
+<meta name="twitter:title" content="294. Flip Game II"/>
 <meta name="twitter:description" content="題目連結
 
-Think reversely! DFS from the nodes that touches the sea, and those that are reachable from both seas -&gt; answer!
+Good DFS problem!
+
+Think about the returning conditions carefully!
 
 "/>
 
@@ -161,7 +168,7 @@ Think reversely! DFS from the nodes that touches the sea, and those that are rea
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">417. Pacific Atlantic Water Flow</h1>
+      <h1 class="post-title">294. Flip Game II</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2018-05-13 </span>
@@ -170,7 +177,7 @@ Think reversely! DFS from the nodes that touches the sea, and those that are rea
               <a href="/blog/categories/leetcode/"> Leetcode </a>
             
           </div>
-        <span class="more-meta"> 284 words </span>
+        <span class="more-meta"> 229 words </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -195,9 +202,11 @@ Think reversely! DFS from the nodes that touches the sea, and those that are rea
 
     
     <div class="post-content">
-      <p><a href="https://leetcode.com/problems/pacific-atlantic-water-flow/description/">題目連結</a></p>
+      <p><a href="https://leetcode.com/problems/flip-game-ii/description/">題目連結</a></p>
 
-<p>Think reversely! DFS from the nodes that touches the sea, and those that are reachable from both seas -&gt; answer!</p>
+<p>Good DFS problem!</p>
+
+<p>Think about the returning conditions carefully!</p>
 
 <p></p>
 
@@ -221,67 +230,54 @@ static int __initialSetup = []()
 // handle special cases first
 // [], &quot;&quot;, ...
 // range of input?
-
+/*
+&quot;++++&quot;
+&quot;+++++&quot;
+&quot;++++++&quot;
+&quot;+++++++++&quot;
+&quot;++++-++++++&quot;
+*/
 class Solution
 {
 private:
-	const int dx[4] = {0, 0, 1, -1};
-	const int dy[4] = {1, -1, 0, 0};
-
-	vector&lt;vector&lt;int&gt;&gt; *mat;
-
-	vector&lt;vector&lt;int&gt;&gt; dp[2];
-	int n, m;
-	bool in(int x, int y)
+	bool isLoser(string &amp;s)
 	{
-		return (0 &lt;= x &amp;&amp; x &lt; n) &amp;&amp; (0 &lt;= y &amp;&amp; y &lt; m);
+		int len = s.length();
+		for (int i = 0; i &lt; len - 1; i++)
+			if (s[i] == s[i + 1] &amp;&amp; s[i] == '+')
+				return false;
+		return true;
 	}
-	void dfs(int x, int y, int type)
-	{
-		if (dp[type][x][y] != 0)
-			return;
-		dp[type][x][y] = 1;
 
-		for (int i = 0; i &lt; 4; i++) {
-			int xx = x + dx[i];
-			int yy = y + dy[i];
-			if (in(xx, yy) &amp;&amp; (*mat)[xx][yy] &gt;= (*mat)[x][y]) {
-				dfs(xx, yy, type);
+	bool dfs(string &amp;s, bool myTurn)
+	{
+		if (isLoser(s))
+			return myTurn ? false : true;
+
+		int len = s.length();
+		for (int i = 0; i &lt; len - 1; i++) {
+			if (s[i] == s[i + 1] &amp;&amp; s[i] == '+') {
+				s[i] = s[i + 1] = '-';
+				int ret = dfs(s, !myTurn);
+				s[i] = s[i + 1] = '+';
+
+				if (myTurn == true) {
+					if (ret == true) // my turn, any branch with all win, return true
+						return true;
+				} else {
+					if (ret == false)
+						return false; // if opponent makes any move that I can't win, return false
+				}
 			}
 		}
+
+		return myTurn ? false : true;
 	}
 
 public:
-	vector&lt;pair&lt;int, int&gt;&gt; pacificAtlantic(vector&lt;vector&lt;int&gt;&gt; &amp;matrix)
+	bool canWin(string s)
 	{
-		vector&lt;pair&lt;int, int&gt;&gt; ans;
-		n = matrix.size();
-		if (n == 0)
-			return ans;
-		m = matrix[0].size();
-		if (m == 0)
-			return ans;
-		mat = &amp;matrix;
-
-		dp[0] = vector&lt;vector&lt;int&gt;&gt;(n, vector&lt;int&gt;(m, 0));
-		dp[1] = vector&lt;vector&lt;int&gt;&gt;(n, vector&lt;int&gt;(m, 0));
-
-		for (int i = 0; i &lt; n; i++) {
-			dfs(i, 0, 0);
-			dfs(i, m - 1, 1);
-		}
-
-		for (int i = 0; i &lt; m; i++) {
-			dfs(0, i, 0);
-			dfs(n - 1, i, 1);
-		}
-
-		for (int i = 0; i &lt; n; i++)
-			for (int j = 0; j &lt; m; j++)
-				if (dp[0][i][j] + dp[1][i][j] == 2)
-					ans.push_back(pair&lt;int, int&gt;(i, j));
-
-		return ans;
+		return dfs(s, true);
 	}
 };
 
@@ -310,14 +306,9 @@ int main()
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/leetcode/294/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">294. Flip Game II</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/blog/post/leetcode/360/">
-            <span class="next-text nav-default">360. Sort Transformed Array</span>
+          <a class="next" href="/blog/post/leetcode/417/">
+            <span class="next-text nav-default">417. Pacific Atlantic Water Flow</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

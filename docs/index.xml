@@ -6,10 +6,25 @@
     <description>Recent content on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 May 2018 23:18:56 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 13 May 2018 23:52:04 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>294. Flip Game II</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/294/</link>
+      <pubDate>Sun, 13 May 2018 23:52:04 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/294/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/flip-game-ii/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Good DFS problem!&lt;/p&gt;
+
+&lt;p&gt;Think about the returning conditions carefully!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>417. Pacific Atlantic Water Flow</title>
