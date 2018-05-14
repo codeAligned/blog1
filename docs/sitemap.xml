@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://henrybear327.github.io/blog/post/uva/10689/</loc>
+    <lastmod>2018-05-14T21:45:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://henrybear327.github.io/blog/post/leetcode/294/</loc>
     <lastmod>2018-05-13T23:52:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -557,14 +564,14 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/</loc>
-    <lastmod>2018-05-13T23:52:04+08:00</lastmod>
+    <lastmod>2018-05-14T21:45:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://henrybear327.github.io/blog/categories/competitive-programming/</loc>
-    <lastmod>2018-05-13T00:12:48+08:00</lastmod>
+    <lastmod>2018-05-14T21:45:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -599,7 +606,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/tags/dp/</loc>
-    <lastmod>2018-05-13T00:12:48+08:00</lastmod>
+    <lastmod>2018-05-14T21:45:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -634,7 +641,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/tags/fast-exponentiation/</loc>
-    <lastmod>2018-04-16T20:58:56+08:00</lastmod>
+    <lastmod>2018-05-14T21:45:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -774,7 +781,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/post/</loc>
-    <lastmod>2018-05-13T23:52:04+08:00</lastmod>
+    <lastmod>2018-05-14T21:45:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -900,7 +907,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/categories/uva/</loc>
-    <lastmod>2018-05-13T00:12:48+08:00</lastmod>
+    <lastmod>2018-05-14T21:45:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

@@ -57,7 +57,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-05-13T23:52:04&#43;08:00"/>
+<meta property="og:updated_time" content="2018-05-14T21:45:13&#43;08:00"/>
 
 
 
@@ -137,6 +137,76 @@
   <section id="posts" class="posts">
     
     
+    
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/blog/post/uva/10689/">10689 - Yet another Number Sequence</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2018-05-14 </span>
+      <div class="post-category">
+          
+            <a href="/blog/categories/uva/"> UVa </a>
+          
+            <a href="/blog/categories/competitive-programming/"> Competitive programming </a>
+          
+        </div>
+      <span class="more-meta"> 368 words </span>
+      <span class="more-meta"> 1 min read </span>
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      <p><a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1630">題目連結</a></p>
+
+<p>Matrix fast exponentiation!</p>
+
+<p>Observe that when $n = 2$</p>
+
+<p>$
+\begin{bmatrix}
+    1 &amp; 1  \newline
+    1 &amp; 0  \newline
+\end{bmatrix}^{2 - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(0) + f(1)   \newline
+    f(1)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(2)   \newline
+    f(1)   \newline
+\end{bmatrix}
+$</p>
+
+<p>So in general, we get</p>
+
+<p>$
+\begin{bmatrix}
+    1 &amp; 1  \newline
+    1 &amp; 0  \newline
+\end{bmatrix}^{n - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(n)   \newline
+    f(n - 1)   \newline
+\end{bmatrix}
+$</p>
+
+<p></p>
+    </div>
+    <div class="read-more">
+      <a href="/blog/post/uva/10689/" class="read-more-link">Read more..</a>
+    </div>
+  </div>
+</article>
+
     
       <article class="post">
   <header class="post-header">
@@ -259,47 +329,6 @@
     </div>
     <div class="read-more">
       <a href="/blog/post/uva/10911/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/uva/10944/">10944 - Nuts for nuts..</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-05-12 </span>
-      <div class="post-category">
-          
-            <a href="/blog/categories/uva/"> UVa </a>
-          
-            <a href="/blog/categories/competitive-programming/"> Competitive programming </a>
-          
-        </div>
-      <span class="more-meta"> 519 words </span>
-      <span class="more-meta"> 2 mins read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p><a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1885">題目連結</a></p>
-
-<p>位元DP。</p>
-
-<p>我們定義 $dp[i][j] = k$, $j$ 為已經拾取過果實的地方，$i$ 為最後所停之處，$dp[i][j]$為拾取果實後停在$i$的總步數。</p>
-
-<p>初始化的話，$dp[i][1&lt;&lt;i] = $ 從出發點到此的距離，其餘 $\infty$。</p>
-
-<p>計算的話，假設我們有三個點，我們現在要求取$dp[0][3]$（已經在0, 1拿完果實，並停在0），那我們的其中一種可行走法為$dp[1][2] + dist[1][0]$，也就是說，從只去過1的狀態走到0來！所以更新的話，就是:</p>
-
-<pre><code class="language-c++">dp[i][j] = min(dp[i][j], dp[k][j - (1 &lt;&lt; i)] + dist[i][k]);
-</code></pre>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/blog/post/uva/10944/" class="read-more-link">Read more..</a>
     </div>
   </div>
 </article>

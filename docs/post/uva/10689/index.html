@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>294. Flip Game II - Coding Blog</title>
+  <title>10689 - Yet another Number Sequence - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -18,8 +18,11 @@
 
 <meta name="author" content="Henry Tseng" />
   <meta name="description" content="題目連結
-Good DFS problem!
-Think about the returning conditions carefully!
+Matrix fast exponentiation!
+Observe that when $n = 2$
+$ \begin{bmatrix} 1 &amp;amp; 1 \newline 1 &amp;amp; 0 \newline \end{bmatrix}^{2 - 1} * \begin{bmatrix} f(1) \newline f(0) \newline \end{bmatrix} = \begin{bmatrix} f(0) &#43; f(1) \newline f(1) \newline \end{bmatrix} = \begin{bmatrix} f(2) \newline f(1) \newline \end{bmatrix} $
+So in general, we get
+$ \begin{bmatrix} 1 &amp;amp; 1 \newline 1 &amp;amp; 0 \newline \end{bmatrix}^{n - 1} * \begin{bmatrix} f(1) \newline f(0) \newline \end{bmatrix} = \begin{bmatrix} f(n) \newline f(n - 1) \newline \end{bmatrix} $
 
 " />
 
@@ -33,7 +36,7 @@ Think about the returning conditions carefully!
 <meta name="generator" content="Hugo 0.40.3" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/294/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/uva/10689/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -53,26 +56,58 @@ Think about the returning conditions carefully!
 
 
 
-<meta property="og:title" content="294. Flip Game II" />
+<meta property="og:title" content="10689 - Yet another Number Sequence" />
 <meta property="og:description" content="題目連結
 
-Good DFS problem!
+Matrix fast exponentiation!
 
-Think about the returning conditions carefully!
+Observe that when $n = 2$
+
+$
+\begin{bmatrix}
+    1 &amp; 1  \newline
+    1 &amp; 0  \newline
+\end{bmatrix}^{2 - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(0) &#43; f(1)   \newline
+    f(1)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(2)   \newline
+    f(1)   \newline
+\end{bmatrix}
+$
+
+So in general, we get
+
+$
+\begin{bmatrix}
+    1 &amp; 1  \newline
+    1 &amp; 0  \newline
+\end{bmatrix}^{n - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(n)   \newline
+    f(n - 1)   \newline
+\end{bmatrix}
+$
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/294/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/uva/10689/" />
 
 
 
-<meta property="article:published_time" content="2018-05-13T23:52:04&#43;08:00"/>
+<meta property="article:published_time" content="2018-05-14T21:45:13&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-05-13T23:52:04&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-05-14T21:45:13&#43;08:00"/>
 
 
 
@@ -80,30 +115,106 @@ Think about the returning conditions carefully!
 
 
 
-<meta itemprop="name" content="294. Flip Game II">
+
+
+
+
+<meta itemprop="name" content="10689 - Yet another Number Sequence">
 <meta itemprop="description" content="題目連結
 
-Good DFS problem!
+Matrix fast exponentiation!
 
-Think about the returning conditions carefully!
+Observe that when $n = 2$
+
+$
+\begin{bmatrix}
+    1 &amp; 1  \newline
+    1 &amp; 0  \newline
+\end{bmatrix}^{2 - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(0) &#43; f(1)   \newline
+    f(1)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(2)   \newline
+    f(1)   \newline
+\end{bmatrix}
+$
+
+So in general, we get
+
+$
+\begin{bmatrix}
+    1 &amp; 1  \newline
+    1 &amp; 0  \newline
+\end{bmatrix}^{n - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(n)   \newline
+    f(n - 1)   \newline
+\end{bmatrix}
+$
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-05-13T23:52:04&#43;08:00" />
-<meta itemprop="dateModified" content="2018-05-13T23:52:04&#43;08:00" />
-<meta itemprop="wordCount" content="229">
+<meta itemprop="datePublished" content="2018-05-14T21:45:13&#43;08:00" />
+<meta itemprop="dateModified" content="2018-05-14T21:45:13&#43;08:00" />
+<meta itemprop="wordCount" content="368">
 
 
 
-<meta itemprop="keywords" content="DFS," />
+<meta itemprop="keywords" content="DP,fast exponentiation," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="294. Flip Game II"/>
+<meta name="twitter:title" content="10689 - Yet another Number Sequence"/>
 <meta name="twitter:description" content="題目連結
 
-Good DFS problem!
+Matrix fast exponentiation!
 
-Think about the returning conditions carefully!
+Observe that when $n = 2$
+
+$
+\begin{bmatrix}
+    1 &amp; 1  \newline
+    1 &amp; 0  \newline
+\end{bmatrix}^{2 - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(0) &#43; f(1)   \newline
+    f(1)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(2)   \newline
+    f(1)   \newline
+\end{bmatrix}
+$
+
+So in general, we get
+
+$
+\begin{bmatrix}
+    1 &amp; 1  \newline
+    1 &amp; 0  \newline
+\end{bmatrix}^{n - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(n)   \newline
+    f(n - 1)   \newline
+\end{bmatrix}
+$
 
 "/>
 
@@ -168,16 +279,18 @@ Think about the returning conditions carefully!
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">294. Flip Game II</h1>
+      <h1 class="post-title">10689 - Yet another Number Sequence</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-05-13 </span>
+        <span class="post-time"> 2018-05-14 </span>
         <div class="post-category">
             
-              <a href="/blog/categories/leetcode/"> Leetcode </a>
+              <a href="/blog/categories/uva/"> UVa </a>
+            
+              <a href="/blog/categories/competitive-programming/"> Competitive programming </a>
             
           </div>
-        <span class="more-meta"> 229 words </span>
+        <span class="more-meta"> 368 words </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -202,91 +315,149 @@ Think about the returning conditions carefully!
 
     
     <div class="post-content">
-      <p><a href="https://leetcode.com/problems/flip-game-ii/description/">題目連結</a></p>
+      <p><a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1630">題目連結</a></p>
 
-<p>Good DFS problem!</p>
+<p>Matrix fast exponentiation!</p>
 
-<p>Think about the returning conditions carefully!</p>
+<p>Observe that when $n = 2$</p>
+
+<p>$
+\begin{bmatrix}
+    1 &amp; 1  \newline
+    1 &amp; 0  \newline
+\end{bmatrix}^{2 - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(0) + f(1)   \newline
+    f(1)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(2)   \newline
+    f(1)   \newline
+\end{bmatrix}
+$</p>
+
+<p>So in general, we get</p>
+
+<p>$
+\begin{bmatrix}
+    1 &amp; 1  \newline
+    1 &amp; 0  \newline
+\end{bmatrix}^{n - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(n)   \newline
+    f(n - 1)   \newline
+\end{bmatrix}
+$</p>
 
 <p></p>
 
 <h2 id="ac-code">AC Code</h2>
 
-<pre><code class="language-c++">#ifdef LOCAL
-#include &lt;bits/stdc++.h&gt;
+<p>Bad coding style&hellip; GG</p>
+
+<pre><code class="language-c++">#include &lt;bits/stdc++.h&gt;
+
 using namespace std;
 
-// tree node stuff here...
-#endif
+typedef long long ll;
+typedef pair&lt;int, int&gt; ii;
 
-static int __initialSetup = []()
-{
-	std::ios::sync_with_stdio(false);
-	cin.tie(NULL);
-	return 0;
-}
-();
-
-// handle special cases first
-// [], &quot;&quot;, ...
-// range of input?
-/*
-&quot;++++&quot;
-&quot;+++++&quot;
-&quot;++++++&quot;
-&quot;+++++++++&quot;
-&quot;++++-++++++&quot;
-*/
-class Solution
-{
+struct Matrix {
 private:
-	bool isLoser(string &amp;s)
-	{
-		int len = s.length();
-		for (int i = 0; i &lt; len - 1; i++)
-			if (s[i] == s[i + 1] &amp;&amp; s[i] == '+')
-				return false;
-		return true;
-	}
-
-	bool dfs(string &amp;s, bool myTurn)
-	{
-		if (isLoser(s))
-			return myTurn ? false : true;
-
-		int len = s.length();
-		for (int i = 0; i &lt; len - 1; i++) {
-			if (s[i] == s[i + 1] &amp;&amp; s[i] == '+') {
-				s[i] = s[i + 1] = '-';
-				int ret = dfs(s, !myTurn);
-				s[i] = s[i + 1] = '+';
-
-				if (myTurn == true) {
-					if (ret == true) // my turn, any branch with all win, return true
-						return true;
-				} else {
-					if (ret == false)
-						return false; // if opponent makes any move that I can't win, return false
-				}
-			}
-		}
-
-		return myTurn ? false : true;
-	}
+	int r, c;
 
 public:
-	bool canWin(string s)
+	vector&lt;vector&lt;int&gt;&gt; matrix;
+
+	Matrix(int _r, int _c)
 	{
-		return dfs(s, true);
+		r = _r;
+		c = _c;
+		matrix = vector&lt;vector&lt;int&gt;&gt;(r, vector&lt;int&gt;(c, 0));
 	}
 };
 
-#ifdef LOCAL
+int mod;
+Matrix operator*(const Matrix &amp;a, const Matrix &amp;b)
+{
+	Matrix matrix(a.matrix.size(), b.matrix[0].size());
+
+	for (int i = 0; i &lt; (int)a.matrix.size(); i++)       // a row
+		for (int j = 0; j &lt; (int)b.matrix[0].size(); j++)  // b col
+			for (int k = 0; k &lt; (int)b.matrix.size(); k++) { // inner driver
+				matrix.matrix[i][j] += a.matrix[i][k] * b.matrix[k][j] % mod;
+				matrix.matrix[i][j] %= mod;
+			}
+
+	// for (int i = 0; i &lt; a.matrix.size(); i++) {
+	// 	for (int j = 0; j &lt; b.matrix[0].size(); j++)
+	// 		printf(&quot;%d &quot;, matrix.matrix[i][j]);
+	// 	puts(&quot;&quot;);
+	// }
+	return matrix;
+}
+
+Matrix operator^(const Matrix &amp;a, int n)
+{
+	Matrix base(a.matrix.size(), a.matrix.size()),
+	       ans(a.matrix.size(), a.matrix.size());
+	ans.matrix[0][0] = ans.matrix[1][1] = 1;
+	base = a;
+	while (n &gt; 0) {
+		// printf(&quot;n %d\n&quot;, n);
+		if (n &amp; 1) {
+			ans = base * ans;
+		}
+
+		base = base * base;
+		n &gt;&gt;= 1;
+	}
+
+	return ans;
+}
+
+void solve()
+{
+	int a, b, n, m;
+	scanf(&quot;%d %d %d %d&quot;, &amp;a, &amp;b, &amp;n, &amp;m);
+	mod = 1;
+	for (int i = 0; i &lt; m; i++)
+		mod *= 10;
+
+	Matrix init(2, 1);
+	init.matrix[0][0] = b;
+	init.matrix[1][0] = a;
+	Matrix square(2, 2);
+	square.matrix[0][0] = square.matrix[0][1] = square.matrix[1][0] = 1;
+
+	if (n == 0)
+		printf(&quot;%d\n&quot;, a);
+	if (n == 1)
+		printf(&quot;%d\n&quot;, b);
+	else {
+		Matrix ans = (square ^ (n - 1)) * init;
+		printf(&quot;%d\n&quot;, ans.matrix[0][0]);
+	}
+}
+
 int main()
 {
+	int ncase;
+	scanf(&quot;%d&quot;, &amp;ncase);
+	while (ncase--)
+		solve();
+
 	return 0;
 }
-#endif
+
 </code></pre>
     </div>
 
@@ -299,21 +470,18 @@ int main()
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags/dfs/">DFS</a>
+          <a href="/blog/tags/dp/">DP</a>
+          
+          <a href="/blog/tags/fast-exponentiation/">fast exponentiation</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/uva/10689/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">10689 - Yet another Number Sequence</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/blog/post/leetcode/417/">
-            <span class="next-text nav-default">417. Pacific Atlantic Water Flow</span>
+          <a class="next" href="/blog/post/leetcode/294/">
+            <span class="next-text nav-default">294. Flip Game II</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

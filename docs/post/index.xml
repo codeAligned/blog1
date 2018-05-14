@@ -6,10 +6,61 @@
     <description>Recent content in Posts on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 May 2018 23:52:04 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 14 May 2018 21:45:13 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>10689 - Yet another Number Sequence</title>
+      <link>https://henrybear327.github.io/blog/post/uva/10689/</link>
+      <pubDate>Mon, 14 May 2018 21:45:13 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/uva/10689/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1630&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Matrix fast exponentiation!&lt;/p&gt;
+
+&lt;p&gt;Observe that when $n = 2$&lt;/p&gt;
+
+&lt;p&gt;$
+\begin{bmatrix}
+    1 &amp;amp; 1  \newline
+    1 &amp;amp; 0  \newline
+\end{bmatrix}^{2 - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(0) + f(1)   \newline
+    f(1)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(2)   \newline
+    f(1)   \newline
+\end{bmatrix}
+$&lt;/p&gt;
+
+&lt;p&gt;So in general, we get&lt;/p&gt;
+
+&lt;p&gt;$
+\begin{bmatrix}
+    1 &amp;amp; 1  \newline
+    1 &amp;amp; 0  \newline
+\end{bmatrix}^{n - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(n)   \newline
+    f(n - 1)   \newline
+\end{bmatrix}
+$&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>294. Flip Game II</title>
