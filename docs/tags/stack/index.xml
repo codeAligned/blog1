@@ -6,10 +6,25 @@
     <description>Recent content in Stack on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Apr 2018 21:22:30 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 01:54:16 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/tags/stack/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>484. Find Permutation</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/484/</link>
+      <pubDate>Tue, 15 May 2018 01:54:16 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/484/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/find-permutation/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Target: as close to $1 &amp;hellip; n$&lt;/p&gt;
+
+&lt;p&gt;Observation: Group reverse on $D$!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>316. Remove Duplicate Letters</title>

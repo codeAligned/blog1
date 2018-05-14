@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>10689 - Yet another Number Sequence - Coding Blog</title>
+  <title>399. Evaluate Division - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -18,11 +18,10 @@
 
 <meta name="author" content="Henry Tseng" />
   <meta name="description" content="題目連結
-Matrix fast exponentiation!
-Observe that when $n = 2$
-$ \begin{bmatrix} 1 &amp;amp; 1 \newline 1 &amp;amp; 0 \newline \end{bmatrix}^{2 - 1} * \begin{bmatrix} f(1) \newline f(0) \newline \end{bmatrix} = \begin{bmatrix} f(0) &#43; f(1) \newline f(1) \newline \end{bmatrix} = \begin{bmatrix} f(2) \newline f(1) \newline \end{bmatrix} $
-So in general, we get
-$ \begin{bmatrix} 1 &amp;amp; 1 \newline 1 &amp;amp; 0 \newline \end{bmatrix}^{n - 1} * \begin{bmatrix} f(1) \newline f(0) \newline \end{bmatrix} = \begin{bmatrix} f(n) \newline f(n - 1) \newline \end{bmatrix} $
+Observation: Turn this into directed graph!
+Consider the following case: $\frac a b = v_1$
+ build an edge from a $\rightarrow$ b with weight $v_1$ build an edge from b $\rightarrow$ a with weight $\frac{1}{v_1}$.  Do the same thing for $\frac b c = v_2$.
+Compute $\frac a c$, isn&amp;rsquo;t it just $v_1 * v_2$, the traversal path from a to c? There you go!
 
 " />
 
@@ -36,7 +35,7 @@ $ \begin{bmatrix} 1 &amp;amp; 1 \newline 1 &amp;amp; 0 \newline \end{bmatrix}^{n
 <meta name="generator" content="Hugo 0.40.3" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/uva/10689/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/399/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -56,62 +55,31 @@ $ \begin{bmatrix} 1 &amp;amp; 1 \newline 1 &amp;amp; 0 \newline \end{bmatrix}^{n
 
 
 
-<meta property="og:title" content="10689 - Yet another Number Sequence" />
+<meta property="og:title" content="399. Evaluate Division" />
 <meta property="og:description" content="題目連結
 
-Matrix fast exponentiation!
+Observation: Turn this into directed graph!
 
-Observe that when $n = 2$
+Consider the following case: $\frac a b = v_1$
 
-$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{2 - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(0) &#43; f(1)   \newline
-    f(1)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(2)   \newline
-    f(1)   \newline
-\end{bmatrix}
-$
 
-So in general, we get
+build an edge from a $\rightarrow$ b with weight $v_1$
+build an edge from b $\rightarrow$ a with weight $\frac{1}{v_1}$.
 
-$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{n - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(n)   \newline
-    f(n - 1)   \newline
-\end{bmatrix}
-$
+
+Do the same thing for $\frac b c = v_2$.
+
+Compute $\frac a c$, isn&rsquo;t it just $v_1 * v_2$, the traversal path from a to c? There you go!
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/uva/10689/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/399/" />
 
 
 
-<meta property="article:published_time" content="2018-05-14T21:45:13&#43;08:00"/>
+<meta property="article:published_time" content="2018-05-14T23:19:59&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-05-14T21:45:13&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-05-14T23:19:59&#43;08:00"/>
 
 
 
@@ -119,102 +87,52 @@ $
 
 
 
-<meta itemprop="name" content="10689 - Yet another Number Sequence">
+
+
+
+
+<meta itemprop="name" content="399. Evaluate Division">
 <meta itemprop="description" content="題目連結
 
-Matrix fast exponentiation!
+Observation: Turn this into directed graph!
 
-Observe that when $n = 2$
+Consider the following case: $\frac a b = v_1$
 
-$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{2 - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(0) &#43; f(1)   \newline
-    f(1)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(2)   \newline
-    f(1)   \newline
-\end{bmatrix}
-$
 
-So in general, we get
+build an edge from a $\rightarrow$ b with weight $v_1$
+build an edge from b $\rightarrow$ a with weight $\frac{1}{v_1}$.
 
-$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{n - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(n)   \newline
-    f(n - 1)   \newline
-\end{bmatrix}
-$
+
+Do the same thing for $\frac b c = v_2$.
+
+Compute $\frac a c$, isn&rsquo;t it just $v_1 * v_2$, the traversal path from a to c? There you go!
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-05-14T21:45:13&#43;08:00" />
-<meta itemprop="dateModified" content="2018-05-14T21:45:13&#43;08:00" />
-<meta itemprop="wordCount" content="368">
+<meta itemprop="datePublished" content="2018-05-14T23:19:59&#43;08:00" />
+<meta itemprop="dateModified" content="2018-05-14T23:19:59&#43;08:00" />
+<meta itemprop="wordCount" content="387">
 
 
 
-<meta itemprop="keywords" content="DP,fast exponentiation," />
+<meta itemprop="keywords" content="Graph,shortest path," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="10689 - Yet another Number Sequence"/>
+<meta name="twitter:title" content="399. Evaluate Division"/>
 <meta name="twitter:description" content="題目連結
 
-Matrix fast exponentiation!
+Observation: Turn this into directed graph!
 
-Observe that when $n = 2$
+Consider the following case: $\frac a b = v_1$
 
-$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{2 - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(0) &#43; f(1)   \newline
-    f(1)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(2)   \newline
-    f(1)   \newline
-\end{bmatrix}
-$
 
-So in general, we get
+build an edge from a $\rightarrow$ b with weight $v_1$
+build an edge from b $\rightarrow$ a with weight $\frac{1}{v_1}$.
 
-$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{n - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(n)   \newline
-    f(n - 1)   \newline
-\end{bmatrix}
-$
+
+Do the same thing for $\frac b c = v_2$.
+
+Compute $\frac a c$, isn&rsquo;t it just $v_1 * v_2$, the traversal path from a to c? There you go!
 
 "/>
 
@@ -279,18 +197,16 @@ $
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">10689 - Yet another Number Sequence</h1>
+      <h1 class="post-title">399. Evaluate Division</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2018-05-14 </span>
         <div class="post-category">
             
-              <a href="/blog/categories/uva/"> UVa </a>
-            
-              <a href="/blog/categories/competitive-programming/"> Competitive programming </a>
+              <a href="/blog/categories/leetcode/"> Leetcode </a>
             
           </div>
-        <span class="more-meta"> 368 words </span>
+        <span class="more-meta"> 387 words </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -315,149 +231,121 @@ $
 
     
     <div class="post-content">
-      <p><a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1630">題目連結</a></p>
+      <p><a href="https://leetcode.com/problems/evaluate-division/description/">題目連結</a></p>
 
-<p>Matrix fast exponentiation!</p>
+<p>Observation: Turn this into directed graph!</p>
 
-<p>Observe that when $n = 2$</p>
+<p>Consider the following case: $\frac a b = v_1$</p>
 
-<p>$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{2 - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(0) + f(1)   \newline
-    f(1)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(2)   \newline
-    f(1)   \newline
-\end{bmatrix}
-$</p>
+<ol>
+<li>build an edge from a $\rightarrow$ b with weight $v_1$</li>
+<li>build an edge from b $\rightarrow$ a with weight $\frac{1}{v_1}$.</li>
+</ol>
 
-<p>So in general, we get</p>
+<p>Do the same thing for $\frac b c = v_2$.</p>
 
-<p>$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{n - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(n)   \newline
-    f(n - 1)   \newline
-\end{bmatrix}
-$</p>
+<p>Compute $\frac a c$, isn&rsquo;t it just $v_1 * v_2$, the traversal path from a to c? There you go!</p>
 
 <p></p>
 
 <h2 id="ac-code">AC Code</h2>
 
-<p>Bad coding style&hellip; GG</p>
-
-<pre><code class="language-c++">#include &lt;bits/stdc++.h&gt;
-
+<pre><code class="language-c++">#ifdef LOCAL
+#include &lt;bits/stdc++.h&gt;
 using namespace std;
 
-typedef long long ll;
-typedef pair&lt;int, int&gt; ii;
+// tree node stuff here...
+#endif
 
-struct Matrix {
-private:
-	int r, c;
+static int __initialSetup = []()
+{
+	std::ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	return 0;
+}
+();
 
+// handle special cases first
+// [], &quot;&quot;, ...
+// range of input?
+const double oo = 1e9;
+class Solution
+{
 public:
-	vector&lt;vector&lt;int&gt;&gt; matrix;
-
-	Matrix(int _r, int _c)
+	vector&lt;double&gt; calcEquation(vector&lt;pair&lt;string, string&gt;&gt; equations,
+	                            vector&lt;double&gt; &amp;values,
+	                            vector&lt;pair&lt;string, string&gt;&gt; queries)
 	{
-		r = _r;
-		c = _c;
-		matrix = vector&lt;vector&lt;int&gt;&gt;(r, vector&lt;int&gt;(c, 0));
+		unordered_map&lt;string, int&gt; cnt;
+		int idx = 0;
+		for (auto equation : equations) {
+			if (cnt.count(equation.first) == 0)
+				cnt[equation.first] = idx++;
+			if (cnt.count(equation.second) == 0)
+				cnt[equation.second] = idx++;
+		}
+
+		double g[idx][idx];
+		for (int i = 0; i &lt; idx; i++)
+			for (int j = 0; j &lt; idx; j++)
+				if (i == j)
+					g[i][j] = 1;
+				else
+					g[i][j] = oo;
+
+		for (int i = 0; i &lt; (int)equations.size(); i++) {
+			int u = cnt[equations[i].first];
+			int v = cnt[equations[i].second];
+			// printf(&quot;%d %d\n&quot;, u, v);
+			g[u][v] = values[i];
+			g[v][u] = values[i] == 0 ? 0 : 1 / values[i];
+		}
+
+		// for (int i = 0; i &lt; idx; i++)
+		// 	for (int j = 0; j &lt; idx; j++)
+		// 		printf(&quot;%16.2f%c&quot;, g[i][j], j == idx - 1 ? '\n' : ' ');
+
+		for (int k = 0; k &lt; idx; k++)
+			for (int i = 0; i &lt; idx; i++)
+				for (int j = 0; j &lt; idx; j++)
+					if (g[i][k] == oo || g[k][j] == oo)
+						continue;
+					else
+						g[i][j] = min(g[i][j], g[i][k] * g[k][j]);
+
+		// for (int i = 0; i &lt; idx; i++)
+		// 	for (int j = 0; j &lt; idx; j++)
+		// 		printf(&quot;%16.2f%c&quot;, g[i][j], j == idx - 1 ? '\n' : ' ');
+
+		vector&lt;double&gt; ans;
+		for (auto query : queries) {
+			if (cnt.count(query.first) == 0) {
+				ans.push_back(-1);
+				continue;
+			}
+			int u = cnt[query.first];
+			if (cnt.count(query.second) == 0) {
+				ans.push_back(-1);
+				continue;
+			}
+			int v = cnt[query.second];
+
+			if (g[u][v] == oo)
+				ans.push_back(-1);
+			else
+				ans.push_back(g[u][v]);
+		}
+
+		return ans;
 	}
 };
 
-int mod;
-Matrix operator*(const Matrix &amp;a, const Matrix &amp;b)
-{
-	Matrix matrix(a.matrix.size(), b.matrix[0].size());
-
-	for (int i = 0; i &lt; (int)a.matrix.size(); i++)       // a row
-		for (int j = 0; j &lt; (int)b.matrix[0].size(); j++)  // b col
-			for (int k = 0; k &lt; (int)b.matrix.size(); k++) { // inner driver
-				matrix.matrix[i][j] += a.matrix[i][k] * b.matrix[k][j] % mod;
-				matrix.matrix[i][j] %= mod;
-			}
-
-	// for (int i = 0; i &lt; a.matrix.size(); i++) {
-	// 	for (int j = 0; j &lt; b.matrix[0].size(); j++)
-	// 		printf(&quot;%d &quot;, matrix.matrix[i][j]);
-	// 	puts(&quot;&quot;);
-	// }
-	return matrix;
-}
-
-Matrix operator^(const Matrix &amp;a, int n)
-{
-	Matrix base(a.matrix.size(), a.matrix.size()),
-	       ans(a.matrix.size(), a.matrix.size());
-	ans.matrix[0][0] = ans.matrix[1][1] = 1;
-	base = a;
-	while (n &gt; 0) {
-		// printf(&quot;n %d\n&quot;, n);
-		if (n &amp; 1) {
-			ans = base * ans;
-		}
-
-		base = base * base;
-		n &gt;&gt;= 1;
-	}
-
-	return ans;
-}
-
-void solve()
-{
-	int a, b, n, m;
-	scanf(&quot;%d %d %d %d&quot;, &amp;a, &amp;b, &amp;n, &amp;m);
-	mod = 1;
-	for (int i = 0; i &lt; m; i++)
-		mod *= 10;
-
-	Matrix init(2, 1);
-	init.matrix[0][0] = b;
-	init.matrix[1][0] = a;
-	Matrix square(2, 2);
-	square.matrix[0][0] = square.matrix[0][1] = square.matrix[1][0] = 1;
-
-	if (n == 0)
-		printf(&quot;%d\n&quot;, a);
-	if (n == 1)
-		printf(&quot;%d\n&quot;, b);
-	else {
-		Matrix ans = (square ^ (n - 1)) * init;
-		printf(&quot;%d\n&quot;, ans.matrix[0][0]);
-	}
-}
-
+#ifdef LOCAL
 int main()
 {
-	int ncase;
-	scanf(&quot;%d&quot;, &amp;ncase);
-	while (ncase--)
-		solve();
-
 	return 0;
 }
-
+#endif
 </code></pre>
     </div>
 
@@ -470,23 +358,23 @@ int main()
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags/dp/">DP</a>
+          <a href="/blog/tags/graph/">Graph</a>
           
-          <a href="/blog/tags/fast-exponentiation/">fast exponentiation</a>
+          <a href="/blog/tags/shortest-path/">shortest path</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/leetcode/399/">
+          <a class="prev" href="/blog/post/leetcode/484/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">399. Evaluate Division</span>
+            <span class="prev-text nav-default">484. Find Permutation</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
         
-          <a class="next" href="/blog/post/leetcode/294/">
-            <span class="next-text nav-default">294. Flip Game II</span>
+          <a class="next" href="/blog/post/uva/10689/">
+            <span class="next-text nav-default">10689 - Yet another Number Sequence</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

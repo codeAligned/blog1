@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>10689 - Yet another Number Sequence - Coding Blog</title>
+  <title>484. Find Permutation - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -18,11 +18,8 @@
 
 <meta name="author" content="Henry Tseng" />
   <meta name="description" content="題目連結
-Matrix fast exponentiation!
-Observe that when $n = 2$
-$ \begin{bmatrix} 1 &amp;amp; 1 \newline 1 &amp;amp; 0 \newline \end{bmatrix}^{2 - 1} * \begin{bmatrix} f(1) \newline f(0) \newline \end{bmatrix} = \begin{bmatrix} f(0) &#43; f(1) \newline f(1) \newline \end{bmatrix} = \begin{bmatrix} f(2) \newline f(1) \newline \end{bmatrix} $
-So in general, we get
-$ \begin{bmatrix} 1 &amp;amp; 1 \newline 1 &amp;amp; 0 \newline \end{bmatrix}^{n - 1} * \begin{bmatrix} f(1) \newline f(0) \newline \end{bmatrix} = \begin{bmatrix} f(n) \newline f(n - 1) \newline \end{bmatrix} $
+Target: as close to $1 &amp;hellip; n$
+Observation: Group reverse on $D$!
 
 " />
 
@@ -36,7 +33,7 @@ $ \begin{bmatrix} 1 &amp;amp; 1 \newline 1 &amp;amp; 0 \newline \end{bmatrix}^{n
 <meta name="generator" content="Hugo 0.40.3" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/uva/10689/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/484/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -56,62 +53,22 @@ $ \begin{bmatrix} 1 &amp;amp; 1 \newline 1 &amp;amp; 0 \newline \end{bmatrix}^{n
 
 
 
-<meta property="og:title" content="10689 - Yet another Number Sequence" />
+<meta property="og:title" content="484. Find Permutation" />
 <meta property="og:description" content="題目連結
 
-Matrix fast exponentiation!
+Target: as close to $1 &hellip; n$
 
-Observe that when $n = 2$
-
-$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{2 - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(0) &#43; f(1)   \newline
-    f(1)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(2)   \newline
-    f(1)   \newline
-\end{bmatrix}
-$
-
-So in general, we get
-
-$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{n - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(n)   \newline
-    f(n - 1)   \newline
-\end{bmatrix}
-$
+Observation: Group reverse on $D$!
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/uva/10689/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/484/" />
 
 
 
-<meta property="article:published_time" content="2018-05-14T21:45:13&#43;08:00"/>
+<meta property="article:published_time" content="2018-05-15T01:54:16&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-05-14T21:45:13&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-05-15T01:54:16&#43;08:00"/>
 
 
 
@@ -119,102 +76,34 @@ $
 
 
 
-<meta itemprop="name" content="10689 - Yet another Number Sequence">
+
+
+
+
+<meta itemprop="name" content="484. Find Permutation">
 <meta itemprop="description" content="題目連結
 
-Matrix fast exponentiation!
+Target: as close to $1 &hellip; n$
 
-Observe that when $n = 2$
-
-$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{2 - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(0) &#43; f(1)   \newline
-    f(1)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(2)   \newline
-    f(1)   \newline
-\end{bmatrix}
-$
-
-So in general, we get
-
-$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{n - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(n)   \newline
-    f(n - 1)   \newline
-\end{bmatrix}
-$
+Observation: Group reverse on $D$!
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-05-14T21:45:13&#43;08:00" />
-<meta itemprop="dateModified" content="2018-05-14T21:45:13&#43;08:00" />
-<meta itemprop="wordCount" content="368">
+<meta itemprop="datePublished" content="2018-05-15T01:54:16&#43;08:00" />
+<meta itemprop="dateModified" content="2018-05-15T01:54:16&#43;08:00" />
+<meta itemprop="wordCount" content="149">
 
 
 
-<meta itemprop="keywords" content="DP,fast exponentiation," />
+<meta itemprop="keywords" content="Implementation,stack,greedy," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="10689 - Yet another Number Sequence"/>
+<meta name="twitter:title" content="484. Find Permutation"/>
 <meta name="twitter:description" content="題目連結
 
-Matrix fast exponentiation!
+Target: as close to $1 &hellip; n$
 
-Observe that when $n = 2$
-
-$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{2 - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(0) &#43; f(1)   \newline
-    f(1)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(2)   \newline
-    f(1)   \newline
-\end{bmatrix}
-$
-
-So in general, we get
-
-$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{n - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(n)   \newline
-    f(n - 1)   \newline
-\end{bmatrix}
-$
+Observation: Group reverse on $D$!
 
 "/>
 
@@ -279,18 +168,16 @@ $
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">10689 - Yet another Number Sequence</h1>
+      <h1 class="post-title">484. Find Permutation</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2018-05-14 </span>
+        <span class="post-time"> 2018-05-15 </span>
         <div class="post-category">
             
-              <a href="/blog/categories/uva/"> UVa </a>
-            
-              <a href="/blog/categories/competitive-programming/"> Competitive programming </a>
+              <a href="/blog/categories/leetcode/"> Leetcode </a>
             
           </div>
-        <span class="more-meta"> 368 words </span>
+        <span class="more-meta"> 149 words </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -315,149 +202,67 @@ $
 
     
     <div class="post-content">
-      <p><a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1630">題目連結</a></p>
+      <p><a href="https://leetcode.com/problems/find-permutation/description/">題目連結</a></p>
 
-<p>Matrix fast exponentiation!</p>
+<p>Target: as close to $1 &hellip; n$</p>
 
-<p>Observe that when $n = 2$</p>
-
-<p>$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{2 - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(0) + f(1)   \newline
-    f(1)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(2)   \newline
-    f(1)   \newline
-\end{bmatrix}
-$</p>
-
-<p>So in general, we get</p>
-
-<p>$
-\begin{bmatrix}
-    1 &amp; 1  \newline
-    1 &amp; 0  \newline
-\end{bmatrix}^{n - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(n)   \newline
-    f(n - 1)   \newline
-\end{bmatrix}
-$</p>
+<p>Observation: Group reverse on $D$!</p>
 
 <p></p>
 
 <h2 id="ac-code">AC Code</h2>
 
-<p>Bad coding style&hellip; GG</p>
-
-<pre><code class="language-c++">#include &lt;bits/stdc++.h&gt;
-
+<pre><code class="language-c++">#ifdef LOCAL
+#include &lt;bits/stdc++.h&gt;
 using namespace std;
 
-typedef long long ll;
-typedef pair&lt;int, int&gt; ii;
+// tree node stuff here...
+#endif
 
-struct Matrix {
-private:
-	int r, c;
+static int __initialSetup = []()
+{
+	std::ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	return 0;
+}
+();
 
+// handle special cases first
+// [], &quot;&quot;, ...
+// range of input?
+class Solution
+{
 public:
-	vector&lt;vector&lt;int&gt;&gt; matrix;
-
-	Matrix(int _r, int _c)
+	vector&lt;int&gt; findPermutation(string s)
 	{
-		r = _r;
-		c = _c;
-		matrix = vector&lt;vector&lt;int&gt;&gt;(r, vector&lt;int&gt;(c, 0));
+		vector&lt;int&gt; ans;
+		ans.reserve(s.length() + 1);
+		int n = s.length();
+		for (int i = 1; i &lt;= n + 1; i++)
+			ans.push_back(i);
+
+		int left = 0, right = 0;
+		for (int i = 0; i &lt; n; i++) {
+			if (s[i] == 'D') {
+				right = i + 1;
+			} else {
+				reverse(next(ans.begin(), left), next(ans.begin(), right + 1));
+				left = right = i + 1;
+			}
+		}
+
+		reverse(next(ans.begin(), left), next(ans.begin(), right + 1));
+
+		return ans;
 	}
 };
 
-int mod;
-Matrix operator*(const Matrix &amp;a, const Matrix &amp;b)
-{
-	Matrix matrix(a.matrix.size(), b.matrix[0].size());
-
-	for (int i = 0; i &lt; (int)a.matrix.size(); i++)       // a row
-		for (int j = 0; j &lt; (int)b.matrix[0].size(); j++)  // b col
-			for (int k = 0; k &lt; (int)b.matrix.size(); k++) { // inner driver
-				matrix.matrix[i][j] += a.matrix[i][k] * b.matrix[k][j] % mod;
-				matrix.matrix[i][j] %= mod;
-			}
-
-	// for (int i = 0; i &lt; a.matrix.size(); i++) {
-	// 	for (int j = 0; j &lt; b.matrix[0].size(); j++)
-	// 		printf(&quot;%d &quot;, matrix.matrix[i][j]);
-	// 	puts(&quot;&quot;);
-	// }
-	return matrix;
-}
-
-Matrix operator^(const Matrix &amp;a, int n)
-{
-	Matrix base(a.matrix.size(), a.matrix.size()),
-	       ans(a.matrix.size(), a.matrix.size());
-	ans.matrix[0][0] = ans.matrix[1][1] = 1;
-	base = a;
-	while (n &gt; 0) {
-		// printf(&quot;n %d\n&quot;, n);
-		if (n &amp; 1) {
-			ans = base * ans;
-		}
-
-		base = base * base;
-		n &gt;&gt;= 1;
-	}
-
-	return ans;
-}
-
-void solve()
-{
-	int a, b, n, m;
-	scanf(&quot;%d %d %d %d&quot;, &amp;a, &amp;b, &amp;n, &amp;m);
-	mod = 1;
-	for (int i = 0; i &lt; m; i++)
-		mod *= 10;
-
-	Matrix init(2, 1);
-	init.matrix[0][0] = b;
-	init.matrix[1][0] = a;
-	Matrix square(2, 2);
-	square.matrix[0][0] = square.matrix[0][1] = square.matrix[1][0] = 1;
-
-	if (n == 0)
-		printf(&quot;%d\n&quot;, a);
-	if (n == 1)
-		printf(&quot;%d\n&quot;, b);
-	else {
-		Matrix ans = (square ^ (n - 1)) * init;
-		printf(&quot;%d\n&quot;, ans.matrix[0][0]);
-	}
-}
-
+#ifdef LOCAL
 int main()
 {
-	int ncase;
-	scanf(&quot;%d&quot;, &amp;ncase);
-	while (ncase--)
-		solve();
-
 	return 0;
 }
-
+#endif
 </code></pre>
     </div>
 
@@ -470,23 +275,20 @@ int main()
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags/dp/">DP</a>
+          <a href="/blog/tags/implementation/">Implementation</a>
           
-          <a href="/blog/tags/fast-exponentiation/">fast exponentiation</a>
+          <a href="/blog/tags/stack/">stack</a>
+          
+          <a href="/blog/tags/greedy/">greedy</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/leetcode/399/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">399. Evaluate Division</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/blog/post/leetcode/294/">
-            <span class="next-text nav-default">294. Flip Game II</span>
+          <a class="next" href="/blog/post/leetcode/399/">
+            <span class="next-text nav-default">399. Evaluate Division</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

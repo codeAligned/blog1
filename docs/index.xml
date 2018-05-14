@@ -6,10 +6,49 @@
     <description>Recent content on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 May 2018 21:45:13 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 01:54:16 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>484. Find Permutation</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/484/</link>
+      <pubDate>Tue, 15 May 2018 01:54:16 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/484/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/find-permutation/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Target: as close to $1 &amp;hellip; n$&lt;/p&gt;
+
+&lt;p&gt;Observation: Group reverse on $D$!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>399. Evaluate Division</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/399/</link>
+      <pubDate>Mon, 14 May 2018 23:19:59 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/399/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/evaluate-division/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Observation: Turn this into directed graph!&lt;/p&gt;
+
+&lt;p&gt;Consider the following case: $\frac a b = v_1$&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;build an edge from a $\rightarrow$ b with weight $v_1$&lt;/li&gt;
+&lt;li&gt;build an edge from b $\rightarrow$ a with weight $\frac{1}{v_1}$.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Do the same thing for $\frac b c = v_2$.&lt;/p&gt;
+
+&lt;p&gt;Compute $\frac a c$, isn&amp;rsquo;t it just $v_1 * v_2$, the traversal path from a to c? There you go!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>10689 - Yet another Number Sequence</title>
