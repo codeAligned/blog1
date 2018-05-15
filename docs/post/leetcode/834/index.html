@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>484. Find Permutation - Coding Blog</title>
+  <title>834. Sum of Distances in Tree - Coding Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -18,8 +18,8 @@
 
 <meta name="author" content="Henry Tseng" />
   <meta name="description" content="題目連結
-Target: as close to $1 &amp;hellip; n$
-Observation: Group reverse on $D$!
+我們先看看如果只要求取以$0$為root的tree下的distance，對於每個 node 都記錄對於他來說的 subtree nodes (including self) 和 subtree total path sum。可以發現，$0$ 的答案就是所有子樹的 = node count &#43; 所有子樹的 total path sum
+對於所有其他非 0 的 node，我們如果把它當 root 看，誒，不就是從 0 開始 dfs 到他時，把他的parent那邊當做 subtree 看了嗎！
 
 " />
 
@@ -33,7 +33,7 @@ Observation: Group reverse on $D$!
 <meta name="generator" content="Hugo 0.40.3" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/484/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog/post/leetcode/834/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
@@ -53,26 +53,22 @@ Observation: Group reverse on $D$!
 
 
 
-<meta property="og:title" content="484. Find Permutation" />
+<meta property="og:title" content="834. Sum of Distances in Tree" />
 <meta property="og:description" content="題目連結
 
-Target: as close to $1 &hellip; n$
+我們先看看如果只要求取以$0$為root的tree下的distance，對於每個 node 都記錄對於他來說的 subtree nodes (including self) 和 subtree total path sum。可以發現，$0$ 的答案就是所有子樹的 = node count &#43; 所有子樹的 total path sum
 
-Observation: Group reverse on $D$!
+對於所有其他非 0 的 node，我們如果把它當 root 看，誒，不就是從 0 開始 dfs 到他時，把他的parent那邊當做 subtree 看了嗎！
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/484/" />
+<meta property="og:url" content="https://henrybear327.github.io/blog/post/leetcode/834/" />
 
 
 
-<meta property="article:published_time" content="2018-05-15T01:54:16&#43;08:00"/>
+<meta property="article:published_time" content="2018-05-15T11:24:40&#43;08:00"/>
 
-<meta property="article:modified_time" content="2018-05-15T01:54:16&#43;08:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2018-05-15T11:24:40&#43;08:00"/>
 
 
 
@@ -80,30 +76,34 @@ Observation: Group reverse on $D$!
 
 
 
-<meta itemprop="name" content="484. Find Permutation">
+
+
+
+
+<meta itemprop="name" content="834. Sum of Distances in Tree">
 <meta itemprop="description" content="題目連結
 
-Target: as close to $1 &hellip; n$
+我們先看看如果只要求取以$0$為root的tree下的distance，對於每個 node 都記錄對於他來說的 subtree nodes (including self) 和 subtree total path sum。可以發現，$0$ 的答案就是所有子樹的 = node count &#43; 所有子樹的 total path sum
 
-Observation: Group reverse on $D$!
+對於所有其他非 0 的 node，我們如果把它當 root 看，誒，不就是從 0 開始 dfs 到他時，把他的parent那邊當做 subtree 看了嗎！
 
 ">
 
 
-<meta itemprop="datePublished" content="2018-05-15T01:54:16&#43;08:00" />
-<meta itemprop="dateModified" content="2018-05-15T01:54:16&#43;08:00" />
-<meta itemprop="wordCount" content="149">
+<meta itemprop="datePublished" content="2018-05-15T11:24:40&#43;08:00" />
+<meta itemprop="dateModified" content="2018-05-15T11:24:40&#43;08:00" />
+<meta itemprop="wordCount" content="347">
 
 
 
-<meta itemprop="keywords" content="Implementation,stack,greedy," />
+<meta itemprop="keywords" content="Tree,DP," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="484. Find Permutation"/>
+<meta name="twitter:title" content="834. Sum of Distances in Tree"/>
 <meta name="twitter:description" content="題目連結
 
-Target: as close to $1 &hellip; n$
+我們先看看如果只要求取以$0$為root的tree下的distance，對於每個 node 都記錄對於他來說的 subtree nodes (including self) 和 subtree total path sum。可以發現，$0$ 的答案就是所有子樹的 = node count &#43; 所有子樹的 total path sum
 
-Observation: Group reverse on $D$!
+對於所有其他非 0 的 node，我們如果把它當 root 看，誒，不就是從 0 開始 dfs 到他時，把他的parent那邊當做 subtree 看了嗎！
 
 "/>
 
@@ -168,7 +168,7 @@ Observation: Group reverse on $D$!
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">484. Find Permutation</h1>
+      <h1 class="post-title">834. Sum of Distances in Tree</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2018-05-15 </span>
@@ -177,7 +177,7 @@ Observation: Group reverse on $D$!
               <a href="/blog/categories/leetcode/"> Leetcode </a>
             
           </div>
-        <span class="more-meta"> 149 words </span>
+        <span class="more-meta"> 347 words </span>
         <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -202,11 +202,11 @@ Observation: Group reverse on $D$!
 
     
     <div class="post-content">
-      <p><a href="https://leetcode.com/problems/find-permutation/description/">題目連結</a></p>
+      <p><a href="https://leetcode.com/problems/sum-of-distances-in-tree/description/">題目連結</a></p>
 
-<p>Target: as close to $1 &hellip; n$</p>
+<p>我們先看看如果只要求取以$0$為root的tree下的distance，對於每個 node 都記錄對於他來說的 subtree nodes (including self) 和 subtree total path sum。可以發現，$0$ 的答案就是所有子樹的 = node count + 所有子樹的 total path sum</p>
 
-<p>Observation: Group reverse on $D$!</p>
+<p>對於所有其他非 0 的 node，我們如果把它當 root 看，誒，不就是從 0 開始 dfs 到他時，把他的parent那邊當做 subtree 看了嗎！</p>
 
 <p></p>
 
@@ -221,46 +221,66 @@ using namespace std;
 
 static int __initialSetup = []()
 {
-	std::ios::sync_with_stdio(false);
-	cin.tie(NULL);
-	return 0;
+    std::ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    return 0;
 }
 ();
 
 // handle special cases first
 // [], &quot;&quot;, ...
 // range of input?
+
 class Solution
 {
+private:
+    void dfs(int u, int par, vector&lt;vector&lt;int&gt;&gt; &amp;g,
+             vector&lt;int&gt; &amp;subtreeNodeCount, vector&lt;int&gt; &amp;subtreeSum, int n,
+             bool isSecondPass = false)
+    {
+        if (isSecondPass == false)
+            subtreeNodeCount[u]++;
+
+        if (isSecondPass &amp;&amp; par != -1) {
+            // clean up info of current subtree from parent's answer
+            int parSubtreeSum = subtreeSum[par] - subtreeSum[u] - subtreeNodeCount[u];
+            // re-mount parent subtree, using current node as root
+            subtreeSum[u] = parSubtreeSum + (n - subtreeNodeCount[u]) + subtreeSum[u];
+        }
+
+        for (auto v : g[u]) {
+            if (v == par)
+                continue;
+            dfs(v, u, g, subtreeNodeCount, subtreeSum, n, isSecondPass);
+            if (isSecondPass == false) {
+                subtreeNodeCount[u] += subtreeNodeCount[v];
+                subtreeSum[u] += subtreeNodeCount[v] + subtreeSum[v];
+            }
+        }
+    }
+
 public:
-	vector&lt;int&gt; findPermutation(string s)
-	{
-		vector&lt;int&gt; ans;
-		ans.reserve(s.length() + 1);
-		int n = s.length();
-		for (int i = 1; i &lt;= n + 1; i++)
-			ans.push_back(i);
+    vector&lt;int&gt; sumOfDistancesInTree(int N, vector&lt;vector&lt;int&gt;&gt; &amp;edges)
+    {
+        vector&lt;int&gt; subtreeNodeCount(N, 0), subtreeSum(N, 0);
 
-		int left = 0, right = 0;
-		for (int i = 0; i &lt; n; i++) {
-			if (s[i] == 'D') {
-				right = i + 1;
-			} else {
-				reverse(next(ans.begin(), left), next(ans.begin(), right + 1));
-				left = right = i + 1;
-			}
-		}
+        vector&lt;vector&lt;int&gt;&gt; g(N, vector&lt;int&gt;());
+        for (auto edge : edges) {
+            g[edge[0]].push_back(edge[1]);
+            g[edge[1]].push_back(edge[0]);
+        }
 
-		reverse(next(ans.begin(), left), next(ans.begin(), right + 1));
+        dfs(0, -1, g, subtreeNodeCount, subtreeSum, N);
+        dfs(0, -1, g, subtreeNodeCount, subtreeSum, N, true);
 
-		return ans;
-	}
+        return subtreeSum;
+    }
 };
 
 #ifdef LOCAL
 int main()
 {
-	return 0;
+    return 0;
 }
 #endif
 </code></pre>
@@ -275,25 +295,18 @@ int main()
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags/implementation/">Implementation</a>
+          <a href="/blog/tags/tree/">Tree</a>
           
-          <a href="/blog/tags/stack/">stack</a>
-          
-          <a href="/blog/tags/greedy/">greedy</a>
+          <a href="/blog/tags/dp/">DP</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/leetcode/834/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">834. Sum of Distances in Tree</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/blog/post/leetcode/399/">
-            <span class="next-text nav-default">399. Evaluate Division</span>
+          <a class="next" href="/blog/post/leetcode/484/">
+            <span class="next-text nav-default">484. Find Permutation</span>
             <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

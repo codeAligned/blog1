@@ -6,10 +6,25 @@
     <description>Recent content in Dp on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 May 2018 21:45:13 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 11:24:40 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/tags/dp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>834. Sum of Distances in Tree</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/834/</link>
+      <pubDate>Tue, 15 May 2018 11:24:40 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/834/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/sum-of-distances-in-tree/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我們先看看如果只要求取以$0$為root的tree下的distance，對於每個 node 都記錄對於他來說的 subtree nodes (including self) 和 subtree total path sum。可以發現，$0$ 的答案就是所有子樹的 = node count + 所有子樹的 total path sum&lt;/p&gt;
+
+&lt;p&gt;對於所有其他非 0 的 node，我們如果把它當 root 看，誒，不就是從 0 開始 dfs 到他時，把他的parent那邊當做 subtree 看了嗎！&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>10689 - Yet another Number Sequence</title>
