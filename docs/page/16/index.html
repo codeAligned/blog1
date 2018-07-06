@@ -57,7 +57,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-07-06T11:16:01&#43;08:00"/>
+<meta property="og:updated_time" content="2018-01-13T00:10:47&#43;08:00"/>
 
 
 
@@ -140,164 +140,29 @@
     
       <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/leetcode/96/">96. Unique Binary Search Trees</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/blog/post/competitive_programming/apcs1061028/">APCS 1061028 題解</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2018-07-06 </span>
+      <span class="post-time"> 2018-01-13 </span>
       <div class="post-category">
           
-            <a href="/blog/categories/leetcode/"> Leetcode </a>
+            <a href="/blog/categories/competitive-programming/"> Competitive Programming </a>
           
         </div>
-      <span class="more-meta"> 145 words </span>
-      <span class="more-meta"> 1 min read </span>
+      <span class="more-meta"> 960 words </span>
+      <span class="more-meta"> 2 mins read </span>
     </div>
   </header>
   
   <div class="post-content">
     <div class="post-summary">
-      <p><a href="https://leetcode.com/problems/unique-binary-search-trees/description/">題目連結</a></p>
+      <p>官方<a href="https://apcs.csie.ntnu.edu.tw/files/1061028APCSImplementation.pdf">試題</a>本</p>
 
-<p>It&rsquo;s basically cutting stick DP. For the given range, try using every possible value as the root, and then D&amp;C</p>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/blog/post/leetcode/96/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/leetcode/47/">47. Permutations II</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-07-06 </span>
-      <div class="post-category">
-          
-            <a href="/blog/categories/leetcode/"> Leetcode </a>
-          
-        </div>
-      <span class="more-meta"> 144 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p><a href="https://leetcode.com/problems/permutations-ii/description/">題目連結</a></p>
-
-<p>Permutation, without duplicate!</p>
+<p>第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。</p>
 
 <p></p>
     </div>
     <div class="read-more">
-      <a href="/blog/post/leetcode/47/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/leetcode/834/">834. Sum of Distances in Tree</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-05-15 </span>
-      <div class="post-category">
-          
-            <a href="/blog/categories/leetcode/"> Leetcode </a>
-          
-        </div>
-      <span class="more-meta"> 347 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p><a href="https://leetcode.com/problems/sum-of-distances-in-tree/description/">題目連結</a></p>
-
-<p>我們先看看如果只要求取以$0$為root的tree下的distance，對於每個 node 都記錄對於他來說的 subtree nodes (including self) 和 subtree total path sum。可以發現，$0$ 的答案就是所有子樹的 = node count + 所有子樹的 total path sum</p>
-
-<p>對於所有其他非 0 的 node，我們如果把它當 root 看，誒，不就是從 0 開始 dfs 到他時，把他的parent那邊當做 subtree 看了嗎！</p>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/blog/post/leetcode/834/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/leetcode/484/">484. Find Permutation</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-05-15 </span>
-      <div class="post-category">
-          
-            <a href="/blog/categories/leetcode/"> Leetcode </a>
-          
-        </div>
-      <span class="more-meta"> 149 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p><a href="https://leetcode.com/problems/find-permutation/description/">題目連結</a></p>
-
-<p>Target: as close to $1 &hellip; n$</p>
-
-<p>Observation: Group reverse on $D$!</p>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/blog/post/leetcode/484/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/leetcode/399/">399. Evaluate Division</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-05-14 </span>
-      <div class="post-category">
-          
-            <a href="/blog/categories/leetcode/"> Leetcode </a>
-          
-        </div>
-      <span class="more-meta"> 387 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p><a href="https://leetcode.com/problems/evaluate-division/description/">題目連結</a></p>
-
-<p>Observation: Turn this into directed graph!</p>
-
-<p>Consider the following case: $\frac a b = v_1$</p>
-
-<ol>
-<li>build an edge from a $\rightarrow$ b with weight $v_1$</li>
-<li>build an edge from b $\rightarrow$ a with weight $\frac{1}{v_1}$.</li>
-</ol>
-
-<p>Do the same thing for $\frac b c = v_2$.</p>
-
-<p>Compute $\frac a c$, isn&rsquo;t it just $v_1 * v_2$, the traversal path from a to c? There you go!</p>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/blog/post/leetcode/399/" class="read-more-link">Read more..</a>
+      <a href="/blog/post/competitive_programming/apcs1061028/" class="read-more-link">Read more..</a>
     </div>
   </div>
 </article>
@@ -307,11 +172,11 @@
   
   <nav class="pagination">
     
-    
-      <a class="next" href="/blog/page/2/">
-        <span class="next-text">Next</span>
-        <i class="iconfont icon-right"></i>
+      <a class="prev" href="/blog/page/15/">
+        <i class="iconfont icon-left"></i>
+        <span class="prev-text">Prev</span>
       </a>
+    
   </nav>
 
         </div>

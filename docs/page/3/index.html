@@ -57,7 +57,7 @@
 
 
 
-<meta property="og:updated_time" content="2018-05-12T18:05:52&#43;08:00"/>
+<meta property="og:updated_time" content="2018-05-12T22:38:28&#43;08:00"/>
 
 
 
@@ -137,6 +137,47 @@
   <section id="posts" class="posts">
     
     
+    
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/blog/post/uva/10944/">10944 - Nuts for nuts..</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2018-05-12 </span>
+      <div class="post-category">
+          
+            <a href="/blog/categories/uva/"> UVa </a>
+          
+            <a href="/blog/categories/competitive-programming/"> Competitive programming </a>
+          
+        </div>
+      <span class="more-meta"> 519 words </span>
+      <span class="more-meta"> 2 mins read </span>
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      <p><a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1885">題目連結</a></p>
+
+<p>位元DP。</p>
+
+<p>我們定義 $dp[i][j] = k$, $j$ 為已經拾取過果實的地方，$i$ 為最後所停之處，$dp[i][j]$為拾取果實後停在$i$的總步數。</p>
+
+<p>初始化的話，$dp[i][1&lt;&lt;i] = $ 從出發點到此的距離，其餘 $\infty$。</p>
+
+<p>計算的話，假設我們有三個點，我們現在要求取$dp[0][3]$（已經在0, 1拿完果實，並停在0），那我們的其中一種可行走法為$dp[1][2] + dist[1][0]$，也就是說，從只去過1的狀態走到0來！所以更新的話，就是:</p>
+
+<pre><code class="language-c++">dp[i][j] = min(dp[i][j], dp[k][j - (1 &lt;&lt; i)] + dist[i][k]);
+</code></pre>
+
+<p></p>
+    </div>
+    <div class="read-more">
+      <a href="/blog/post/uva/10944/" class="read-more-link">Read more..</a>
+    </div>
+  </div>
+</article>
+
     
       <article class="post">
   <header class="post-header">
@@ -275,47 +316,6 @@ tie(a, b) = someReturnedTuple
     </div>
     <div class="read-more">
       <a href="/blog/post/uva/497/" class="read-more-link">Read more..</a>
-    </div>
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/blog/post/uva/10401/">10401 - Injured Queen Problem</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-05-11 </span>
-      <div class="post-category">
-          
-            <a href="/blog/categories/uva/"> UVa </a>
-          
-            <a href="/blog/categories/competitive-programming/"> competitive programming </a>
-          
-        </div>
-      <span class="more-meta"> 392 words </span>
-      <span class="more-meta"> 1 min read </span>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <p><a href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1342">題目連結</a></p>
-
-<p>掰咖的n皇后問題，如果我們拿 column 來看的話，他只跟前一個 column 有關而已了！</p>
-
-<p>令 $dp[i][j]$ 為 把皇后擺在 row $i$ column $j$ 這個位置的話，有幾種擺法。</p>
-
-<p>因此</p>
-
-<ol>
-<li>如果這個 column 沒有指定后位的話，我們就 $dp[i][j] += dp[k][j - 1]$ where $1 \leq k &lt; n, |{i-k}| &gt; 1$</li>
-<li>如果這個 column 有指定后位的話，我們就 $dp[queenPosition][j] += dp[k][j - 1]$ where $1 \leq k &lt; n, |{i-k}| &gt; 1$</li>
-</ol>
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="/blog/post/uva/10401/" class="read-more-link">Read more..</a>
     </div>
   </div>
 </article>
