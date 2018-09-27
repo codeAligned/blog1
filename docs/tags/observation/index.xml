@@ -6,10 +6,29 @@
     <description>Recent content in Observation on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Apr 2018 10:25:48 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 27 Sep 2018 13:13:12 -0700</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog/tags/observation/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>899. Orderly Queue</title>
+      <link>https://henrybear327.github.io/blog/post/leetcode/899/</link>
+      <pubDate>Thu, 27 Sep 2018 13:13:12 -0700</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog/post/leetcode/899/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/orderly-queue/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;非常好的一道題！&lt;/p&gt;
+
+&lt;p&gt;觀察，如果 $k = 1$ 的話，你可以得到什麼呢？如果 $k = 2$ 的話，你可以得到什麼呢？&lt;/p&gt;
+
+&lt;p&gt;$k = 1 \rightarrow$ 你可以做 &lt;em&gt;logical left shift&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;$k = 2 \rightarrow$ 你可以對任意兩點做 &lt;em&gt;swap&lt;/em&gt; !&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>No nine</title>

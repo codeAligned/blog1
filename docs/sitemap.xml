@@ -3,6 +3,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://henrybear327.github.io/blog/post/leetcode/899/</loc>
+    <lastmod>2018-09-27T13:13:12-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://henrybear327.github.io/blog/post/leetcode/96/</loc>
     <lastmod>2018-07-06T11:16:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -599,7 +606,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/</loc>
-    <lastmod>2018-07-06T11:16:01+08:00</lastmod>
+    <lastmod>2018-09-27T13:13:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -760,7 +767,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/categories/leetcode/</loc>
-    <lastmod>2018-07-06T11:16:01+08:00</lastmod>
+    <lastmod>2018-09-27T13:13:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -795,7 +802,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/tags/observation/</loc>
-    <lastmod>2018-04-24T10:25:48+08:00</lastmod>
+    <lastmod>2018-09-27T13:13:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -830,7 +837,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog/post/</loc>
-    <lastmod>2018-07-06T11:16:01+08:00</lastmod>
+    <lastmod>2018-09-27T13:13:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
