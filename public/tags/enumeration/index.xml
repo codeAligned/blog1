@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>enumeration on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/enumeration/</link>
+    <description>Recent content in enumeration on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Apr 2018 21:00:28 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/enumeration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>336. Palindrome Pairs</title>
+      <link>http://localhost:1313/post/leetcode/336/</link>
+      <pubDate>Mon, 16 Apr 2018 21:00:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/336/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/palindrome-pairs/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;枚舉 ＋ 組合一下字串！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>22. Generate Parentheses</title>
+      <link>http://localhost:1313/post/leetcode/22/</link>
+      <pubDate>Mon, 16 Apr 2018 20:56:34 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/22/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/generate-parentheses/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;基本爆搜題&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>686. Repeated String Match</title>
+      <link>http://localhost:1313/post/leetcode/686/</link>
+      <pubDate>Sun, 15 Apr 2018 11:59:27 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/686/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/repeated-string-match/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;枚舉，或是用hash!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

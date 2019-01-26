@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>math on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/math/</link>
+    <description>Recent content in math on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 May 2018 14:29:54 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>828. Unique Letter String</title>
+      <link>http://localhost:1313/post/leetcode/828/</link>
+      <pubDate>Fri, 11 May 2018 14:29:54 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/828/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/contest/weekly-contest-83/problems/unique-letter-string/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;想想看，與其窮舉所有的 substring ，我們改成: 對於每一個 $S[i] $，看看有哪些子字串計算unique時會算到 $S[i]$！&lt;/p&gt;
+
+&lt;p&gt;對於每一個 $S[i]$，我們找出他的最遠左右端點，端點內的 $S[j]$ 要符合 $S[i] \neq S[j]$ 且 $0 &amp;lt;= j &amp;lt; S.length()$。因此，我們可以輕鬆得到包含 $S[i]$ 的 substring 會有 $(i - left + 1) * (right - i + 1)$ 個啦！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>166. Fraction to Recurring Decimal</title>
+      <link>http://localhost:1313/post/leetcode/166/</link>
+      <pubDate>Mon, 16 Apr 2018 20:54:29 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/166/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/fraction-to-recurring-decimal/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;從基本長除法著手吧！&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

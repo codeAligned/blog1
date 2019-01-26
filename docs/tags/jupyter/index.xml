@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jupyter on Coding Blog</title>
+    <title>jupyter on Coding Blog</title>
     <link>https://henrybear327.github.io/blog1/tags/jupyter/</link>
-    <description>Recent content in Jupyter on Coding Blog</description>
+    <description>Recent content in jupyter on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 16 Jan 2018 19:56:09 +0800</lastBuildDate>

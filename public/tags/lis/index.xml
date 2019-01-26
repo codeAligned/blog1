@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LIS on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/lis/</link>
+    <description>Recent content in LIS on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 May 2018 11:15:06 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/lis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>497 - Strategic Defense Initiative</title>
+      <link>http://localhost:1313/post/uva/497/</link>
+      <pubDate>Sat, 12 May 2018 11:15:06 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/uva/497/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=438&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;經典 LIS 加 path printing 題。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

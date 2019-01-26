@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VMWare on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/vmware/</link>
+    <description>Recent content in VMWare on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Mar 2018 22:21:01 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/vmware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Share documents between VM and Windows</title>
+      <link>http://localhost:1313/post/vmware/samba/</link>
+      <pubDate>Thu, 08 Mar 2018 22:21:01 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/vmware/samba/</guid>
+      <description>Setup Samba Assuming that the OS running in VM is Ubuntu, and the host OS is Windows.
+ Install Samba: sudo apt install samba Add current user as Samba user: sudo smbpasswd -a $USER Run sudo vim /etc/samba/smb.conf, and add the following configs to it  1 2 3 4 5 6 7 8 9 10 11 12 13  [global] # Let Samba share follow symbolic links follow symlink = yes wide symlinks = yes unix extensions = no [homes] comment = Home Directories browseable = no valid users = %S writable = yes create mask = 0664 directory mask = 0775    Restart samba sudo /etc/init.</description>
+    </item>
+    
+  </channel>
+</rss>

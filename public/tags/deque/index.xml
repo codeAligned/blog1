@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deque on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/deque/</link>
+    <description>Recent content in deque on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Apr 2018 20:42:36 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/deque/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>239. Sliding Window Maximum</title>
+      <link>http://localhost:1313/post/leetcode/239/</link>
+      <pubDate>Mon, 16 Apr 2018 20:42:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/239/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/sliding-window-maximum/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;想想看，怎麼 $O(n)$ 維護一個最大值呢？&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

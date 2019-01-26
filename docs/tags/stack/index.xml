@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stack on Coding Blog</title>
+    <title>stack on Coding Blog</title>
     <link>https://henrybear327.github.io/blog1/tags/stack/</link>
-    <description>Recent content in Stack on Coding Blog</description>
+    <description>Recent content in stack on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 15 May 2018 01:54:16 +0800</lastBuildDate>
@@ -44,17 +44,6 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/binary-search-tree-iterator/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;BST 性質考題！&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>341. Flatten Nested List Iterator</title>
-      <link>https://henrybear327.github.io/blog1/post/leetcode/341/</link>
-      <pubDate>Sun, 15 Apr 2018 22:54:34 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/leetcode/341/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/flatten-nested-list-iterator/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;考驗著你對於 stack 和 iterator 的應用能力！&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Apache on Coding Blog</title>
+    <title>apache on Coding Blog</title>
     <link>https://henrybear327.github.io/blog1/tags/apache/</link>
-    <description>Recent content in Apache on Coding Blog</description>
+    <description>Recent content in apache on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 04 Feb 2018 10:48:17 +0800</lastBuildDate>

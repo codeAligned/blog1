@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stack on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/stack/</link>
+    <description>Recent content in stack on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 15 May 2018 01:54:16 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>484. Find Permutation</title>
+      <link>http://localhost:1313/post/leetcode/484/</link>
+      <pubDate>Tue, 15 May 2018 01:54:16 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/484/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/find-permutation/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Target: as close to $1 &amp;hellip; n$&lt;/p&gt;
+
+&lt;p&gt;Observation: Group reverse on $D$!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>316. Remove Duplicate Letters</title>
+      <link>http://localhost:1313/post/leetcode/316/</link>
+      <pubDate>Mon, 16 Apr 2018 21:22:30 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/316/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/remove-duplicate-letters/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;好題。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>173. Binary Search Tree Iterator</title>
+      <link>http://localhost:1313/post/leetcode/173/</link>
+      <pubDate>Mon, 16 Apr 2018 20:50:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/173/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/binary-search-tree-iterator/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;BST 性質考題！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>394. Decode String</title>
+      <link>http://localhost:1313/post/leetcode/394/</link>
+      <pubDate>Sun, 15 Apr 2018 22:28:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/394/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/decode-string/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;利用 Stack 做 parsing 的經典題！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>388. Longest Absolute File Path</title>
+      <link>http://localhost:1313/post/leetcode/388/</link>
+      <pubDate>Sun, 15 Apr 2018 11:43:48 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/388/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/longest-absolute-file-path/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;如何有效率的拆解並分析字串呢？請善用stack!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

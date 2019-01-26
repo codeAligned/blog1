@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tree on Coding Blog</title>
+    <title>tree on Coding Blog</title>
     <link>https://henrybear327.github.io/blog1/tags/tree/</link>
-    <description>Recent content in Tree on Coding Blog</description>
+    <description>Recent content in tree on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 15 May 2018 11:24:40 +0800</lastBuildDate>
@@ -22,17 +22,6 @@
 &lt;p&gt;我們先看看如果只要求取以$0$為root的tree下的distance，對於每個 node 都記錄對於他來說的 subtree nodes (including self) 和 subtree total path sum。可以發現，$0$ 的答案就是所有子樹的 = node count + 所有子樹的 total path sum&lt;/p&gt;
 
 &lt;p&gt;對於所有其他非 0 的 node，我們如果把它當 root 看，誒，不就是從 0 開始 dfs 到他時，把他的parent那邊當做 subtree 看了嗎！&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>297. Serialize and Deserialize Binary Tree</title>
-      <link>https://henrybear327.github.io/blog1/post/leetcode/297/</link>
-      <pubDate>Mon, 16 Apr 2018 20:41:18 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/leetcode/297/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;DFS 練習好題！&lt;/p&gt;</description>
     </item>
     
     <item>

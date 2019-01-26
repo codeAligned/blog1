@@ -1,32 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Observation on Coding Blog</title>
+    <title>observation on Coding Blog</title>
     <link>https://henrybear327.github.io/blog1/tags/observation/</link>
-    <description>Recent content in Observation on Coding Blog</description>
+    <description>Recent content in observation on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Sep 2018 13:13:12 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 24 Apr 2018 10:25:48 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog1/tags/observation/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>899. Orderly Queue</title>
-      <link>https://henrybear327.github.io/blog1/post/leetcode/899/</link>
-      <pubDate>Thu, 27 Sep 2018 13:13:12 -0700</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/leetcode/899/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/orderly-queue/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;非常好的一道題！&lt;/p&gt;
-
-&lt;p&gt;觀察，如果 $k = 1$ 的話，你可以得到什麼呢？如果 $k = 2$ 的話，你可以得到什麼呢？&lt;/p&gt;
-
-&lt;p&gt;$k = 1 \rightarrow$ 你可以做 &lt;em&gt;logical left shift&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;$k = 2 \rightarrow$ 你可以對任意兩點做 &lt;em&gt;swap&lt;/em&gt; !&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>No nine</title>
@@ -54,17 +37,6 @@
 &lt;p&gt;試想，如果把 $[0, 26)$ 這個區間的所有數字都列出來，你會刪掉的數字分別是 $9, 19$。誒，這不就是 $[0, 26)$ 用九進位來看會自動排除掉的數字嗎？利用這個性質，我們可以很簡單的獲得區間內數字個數了！&lt;/p&gt;
 
 &lt;p&gt;排除了包含九的數字後，九的倍數怎麼辦？傷為觀察一下就有囉！&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>31. Next Permutation</title>
-      <link>https://henrybear327.github.io/blog1/post/leetcode/31/</link>
-      <pubDate>Mon, 16 Apr 2018 20:57:49 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/leetcode/31/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/next-permutation/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;觀察（右到左）！&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -1,137 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Competitive Programming on Coding Blog</title>
+    <title>competitive programming on Coding Blog</title>
     <link>https://henrybear327.github.io/blog1/categories/competitive-programming/</link>
-    <description>Recent content in Competitive Programming on Coding Blog</description>
+    <description>Recent content in competitive programming on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 May 2018 21:45:13 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 12 May 2018 11:15:06 +0800</lastBuildDate>
     
 	<atom:link href="https://henrybear327.github.io/blog1/categories/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>10689 - Yet another Number Sequence</title>
-      <link>https://henrybear327.github.io/blog1/post/uva/10689/</link>
-      <pubDate>Mon, 14 May 2018 21:45:13 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/uva/10689/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1630&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Matrix fast exponentiation!&lt;/p&gt;
-
-&lt;p&gt;Observe that when $n = 2$&lt;/p&gt;
-
-&lt;p&gt;$
-\begin{bmatrix}
-    1 &amp;amp; 1  \newline
-    1 &amp;amp; 0  \newline
-\end{bmatrix}^{2 - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(0) + f(1)   \newline
-    f(1)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(2)   \newline
-    f(1)   \newline
-\end{bmatrix}
-$&lt;/p&gt;
-
-&lt;p&gt;So in general, we get&lt;/p&gt;
-
-&lt;p&gt;$
-\begin{bmatrix}
-    1 &amp;amp; 1  \newline
-    1 &amp;amp; 0  \newline
-\end{bmatrix}^{n - 1} *
-\begin{bmatrix}
-    f(1)   \newline
-    f(0)   \newline
-\end{bmatrix} =
-\begin{bmatrix}
-    f(n)   \newline
-    f(n - 1)   \newline
-\end{bmatrix}
-$&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>10911 - Forming Quiz Teams</title>
-      <link>https://henrybear327.github.io/blog1/post/uva/10911/</link>
-      <pubDate>Sun, 13 May 2018 00:12:48 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/uva/10911/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1852&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For every $dp[i] = k$, we define $i$ as the collection of people that&amp;rsquo;re not paired yet, and $k$ is the minimum cost to pair those people up, if possible.&lt;/p&gt;
-
-&lt;p&gt;Starting with &lt;code&gt;(1 &amp;lt;&amp;lt; n) - 1&lt;/code&gt;, we can pair 2 of them at a time, and recurse on &lt;code&gt;(state ^ (1 &amp;lt;&amp;lt; i) ^ (1 &amp;lt;&amp;lt; j))&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Notice the base case is $dp[0] = 0$.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>10944 - Nuts for nuts..</title>
-      <link>https://henrybear327.github.io/blog1/post/uva/10944/</link>
-      <pubDate>Sat, 12 May 2018 22:38:28 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/uva/10944/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1885&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;位元DP。&lt;/p&gt;
-
-&lt;p&gt;我們定義 $dp[i][j] = k$, $j$ 為已經拾取過果實的地方，$i$ 為最後所停之處，$dp[i][j]$為拾取果實後停在$i$的總步數。&lt;/p&gt;
-
-&lt;p&gt;初始化的話，$dp[i][1&amp;lt;&amp;lt;i] = $ 從出發點到此的距離，其餘 $\infty$。&lt;/p&gt;
-
-&lt;p&gt;計算的話，假設我們有三個點，我們現在要求取$dp[0][3]$（已經在0, 1拿完果實，並停在0），那我們的其中一種可行走法為$dp[1][2] + dist[1][0]$，也就是說，從只去過1的狀態走到0來！所以更新的話，就是:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;dp[i][j] = min(dp[i][j], dp[k][j - (1 &amp;lt;&amp;lt; i)] + dist[i][k]);
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>108 - Maximum Sum</title>
-      <link>https://henrybear327.github.io/blog1/post/uva/108/</link>
-      <pubDate>Sat, 12 May 2018 18:05:52 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/uva/108/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=44&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2D prefix sum!&lt;/p&gt;
-
-&lt;p&gt;枚舉起始行、結束行、跟列！這樣就可以轉回 1D 的 prefix sum 題目了。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>348 - Optimal Array Multiplication Sequence</title>
-      <link>https://henrybear327.github.io/blog1/post/uva/348/</link>
-      <pubDate>Sat, 12 May 2018 17:43:18 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/uva/348/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=284&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;經典的最少矩陣乘法次數，但是要輸出最終結果！&lt;/p&gt;
-
-&lt;p&gt;第一次使用 tuple，感覺不錯。&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;tuple&amp;lt;type, type, ...&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;make_tuple(var, var)&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;get&amp;lt;index&amp;gt; tupleName&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;code&gt;c++
-int a;
-int b;
-tie(a, b) = someReturnedTuple
-&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
     
     <item>
       <title>497 - Strategic Defense Initiative</title>
@@ -188,56 +66,6 @@ tie(a, b) = someReturnedTuple
 &lt;p&gt;只求 min path 不難，但是回朔&amp;hellip;有意思。&lt;/p&gt;
 
 &lt;p&gt;要字典序最小的回朔，如果正著做，下面那筆測資就GG了。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>No nine</title>
-      <link>https://henrybear327.github.io/blog1/post/google/kickstart/2018b/</link>
-      <pubDate>Tue, 24 Apr 2018 10:25:48 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/google/kickstart/2018b/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://code.google.com/codejam/contest/10284486/dashboard#s=p0&#34;&gt;題目&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;題目敘述&#34;&gt;題目敘述&lt;/h2&gt;
-
-&lt;p&gt;給你一個區間 $[a, b]$，保證端點都 valid，要你求取區間中 valid 的數字個數。&lt;/p&gt;
-
-&lt;p&gt;所謂 valid 的數字，他要符合&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;該數字沒有包含9 e.g. 1可以, 191不行&lt;/li&gt;
-&lt;li&gt;該數字並非9的倍數 e.g. 1可以, 18不行&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;
-
-&lt;p&gt;我們可以如何排除包含9的數字呢？用九進位來看！&lt;/p&gt;
-
-&lt;p&gt;試想，如果把 $[0, 26)$ 這個區間的所有數字都列出來，你會刪掉的數字分別是 $9, 19$。誒，這不就是 $[0, 26)$ 用九進位來看會自動排除掉的數字嗎？利用這個性質，我們可以很簡單的獲得區間內數字個數了！&lt;/p&gt;
-
-&lt;p&gt;排除了包含九的數字後，九的倍數怎麼辦？傷為觀察一下就有囉！&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>APCS 1060304 題解</title>
-      <link>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1060304/</link>
-      <pubDate>Sun, 14 Jan 2018 12:59:54 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1060304/</guid>
-      <description>&lt;p&gt;官方&lt;a href=&#34;https://apcs.csie.ntnu.edu.tw/files/1060304APCSImplementation.pdf&#34;&gt;試題&lt;/a&gt;本&lt;/p&gt;
-
-&lt;p&gt;第一題為基本字串題，第二三題基本上都算是實作偏重的題目，第四題是經典binary search題目。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>APCS 1061028 題解</title>
-      <link>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1061028/</link>
-      <pubDate>Sat, 13 Jan 2018 00:10:47 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1061028/</guid>
-      <description>&lt;p&gt;官方&lt;a href=&#34;https://apcs.csie.ntnu.edu.tw/files/1061028APCSImplementation.pdf&#34;&gt;試題&lt;/a&gt;本&lt;/p&gt;
-
-&lt;p&gt;第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。&lt;/p&gt;</description>
     </item>
     
   </channel>

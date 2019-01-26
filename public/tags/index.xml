@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Apr 2018 22:41:23 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/tags/</link>
+      <pubDate>Sun, 15 Apr 2018 22:41:23 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>APCS</title>
+      <link>http://localhost:1313/tags/apcs/</link>
+      <pubDate>Sun, 14 Jan 2018 12:59:54 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/apcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BFS</title>
+      <link>http://localhost:1313/tags/bfs/</link>
+      <pubDate>Sat, 12 May 2018 13:23:43 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/bfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BIT</title>
+      <link>http://localhost:1313/tags/bit/</link>
+      <pubDate>Sun, 15 Apr 2018 22:53:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/bit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BST</title>
+      <link>http://localhost:1313/tags/bst/</link>
+      <pubDate>Mon, 16 Apr 2018 20:50:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/bst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Binary search</title>
+      <link>http://localhost:1313/tags/binary-search/</link>
+      <pubDate>Sun, 14 Jan 2018 12:59:54 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/binary-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DFS</title>
+      <link>http://localhost:1313/tags/dfs/</link>
+      <pubDate>Fri, 06 Jul 2018 11:16:01 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/dfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DP</title>
+      <link>http://localhost:1313/tags/dp/</link>
+      <pubDate>Fri, 06 Jul 2018 11:16:01 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/dp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>http://localhost:1313/tags/design/</link>
+      <pubDate>Sun, 15 Apr 2018 22:30:18 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elastic Search</title>
+      <link>http://localhost:1313/tags/elastic-search/</link>
+      <pubDate>Sat, 03 Mar 2018 10:47:04 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/elastic-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enumeration</title>
+      <link>http://localhost:1313/tags/enumeration/</link>
+      <pubDate>Mon, 16 Apr 2018 20:45:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/enumeration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Even</title>
+      <link>http://localhost:1313/tags/even/</link>
+      <pubDate>Sun, 14 Jan 2018 18:13:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/even/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fenwick Tree</title>
+      <link>http://localhost:1313/tags/fenwick-tree/</link>
+      <pubDate>Sun, 15 Apr 2018 22:53:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/fenwick-tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fenwick tree</title>
+      <link>http://localhost:1313/tags/fenwick-tree/</link>
+      <pubDate>Sun, 15 Apr 2018 11:55:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/fenwick-tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph</title>
+      <link>http://localhost:1313/tags/graph/</link>
+      <pubDate>Mon, 14 May 2018 23:19:59 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Greedy</title>
+      <link>http://localhost:1313/tags/greedy/</link>
+      <pubDate>Mon, 16 Apr 2018 20:57:49 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/greedy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementation</title>
+      <link>http://localhost:1313/tags/implementation/</link>
+      <pubDate>Tue, 15 May 2018 01:54:16 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/implementation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LIS</title>
+      <link>http://localhost:1313/tags/lis/</link>
+      <pubDate>Sat, 12 May 2018 11:15:06 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/lis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>http://localhost:1313/tags/math/</link>
+      <pubDate>Fri, 11 May 2018 09:56:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Observation</title>
+      <link>http://localhost:1313/tags/observation/</link>
+      <pubDate>Thu, 27 Sep 2018 13:13:12 -0700</pubDate>
+      
+      <guid>http://localhost:1313/tags/observation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Palindrome</title>
+      <link>http://localhost:1313/tags/palindrome/</link>
+      <pubDate>Mon, 16 Apr 2018 21:05:21 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/palindrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QT</title>
+      <link>http://localhost:1313/tags/qt/</link>
+      <pubDate>Mon, 19 Feb 2018 22:19:29 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/qt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stack</title>
+      <link>http://localhost:1313/tags/stack/</link>
+      <pubDate>Sun, 15 Apr 2018 22:54:34 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/stack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theme</title>
+      <link>http://localhost:1313/tags/theme/</link>
+      <pubDate>Sun, 14 Jan 2018 18:13:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tree</title>
+      <link>http://localhost:1313/tags/tree/</link>
+      <pubDate>Tue, 15 May 2018 11:24:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UFDS</title>
+      <link>http://localhost:1313/tags/ufds/</link>
+      <pubDate>Sun, 15 Apr 2018 22:26:26 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/ufds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VMWare</title>
+      <link>http://localhost:1313/tags/vmware/</link>
+      <pubDate>Thu, 08 Mar 2018 22:21:01 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/vmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WSGI</title>
+      <link>http://localhost:1313/tags/wsgi/</link>
+      <pubDate>Sat, 03 Feb 2018 10:48:17 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/wsgi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apache</title>
+      <link>http://localhost:1313/tags/apache/</link>
+      <pubDate>Sun, 04 Feb 2018 10:48:17 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>binary search</title>
+      <link>http://localhost:1313/tags/binary-search/</link>
+      <pubDate>Mon, 16 Apr 2018 20:43:50 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/binary-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conda</title>
+      <link>http://localhost:1313/tags/conda/</link>
+      <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/conda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deque</title>
+      <link>http://localhost:1313/tags/deque/</link>
+      <pubDate>Mon, 16 Apr 2018 20:42:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/deque/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dfs</title>
+      <link>http://localhost:1313/tags/dfs/</link>
+      <pubDate>Fri, 06 Jul 2018 11:16:01 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/dfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dp</title>
+      <link>http://localhost:1313/tags/dp/</link>
+      <pubDate>Fri, 06 Jul 2018 11:16:01 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/dp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>enumeration</title>
+      <link>http://localhost:1313/tags/enumeration/</link>
+      <pubDate>Mon, 16 Apr 2018 21:00:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/enumeration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fast exponentiation</title>
+      <link>http://localhost:1313/tags/fast-exponentiation/</link>
+      <pubDate>Mon, 14 May 2018 21:45:13 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/fast-exponentiation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flask</title>
+      <link>http://localhost:1313/tags/flask/</link>
+      <pubDate>Sat, 03 Feb 2018 10:48:17 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>greedy</title>
+      <link>http://localhost:1313/tags/greedy/</link>
+      <pubDate>Mon, 16 Apr 2018 20:57:49 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/greedy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>implementation</title>
+      <link>http://localhost:1313/tags/implementation/</link>
+      <pubDate>Tue, 15 May 2018 01:54:16 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/implementation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iterator</title>
+      <link>http://localhost:1313/tags/iterator/</link>
+      <pubDate>Sun, 15 Apr 2018 22:54:34 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/iterator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jupyter</title>
+      <link>http://localhost:1313/tags/jupyter/</link>
+      <pubDate>Tue, 16 Jan 2018 19:56:09 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linked list</title>
+      <link>http://localhost:1313/tags/linked-list/</link>
+      <pubDate>Mon, 16 Apr 2018 20:47:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/linked-list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>math</title>
+      <link>http://localhost:1313/tags/math/</link>
+      <pubDate>Fri, 11 May 2018 14:29:54 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>number theory</title>
+      <link>http://localhost:1313/tags/number-theory/</link>
+      <pubDate>Tue, 24 Apr 2018 10:25:48 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/number-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>observation</title>
+      <link>http://localhost:1313/tags/observation/</link>
+      <pubDate>Tue, 24 Apr 2018 10:25:48 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/observation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>permutation</title>
+      <link>http://localhost:1313/tags/permutation/</link>
+      <pubDate>Fri, 06 Jul 2018 10:20:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/permutation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pip</title>
+      <link>http://localhost:1313/tags/pip/</link>
+      <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/pip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prefix sum</title>
+      <link>http://localhost:1313/tags/prefix-sum/</link>
+      <pubDate>Tue, 17 Apr 2018 11:53:02 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/prefix-sum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>priority queue</title>
+      <link>http://localhost:1313/tags/priority-queue/</link>
+      <pubDate>Sun, 15 Apr 2018 22:45:04 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/priority-queue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>queue</title>
+      <link>http://localhost:1313/tags/queue/</link>
+      <pubDate>Mon, 16 Apr 2018 20:37:09 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/queue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>samba</title>
+      <link>http://localhost:1313/tags/samba/</link>
+      <pubDate>Thu, 08 Mar 2018 22:21:01 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/samba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortest path</title>
+      <link>http://localhost:1313/tags/shortest-path/</link>
+      <pubDate>Mon, 14 May 2018 23:19:59 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/shortest-path/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>http://localhost:1313/tags/ssh/</link>
+      <pubDate>Fri, 02 Feb 2018 08:40:30 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stack</title>
+      <link>http://localhost:1313/tags/stack/</link>
+      <pubDate>Tue, 15 May 2018 01:54:16 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/stack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>string</title>
+      <link>http://localhost:1313/tags/string/</link>
+      <pubDate>Fri, 11 May 2018 14:29:54 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/string/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tree</title>
+      <link>http://localhost:1313/tags/tree/</link>
+      <pubDate>Tue, 15 May 2018 11:24:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trie</title>
+      <link>http://localhost:1313/tags/trie/</link>
+      <pubDate>Mon, 16 Apr 2018 21:01:42 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/trie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>two pointer</title>
+      <link>http://localhost:1313/tags/two-pointer/</link>
+      <pubDate>Sun, 13 May 2018 18:04:29 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/two-pointer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>http://localhost:1313/tags/vim/</link>
+      <pubDate>Sun, 14 Jan 2018 17:58:04 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtual environment</title>
+      <link>http://localhost:1313/tags/virtual-environment/</link>
+      <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/virtual-environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtual host</title>
+      <link>http://localhost:1313/tags/virtual-host/</link>
+      <pubDate>Sun, 04 Feb 2018 10:48:17 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/virtual-host/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtualenv</title>
+      <link>http://localhost:1313/tags/virtualenv/</link>
+      <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/virtualenv/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

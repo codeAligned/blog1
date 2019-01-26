@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>string on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/string/</link>
+    <description>Recent content in string on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 May 2018 14:29:54 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>828. Unique Letter String</title>
+      <link>http://localhost:1313/post/leetcode/828/</link>
+      <pubDate>Fri, 11 May 2018 14:29:54 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/828/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/contest/weekly-contest-83/problems/unique-letter-string/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;想想看，與其窮舉所有的 substring ，我們改成: 對於每一個 $S[i] $，看看有哪些子字串計算unique時會算到 $S[i]$！&lt;/p&gt;
+
+&lt;p&gt;對於每一個 $S[i]$，我們找出他的最遠左右端點，端點內的 $S[j]$ 要符合 $S[i] \neq S[j]$ 且 $0 &amp;lt;= j &amp;lt; S.length()$。因此，我們可以輕鬆得到包含 $S[i]$ 的 substring 會有 $(i - left + 1) * (right - i + 1)$ 個啦！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>336. Palindrome Pairs</title>
+      <link>http://localhost:1313/post/leetcode/336/</link>
+      <pubDate>Mon, 16 Apr 2018 21:00:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/336/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/palindrome-pairs/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;枚舉 ＋ 組合一下字串！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>271. Encode and Decode Strings</title>
+      <link>http://localhost:1313/post/leetcode/271/</link>
+      <pubDate>Sun, 15 Apr 2018 22:30:18 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/271/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/encode-and-decode-strings/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;一題很讚的設計題。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>418. Sentence Screen Fitting</title>
+      <link>http://localhost:1313/post/leetcode/418/</link>
+      <pubDate>Sun, 15 Apr 2018 12:00:35 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/418/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/sentence-screen-fitting/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;DP紀錄什麼呢？紀錄下如果用某字開頭的話，這個row可以裝下多少字！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>686. Repeated String Match</title>
+      <link>http://localhost:1313/post/leetcode/686/</link>
+      <pubDate>Sun, 15 Apr 2018 11:59:27 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/686/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/repeated-string-match/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;枚舉，或是用hash!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>388. Longest Absolute File Path</title>
+      <link>http://localhost:1313/post/leetcode/388/</link>
+      <pubDate>Sun, 15 Apr 2018 11:43:48 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/388/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/longest-absolute-file-path/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;如何有效率的拆解並分析字串呢？請善用stack!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

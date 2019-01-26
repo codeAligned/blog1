@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/categories/google/</link>
+    <description>Recent content in Google on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Apr 2018 10:25:48 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/google/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>No nine</title>
+      <link>http://localhost:1313/post/google/kickstart/2018b/</link>
+      <pubDate>Tue, 24 Apr 2018 10:25:48 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/google/kickstart/2018b/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://code.google.com/codejam/contest/10284486/dashboard#s=p0&#34;&gt;題目&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;題目敘述&#34;&gt;題目敘述&lt;/h2&gt;
+
+&lt;p&gt;給你一個區間 $[a, b]$，保證端點都 valid，要你求取區間中 valid 的數字個數。&lt;/p&gt;
+
+&lt;p&gt;所謂 valid 的數字，他要符合&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;該數字沒有包含9 e.g. 1可以, 191不行&lt;/li&gt;
+&lt;li&gt;該數字並非9的倍數 e.g. 1可以, 18不行&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;思路&#34;&gt;思路&lt;/h2&gt;
+
+&lt;p&gt;我們可以如何排除包含9的數字呢？用九進位來看！&lt;/p&gt;
+
+&lt;p&gt;試想，如果把 $[0, 26)$ 這個區間的所有數字都列出來，你會刪掉的數字分別是 $9, 19$。誒，這不就是 $[0, 26)$ 用九進位來看會自動排除掉的數字嗎？利用這個性質，我們可以很簡單的獲得區間內數字個數了！&lt;/p&gt;
+
+&lt;p&gt;排除了包含九的數字後，九的倍數怎麼辦？傷為觀察一下就有囉！&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

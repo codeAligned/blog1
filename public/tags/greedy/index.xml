@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>greedy on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/greedy/</link>
+    <description>Recent content in greedy on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Apr 2018 20:57:49 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/greedy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>31. Next Permutation</title>
+      <link>http://localhost:1313/post/leetcode/31/</link>
+      <pubDate>Mon, 16 Apr 2018 20:57:49 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/31/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/next-permutation/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;觀察（右到左）！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>753. Cracking the Safe</title>
+      <link>http://localhost:1313/post/leetcode/753/</link>
+      <pubDate>Sun, 15 Apr 2018 22:24:10 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/leetcode/753/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/cracking-the-safe/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;暴力搜尋！（證明靠尤拉路徑）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>APCS 1061028 題解</title>
+      <link>http://localhost:1313/post/competitive_programming/apcs1061028/</link>
+      <pubDate>Sat, 13 Jan 2018 00:10:47 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/competitive_programming/apcs1061028/</guid>
+      <description>&lt;p&gt;官方&lt;a href=&#34;https://apcs.csie.ntnu.edu.tw/files/1061028APCSImplementation.pdf&#34;&gt;試題&lt;/a&gt;本&lt;/p&gt;
+
+&lt;p&gt;第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

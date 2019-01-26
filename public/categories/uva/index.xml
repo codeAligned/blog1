@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UVa on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/categories/uva/</link>
+    <description>Recent content in UVa on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 14 May 2018 21:45:13 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/uva/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>10689 - Yet another Number Sequence</title>
+      <link>http://localhost:1313/post/uva/10689/</link>
+      <pubDate>Mon, 14 May 2018 21:45:13 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/uva/10689/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1630&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Matrix fast exponentiation!&lt;/p&gt;
+
+&lt;p&gt;Observe that when $n = 2$&lt;/p&gt;
+
+&lt;p&gt;$
+\begin{bmatrix}
+    1 &amp;amp; 1  \newline
+    1 &amp;amp; 0  \newline
+\end{bmatrix}^{2 - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(0) + f(1)   \newline
+    f(1)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(2)   \newline
+    f(1)   \newline
+\end{bmatrix}
+$&lt;/p&gt;
+
+&lt;p&gt;So in general, we get&lt;/p&gt;
+
+&lt;p&gt;$
+\begin{bmatrix}
+    1 &amp;amp; 1  \newline
+    1 &amp;amp; 0  \newline
+\end{bmatrix}^{n - 1} *
+\begin{bmatrix}
+    f(1)   \newline
+    f(0)   \newline
+\end{bmatrix} =
+\begin{bmatrix}
+    f(n)   \newline
+    f(n - 1)   \newline
+\end{bmatrix}
+$&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>10911 - Forming Quiz Teams</title>
+      <link>http://localhost:1313/post/uva/10911/</link>
+      <pubDate>Sun, 13 May 2018 00:12:48 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/uva/10911/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1852&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For every $dp[i] = k$, we define $i$ as the collection of people that&amp;rsquo;re not paired yet, and $k$ is the minimum cost to pair those people up, if possible.&lt;/p&gt;
+
+&lt;p&gt;Starting with &lt;code&gt;(1 &amp;lt;&amp;lt; n) - 1&lt;/code&gt;, we can pair 2 of them at a time, and recurse on &lt;code&gt;(state ^ (1 &amp;lt;&amp;lt; i) ^ (1 &amp;lt;&amp;lt; j))&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Notice the base case is $dp[0] = 0$.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>10944 - Nuts for nuts..</title>
+      <link>http://localhost:1313/post/uva/10944/</link>
+      <pubDate>Sat, 12 May 2018 22:38:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/uva/10944/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1885&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;位元DP。&lt;/p&gt;
+
+&lt;p&gt;我們定義 $dp[i][j] = k$, $j$ 為已經拾取過果實的地方，$i$ 為最後所停之處，$dp[i][j]$為拾取果實後停在$i$的總步數。&lt;/p&gt;
+
+&lt;p&gt;初始化的話，$dp[i][1&amp;lt;&amp;lt;i] = $ 從出發點到此的距離，其餘 $\infty$。&lt;/p&gt;
+
+&lt;p&gt;計算的話，假設我們有三個點，我們現在要求取$dp[0][3]$（已經在0, 1拿完果實，並停在0），那我們的其中一種可行走法為$dp[1][2] + dist[1][0]$，也就是說，從只去過1的狀態走到0來！所以更新的話，就是:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;dp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;][&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;j&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;][&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;j&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;],&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;][&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;j&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;dist&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;][&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>108 - Maximum Sum</title>
+      <link>http://localhost:1313/post/uva/108/</link>
+      <pubDate>Sat, 12 May 2018 18:05:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/uva/108/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=44&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2D prefix sum!&lt;/p&gt;
+
+&lt;p&gt;枚舉起始行、結束行、跟列！這樣就可以轉回 1D 的 prefix sum 題目了。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>348 - Optimal Array Multiplication Sequence</title>
+      <link>http://localhost:1313/post/uva/348/</link>
+      <pubDate>Sat, 12 May 2018 17:43:18 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/uva/348/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=284&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;經典的最少矩陣乘法次數，但是要輸出最終結果！&lt;/p&gt;
+
+&lt;p&gt;第一次使用 tuple，感覺不錯。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;tuple&amp;lt;type, type, ...&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;make_tuple(var, var)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;get&amp;lt;index&amp;gt; tupleName&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;c++
+int a;
+int b;
+tie(a, b) = someReturnedTuple
+&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>10401 - Injured Queen Problem</title>
+      <link>http://localhost:1313/post/uva/10401/</link>
+      <pubDate>Fri, 11 May 2018 21:25:16 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/uva/10401/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1342&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;掰咖的n皇后問題，如果我們拿 column 來看的話，他只跟前一個 column 有關而已了！&lt;/p&gt;
+
+&lt;p&gt;令 $dp[i][j]$ 為 把皇后擺在 row $i$ column $j$ 這個位置的話，有幾種擺法。&lt;/p&gt;
+
+&lt;p&gt;因此&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;如果這個 column 沒有指定后位的話，我們就 $dp[i][j] += dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$&lt;/li&gt;
+&lt;li&gt;如果這個 column 有指定后位的話，我們就 $dp[queenPosition][j] += dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>10721 - Bar Codes</title>
+      <link>http://localhost:1313/post/uva/10721/</link>
+      <pubDate>Fri, 11 May 2018 17:53:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/uva/10721/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1662&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;非常好的題目！先想三維再想二維！&lt;/p&gt;
+
+&lt;p&gt;核心的想法是，如果能延伸，我們就延伸！延伸長度的話呢？枚舉他！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>116 - Unidirectional TSP</title>
+      <link>http://localhost:1313/post/uva/116/</link>
+      <pubDate>Thu, 10 May 2018 22:19:11 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/uva/116/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=52&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;只求 min path 不難，但是回朔&amp;hellip;有意思。&lt;/p&gt;
+
+&lt;p&gt;要字典序最小的回朔，如果正著做，下面那筆測資就GG了。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

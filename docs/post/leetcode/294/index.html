@@ -16,24 +16,20 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Henry Tseng" />
-  <meta name="description" content="題目連結
+<meta name="author" content="Chun-Hung Tseng" /><meta name="description" content="題目連結
 Good DFS problem!
 Think about the returning conditions carefully!
-" />
-
-  <meta name="keywords" content="Hugo, theme, even" />
+" /><meta name="keywords" content="Competitive programming, Notes, Codeforces, UVa, Leetcode" />
 
 
 
-<meta name="google-site-verification" content="FuwyG1La_DaZH-n3M2NtQYJYF5GYtRVtthFpCVWuoaU" />
 
 
-<meta name="generator" content="Hugo 0.53" />
+
+<meta name="generator" content="Hugo 0.53 with even 4.0.0" />
 
 
 <link rel="canonical" href="https://henrybear327.github.io/blog1/post/leetcode/294/" />
-
 <link rel="apple-touch-icon" sizes="180x180" href="/blog1/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/blog1/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/blog1/favicon-16x16.png">
@@ -41,15 +37,8 @@ Think about the returning conditions carefully!
 <link rel="mask-icon" href="/blog1/safari-pinned-tab.svg" color="#5bbad5">
 
 
-
-
-
-
-
-<link href="/blog1/dist/even.min.css?v=3.0.0" rel="stylesheet">
-<link href="/blog1/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
-
-
+<link href="/blog1/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
 <meta property="og:title" content="294. Flip Game II" />
@@ -72,7 +61,7 @@ Think about the returning conditions carefully!">
 
 <meta itemprop="datePublished" content="2018-05-13T23:52:04&#43;08:00" />
 <meta itemprop="dateModified" content="2018-05-13T23:52:04&#43;08:00" />
-<meta itemprop="wordCount" content="229">
+<meta itemprop="wordCount" content="303">
 
 
 
@@ -98,7 +87,7 @@ Think about the returning conditions carefully!"/>
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
-    <a href="/blog1/" class="logo">Coding Blog</a>
+    <a href="/blog1/" class="logo">Even</a>
   </div>
   <div class="mobile-navbar-icon">
     <span></span>
@@ -122,7 +111,7 @@ Think about the returning conditions carefully!"/>
   <div class="container" id="mobile-panel">
     <header id="header" class="header">
         <div class="logo-wrapper">
-  <a href="/blog1/" class="logo">Coding Blog</a>
+  <a href="/blog1/" class="logo">Even</a>
 </div>
 
 <nav class="site-navbar">
@@ -151,21 +140,16 @@ Think about the returning conditions carefully!"/>
       <div class="post-meta">
         <span class="post-time"> 2018-05-13 </span>
         <div class="post-category">
-            
-              <a href="/blog1/categories/leetcode/"> Leetcode </a>
-            
-          </div>
-        <span class="more-meta"> 229 words </span>
-        <span class="more-meta"> 1 min read </span>
+            <a href="/blog1/categories/leetcode/"> Leetcode </a>
+            </div>
+          <span class="more-meta"> 303 words </span>
+          <span class="more-meta"> 1 min read </span>
         
       </div>
     </header>
 
-    
-    
-<div class="post-toc" id="post-toc">
+    <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">Contents</h2>
-  
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
 <ul>
@@ -177,8 +161,6 @@ Think about the returning conditions carefully!"/>
 </nav>
   </div>
 </div>
-
-    
     <div class="post-content">
       <p><a href="https://leetcode.com/problems/flip-game-ii/description/">題目連結</a></p>
 
@@ -187,118 +169,200 @@ Think about the returning conditions carefully!"/>
 <p>Think about the returning conditions carefully!</p>
 
 <h2 id="ac-code">AC Code</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-c++" data-lang="c++"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c++" data-lang="c++"><span class="cp">#ifdef LOCAL
+</span><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
+</span><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 
-<pre><code class="language-c++">#ifdef LOCAL
-#include &lt;bits/stdc++.h&gt;
-using namespace std;
+<span class="c1">// tree node stuff here...
+</span><span class="c1"></span><span class="cp">#endif
+</span><span class="cp"></span>
+<span class="k">static</span> <span class="kt">int</span> <span class="n">__initialSetup</span> <span class="o">=</span> <span class="p">[]()</span>
+<span class="p">{</span>
+	<span class="n">std</span><span class="o">::</span><span class="n">ios</span><span class="o">::</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="nb">false</span><span class="p">);</span>
+	<span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="nb">NULL</span><span class="p">);</span>
+	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="p">();</span>
 
-// tree node stuff here...
-#endif
+<span class="c1">// handle special cases first
+</span><span class="c1">// [], &#34;&#34;, ...
+</span><span class="c1">// range of input?
+</span><span class="c1"></span><span class="cm">/*
+</span><span class="cm">&#34;++++&#34;
+</span><span class="cm">&#34;+++++&#34;
+</span><span class="cm">&#34;++++++&#34;
+</span><span class="cm">&#34;+++++++++&#34;
+</span><span class="cm">&#34;++++-++++++&#34;
+</span><span class="cm">*/</span>
+<span class="k">class</span><span class="err"> </span><span class="nc">Solution</span>
+<span class="p">{</span>
+<span class="k">private</span><span class="o">:</span>
+	<span class="kt">bool</span> <span class="n">isLoser</span><span class="p">(</span><span class="n">string</span> <span class="o">&amp;</span><span class="n">s</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="kt">int</span> <span class="n">len</span> <span class="o">=</span> <span class="n">s</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
+		<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">len</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+			<span class="k">if</span> <span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">&amp;&amp;</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="sc">&#39;+&#39;</span><span class="p">)</span>
+				<span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+		<span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+	<span class="p">}</span>
 
-static int __initialSetup = []()
-{
-	std::ios::sync_with_stdio(false);
-	cin.tie(NULL);
-	return 0;
-}
-();
+	<span class="kt">bool</span> <span class="n">dfs</span><span class="p">(</span><span class="n">string</span> <span class="o">&amp;</span><span class="n">s</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">myTurn</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">isLoser</span><span class="p">(</span><span class="n">s</span><span class="p">))</span>
+			<span class="k">return</span> <span class="n">myTurn</span> <span class="o">?</span> <span class="nb">false</span> <span class="o">:</span> <span class="nb">true</span><span class="p">;</span>
 
-// handle special cases first
-// [], &quot;&quot;, ...
-// range of input?
-/*
-&quot;++++&quot;
-&quot;+++++&quot;
-&quot;++++++&quot;
-&quot;+++++++++&quot;
-&quot;++++-++++++&quot;
-*/
-class Solution
-{
-private:
-	bool isLoser(string &amp;s)
-	{
-		int len = s.length();
-		for (int i = 0; i &lt; len - 1; i++)
-			if (s[i] == s[i + 1] &amp;&amp; s[i] == '+')
-				return false;
-		return true;
-	}
+		<span class="kt">int</span> <span class="n">len</span> <span class="o">=</span> <span class="n">s</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
+		<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">len</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">if</span> <span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">&amp;&amp;</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="sc">&#39;+&#39;</span><span class="p">)</span> <span class="p">{</span>
+				<span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="sc">&#39;-&#39;</span><span class="p">;</span>
+				<span class="kt">int</span> <span class="n">ret</span> <span class="o">=</span> <span class="n">dfs</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="o">!</span><span class="n">myTurn</span><span class="p">);</span>
+				<span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">s</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="sc">&#39;+&#39;</span><span class="p">;</span>
 
-	bool dfs(string &amp;s, bool myTurn)
-	{
-		if (isLoser(s))
-			return myTurn ? false : true;
+				<span class="k">if</span> <span class="p">(</span><span class="n">myTurn</span> <span class="o">==</span> <span class="nb">true</span><span class="p">)</span> <span class="p">{</span>
+					<span class="k">if</span> <span class="p">(</span><span class="n">ret</span> <span class="o">==</span> <span class="nb">true</span><span class="p">)</span> <span class="c1">// my turn, any branch with all win, return true
+</span><span class="c1"></span>						<span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+				<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+					<span class="k">if</span> <span class="p">(</span><span class="n">ret</span> <span class="o">==</span> <span class="nb">false</span><span class="p">)</span>
+						<span class="k">return</span> <span class="nb">false</span><span class="p">;</span> <span class="c1">// if opponent makes any move that I can&#39;t win, return false
+</span><span class="c1"></span>				<span class="p">}</span>
+			<span class="p">}</span>
+		<span class="p">}</span>
 
-		int len = s.length();
-		for (int i = 0; i &lt; len - 1; i++) {
-			if (s[i] == s[i + 1] &amp;&amp; s[i] == '+') {
-				s[i] = s[i + 1] = '-';
-				int ret = dfs(s, !myTurn);
-				s[i] = s[i + 1] = '+';
+		<span class="k">return</span> <span class="n">myTurn</span> <span class="o">?</span> <span class="nb">false</span> <span class="o">:</span> <span class="nb">true</span><span class="p">;</span>
+	<span class="p">}</span>
 
-				if (myTurn == true) {
-					if (ret == true) // my turn, any branch with all win, return true
-						return true;
-				} else {
-					if (ret == false)
-						return false; // if opponent makes any move that I can't win, return false
-				}
-			}
-		}
+<span class="k">public</span><span class="o">:</span>
+	<span class="kt">bool</span> <span class="n">canWin</span><span class="p">(</span><span class="n">string</span> <span class="n">s</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="k">return</span> <span class="n">dfs</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="nb">true</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">};</span>
 
-		return myTurn ? false : true;
-	}
-
-public:
-	bool canWin(string s)
-	{
-		return dfs(s, true);
-	}
-};
-
-#ifdef LOCAL
-int main()
-{
-	return 0;
-}
-#endif
-</code></pre>
+<span class="cp">#ifdef LOCAL
+</span><span class="cp"></span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="cp">#endif
+</span><span class="cp"></span></code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
-    
-    
-
-    
-    
-
-    <footer class="post-footer">
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Chun-Hung Tseng</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2018-05-13</span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div><footer class="post-footer">
       <div class="post-tags">
-          
           <a href="/blog1/tags/dfs/">DFS</a>
-          
-        </div>
-
-      
+          </div>
       <nav class="post-nav">
-        
-          <a class="prev" href="/blog1/post/uva/10689/">
+        <a class="prev" href="/blog1/post/uva/10689/">
             <i class="iconfont icon-left"></i>
             <span class="prev-text nav-default">10689 - Yet another Number Sequence</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
-        
-          <a class="next" href="/blog1/post/leetcode/417/">
+        <a class="next" href="/blog1/post/leetcode/417/">
             <span class="next-text nav-default">417. Pacific Atlantic Water Flow</span>
-            <span class="prev-text nav-mobile">Next</span>
+            <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
       </nav>
     </footer>
   </article>
         </div>
-        
-  <div id="disqus_thread"></div>
+        <div id="disqus_thread"></div>
     <script type="text/javascript">
     (function() {
       
@@ -313,14 +377,12 @@ int main()
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-  
-
-  
       </div>
     </main>
 
     <footer id="footer" class="footer">
       <div class="social-links">
+      <a href="https://www.linkedin.com/in/chun-hung-tseng/" class="iconfont icon-linkedin" title="linkedin"></a>
       <a href="https://github.com/henrybear327?tab=repositories" class="iconfont icon-github" title="github"></a>
   <a href="https://henrybear327.github.io/blog1/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
 </div>
@@ -339,13 +401,12 @@ int main()
 
   <span class="copyright-year">
     &copy; 
-    
-      2018 - 
+    2018 - 
     2019
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>
-    <span class="author">Henry Tseng</span>
+    <span class="author">Chun-Hung Tseng</span>
   </span>
 </div>
     </footer>
@@ -355,18 +416,19 @@ int main()
     </div>
   </div>
   
-<script src="/blog1/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/blog1/lib/jquery/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="/blog1/lib/slideout/slideout-1.0.1.min.js"></script>
-  <script type="text/javascript" src="/blog1/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
-<script type="text/javascript" src="/blog1/dist/even.min.js?v=3.0.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/blog1/dist/even.26188efa.min.js"></script>
   <script type="text/javascript">
     window.MathJax = {
       tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      TeX: {equationNumbers: {autoNumber: "AMS"}},
       showProcessingMessages: false,
       messageStyle: 'none'
     };
   </script>
-  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 
 
 <script type="application/javascript">
@@ -374,7 +436,7 @@ var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 	ga('create', 'UA-81902328-2', 'auto');
-	
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>

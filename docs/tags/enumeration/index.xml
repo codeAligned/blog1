@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Enumeration on Coding Blog</title>
+    <title>enumeration on Coding Blog</title>
     <link>https://henrybear327.github.io/blog1/tags/enumeration/</link>
-    <description>Recent content in Enumeration on Coding Blog</description>
+    <description>Recent content in enumeration on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 16 Apr 2018 21:00:28 +0800</lastBuildDate>
@@ -31,26 +31,6 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/generate-parentheses/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;基本爆搜題&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>139. Word Break</title>
-      <link>https://henrybear327.github.io/blog1/post/leetcode/139/</link>
-      <pubDate>Mon, 16 Apr 2018 20:45:00 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/leetcode/139/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/word-break/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>753. Cracking the Safe</title>
-      <link>https://henrybear327.github.io/blog1/post/leetcode/753/</link>
-      <pubDate>Sun, 15 Apr 2018 22:24:10 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/post/leetcode/753/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/cracking-the-safe/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;暴力搜尋！（證明靠尤拉路徑）&lt;/p&gt;</description>
     </item>
     
     <item>

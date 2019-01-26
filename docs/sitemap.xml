@@ -549,8 +549,8 @@
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog1/tags/apache/</loc>
-    <lastmod>2018-02-04T10:48:17+08:00</lastmod>
+    <loc>https://henrybear327.github.io/blog1/tags/apcs/</loc>
+    <lastmod>2018-01-14T12:59:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -563,22 +563,8 @@
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog1/tags/apcs/</loc>
-    <lastmod>2018-01-14T12:59:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://henrybear327.github.io/blog1/tags/bfs/</loc>
     <lastmod>2018-05-12T13:23:43+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/tags/binary-search/</loc>
-    <lastmod>2018-04-16T20:43:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -593,6 +579,13 @@
   <url>
     <loc>https://henrybear327.github.io/blog1/tags/bst/</loc>
     <lastmod>2018-04-16T20:50:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/binary-search/</loc>
+    <lastmod>2018-01-14T12:59:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -613,28 +606,14 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog1/categories/competitive-programming/</loc>
+    <lastmod>2018-04-24T10:25:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/categories/competitive-programming/</loc>
     <lastmod>2018-05-14T21:45:13+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/tags/conda/</loc>
-    <lastmod>2018-02-04T10:58:36+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/tags/deque/</loc>
-    <lastmod>2018-04-16T20:42:36+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/tags/design/</loc>
-    <lastmod>2018-04-15T22:30:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -649,6 +628,13 @@
   <url>
     <loc>https://henrybear327.github.io/blog1/tags/dp/</loc>
     <lastmod>2018-07-06T11:16:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/design/</loc>
+    <lastmod>2018-04-15T22:30:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -669,7 +655,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog1/tags/enumeration/</loc>
-    <lastmod>2018-04-16T21:00:28+08:00</lastmod>
+    <lastmod>2018-04-16T20:45:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -682,13 +668,6 @@
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog1/tags/fast-exponentiation/</loc>
-    <lastmod>2018-05-14T21:45:13+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://henrybear327.github.io/blog1/tags/fenwick-tree/</loc>
     <lastmod>2018-04-15T22:53:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -696,8 +675,8 @@
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog1/tags/flask/</loc>
-    <lastmod>2018-02-03T10:48:17+08:00</lastmod>
+    <loc>https://henrybear327.github.io/blog1/tags/fenwick-tree/</loc>
+    <lastmod>2018-04-15T11:55:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -725,7 +704,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog1/tags/greedy/</loc>
-    <lastmod>2018-05-15T01:54:16+08:00</lastmod>
+    <lastmod>2018-04-16T20:57:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -733,6 +712,230 @@
   <url>
     <loc>https://henrybear327.github.io/blog1/categories/hugo/</loc>
     <lastmod>2018-01-14T18:13:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/implementation/</loc>
+    <lastmod>2018-05-15T01:54:16+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/lis/</loc>
+    <lastmod>2018-05-12T11:15:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/categories/leetcode/</loc>
+    <lastmod>2018-09-27T13:13:12-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/math/</loc>
+    <lastmod>2018-05-11T09:56:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/categories/osx/</loc>
+    <lastmod>2018-02-02T08:40:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/observation/</loc>
+    <lastmod>2018-09-27T13:13:12-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/palindrome/</loc>
+    <lastmod>2018-04-16T21:05:21+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/post/</loc>
+    <lastmod>2018-09-27T13:13:12-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/categories/python/</loc>
+    <lastmod>2018-02-03T10:48:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/qt/</loc>
+    <lastmod>2018-02-19T22:19:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/categories/qt/</loc>
+    <lastmod>2018-02-19T22:19:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/stack/</loc>
+    <lastmod>2018-04-15T22:54:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/</loc>
+    <lastmod>2018-04-15T22:41:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/theme/</loc>
+    <lastmod>2018-01-14T18:13:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/tree/</loc>
+    <lastmod>2018-05-15T11:24:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/ufds/</loc>
+    <lastmod>2018-04-15T22:26:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/categories/uva/</loc>
+    <lastmod>2018-05-12T11:15:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/categories/uva/</loc>
+    <lastmod>2018-05-14T21:45:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/vmware/</loc>
+    <lastmod>2018-03-08T22:21:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/categories/vmware/</loc>
+    <lastmod>2018-03-08T22:21:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/wsgi/</loc>
+    <lastmod>2018-02-03T10:48:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/apache/</loc>
+    <lastmod>2018-02-04T10:48:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/binary-search/</loc>
+    <lastmod>2018-04-16T20:43:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/categories/competitive-programming/</loc>
+    <lastmod>2018-05-12T11:15:06+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/conda/</loc>
+    <lastmod>2018-02-04T10:58:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/deque/</loc>
+    <lastmod>2018-04-16T20:42:36+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/dfs/</loc>
+    <lastmod>2018-07-06T11:16:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/dp/</loc>
+    <lastmod>2018-07-06T11:16:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/enumeration/</loc>
+    <lastmod>2018-04-16T21:00:28+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/fast-exponentiation/</loc>
+    <lastmod>2018-05-14T21:45:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/flask/</loc>
+    <lastmod>2018-02-03T10:48:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://henrybear327.github.io/blog1/tags/greedy/</loc>
+    <lastmod>2018-04-16T20:57:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -766,22 +969,8 @@
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog1/categories/leetcode/</loc>
-    <lastmod>2018-09-27T13:13:12-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://henrybear327.github.io/blog1/tags/linked-list/</loc>
     <lastmod>2018-04-16T20:47:37+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/tags/lis/</loc>
-    <lastmod>2018-05-12T11:15:06+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -802,21 +991,7 @@
   
   <url>
     <loc>https://henrybear327.github.io/blog1/tags/observation/</loc>
-    <lastmod>2018-09-27T13:13:12-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/categories/osx/</loc>
-    <lastmod>2018-02-02T08:40:30+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/tags/palindrome/</loc>
-    <lastmod>2018-04-16T21:05:21+08:00</lastmod>
+    <lastmod>2018-04-24T10:25:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -831,13 +1006,6 @@
   <url>
     <loc>https://henrybear327.github.io/blog1/tags/pip/</loc>
     <lastmod>2018-02-04T10:58:36+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/post/</loc>
-    <lastmod>2018-09-27T13:13:12-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -866,20 +1034,6 @@
   <url>
     <loc>https://henrybear327.github.io/blog1/categories/python/</loc>
     <lastmod>2018-02-04T10:58:36+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/tags/qt/</loc>
-    <lastmod>2018-02-19T22:19:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/categories/qt/</loc>
-    <lastmod>2018-02-19T22:19:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -927,20 +1081,6 @@
   </url>
   
   <url>
-    <loc>https://henrybear327.github.io/blog1/tags/</loc>
-    <lastmod>2018-04-15T22:41:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/tags/theme/</loc>
-    <lastmod>2018-01-14T18:13:28+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://henrybear327.github.io/blog1/tags/tree/</loc>
     <lastmod>2018-05-15T11:24:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -957,20 +1097,6 @@
   <url>
     <loc>https://henrybear327.github.io/blog1/tags/two-pointer/</loc>
     <lastmod>2018-05-13T18:04:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/tags/ufds/</loc>
-    <lastmod>2018-04-15T22:26:26+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/categories/uva/</loc>
-    <lastmod>2018-05-14T21:45:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
@@ -999,27 +1125,6 @@
   <url>
     <loc>https://henrybear327.github.io/blog1/tags/virtualenv/</loc>
     <lastmod>2018-02-04T10:58:36+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/tags/vmware/</loc>
-    <lastmod>2018-03-08T22:21:01+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/categories/vmware/</loc>
-    <lastmod>2018-03-08T22:21:01+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://henrybear327.github.io/blog1/tags/wsgi/</loc>
-    <lastmod>2018-02-03T10:48:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

@@ -23,6 +23,15 @@
     <item>
       <title>Competitive Programming</title>
       <link>https://henrybear327.github.io/blog1/categories/competitive-programming/</link>
+      <pubDate>Tue, 24 Apr 2018 10:25:48 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog1/categories/competitive-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Competitive programming</title>
+      <link>https://henrybear327.github.io/blog1/categories/competitive-programming/</link>
       <pubDate>Mon, 14 May 2018 21:45:13 +0800</pubDate>
       
       <guid>https://henrybear327.github.io/blog1/categories/competitive-programming/</guid>
@@ -66,15 +75,6 @@
     </item>
     
     <item>
-      <title>Kickstart</title>
-      <link>https://henrybear327.github.io/blog1/categories/kickstart/</link>
-      <pubDate>Tue, 24 Apr 2018 10:25:48 +0800</pubDate>
-      
-      <guid>https://henrybear327.github.io/blog1/categories/kickstart/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Leetcode</title>
       <link>https://henrybear327.github.io/blog1/categories/leetcode/</link>
       <pubDate>Thu, 27 Sep 2018 13:13:12 -0700</pubDate>
@@ -84,7 +84,7 @@
     </item>
     
     <item>
-      <title>Osx</title>
+      <title>OSX</title>
       <link>https://henrybear327.github.io/blog1/categories/osx/</link>
       <pubDate>Fri, 02 Feb 2018 08:40:30 +0800</pubDate>
       
@@ -95,14 +95,14 @@
     <item>
       <title>Python</title>
       <link>https://henrybear327.github.io/blog1/categories/python/</link>
-      <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
+      <pubDate>Sat, 03 Feb 2018 10:48:17 +0800</pubDate>
       
       <guid>https://henrybear327.github.io/blog1/categories/python/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Qt</title>
+      <title>QT</title>
       <link>https://henrybear327.github.io/blog1/categories/qt/</link>
       <pubDate>Mon, 19 Feb 2018 22:19:29 +0800</pubDate>
       
@@ -111,7 +111,16 @@
     </item>
     
     <item>
-      <title>Uva</title>
+      <title>UVA</title>
+      <link>https://henrybear327.github.io/blog1/categories/uva/</link>
+      <pubDate>Sat, 12 May 2018 11:15:06 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog1/categories/uva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UVa</title>
       <link>https://henrybear327.github.io/blog1/categories/uva/</link>
       <pubDate>Mon, 14 May 2018 21:45:13 +0800</pubDate>
       
@@ -120,11 +129,38 @@
     </item>
     
     <item>
-      <title>Vmware</title>
+      <title>VMWare</title>
       <link>https://henrybear327.github.io/blog1/categories/vmware/</link>
       <pubDate>Thu, 08 Mar 2018 22:21:01 +0800</pubDate>
       
       <guid>https://henrybear327.github.io/blog1/categories/vmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>competitive programming</title>
+      <link>https://henrybear327.github.io/blog1/categories/competitive-programming/</link>
+      <pubDate>Sat, 12 May 2018 11:15:06 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog1/categories/competitive-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kickstart</title>
+      <link>https://henrybear327.github.io/blog1/categories/kickstart/</link>
+      <pubDate>Tue, 24 Apr 2018 10:25:48 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog1/categories/kickstart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://henrybear327.github.io/blog1/categories/python/</link>
+      <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
+      
+      <guid>https://henrybear327.github.io/blog1/categories/python/</guid>
       <description></description>
     </item>
     
