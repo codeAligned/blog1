@@ -21,8 +21,7 @@
 掰咖的n皇后問題，如果我們拿 column 來看的話，他只跟前一個 column 有關而已了！
 令 $dp[i][j]$ 為 把皇后擺在 row $i$ column $j$ 這個位置的話，有幾種擺法。
 因此
- 如果這個 column 沒有指定后位的話，我們就 $dp[i][j] &#43;= dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$ 如果這個 column 有指定后位的話，我們就 $dp[queenPosition][j] &#43;= dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$  
-" />
+ 如果這個 column 沒有指定后位的話，我們就 $dp[i][j] &#43;= dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$ 如果這個 column 有指定后位的話，我們就 $dp[queenPosition][j] &#43;= dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$ " />
 
   <meta name="keywords" content="Hugo, theme, even" />
 
@@ -31,25 +30,25 @@
 <meta name="google-site-verification" content="FuwyG1La_DaZH-n3M2NtQYJYF5GYtRVtthFpCVWuoaU" />
 
 
-<meta name="generator" content="Hugo 0.49" />
+<meta name="generator" content="Hugo 0.53" />
 
 
-<link rel="canonical" href="https://henrybear327.github.io/blog/post/uva/10401/" />
+<link rel="canonical" href="https://henrybear327.github.io/blog1/post/uva/10401/" />
 
-<link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
-<link rel="manifest" href="/blog/manifest.json">
-<link rel="mask-icon" href="/blog/safari-pinned-tab.svg" color="#5bbad5">
-
-
-
+<link rel="apple-touch-icon" sizes="180x180" href="/blog1/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/blog1/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/blog1/favicon-16x16.png">
+<link rel="manifest" href="/blog1/manifest.json">
+<link rel="mask-icon" href="/blog1/safari-pinned-tab.svg" color="#5bbad5">
 
 
 
 
-<link href="/blog/dist/even.min.css?v=3.2.0" rel="stylesheet">
-<link href="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+<link href="/blog1/dist/even.min.css?v=3.0.0" rel="stylesheet">
+<link href="/blog1/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
 
 
@@ -66,11 +65,9 @@
 
 如果這個 column 沒有指定后位的話，我們就 $dp[i][j] &#43;= dp[k][j - 1]$ where $1 \leq k &lt; n, |{i-k}| &gt; 1$
 如果這個 column 有指定后位的話，我們就 $dp[queenPosition][j] &#43;= dp[k][j - 1]$ where $1 \leq k &lt; n, |{i-k}| &gt; 1$
-
-
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://henrybear327.github.io/blog/post/uva/10401/" /><meta property="article:published_time" content="2018-05-11T21:25:16&#43;08:00"/>
+<meta property="og:url" content="https://henrybear327.github.io/blog1/post/uva/10401/" /><meta property="article:published_time" content="2018-05-11T21:25:16&#43;08:00"/>
 <meta property="article:modified_time" content="2018-05-11T21:25:16&#43;08:00"/>
 
 <meta itemprop="name" content="10401 - Injured Queen Problem">
@@ -85,8 +82,6 @@
 
 如果這個 column 沒有指定后位的話，我們就 $dp[i][j] &#43;= dp[k][j - 1]$ where $1 \leq k &lt; n, |{i-k}| &gt; 1$
 如果這個 column 有指定后位的話，我們就 $dp[queenPosition][j] &#43;= dp[k][j - 1]$ where $1 \leq k &lt; n, |{i-k}| &gt; 1$
-
-
 ">
 
 
@@ -110,8 +105,6 @@
 
 如果這個 column 沒有指定后位的話，我們就 $dp[i][j] &#43;= dp[k][j - 1]$ where $1 \leq k &lt; n, |{i-k}| &gt; 1$
 如果這個 column 有指定后位的話，我們就 $dp[queenPosition][j] &#43;= dp[k][j - 1]$ where $1 \leq k &lt; n, |{i-k}| &gt; 1$
-
-
 "/>
 
 <!--[if lte IE 9]>
@@ -127,7 +120,7 @@
 <body>
   <div id="mobile-navbar" class="mobile-navbar">
   <div class="mobile-header-logo">
-    <a href="/blog/" class="logo">Coding Blog</a>
+    <a href="/blog1/" class="logo">Coding Blog</a>
   </div>
   <div class="mobile-navbar-icon">
     <span></span>
@@ -137,13 +130,13 @@
 </div>
 <nav id="mobile-menu" class="mobile-menu slideout-menu">
   <ul class="mobile-menu-list">
-    <a href="/blog/">
+    <a href="/blog1/">
         <li class="mobile-menu-item">Home</li>
-      </a><a href="/blog/post/">
+      </a><a href="/blog1/post/">
         <li class="mobile-menu-item">Archives</li>
-      </a><a href="/blog/tags/">
+      </a><a href="/blog1/tags/">
         <li class="mobile-menu-item">Tags</li>
-      </a><a href="/blog/categories/">
+      </a><a href="/blog1/categories/">
         <li class="mobile-menu-item">Categories</li>
       </a>
   </ul>
@@ -151,19 +144,19 @@
   <div class="container" id="mobile-panel">
     <header id="header" class="header">
         <div class="logo-wrapper">
-  <a href="/blog/" class="logo">Coding Blog</a>
+  <a href="/blog1/" class="logo">Coding Blog</a>
 </div>
 
 <nav class="site-navbar">
   <ul id="menu" class="menu">
     <li class="menu-item">
-        <a class="menu-item-link" href="/blog/">Home</a>
+        <a class="menu-item-link" href="/blog1/">Home</a>
       </li><li class="menu-item">
-        <a class="menu-item-link" href="/blog/post/">Archives</a>
+        <a class="menu-item-link" href="/blog1/post/">Archives</a>
       </li><li class="menu-item">
-        <a class="menu-item-link" href="/blog/tags/">Tags</a>
+        <a class="menu-item-link" href="/blog1/tags/">Tags</a>
       </li><li class="menu-item">
-        <a class="menu-item-link" href="/blog/categories/">Categories</a>
+        <a class="menu-item-link" href="/blog1/categories/">Categories</a>
       </li>
   </ul>
 </nav>
@@ -181,9 +174,9 @@
         <span class="post-time"> 2018-05-11 </span>
         <div class="post-category">
             
-              <a href="/blog/categories/uva/"> UVa </a>
+              <a href="/blog1/categories/uva/"> UVa </a>
             
-              <a href="/blog/categories/competitive-programming/"> competitive programming </a>
+              <a href="/blog1/categories/competitive-programming/"> competitive programming </a>
             
           </div>
         <span class="more-meta"> 392 words </span>
@@ -210,9 +203,6 @@
 </div>
 
     
-    
-
-    
     <div class="post-content">
       <p><a href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1342">題目連結</a></p>
 
@@ -226,8 +216,6 @@
 <li>如果這個 column 沒有指定后位的話，我們就 $dp[i][j] += dp[k][j - 1]$ where $1 \leq k &lt; n, |{i-k}| &gt; 1$</li>
 <li>如果這個 column 有指定后位的話，我們就 $dp[queenPosition][j] += dp[k][j - 1]$ where $1 \leq k &lt; n, |{i-k}| &gt; 1$</li>
 </ol>
-
-<p></p>
 
 <h2 id="ac-code">AC Code</h2>
 
@@ -317,22 +305,22 @@ int main()
     <footer class="post-footer">
       <div class="post-tags">
           
-          <a href="/blog/tags/dp/">DP</a>
+          <a href="/blog1/tags/dp/">DP</a>
           
         </div>
 
       
       <nav class="post-nav">
         
-          <a class="prev" href="/blog/post/uva/497/">
+          <a class="prev" href="/blog1/post/uva/497/">
             <i class="iconfont icon-left"></i>
             <span class="prev-text nav-default">497 - Strategic Defense Initiative</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
         
-          <a class="next" href="/blog/post/uva/10721/">
+          <a class="next" href="/blog1/post/uva/10721/">
             <span class="next-text nav-default">10721 - Bar Codes</span>
-            <span class="next-text nav-mobile">Next</span>
+            <span class="prev-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
       </nav>
@@ -357,13 +345,14 @@ int main()
 
   
 
+  
       </div>
     </main>
 
     <footer id="footer" class="footer">
       <div class="social-links">
       <a href="https://github.com/henrybear327?tab=repositories" class="iconfont icon-github" title="github"></a>
-  <a href="https://henrybear327.github.io/blog/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+  <a href="https://henrybear327.github.io/blog1/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
 </div>
 
 <div class="copyright">
@@ -380,7 +369,9 @@ int main()
 
   <span class="copyright-year">
     &copy; 
-    2018
+    
+      2018 - 
+    2019
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>
@@ -394,12 +385,10 @@ int main()
     </div>
   </div>
   
-<script src="/blog/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/blog/lib/jquery/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="/blog/lib/slideout/slideout-1.0.1.min.js"></script>
-  <script type="text/javascript" src="/blog/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
-
-
-<script type="text/javascript" src="/blog/dist/even.min.js?v=3.2.0"></script>
+<script src="/blog1/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/blog1/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/blog1/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/blog1/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/blog1/dist/even.min.js?v=3.0.0"></script>
   <script type="text/javascript">
     window.MathJax = {
       tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},

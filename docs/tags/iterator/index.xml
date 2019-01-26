@@ -2,26 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Iterator on Coding Blog</title>
-    <link>https://henrybear327.github.io/blog/tags/iterator/</link>
+    <link>https://henrybear327.github.io/blog1/tags/iterator/</link>
     <description>Recent content in Iterator on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 15 Apr 2018 22:54:34 +0800</lastBuildDate>
     
-	<atom:link href="https://henrybear327.github.io/blog/tags/iterator/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://henrybear327.github.io/blog1/tags/iterator/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>341. Flatten Nested List Iterator</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/341/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/341/</link>
       <pubDate>Sun, 15 Apr 2018 22:54:34 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/341/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/341/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/flatten-nested-list-iterator/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;考驗著你對於 stack 和 iterator 的應用能力！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;考驗著你對於 stack 和 iterator 的應用能力！&lt;/p&gt;</description>
     </item>
     
   </channel>

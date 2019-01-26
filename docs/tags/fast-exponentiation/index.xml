@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fast Exponentiation on Coding Blog</title>
-    <link>https://henrybear327.github.io/blog/tags/fast-exponentiation/</link>
+    <link>https://henrybear327.github.io/blog1/tags/fast-exponentiation/</link>
     <description>Recent content in Fast Exponentiation on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 14 May 2018 21:45:13 +0800</lastBuildDate>
     
-	<atom:link href="https://henrybear327.github.io/blog/tags/fast-exponentiation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://henrybear327.github.io/blog1/tags/fast-exponentiation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>10689 - Yet another Number Sequence</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10689/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10689/</link>
       <pubDate>Mon, 14 May 2018 21:45:13 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10689/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10689/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1630&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Matrix fast exponentiation!&lt;/p&gt;
@@ -57,22 +57,18 @@ $&lt;/p&gt;
     f(n)   \newline
     f(n - 1)   \newline
 \end{bmatrix}
-$&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+$&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>50. $Pow(x, n)$</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/50/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/50/</link>
       <pubDate>Mon, 16 Apr 2018 20:58:56 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/50/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/50/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/powx-n/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;負數呢？爆int呢？&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;負數呢？爆int呢？&lt;/p&gt;</description>
     </item>
     
   </channel>

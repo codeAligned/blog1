@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Coding Blog</title>
-    <link>https://henrybear327.github.io/blog/</link>
+    <link>https://henrybear327.github.io/blog1/</link>
     <description>Recent content on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 27 Sep 2018 13:13:12 -0700</lastBuildDate>
     
-	<atom:link href="https://henrybear327.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://henrybear327.github.io/blog1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>899. Orderly Queue</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/899/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/899/</link>
       <pubDate>Thu, 27 Sep 2018 13:13:12 -0700</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/899/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/899/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/orderly-queue/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;非常好的一道題！&lt;/p&gt;
@@ -25,73 +25,63 @@
 
 &lt;p&gt;$k = 1 \rightarrow$ 你可以做 &lt;em&gt;logical left shift&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;$k = 2 \rightarrow$ 你可以對任意兩點做 &lt;em&gt;swap&lt;/em&gt; !&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;$k = 2 \rightarrow$ 你可以對任意兩點做 &lt;em&gt;swap&lt;/em&gt; !&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>96. Unique Binary Search Trees</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/96/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/96/</link>
       <pubDate>Fri, 06 Jul 2018 11:16:01 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/96/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/96/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/unique-binary-search-trees/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;It&amp;rsquo;s basically cutting stick DP. For the given range, try using every possible value as the root, and then D&amp;amp;C&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;It&amp;rsquo;s basically cutting stick DP. For the given range, try using every possible value as the root, and then D&amp;amp;C&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>47. Permutations II</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/47/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/47/</link>
       <pubDate>Fri, 06 Jul 2018 10:20:40 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/47/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/47/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/permutations-ii/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Permutation, without duplicate!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Permutation, without duplicate!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>834. Sum of Distances in Tree</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/834/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/834/</link>
       <pubDate>Tue, 15 May 2018 11:24:40 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/834/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/834/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/sum-of-distances-in-tree/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;我們先看看如果只要求取以$0$為root的tree下的distance，對於每個 node 都記錄對於他來說的 subtree nodes (including self) 和 subtree total path sum。可以發現，$0$ 的答案就是所有子樹的 = node count + 所有子樹的 total path sum&lt;/p&gt;
 
-&lt;p&gt;對於所有其他非 0 的 node，我們如果把它當 root 看，誒，不就是從 0 開始 dfs 到他時，把他的parent那邊當做 subtree 看了嗎！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;對於所有其他非 0 的 node，我們如果把它當 root 看，誒，不就是從 0 開始 dfs 到他時，把他的parent那邊當做 subtree 看了嗎！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>484. Find Permutation</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/484/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/484/</link>
       <pubDate>Tue, 15 May 2018 01:54:16 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/484/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/484/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/find-permutation/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Target: as close to $1 &amp;hellip; n$&lt;/p&gt;
 
-&lt;p&gt;Observation: Group reverse on $D$!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Observation: Group reverse on $D$!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>399. Evaluate Division</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/399/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/399/</link>
       <pubDate>Mon, 14 May 2018 23:19:59 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/399/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/399/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/evaluate-division/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Observation: Turn this into directed graph!&lt;/p&gt;
@@ -105,17 +95,15 @@
 
 &lt;p&gt;Do the same thing for $\frac b c = v_2$.&lt;/p&gt;
 
-&lt;p&gt;Compute $\frac a c$, isn&amp;rsquo;t it just $v_1 * v_2$, the traversal path from a to c? There you go!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Compute $\frac a c$, isn&amp;rsquo;t it just $v_1 * v_2$, the traversal path from a to c? There you go!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>10689 - Yet another Number Sequence</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10689/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10689/</link>
       <pubDate>Mon, 14 May 2018 21:45:13 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10689/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10689/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1630&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Matrix fast exponentiation!&lt;/p&gt;
@@ -156,73 +144,63 @@ $&lt;/p&gt;
     f(n)   \newline
     f(n - 1)   \newline
 \end{bmatrix}
-$&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+$&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>294. Flip Game II</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/294/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/294/</link>
       <pubDate>Sun, 13 May 2018 23:52:04 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/294/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/294/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/flip-game-ii/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Good DFS problem!&lt;/p&gt;
 
-&lt;p&gt;Think about the returning conditions carefully!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Think about the returning conditions carefully!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>417. Pacific Atlantic Water Flow</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/417/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/417/</link>
       <pubDate>Sun, 13 May 2018 23:18:56 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/417/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/417/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/pacific-atlantic-water-flow/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Think reversely! DFS from the nodes that touches the sea, and those that are reachable from both seas -&amp;gt; answer!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Think reversely! DFS from the nodes that touches the sea, and those that are reachable from both seas -&amp;gt; answer!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>360. Sort Transformed Array</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/360/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/360/</link>
       <pubDate>Sun, 13 May 2018 18:04:29 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/360/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/sort-transformed-array/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/360/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/sort-transformed-array/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>10911 - Forming Quiz Teams</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10911/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10911/</link>
       <pubDate>Sun, 13 May 2018 00:12:48 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10911/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10911/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1852&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For every $dp[i] = k$, we define $i$ as the collection of people that&amp;rsquo;re not paired yet, and $k$ is the minimum cost to pair those people up, if possible.&lt;/p&gt;
 
 &lt;p&gt;Starting with &lt;code&gt;(1 &amp;lt;&amp;lt; n) - 1&lt;/code&gt;, we can pair 2 of them at a time, and recurse on &lt;code&gt;(state ^ (1 &amp;lt;&amp;lt; i) ^ (1 &amp;lt;&amp;lt; j))&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Notice the base case is $dp[0] = 0$.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Notice the base case is $dp[0] = 0$.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>10944 - Nuts for nuts..</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10944/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10944/</link>
       <pubDate>Sat, 12 May 2018 22:38:28 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10944/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10944/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1885&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;位元DP。&lt;/p&gt;
@@ -234,32 +212,28 @@ $&lt;/p&gt;
 &lt;p&gt;計算的話，假設我們有三個點，我們現在要求取$dp[0][3]$（已經在0, 1拿完果實，並停在0），那我們的其中一種可行走法為$dp[1][2] + dist[1][0]$，也就是說，從只去過1的狀態走到0來！所以更新的話，就是:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;dp[i][j] = min(dp[i][j], dp[k][j - (1 &amp;lt;&amp;lt; i)] + dist[i][k]);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
       <title>108 - Maximum Sum</title>
-      <link>https://henrybear327.github.io/blog/post/uva/108/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/108/</link>
       <pubDate>Sat, 12 May 2018 18:05:52 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/108/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/108/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=44&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;2D prefix sum!&lt;/p&gt;
 
-&lt;p&gt;枚舉起始行、結束行、跟列！這樣就可以轉回 1D 的 prefix sum 題目了。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;枚舉起始行、結束行、跟列！這樣就可以轉回 1D 的 prefix sum 題目了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>348 - Optimal Array Multiplication Sequence</title>
-      <link>https://henrybear327.github.io/blog/post/uva/348/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/348/</link>
       <pubDate>Sat, 12 May 2018 17:43:18 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/348/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/348/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=284&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;經典的最少矩陣乘法次數，但是要輸出最終結果！&lt;/p&gt;
@@ -276,43 +250,37 @@ int a;
 int b;
 tie(a, b) = someReturnedTuple
 &lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
       <title>490. The Maze</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/490/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/490/</link>
       <pubDate>Sat, 12 May 2018 13:23:43 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/490/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/490/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/the-maze/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;BFS 變形，走的一步其實是多步（一次走到底）&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;BFS 變形，走的一步其實是多步（一次走到底）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>497 - Strategic Defense Initiative</title>
-      <link>https://henrybear327.github.io/blog/post/uva/497/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/497/</link>
       <pubDate>Sat, 12 May 2018 11:15:06 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/497/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/497/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=438&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;經典 LIS 加 path printing 題。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;經典 LIS 加 path printing 題。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>10401 - Injured Queen Problem</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10401/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10401/</link>
       <pubDate>Fri, 11 May 2018 21:25:16 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10401/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10401/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1342&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;掰咖的n皇后問題，如果我們拿 column 來看的話，他只跟前一個 column 有關而已了！&lt;/p&gt;
@@ -324,47 +292,41 @@ tie(a, b) = someReturnedTuple
 &lt;ol&gt;
 &lt;li&gt;如果這個 column 沒有指定后位的話，我們就 $dp[i][j] += dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$&lt;/li&gt;
 &lt;li&gt;如果這個 column 有指定后位的話，我們就 $dp[queenPosition][j] += dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
       <title>10721 - Bar Codes</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10721/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10721/</link>
       <pubDate>Fri, 11 May 2018 17:53:41 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10721/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10721/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1662&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;非常好的題目！先想三維再想二維！&lt;/p&gt;
 
-&lt;p&gt;核心的想法是，如果能延伸，我們就延伸！延伸長度的話呢？枚舉他！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;核心的想法是，如果能延伸，我們就延伸！延伸長度的話呢？枚舉他！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>828. Unique Letter String</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/828/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/828/</link>
       <pubDate>Fri, 11 May 2018 14:29:54 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/828/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/828/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/contest/weekly-contest-83/problems/unique-letter-string/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;想想看，與其窮舉所有的 substring ，我們改成: 對於每一個 $S[i] $，看看有哪些子字串計算unique時會算到 $S[i]$！&lt;/p&gt;
 
-&lt;p&gt;對於每一個 $S[i]$，我們找出他的最遠左右端點，端點內的 $S[j]$ 要符合 $S[i] \neq S[j]$ 且 $0 &amp;lt;= j &amp;lt; S.length()$。因此，我們可以輕鬆得到包含 $S[i]$ 的 substring 會有 $(i - left + 1) * (right - i + 1)$ 個啦！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;對於每一個 $S[i]$，我們找出他的最遠左右端點，端點內的 $S[j]$ 要符合 $S[i] \neq S[j]$ 且 $0 &amp;lt;= j &amp;lt; S.length()$。因此，我們可以輕鬆得到包含 $S[i]$ 的 substring 會有 $(i - left + 1) * (right - i + 1)$ 個啦！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>829. Consecutive Numbers Sum</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/829/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/829/</link>
       <pubDate>Fri, 11 May 2018 09:56:36 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/829/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/829/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/consecutive-numbers-sum/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;2 pointers 小範圍可以做，只是這題範圍太大&amp;hellip;&lt;/p&gt;
@@ -374,32 +336,28 @@ tie(a, b) = someReturnedTuple
 &lt;p&gt;假設某一種合法的答案為 $$N = (s+1) + (s+2) + (s+3) + &amp;hellip; + (s+k)$$
 那我們可以推得 $$N = s*k + \frac{(1 + k) * k}{2}$$ $$2N = k(2s + k + 1)$$&lt;/p&gt;
 
-&lt;p&gt;我們可以觀察到 $2N &amp;gt; k$，進一步觀察右邊其實有 $k^2$，所以其實我們的搜尋範圍只有 $2N &amp;gt; k^2$&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;我們可以觀察到 $2N &amp;gt; k$，進一步觀察右邊其實有 $k^2$，所以其實我們的搜尋範圍只有 $2N &amp;gt; k^2$&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>116 - Unidirectional TSP</title>
-      <link>https://henrybear327.github.io/blog/post/uva/116/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/116/</link>
       <pubDate>Thu, 10 May 2018 22:19:11 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/116/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/116/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=52&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;只求 min path 不難，但是回朔&amp;hellip;有意思。&lt;/p&gt;
 
-&lt;p&gt;要字典序最小的回朔，如果正著做，下面那筆測資就GG了。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;要字典序最小的回朔，如果正著做，下面那筆測資就GG了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>No nine</title>
-      <link>https://henrybear327.github.io/blog/post/google/kickstart/2018b/</link>
+      <link>https://henrybear327.github.io/blog1/post/google/kickstart/2018b/</link>
       <pubDate>Tue, 24 Apr 2018 10:25:48 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/google/kickstart/2018b/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/google/kickstart/2018b/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://code.google.com/codejam/contest/10284486/dashboard#s=p0&#34;&gt;題目&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;題目敘述&#34;&gt;題目敘述&lt;/h2&gt;
@@ -419,701 +377,594 @@ tie(a, b) = someReturnedTuple
 
 &lt;p&gt;試想，如果把 $[0, 26)$ 這個區間的所有數字都列出來，你會刪掉的數字分別是 $9, 19$。誒，這不就是 $[0, 26)$ 用九進位來看會自動排除掉的數字嗎？利用這個性質，我們可以很簡單的獲得區間內數字個數了！&lt;/p&gt;
 
-&lt;p&gt;排除了包含九的數字後，九的倍數怎麼辦？傷為觀察一下就有囉！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;排除了包含九的數字後，九的倍數怎麼辦？傷為觀察一下就有囉！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>560. Subarray Sum Equals K</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/560/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/560/</link>
       <pubDate>Tue, 17 Apr 2018 11:53:02 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/560/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/560/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/subarray-sum-equals-k/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;把 prefix sum 放在 map 裡面！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;把 prefix sum 放在 map 裡面！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>312. Burst Balloons</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/312/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/312/</link>
       <pubDate>Mon, 16 Apr 2018 21:23:14 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/312/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/312/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/burst-balloons/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Cutting stick! From bottom to top!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Cutting stick! From bottom to top!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>316. Remove Duplicate Letters</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/316/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/316/</link>
       <pubDate>Mon, 16 Apr 2018 21:22:30 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/316/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/316/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/remove-duplicate-letters/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;好題。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;好題。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>214. Shortest Palindrome</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/214/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/214/</link>
       <pubDate>Mon, 16 Apr 2018 21:05:21 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/214/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/214/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/shortest-palindrome/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;從頭枚舉，你發現什麼？&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;從頭枚舉，你發現什麼？&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>421. Maximum XOR of Two Numbers in an Array</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/421/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/421/</link>
       <pubDate>Mon, 16 Apr 2018 21:01:42 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/421/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/421/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;找最多相反 -&amp;gt; Trie!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;找最多相反 -&amp;gt; Trie!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>336. Palindrome Pairs</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/336/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/336/</link>
       <pubDate>Mon, 16 Apr 2018 21:00:28 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/336/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/336/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/palindrome-pairs/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;枚舉 ＋ 組合一下字串！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;枚舉 ＋ 組合一下字串！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>50. $Pow(x, n)$</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/50/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/50/</link>
       <pubDate>Mon, 16 Apr 2018 20:58:56 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/50/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/50/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/powx-n/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;負數呢？爆int呢？&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;負數呢？爆int呢？&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>31. Next Permutation</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/31/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/31/</link>
       <pubDate>Mon, 16 Apr 2018 20:57:49 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/31/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/31/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/next-permutation/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;觀察（右到左）！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;觀察（右到左）！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>22. Generate Parentheses</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/22/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/22/</link>
       <pubDate>Mon, 16 Apr 2018 20:56:34 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/22/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/22/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/generate-parentheses/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;基本爆搜題&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;基本爆搜題&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>166. Fraction to Recurring Decimal</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/166/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/166/</link>
       <pubDate>Mon, 16 Apr 2018 20:54:29 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/166/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/166/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/fraction-to-recurring-decimal/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;從基本長除法著手吧！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;從基本長除法著手吧！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>240. Search a 2D Matrix II</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/240/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/240/</link>
       <pubDate>Mon, 16 Apr 2018 20:52:29 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/240/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/240/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/search-a-2d-matrix-ii/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;左下走到右上，有啥發現嗎？&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;左下走到右上，有啥發現嗎？&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>173. Binary Search Tree Iterator</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/173/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/173/</link>
       <pubDate>Mon, 16 Apr 2018 20:50:40 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/173/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/173/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/binary-search-tree-iterator/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;BST 性質考題！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;BST 性質考題！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>10. Regular Expression Matching</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/10/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/10/</link>
       <pubDate>Mon, 16 Apr 2018 20:49:18 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/10/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/10/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/regular-expression-matching/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;DFS/DP 好題！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;DFS/DP 好題！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>23. Merge k Sorted Lists</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/23/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/23/</link>
       <pubDate>Mon, 16 Apr 2018 20:47:37 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/23/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/merge-k-sorted-lists/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/23/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/merge-k-sorted-lists/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>128. Longest Consecutive Sequence</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/128/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/128/</link>
       <pubDate>Mon, 16 Apr 2018 20:46:08 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/128/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/128/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/longest-consecutive-sequence/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;想想看，既然是找連續數字，我們是否可以利用hash table，來幫忙做連續區間檢查呢？&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;想想看，既然是找連續數字，我們是否可以利用hash table，來幫忙做連續區間檢查呢？&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>139. Word Break</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/139/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/139/</link>
       <pubDate>Mon, 16 Apr 2018 20:45:00 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/139/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/word-break/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/139/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/word-break/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>162. Find Peak Element</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/162/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/162/</link>
       <pubDate>Mon, 16 Apr 2018 20:43:50 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/162/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/162/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/find-peak-element/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;想想看二分搜！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;想想看二分搜！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>239. Sliding Window Maximum</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/239/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/239/</link>
       <pubDate>Mon, 16 Apr 2018 20:42:36 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/239/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/239/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/sliding-window-maximum/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;想想看，怎麼 $O(n)$ 維護一個最大值呢？&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;想想看，怎麼 $O(n)$ 維護一個最大值呢？&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>297. Serialize and Deserialize Binary Tree</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/297/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/297/</link>
       <pubDate>Mon, 16 Apr 2018 20:41:18 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/297/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/297/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;DFS 練習好題！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;DFS 練習好題！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>42. Trapping Rain Water</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/42/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/42/</link>
       <pubDate>Mon, 16 Apr 2018 20:39:17 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/42/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/trapping-rain-water/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/42/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/trapping-rain-water/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>228. Summary Ranges</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/228/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/228/</link>
       <pubDate>Mon, 16 Apr 2018 20:38:11 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/228/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/228/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/summary-ranges/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;小心實作。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;小心實作。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>406. Queue Reconstruction by Height</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/406/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/406/</link>
       <pubDate>Mon, 16 Apr 2018 20:37:09 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/406/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/406/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/queue-reconstruction-by-height/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Queue 好題！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Queue 好題！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>146. LRU Cache</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/146/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/146/</link>
       <pubDate>Sun, 15 Apr 2018 22:55:42 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/146/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/146/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/lru-cache/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Linked list 實作能力考察題。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Linked list 實作能力考察題。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>341. Flatten Nested List Iterator</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/341/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/341/</link>
       <pubDate>Sun, 15 Apr 2018 22:54:34 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/341/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/341/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/flatten-nested-list-iterator/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;考驗著你對於 stack 和 iterator 的應用能力！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;考驗著你對於 stack 和 iterator 的應用能力！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>315. Count of Smaller Numbers After Self</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/315/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/315/</link>
       <pubDate>Sun, 15 Apr 2018 22:53:32 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/315/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/315/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;1D Fenwick Tree 經典應用。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;1D Fenwick Tree 經典應用。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>317. Shortest Distance from All Buildings</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/317/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/317/</link>
       <pubDate>Sun, 15 Apr 2018 22:52:14 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/317/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/317/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/shortest-distance-from-all-buildings/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;BFS 應用題！讚！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;BFS 應用題！讚！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>279. Perfect Squares</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/279/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/279/</link>
       <pubDate>Sun, 15 Apr 2018 22:47:53 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/279/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/279/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/perfect-squares/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Coin change!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Coin change!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>218. The Skyline Problem</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/218/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/218/</link>
       <pubDate>Sun, 15 Apr 2018 22:45:04 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/218/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/218/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/the-skyline-problem/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;每個轉折點都會是當下的max height!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;每個轉折點都會是當下的max height!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>259. 3Sum Smaller</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/259/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/259/</link>
       <pubDate>Sun, 15 Apr 2018 22:42:44 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/259/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/259/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/3sum-smaller/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;雙指針好題！&lt;/p&gt;
 
-&lt;p&gt;思考看看，如何透過雙指針來達成 $O(N^2)$！（hint: 枚舉一數字）&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;思考看看，如何透過雙指針來達成 $O(N^2)$！（hint: 枚舉一數字）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>766. Toeplitz Matrix</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/766/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/766/</link>
       <pubDate>Sun, 15 Apr 2018 22:41:23 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/766/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/766/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/toeplitz-matrix/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;想想看&amp;hellip; 怎麼 one pass 進行檢查呢？&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;想想看&amp;hellip; 怎麼 one pass 進行檢查呢？&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>280. Wiggle Sort</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/280/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/280/</link>
       <pubDate>Sun, 15 Apr 2018 22:40:16 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/280/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/280/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/wiggle-sort/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;觀察題。&lt;/p&gt;
 
-&lt;p&gt;Linear time solution 真的太牛逼了！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Linear time solution 真的太牛逼了！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>687. Longest Univalue Path</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/687/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/687/</link>
       <pubDate>Sun, 15 Apr 2018 22:38:51 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/687/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/687/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/longest-univalue-path/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;經典 DFS 題！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;經典 DFS 題！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>271. Encode and Decode Strings</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/271/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/271/</link>
       <pubDate>Sun, 15 Apr 2018 22:30:18 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/271/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/271/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/encode-and-decode-strings/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;一題很讚的設計題。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;一題很讚的設計題。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>394. Decode String</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/394/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/394/</link>
       <pubDate>Sun, 15 Apr 2018 22:28:41 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/394/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/394/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/decode-string/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;利用 Stack 做 parsing 的經典題！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;利用 Stack 做 parsing 的經典題！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>737. Sentence Similarity II</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/737/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/737/</link>
       <pubDate>Sun, 15 Apr 2018 22:26:26 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/737/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/737/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/sentence-similarity-ii/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Transitive relation on undirected graph $\rightarrow$ 善用並查集可以解！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Transitive relation on undirected graph $\rightarrow$ 善用並查集可以解！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>753. Cracking the Safe</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/753/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/753/</link>
       <pubDate>Sun, 15 Apr 2018 22:24:10 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/753/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/753/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/cracking-the-safe/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;暴力搜尋！（證明靠尤拉路徑）&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;暴力搜尋！（證明靠尤拉路徑）&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>298. Binary Tree Longest Consecutive Sequence</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/298/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/298/</link>
       <pubDate>Sun, 15 Apr 2018 22:15:16 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/298/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/298/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;DFS 練習好題！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;DFS 練習好題！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>418. Sentence Screen Fitting</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/418/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/418/</link>
       <pubDate>Sun, 15 Apr 2018 12:00:35 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/418/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/418/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/sentence-screen-fitting/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;DP紀錄什麼呢？紀錄下如果用某字開頭的話，這個row可以裝下多少字！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;DP紀錄什麼呢？紀錄下如果用某字開頭的話，這個row可以裝下多少字！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>686. Repeated String Match</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/686/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/686/</link>
       <pubDate>Sun, 15 Apr 2018 11:59:27 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/686/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/686/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/repeated-string-match/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;枚舉，或是用hash!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;枚舉，或是用hash!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>308. Range Sum Query 2D - Mutable</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/308/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/308/</link>
       <pubDate>Sun, 15 Apr 2018 11:55:52 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/308/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/308/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/range-sum-query-2d-mutable/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;2D Fenwick Tree 基本題！2D 跟 1D 的沒啥大的差別，只要用雙層for迴圈，一個row一個row的把要更新的地方列舉出來並更新就是啦！&lt;/p&gt;
 
-&lt;p&gt;注意他的update function的定義&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;注意他的update function的定義&amp;hellip;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>340. Longest Substring with At Most K Distinct Characters</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/340/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/340/</link>
       <pubDate>Sun, 15 Apr 2018 11:54:35 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/340/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/340/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;雙指針基本題！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;雙指針基本題！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>683. K Empty Slots</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/683/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/683/</link>
       <pubDate>Sun, 15 Apr 2018 11:47:44 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/683/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/683/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/k-empty-slots/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;如果我們有哪個地方何時開花的資料 $\rightarrow$，我們是不是就可以快速的檢查是否有一個大小 $=k$ 的區間
-且 區間內的開花時間都比兩端後面呢！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+且 區間內的開花時間都比兩端後面呢！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>388. Longest Absolute File Path</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/388/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/388/</link>
       <pubDate>Sun, 15 Apr 2018 11:43:48 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/388/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/388/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/longest-absolute-file-path/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;如何有效率的拆解並分析字串呢？請善用stack!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;如何有效率的拆解並分析字串呢？請善用stack!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Share documents between VM and Windows</title>
-      <link>https://henrybear327.github.io/blog/post/vmware/samba/</link>
+      <link>https://henrybear327.github.io/blog1/post/vmware/samba/</link>
       <pubDate>Thu, 08 Mar 2018 22:21:01 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/vmware/samba/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/vmware/samba/</guid>
+      <description>Setup Samba Assuming that the OS running in VM is Ubuntu, and the host OS is Windows.
+ Install Samba: sudo apt install samba Add current user as Samba user: sudo smbpasswd -a $USER Run sudo vim /etc/samba/smb.conf, and add the following configs to it  [global] # Let Samba share follow symbolic links follow symlink = yes wide symlinks = yes unix extensions = no [homes] comment = Home Directories browseable = no valid users = %S writable = yes create mask = 0664 directory mask = 0775   Restart samba sudo /etc/init.</description>
     </item>
     
     <item>
       <title>Elastic Search Installation</title>
-      <link>https://henrybear327.github.io/blog/post/elasticsearch/install/</link>
+      <link>https://henrybear327.github.io/blog1/post/elasticsearch/install/</link>
       <pubDate>Sat, 03 Mar 2018 10:47:04 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/elasticsearch/install/</guid>
-      <description>&lt;p&gt;Elastic search installation notes&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/elasticsearch/install/</guid>
+      <description>&lt;p&gt;Elastic search installation notes&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Install QT 4.8.6 on Linux</title>
-      <link>https://henrybear327.github.io/blog/post/qt/install_qt/</link>
+      <link>https://henrybear327.github.io/blog1/post/qt/install_qt/</link>
       <pubDate>Mon, 19 Feb 2018 22:19:29 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/qt/install_qt/</guid>
-      <description>&lt;p&gt;Some notes on installing QT 4.8.6 on Ubuntu 16.04.3 LTS 64-bit OS.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/qt/install_qt/</guid>
+      <description>&lt;p&gt;Some notes on installing QT 4.8.6 on Ubuntu 16.04.3 LTS 64-bit OS.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Python Virtual Environment</title>
-      <link>https://henrybear327.github.io/blog/post/python/python_virtual_environment/</link>
+      <link>https://henrybear327.github.io/blog1/post/python/python_virtual_environment/</link>
       <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/python/python_virtual_environment/</guid>
-      <description>&lt;p&gt;Some notes on virtual environment for Python. Dependency management with ease.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/python/python_virtual_environment/</guid>
+      <description>&lt;p&gt;Some notes on virtual environment for Python. Dependency management with ease.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Apache Virtual Host</title>
-      <link>https://henrybear327.github.io/blog/post/apache/apache_virtualhost/</link>
+      <link>https://henrybear327.github.io/blog1/post/apache/apache_virtualhost/</link>
       <pubDate>Sun, 04 Feb 2018 10:48:17 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/apache/apache_virtualhost/</guid>
-      <description>&lt;p&gt;Setup an Apache virtual host.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/apache/apache_virtualhost/</guid>
+      <description>&lt;p&gt;Setup an Apache virtual host.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Building a simple website using Flask</title>
-      <link>https://henrybear327.github.io/blog/post/python/flask_and_c3/</link>
+      <link>https://henrybear327.github.io/blog1/post/python/flask_and_c3/</link>
       <pubDate>Sat, 03 Feb 2018 10:48:17 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/python/flask_and_c3/</guid>
-      <description>&lt;p&gt;Flask is a really fast and simple framework to use. It&amp;rsquo;s not packed with all sorts of features that you might not need at all, instead, they only give you the essentials. You are free to decide what to do for the rest.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/python/flask_and_c3/</guid>
+      <description>&lt;p&gt;Flask is a really fast and simple framework to use. It&amp;rsquo;s not packed with all sorts of features that you might not need at all, instead, they only give you the essentials. You are free to decide what to do for the rest.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>SSHFS</title>
-      <link>https://henrybear327.github.io/blog/post/osx/sshfs/</link>
+      <link>https://henrybear327.github.io/blog1/post/osx/sshfs/</link>
       <pubDate>Fri, 02 Feb 2018 08:40:30 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/osx/sshfs/</guid>
-      <description>&lt;p&gt;Mount your remote host&amp;rsquo;s folders onto local filesystem!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/osx/sshfs/</guid>
+      <description>&lt;p&gt;Mount your remote host&amp;rsquo;s folders onto local filesystem!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>架設 Jupyter 於 CCU 工學院電腦</title>
-      <link>https://henrybear327.github.io/blog/post/python/jupyter-ssh-tunnel/</link>
+      <link>https://henrybear327.github.io/blog1/post/python/jupyter-ssh-tunnel/</link>
       <pubDate>Tue, 16 Jan 2018 19:56:09 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/python/jupyter-ssh-tunnel/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/python/jupyter-ssh-tunnel/</guid>
       <description>在工學院電腦架設 Jupyter 非常麻煩，經過一番研究之後，寫成筆記，希望以後大家可以方便使用！ 在此先感謝 黃鈺程 隊友的 Jupyter 安裝教學，看來我 python 真的用得太少，連</description>
     </item>
     
     <item>
       <title>Even Theme Setup</title>
-      <link>https://henrybear327.github.io/blog/post/hugo/even-theme-setup/</link>
+      <link>https://henrybear327.github.io/blog1/post/hugo/even-theme-setup/</link>
       <pubDate>Sun, 14 Jan 2018 18:13:28 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/hugo/even-theme-setup/</guid>
-      <description>&lt;p&gt;Even theme 設定筆記&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/hugo/even-theme-setup/</guid>
+      <description>&lt;p&gt;Even theme 設定筆記&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Vimrc</title>
-      <link>https://henrybear327.github.io/blog/post/osx/vimrc/</link>
+      <link>https://henrybear327.github.io/blog1/post/osx/vimrc/</link>
       <pubDate>Sun, 14 Jan 2018 17:58:04 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/osx/vimrc/</guid>
-      <description>&lt;p&gt;My personal vimrc for programming&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/osx/vimrc/</guid>
+      <description>&lt;p&gt;My personal vimrc for programming&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>APCS 1060304 題解</title>
-      <link>https://henrybear327.github.io/blog/post/competitive_programming/apcs1060304/</link>
+      <link>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1060304/</link>
       <pubDate>Sun, 14 Jan 2018 12:59:54 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/competitive_programming/apcs1060304/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1060304/</guid>
       <description>&lt;p&gt;官方&lt;a href=&#34;https://apcs.csie.ntnu.edu.tw/files/1060304APCSImplementation.pdf&#34;&gt;試題&lt;/a&gt;本&lt;/p&gt;
 
-&lt;p&gt;第一題為基本字串題，第二三題基本上都算是實作偏重的題目，第四題是經典binary search題目。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;第一題為基本字串題，第二三題基本上都算是實作偏重的題目，第四題是經典binary search題目。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>APCS 1061028 題解</title>
-      <link>https://henrybear327.github.io/blog/post/competitive_programming/apcs1061028/</link>
+      <link>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1061028/</link>
       <pubDate>Sat, 13 Jan 2018 00:10:47 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/competitive_programming/apcs1061028/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1061028/</guid>
       <description>&lt;p&gt;官方&lt;a href=&#34;https://apcs.csie.ntnu.edu.tw/files/1061028APCSImplementation.pdf&#34;&gt;試題&lt;/a&gt;本&lt;/p&gt;
 
-&lt;p&gt;第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,480 +2,480 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Coding Blog</title>
-    <link>https://henrybear327.github.io/blog/tags/</link>
+    <link>https://henrybear327.github.io/blog1/tags/</link>
     <description>Recent content in Tags on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 15 Apr 2018 22:41:23 +0800</lastBuildDate>
     
-	<atom:link href="https://henrybear327.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://henrybear327.github.io/blog1/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://henrybear327.github.io/blog/tags/</link>
+      <link>https://henrybear327.github.io/blog1/tags/</link>
       <pubDate>Sun, 15 Apr 2018 22:41:23 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Apache</title>
-      <link>https://henrybear327.github.io/blog/tags/apache/</link>
+      <link>https://henrybear327.github.io/blog1/tags/apache/</link>
       <pubDate>Sun, 04 Feb 2018 10:48:17 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/apache/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/apache/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Apcs</title>
-      <link>https://henrybear327.github.io/blog/tags/apcs/</link>
+      <link>https://henrybear327.github.io/blog1/tags/apcs/</link>
       <pubDate>Sun, 14 Jan 2018 12:59:54 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/apcs/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/apcs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bfs</title>
-      <link>https://henrybear327.github.io/blog/tags/bfs/</link>
+      <link>https://henrybear327.github.io/blog1/tags/bfs/</link>
       <pubDate>Sat, 12 May 2018 13:23:43 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/bfs/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/bfs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Binary Search</title>
-      <link>https://henrybear327.github.io/blog/tags/binary-search/</link>
+      <link>https://henrybear327.github.io/blog1/tags/binary-search/</link>
       <pubDate>Mon, 16 Apr 2018 20:43:50 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/binary-search/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/binary-search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bit</title>
-      <link>https://henrybear327.github.io/blog/tags/bit/</link>
+      <link>https://henrybear327.github.io/blog1/tags/bit/</link>
       <pubDate>Sun, 15 Apr 2018 22:53:32 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/bit/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/bit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bst</title>
-      <link>https://henrybear327.github.io/blog/tags/bst/</link>
+      <link>https://henrybear327.github.io/blog1/tags/bst/</link>
       <pubDate>Mon, 16 Apr 2018 20:50:40 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/bst/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/bst/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conda</title>
-      <link>https://henrybear327.github.io/blog/tags/conda/</link>
+      <link>https://henrybear327.github.io/blog1/tags/conda/</link>
       <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/conda/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/conda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deque</title>
-      <link>https://henrybear327.github.io/blog/tags/deque/</link>
+      <link>https://henrybear327.github.io/blog1/tags/deque/</link>
       <pubDate>Mon, 16 Apr 2018 20:42:36 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/deque/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/deque/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Design</title>
-      <link>https://henrybear327.github.io/blog/tags/design/</link>
+      <link>https://henrybear327.github.io/blog1/tags/design/</link>
       <pubDate>Sun, 15 Apr 2018 22:30:18 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/design/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dfs</title>
-      <link>https://henrybear327.github.io/blog/tags/dfs/</link>
+      <link>https://henrybear327.github.io/blog1/tags/dfs/</link>
       <pubDate>Fri, 06 Jul 2018 11:16:01 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/dfs/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/dfs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dp</title>
-      <link>https://henrybear327.github.io/blog/tags/dp/</link>
+      <link>https://henrybear327.github.io/blog1/tags/dp/</link>
       <pubDate>Fri, 06 Jul 2018 11:16:01 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/dp/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/dp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elastic Search</title>
-      <link>https://henrybear327.github.io/blog/tags/elastic-search/</link>
+      <link>https://henrybear327.github.io/blog1/tags/elastic-search/</link>
       <pubDate>Sat, 03 Mar 2018 10:47:04 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/elastic-search/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/elastic-search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Enumeration</title>
-      <link>https://henrybear327.github.io/blog/tags/enumeration/</link>
+      <link>https://henrybear327.github.io/blog1/tags/enumeration/</link>
       <pubDate>Mon, 16 Apr 2018 21:00:28 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/enumeration/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/enumeration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Even</title>
-      <link>https://henrybear327.github.io/blog/tags/even/</link>
+      <link>https://henrybear327.github.io/blog1/tags/even/</link>
       <pubDate>Sun, 14 Jan 2018 18:13:28 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/even/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/even/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fast Exponentiation</title>
-      <link>https://henrybear327.github.io/blog/tags/fast-exponentiation/</link>
+      <link>https://henrybear327.github.io/blog1/tags/fast-exponentiation/</link>
       <pubDate>Mon, 14 May 2018 21:45:13 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/fast-exponentiation/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/fast-exponentiation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fenwick Tree</title>
-      <link>https://henrybear327.github.io/blog/tags/fenwick-tree/</link>
+      <link>https://henrybear327.github.io/blog1/tags/fenwick-tree/</link>
       <pubDate>Sun, 15 Apr 2018 22:53:32 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/fenwick-tree/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/fenwick-tree/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Flask</title>
-      <link>https://henrybear327.github.io/blog/tags/flask/</link>
+      <link>https://henrybear327.github.io/blog1/tags/flask/</link>
       <pubDate>Sat, 03 Feb 2018 10:48:17 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/flask/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/flask/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graph</title>
-      <link>https://henrybear327.github.io/blog/tags/graph/</link>
+      <link>https://henrybear327.github.io/blog1/tags/graph/</link>
       <pubDate>Mon, 14 May 2018 23:19:59 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/graph/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/graph/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Greedy</title>
-      <link>https://henrybear327.github.io/blog/tags/greedy/</link>
+      <link>https://henrybear327.github.io/blog1/tags/greedy/</link>
       <pubDate>Tue, 15 May 2018 01:54:16 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/greedy/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/greedy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Implementation</title>
-      <link>https://henrybear327.github.io/blog/tags/implementation/</link>
+      <link>https://henrybear327.github.io/blog1/tags/implementation/</link>
       <pubDate>Tue, 15 May 2018 01:54:16 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/implementation/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/implementation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Iterator</title>
-      <link>https://henrybear327.github.io/blog/tags/iterator/</link>
+      <link>https://henrybear327.github.io/blog1/tags/iterator/</link>
       <pubDate>Sun, 15 Apr 2018 22:54:34 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/iterator/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/iterator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jupyter</title>
-      <link>https://henrybear327.github.io/blog/tags/jupyter/</link>
+      <link>https://henrybear327.github.io/blog1/tags/jupyter/</link>
       <pubDate>Tue, 16 Jan 2018 19:56:09 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/jupyter/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/jupyter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linked List</title>
-      <link>https://henrybear327.github.io/blog/tags/linked-list/</link>
+      <link>https://henrybear327.github.io/blog1/tags/linked-list/</link>
       <pubDate>Mon, 16 Apr 2018 20:47:37 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/linked-list/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/linked-list/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lis</title>
-      <link>https://henrybear327.github.io/blog/tags/lis/</link>
+      <link>https://henrybear327.github.io/blog1/tags/lis/</link>
       <pubDate>Sat, 12 May 2018 11:15:06 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/lis/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/lis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Math</title>
-      <link>https://henrybear327.github.io/blog/tags/math/</link>
+      <link>https://henrybear327.github.io/blog1/tags/math/</link>
       <pubDate>Fri, 11 May 2018 14:29:54 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/math/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Number Theory</title>
-      <link>https://henrybear327.github.io/blog/tags/number-theory/</link>
+      <link>https://henrybear327.github.io/blog1/tags/number-theory/</link>
       <pubDate>Tue, 24 Apr 2018 10:25:48 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/number-theory/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/number-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Observation</title>
-      <link>https://henrybear327.github.io/blog/tags/observation/</link>
+      <link>https://henrybear327.github.io/blog1/tags/observation/</link>
       <pubDate>Thu, 27 Sep 2018 13:13:12 -0700</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/observation/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/observation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Palindrome</title>
-      <link>https://henrybear327.github.io/blog/tags/palindrome/</link>
+      <link>https://henrybear327.github.io/blog1/tags/palindrome/</link>
       <pubDate>Mon, 16 Apr 2018 21:05:21 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/palindrome/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/palindrome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Permutation</title>
-      <link>https://henrybear327.github.io/blog/tags/permutation/</link>
+      <link>https://henrybear327.github.io/blog1/tags/permutation/</link>
       <pubDate>Fri, 06 Jul 2018 10:20:40 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/permutation/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/permutation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pip</title>
-      <link>https://henrybear327.github.io/blog/tags/pip/</link>
+      <link>https://henrybear327.github.io/blog1/tags/pip/</link>
       <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/pip/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/pip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Prefix Sum</title>
-      <link>https://henrybear327.github.io/blog/tags/prefix-sum/</link>
+      <link>https://henrybear327.github.io/blog1/tags/prefix-sum/</link>
       <pubDate>Tue, 17 Apr 2018 11:53:02 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/prefix-sum/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/prefix-sum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Priority Queue</title>
-      <link>https://henrybear327.github.io/blog/tags/priority-queue/</link>
+      <link>https://henrybear327.github.io/blog1/tags/priority-queue/</link>
       <pubDate>Sun, 15 Apr 2018 22:45:04 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/priority-queue/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/priority-queue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://henrybear327.github.io/blog/tags/python/</link>
+      <link>https://henrybear327.github.io/blog1/tags/python/</link>
       <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/python/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Qt</title>
-      <link>https://henrybear327.github.io/blog/tags/qt/</link>
+      <link>https://henrybear327.github.io/blog1/tags/qt/</link>
       <pubDate>Mon, 19 Feb 2018 22:19:29 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/qt/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/qt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Queue</title>
-      <link>https://henrybear327.github.io/blog/tags/queue/</link>
+      <link>https://henrybear327.github.io/blog1/tags/queue/</link>
       <pubDate>Mon, 16 Apr 2018 20:37:09 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/queue/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/queue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Samba</title>
-      <link>https://henrybear327.github.io/blog/tags/samba/</link>
+      <link>https://henrybear327.github.io/blog1/tags/samba/</link>
       <pubDate>Thu, 08 Mar 2018 22:21:01 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/samba/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/samba/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shortest Path</title>
-      <link>https://henrybear327.github.io/blog/tags/shortest-path/</link>
+      <link>https://henrybear327.github.io/blog1/tags/shortest-path/</link>
       <pubDate>Mon, 14 May 2018 23:19:59 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/shortest-path/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/shortest-path/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ssh</title>
-      <link>https://henrybear327.github.io/blog/tags/ssh/</link>
+      <link>https://henrybear327.github.io/blog1/tags/ssh/</link>
       <pubDate>Fri, 02 Feb 2018 08:40:30 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/ssh/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stack</title>
-      <link>https://henrybear327.github.io/blog/tags/stack/</link>
+      <link>https://henrybear327.github.io/blog1/tags/stack/</link>
       <pubDate>Tue, 15 May 2018 01:54:16 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/stack/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/stack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>String</title>
-      <link>https://henrybear327.github.io/blog/tags/string/</link>
+      <link>https://henrybear327.github.io/blog1/tags/string/</link>
       <pubDate>Fri, 11 May 2018 14:29:54 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/string/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/string/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theme</title>
-      <link>https://henrybear327.github.io/blog/tags/theme/</link>
+      <link>https://henrybear327.github.io/blog1/tags/theme/</link>
       <pubDate>Sun, 14 Jan 2018 18:13:28 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/theme/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/theme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tree</title>
-      <link>https://henrybear327.github.io/blog/tags/tree/</link>
+      <link>https://henrybear327.github.io/blog1/tags/tree/</link>
       <pubDate>Tue, 15 May 2018 11:24:40 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/tree/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/tree/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trie</title>
-      <link>https://henrybear327.github.io/blog/tags/trie/</link>
+      <link>https://henrybear327.github.io/blog1/tags/trie/</link>
       <pubDate>Mon, 16 Apr 2018 21:01:42 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/trie/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/trie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Two Pointer</title>
-      <link>https://henrybear327.github.io/blog/tags/two-pointer/</link>
+      <link>https://henrybear327.github.io/blog1/tags/two-pointer/</link>
       <pubDate>Sun, 13 May 2018 18:04:29 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/two-pointer/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/two-pointer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ufds</title>
-      <link>https://henrybear327.github.io/blog/tags/ufds/</link>
+      <link>https://henrybear327.github.io/blog1/tags/ufds/</link>
       <pubDate>Sun, 15 Apr 2018 22:26:26 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/ufds/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/ufds/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vim</title>
-      <link>https://henrybear327.github.io/blog/tags/vim/</link>
+      <link>https://henrybear327.github.io/blog1/tags/vim/</link>
       <pubDate>Sun, 14 Jan 2018 17:58:04 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/vim/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual Environment</title>
-      <link>https://henrybear327.github.io/blog/tags/virtual-environment/</link>
+      <link>https://henrybear327.github.io/blog1/tags/virtual-environment/</link>
       <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/virtual-environment/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/virtual-environment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtual Host</title>
-      <link>https://henrybear327.github.io/blog/tags/virtual-host/</link>
+      <link>https://henrybear327.github.io/blog1/tags/virtual-host/</link>
       <pubDate>Sun, 04 Feb 2018 10:48:17 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/virtual-host/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/virtual-host/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Virtualenv</title>
-      <link>https://henrybear327.github.io/blog/tags/virtualenv/</link>
+      <link>https://henrybear327.github.io/blog1/tags/virtualenv/</link>
       <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/virtualenv/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/virtualenv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vmware</title>
-      <link>https://henrybear327.github.io/blog/tags/vmware/</link>
+      <link>https://henrybear327.github.io/blog1/tags/vmware/</link>
       <pubDate>Thu, 08 Mar 2018 22:21:01 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/vmware/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/vmware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wsgi</title>
-      <link>https://henrybear327.github.io/blog/tags/wsgi/</link>
+      <link>https://henrybear327.github.io/blog1/tags/wsgi/</link>
       <pubDate>Sat, 03 Feb 2018 10:48:17 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/tags/wsgi/</guid>
+      <guid>https://henrybear327.github.io/blog1/tags/wsgi/</guid>
       <description></description>
     </item>
     

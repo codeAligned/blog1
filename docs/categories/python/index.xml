@@ -2,43 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Coding Blog</title>
-    <link>https://henrybear327.github.io/blog/categories/python/</link>
+    <link>https://henrybear327.github.io/blog1/categories/python/</link>
     <description>Recent content in Python on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 04 Feb 2018 10:58:36 +0800</lastBuildDate>
     
-	<atom:link href="https://henrybear327.github.io/blog/categories/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://henrybear327.github.io/blog1/categories/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Python Virtual Environment</title>
-      <link>https://henrybear327.github.io/blog/post/python/python_virtual_environment/</link>
+      <link>https://henrybear327.github.io/blog1/post/python/python_virtual_environment/</link>
       <pubDate>Sun, 04 Feb 2018 10:58:36 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/python/python_virtual_environment/</guid>
-      <description>&lt;p&gt;Some notes on virtual environment for Python. Dependency management with ease.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/python/python_virtual_environment/</guid>
+      <description>&lt;p&gt;Some notes on virtual environment for Python. Dependency management with ease.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Building a simple website using Flask</title>
-      <link>https://henrybear327.github.io/blog/post/python/flask_and_c3/</link>
+      <link>https://henrybear327.github.io/blog1/post/python/flask_and_c3/</link>
       <pubDate>Sat, 03 Feb 2018 10:48:17 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/python/flask_and_c3/</guid>
-      <description>&lt;p&gt;Flask is a really fast and simple framework to use. It&amp;rsquo;s not packed with all sorts of features that you might not need at all, instead, they only give you the essentials. You are free to decide what to do for the rest.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/python/flask_and_c3/</guid>
+      <description>&lt;p&gt;Flask is a really fast and simple framework to use. It&amp;rsquo;s not packed with all sorts of features that you might not need at all, instead, they only give you the essentials. You are free to decide what to do for the rest.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>架設 Jupyter 於 CCU 工學院電腦</title>
-      <link>https://henrybear327.github.io/blog/post/python/jupyter-ssh-tunnel/</link>
+      <link>https://henrybear327.github.io/blog1/post/python/jupyter-ssh-tunnel/</link>
       <pubDate>Tue, 16 Jan 2018 19:56:09 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/python/jupyter-ssh-tunnel/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/python/jupyter-ssh-tunnel/</guid>
       <description>在工學院電腦架設 Jupyter 非常麻煩，經過一番研究之後，寫成筆記，希望以後大家可以方便使用！ 在此先感謝 黃鈺程 隊友的 Jupyter 安裝教學，看來我 python 真的用得太少，連</description>
     </item>
     

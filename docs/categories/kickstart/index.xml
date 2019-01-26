@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kickstart on Coding Blog</title>
-    <link>https://henrybear327.github.io/blog/categories/kickstart/</link>
+    <link>https://henrybear327.github.io/blog1/categories/kickstart/</link>
     <description>Recent content in Kickstart on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 24 Apr 2018 10:25:48 +0800</lastBuildDate>
     
-	<atom:link href="https://henrybear327.github.io/blog/categories/kickstart/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://henrybear327.github.io/blog1/categories/kickstart/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>No nine</title>
-      <link>https://henrybear327.github.io/blog/post/google/kickstart/2018b/</link>
+      <link>https://henrybear327.github.io/blog1/post/google/kickstart/2018b/</link>
       <pubDate>Tue, 24 Apr 2018 10:25:48 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/google/kickstart/2018b/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/google/kickstart/2018b/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://code.google.com/codejam/contest/10284486/dashboard#s=p0&#34;&gt;題目&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;題目敘述&#34;&gt;題目敘述&lt;/h2&gt;
@@ -36,9 +36,7 @@
 
 &lt;p&gt;試想，如果把 $[0, 26)$ 這個區間的所有數字都列出來，你會刪掉的數字分別是 $9, 19$。誒，這不就是 $[0, 26)$ 用九進位來看會自動排除掉的數字嗎？利用這個性質，我們可以很簡單的獲得區間內數字個數了！&lt;/p&gt;
 
-&lt;p&gt;排除了包含九的數字後，九的倍數怎麼辦？傷為觀察一下就有囉！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;排除了包含九的數字後，九的倍數怎麼辦？傷為觀察一下就有囉！&lt;/p&gt;</description>
     </item>
     
   </channel>

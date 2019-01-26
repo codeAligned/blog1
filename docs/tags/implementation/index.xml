@@ -2,130 +2,112 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Implementation on Coding Blog</title>
-    <link>https://henrybear327.github.io/blog/tags/implementation/</link>
+    <link>https://henrybear327.github.io/blog1/tags/implementation/</link>
     <description>Recent content in Implementation on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 15 May 2018 01:54:16 +0800</lastBuildDate>
     
-	<atom:link href="https://henrybear327.github.io/blog/tags/implementation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://henrybear327.github.io/blog1/tags/implementation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>484. Find Permutation</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/484/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/484/</link>
       <pubDate>Tue, 15 May 2018 01:54:16 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/484/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/484/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/find-permutation/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Target: as close to $1 &amp;hellip; n$&lt;/p&gt;
 
-&lt;p&gt;Observation: Group reverse on $D$!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Observation: Group reverse on $D$!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>166. Fraction to Recurring Decimal</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/166/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/166/</link>
       <pubDate>Mon, 16 Apr 2018 20:54:29 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/166/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/166/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/fraction-to-recurring-decimal/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;從基本長除法著手吧！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;從基本長除法著手吧！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>23. Merge k Sorted Lists</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/23/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/23/</link>
       <pubDate>Mon, 16 Apr 2018 20:47:37 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/23/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/merge-k-sorted-lists/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/23/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/merge-k-sorted-lists/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>228. Summary Ranges</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/228/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/228/</link>
       <pubDate>Mon, 16 Apr 2018 20:38:11 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/228/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/228/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/summary-ranges/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;小心實作。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;小心實作。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>218. The Skyline Problem</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/218/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/218/</link>
       <pubDate>Sun, 15 Apr 2018 22:45:04 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/218/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/218/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/the-skyline-problem/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;每個轉折點都會是當下的max height!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;每個轉折點都會是當下的max height!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>394. Decode String</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/394/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/394/</link>
       <pubDate>Sun, 15 Apr 2018 22:28:41 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/394/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/394/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/decode-string/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;利用 Stack 做 parsing 的經典題！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;利用 Stack 做 parsing 的經典題！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>388. Longest Absolute File Path</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/388/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/388/</link>
       <pubDate>Sun, 15 Apr 2018 11:43:48 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/388/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/388/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/longest-absolute-file-path/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;如何有效率的拆解並分析字串呢？請善用stack!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;如何有效率的拆解並分析字串呢？請善用stack!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>APCS 1060304 題解</title>
-      <link>https://henrybear327.github.io/blog/post/competitive_programming/apcs1060304/</link>
+      <link>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1060304/</link>
       <pubDate>Sun, 14 Jan 2018 12:59:54 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/competitive_programming/apcs1060304/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1060304/</guid>
       <description>&lt;p&gt;官方&lt;a href=&#34;https://apcs.csie.ntnu.edu.tw/files/1060304APCSImplementation.pdf&#34;&gt;試題&lt;/a&gt;本&lt;/p&gt;
 
-&lt;p&gt;第一題為基本字串題，第二三題基本上都算是實作偏重的題目，第四題是經典binary search題目。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;第一題為基本字串題，第二三題基本上都算是實作偏重的題目，第四題是經典binary search題目。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>APCS 1061028 題解</title>
-      <link>https://henrybear327.github.io/blog/post/competitive_programming/apcs1061028/</link>
+      <link>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1061028/</link>
       <pubDate>Sat, 13 Jan 2018 00:10:47 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/competitive_programming/apcs1061028/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1061028/</guid>
       <description>&lt;p&gt;官方&lt;a href=&#34;https://apcs.csie.ntnu.edu.tw/files/1061028APCSImplementation.pdf&#34;&gt;試題&lt;/a&gt;本&lt;/p&gt;
 
-&lt;p&gt;第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Competitive Programming on Coding Blog</title>
-    <link>https://henrybear327.github.io/blog/categories/competitive-programming/</link>
+    <link>https://henrybear327.github.io/blog1/categories/competitive-programming/</link>
     <description>Recent content in Competitive Programming on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 14 May 2018 21:45:13 +0800</lastBuildDate>
     
-	<atom:link href="https://henrybear327.github.io/blog/categories/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://henrybear327.github.io/blog1/categories/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>10689 - Yet another Number Sequence</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10689/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10689/</link>
       <pubDate>Mon, 14 May 2018 21:45:13 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10689/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10689/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1630&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Matrix fast exponentiation!&lt;/p&gt;
@@ -57,34 +57,30 @@ $&lt;/p&gt;
     f(n)   \newline
     f(n - 1)   \newline
 \end{bmatrix}
-$&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+$&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>10911 - Forming Quiz Teams</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10911/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10911/</link>
       <pubDate>Sun, 13 May 2018 00:12:48 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10911/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10911/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1852&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For every $dp[i] = k$, we define $i$ as the collection of people that&amp;rsquo;re not paired yet, and $k$ is the minimum cost to pair those people up, if possible.&lt;/p&gt;
 
 &lt;p&gt;Starting with &lt;code&gt;(1 &amp;lt;&amp;lt; n) - 1&lt;/code&gt;, we can pair 2 of them at a time, and recurse on &lt;code&gt;(state ^ (1 &amp;lt;&amp;lt; i) ^ (1 &amp;lt;&amp;lt; j))&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Notice the base case is $dp[0] = 0$.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Notice the base case is $dp[0] = 0$.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>10944 - Nuts for nuts..</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10944/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10944/</link>
       <pubDate>Sat, 12 May 2018 22:38:28 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10944/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10944/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1885&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;位元DP。&lt;/p&gt;
@@ -96,32 +92,28 @@ $&lt;/p&gt;
 &lt;p&gt;計算的話，假設我們有三個點，我們現在要求取$dp[0][3]$（已經在0, 1拿完果實，並停在0），那我們的其中一種可行走法為$dp[1][2] + dist[1][0]$，也就是說，從只去過1的狀態走到0來！所以更新的話，就是:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;dp[i][j] = min(dp[i][j], dp[k][j - (1 &amp;lt;&amp;lt; i)] + dist[i][k]);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
       <title>108 - Maximum Sum</title>
-      <link>https://henrybear327.github.io/blog/post/uva/108/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/108/</link>
       <pubDate>Sat, 12 May 2018 18:05:52 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/108/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/108/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=44&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;2D prefix sum!&lt;/p&gt;
 
-&lt;p&gt;枚舉起始行、結束行、跟列！這樣就可以轉回 1D 的 prefix sum 題目了。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;枚舉起始行、結束行、跟列！這樣就可以轉回 1D 的 prefix sum 題目了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>348 - Optimal Array Multiplication Sequence</title>
-      <link>https://henrybear327.github.io/blog/post/uva/348/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/348/</link>
       <pubDate>Sat, 12 May 2018 17:43:18 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/348/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/348/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=284&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;經典的最少矩陣乘法次數，但是要輸出最終結果！&lt;/p&gt;
@@ -138,30 +130,26 @@ int a;
 int b;
 tie(a, b) = someReturnedTuple
 &lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
       <title>497 - Strategic Defense Initiative</title>
-      <link>https://henrybear327.github.io/blog/post/uva/497/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/497/</link>
       <pubDate>Sat, 12 May 2018 11:15:06 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/497/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/497/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=438&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;經典 LIS 加 path printing 題。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;經典 LIS 加 path printing 題。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>10401 - Injured Queen Problem</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10401/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10401/</link>
       <pubDate>Fri, 11 May 2018 21:25:16 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10401/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10401/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1342&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;掰咖的n皇后問題，如果我們拿 column 來看的話，他只跟前一個 column 有關而已了！&lt;/p&gt;
@@ -173,47 +161,41 @@ tie(a, b) = someReturnedTuple
 &lt;ol&gt;
 &lt;li&gt;如果這個 column 沒有指定后位的話，我們就 $dp[i][j] += dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$&lt;/li&gt;
 &lt;li&gt;如果這個 column 有指定后位的話，我們就 $dp[queenPosition][j] += dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
       <title>10721 - Bar Codes</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10721/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10721/</link>
       <pubDate>Fri, 11 May 2018 17:53:41 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10721/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10721/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1662&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;非常好的題目！先想三維再想二維！&lt;/p&gt;
 
-&lt;p&gt;核心的想法是，如果能延伸，我們就延伸！延伸長度的話呢？枚舉他！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;核心的想法是，如果能延伸，我們就延伸！延伸長度的話呢？枚舉他！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>116 - Unidirectional TSP</title>
-      <link>https://henrybear327.github.io/blog/post/uva/116/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/116/</link>
       <pubDate>Thu, 10 May 2018 22:19:11 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/116/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/116/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=52&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;只求 min path 不難，但是回朔&amp;hellip;有意思。&lt;/p&gt;
 
-&lt;p&gt;要字典序最小的回朔，如果正著做，下面那筆測資就GG了。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;要字典序最小的回朔，如果正著做，下面那筆測資就GG了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>No nine</title>
-      <link>https://henrybear327.github.io/blog/post/google/kickstart/2018b/</link>
+      <link>https://henrybear327.github.io/blog1/post/google/kickstart/2018b/</link>
       <pubDate>Tue, 24 Apr 2018 10:25:48 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/google/kickstart/2018b/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/google/kickstart/2018b/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://code.google.com/codejam/contest/10284486/dashboard#s=p0&#34;&gt;題目&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;題目敘述&#34;&gt;題目敘述&lt;/h2&gt;
@@ -233,35 +215,29 @@ tie(a, b) = someReturnedTuple
 
 &lt;p&gt;試想，如果把 $[0, 26)$ 這個區間的所有數字都列出來，你會刪掉的數字分別是 $9, 19$。誒，這不就是 $[0, 26)$ 用九進位來看會自動排除掉的數字嗎？利用這個性質，我們可以很簡單的獲得區間內數字個數了！&lt;/p&gt;
 
-&lt;p&gt;排除了包含九的數字後，九的倍數怎麼辦？傷為觀察一下就有囉！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;排除了包含九的數字後，九的倍數怎麼辦？傷為觀察一下就有囉！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>APCS 1060304 題解</title>
-      <link>https://henrybear327.github.io/blog/post/competitive_programming/apcs1060304/</link>
+      <link>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1060304/</link>
       <pubDate>Sun, 14 Jan 2018 12:59:54 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/competitive_programming/apcs1060304/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1060304/</guid>
       <description>&lt;p&gt;官方&lt;a href=&#34;https://apcs.csie.ntnu.edu.tw/files/1060304APCSImplementation.pdf&#34;&gt;試題&lt;/a&gt;本&lt;/p&gt;
 
-&lt;p&gt;第一題為基本字串題，第二三題基本上都算是實作偏重的題目，第四題是經典binary search題目。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;第一題為基本字串題，第二三題基本上都算是實作偏重的題目，第四題是經典binary search題目。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>APCS 1061028 題解</title>
-      <link>https://henrybear327.github.io/blog/post/competitive_programming/apcs1061028/</link>
+      <link>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1061028/</link>
       <pubDate>Sat, 13 Jan 2018 00:10:47 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/competitive_programming/apcs1061028/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/competitive_programming/apcs1061028/</guid>
       <description>&lt;p&gt;官方&lt;a href=&#34;https://apcs.csie.ntnu.edu.tw/files/1061028APCSImplementation.pdf&#34;&gt;試題&lt;/a&gt;本&lt;/p&gt;
 
-&lt;p&gt;第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;第一題為語言認知題，第二三題基本上都算是實作偏重的題目，第四題是經典greedy題目。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,39 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Palindrome on Coding Blog</title>
-    <link>https://henrybear327.github.io/blog/tags/palindrome/</link>
+    <link>https://henrybear327.github.io/blog1/tags/palindrome/</link>
     <description>Recent content in Palindrome on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 16 Apr 2018 21:05:21 +0800</lastBuildDate>
     
-	<atom:link href="https://henrybear327.github.io/blog/tags/palindrome/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://henrybear327.github.io/blog1/tags/palindrome/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>214. Shortest Palindrome</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/214/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/214/</link>
       <pubDate>Mon, 16 Apr 2018 21:05:21 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/214/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/214/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/shortest-palindrome/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;從頭枚舉，你發現什麼？&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;從頭枚舉，你發現什麼？&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>336. Palindrome Pairs</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/336/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/336/</link>
       <pubDate>Mon, 16 Apr 2018 21:00:28 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/336/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/336/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/palindrome-pairs/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;枚舉 ＋ 組合一下字串！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;枚舉 ＋ 組合一下字串！&lt;/p&gt;</description>
     </item>
     
   </channel>

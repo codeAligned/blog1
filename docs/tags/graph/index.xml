@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Graph on Coding Blog</title>
-    <link>https://henrybear327.github.io/blog/tags/graph/</link>
+    <link>https://henrybear327.github.io/blog1/tags/graph/</link>
     <description>Recent content in Graph on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 14 May 2018 23:19:59 +0800</lastBuildDate>
     
-	<atom:link href="https://henrybear327.github.io/blog/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://henrybear327.github.io/blog1/tags/graph/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>399. Evaluate Division</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/399/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/399/</link>
       <pubDate>Mon, 14 May 2018 23:19:59 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/399/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/399/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/evaluate-division/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Observation: Turn this into directed graph!&lt;/p&gt;
@@ -30,9 +30,7 @@
 
 &lt;p&gt;Do the same thing for $\frac b c = v_2$.&lt;/p&gt;
 
-&lt;p&gt;Compute $\frac a c$, isn&amp;rsquo;t it just $v_1 * v_2$, the traversal path from a to c? There you go!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Compute $\frac a c$, isn&amp;rsquo;t it just $v_1 * v_2$, the traversal path from a to c? There you go!&lt;/p&gt;</description>
     </item>
     
   </channel>

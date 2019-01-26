@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://henrybear327.github.io/blog/sitemap.xml
+Sitemap: https://henrybear327.github.io/blog1/sitemap.xml

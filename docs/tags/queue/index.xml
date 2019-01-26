@@ -2,26 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Queue on Coding Blog</title>
-    <link>https://henrybear327.github.io/blog/tags/queue/</link>
+    <link>https://henrybear327.github.io/blog1/tags/queue/</link>
     <description>Recent content in Queue on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 16 Apr 2018 20:37:09 +0800</lastBuildDate>
     
-	<atom:link href="https://henrybear327.github.io/blog/tags/queue/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://henrybear327.github.io/blog1/tags/queue/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>406. Queue Reconstruction by Height</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/406/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/406/</link>
       <pubDate>Mon, 16 Apr 2018 20:37:09 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/406/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/406/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/queue-reconstruction-by-height/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Queue 好題！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Queue 好題！&lt;/p&gt;</description>
     </item>
     
   </channel>

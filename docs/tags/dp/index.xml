@@ -2,49 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dp on Coding Blog</title>
-    <link>https://henrybear327.github.io/blog/tags/dp/</link>
+    <link>https://henrybear327.github.io/blog1/tags/dp/</link>
     <description>Recent content in Dp on Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 06 Jul 2018 11:16:01 +0800</lastBuildDate>
     
-	<atom:link href="https://henrybear327.github.io/blog/tags/dp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://henrybear327.github.io/blog1/tags/dp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>96. Unique Binary Search Trees</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/96/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/96/</link>
       <pubDate>Fri, 06 Jul 2018 11:16:01 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/96/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/96/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/unique-binary-search-trees/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;It&amp;rsquo;s basically cutting stick DP. For the given range, try using every possible value as the root, and then D&amp;amp;C&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;It&amp;rsquo;s basically cutting stick DP. For the given range, try using every possible value as the root, and then D&amp;amp;C&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>834. Sum of Distances in Tree</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/834/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/834/</link>
       <pubDate>Tue, 15 May 2018 11:24:40 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/834/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/834/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/sum-of-distances-in-tree/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;我們先看看如果只要求取以$0$為root的tree下的distance，對於每個 node 都記錄對於他來說的 subtree nodes (including self) 和 subtree total path sum。可以發現，$0$ 的答案就是所有子樹的 = node count + 所有子樹的 total path sum&lt;/p&gt;
 
-&lt;p&gt;對於所有其他非 0 的 node，我們如果把它當 root 看，誒，不就是從 0 開始 dfs 到他時，把他的parent那邊當做 subtree 看了嗎！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;對於所有其他非 0 的 node，我們如果把它當 root 看，誒，不就是從 0 開始 dfs 到他時，把他的parent那邊當做 subtree 看了嗎！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>10689 - Yet another Number Sequence</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10689/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10689/</link>
       <pubDate>Mon, 14 May 2018 21:45:13 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10689/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10689/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1630&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Matrix fast exponentiation!&lt;/p&gt;
@@ -85,34 +81,30 @@ $&lt;/p&gt;
     f(n)   \newline
     f(n - 1)   \newline
 \end{bmatrix}
-$&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+$&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>10911 - Forming Quiz Teams</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10911/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10911/</link>
       <pubDate>Sun, 13 May 2018 00:12:48 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10911/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10911/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1852&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For every $dp[i] = k$, we define $i$ as the collection of people that&amp;rsquo;re not paired yet, and $k$ is the minimum cost to pair those people up, if possible.&lt;/p&gt;
 
 &lt;p&gt;Starting with &lt;code&gt;(1 &amp;lt;&amp;lt; n) - 1&lt;/code&gt;, we can pair 2 of them at a time, and recurse on &lt;code&gt;(state ^ (1 &amp;lt;&amp;lt; i) ^ (1 &amp;lt;&amp;lt; j))&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Notice the base case is $dp[0] = 0$.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Notice the base case is $dp[0] = 0$.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>10944 - Nuts for nuts..</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10944/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10944/</link>
       <pubDate>Sat, 12 May 2018 22:38:28 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10944/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10944/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1885&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;位元DP。&lt;/p&gt;
@@ -124,32 +116,28 @@ $&lt;/p&gt;
 &lt;p&gt;計算的話，假設我們有三個點，我們現在要求取$dp[0][3]$（已經在0, 1拿完果實，並停在0），那我們的其中一種可行走法為$dp[1][2] + dist[1][0]$，也就是說，從只去過1的狀態走到0來！所以更新的話，就是:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;dp[i][j] = min(dp[i][j], dp[k][j - (1 &amp;lt;&amp;lt; i)] + dist[i][k]);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
       <title>108 - Maximum Sum</title>
-      <link>https://henrybear327.github.io/blog/post/uva/108/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/108/</link>
       <pubDate>Sat, 12 May 2018 18:05:52 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/108/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/108/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=44&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;2D prefix sum!&lt;/p&gt;
 
-&lt;p&gt;枚舉起始行、結束行、跟列！這樣就可以轉回 1D 的 prefix sum 題目了。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;枚舉起始行、結束行、跟列！這樣就可以轉回 1D 的 prefix sum 題目了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>348 - Optimal Array Multiplication Sequence</title>
-      <link>https://henrybear327.github.io/blog/post/uva/348/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/348/</link>
       <pubDate>Sat, 12 May 2018 17:43:18 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/348/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/348/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=284&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;經典的最少矩陣乘法次數，但是要輸出最終結果！&lt;/p&gt;
@@ -166,30 +154,26 @@ int a;
 int b;
 tie(a, b) = someReturnedTuple
 &lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
       <title>497 - Strategic Defense Initiative</title>
-      <link>https://henrybear327.github.io/blog/post/uva/497/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/497/</link>
       <pubDate>Sat, 12 May 2018 11:15:06 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/497/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/497/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=438&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;經典 LIS 加 path printing 題。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;經典 LIS 加 path printing 題。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>10401 - Injured Queen Problem</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10401/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10401/</link>
       <pubDate>Fri, 11 May 2018 21:25:16 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10401/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10401/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1342&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;掰咖的n皇后問題，如果我們拿 column 來看的話，他只跟前一個 column 有關而已了！&lt;/p&gt;
@@ -201,102 +185,86 @@ tie(a, b) = someReturnedTuple
 &lt;ol&gt;
 &lt;li&gt;如果這個 column 沒有指定后位的話，我們就 $dp[i][j] += dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$&lt;/li&gt;
 &lt;li&gt;如果這個 column 有指定后位的話，我們就 $dp[queenPosition][j] += dp[k][j - 1]$ where $1 \leq k &amp;lt; n, |{i-k}| &amp;gt; 1$&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
       <title>10721 - Bar Codes</title>
-      <link>https://henrybear327.github.io/blog/post/uva/10721/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/10721/</link>
       <pubDate>Fri, 11 May 2018 17:53:41 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/10721/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/10721/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=1662&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;非常好的題目！先想三維再想二維！&lt;/p&gt;
 
-&lt;p&gt;核心的想法是，如果能延伸，我們就延伸！延伸長度的話呢？枚舉他！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;核心的想法是，如果能延伸，我們就延伸！延伸長度的話呢？枚舉他！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>116 - Unidirectional TSP</title>
-      <link>https://henrybear327.github.io/blog/post/uva/116/</link>
+      <link>https://henrybear327.github.io/blog1/post/uva/116/</link>
       <pubDate>Thu, 10 May 2018 22:19:11 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/uva/116/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/uva/116/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;amp;Itemid=8&amp;amp;category=24&amp;amp;page=show_problem&amp;amp;problem=52&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;只求 min path 不難，但是回朔&amp;hellip;有意思。&lt;/p&gt;
 
-&lt;p&gt;要字典序最小的回朔，如果正著做，下面那筆測資就GG了。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;要字典序最小的回朔，如果正著做，下面那筆測資就GG了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>312. Burst Balloons</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/312/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/312/</link>
       <pubDate>Mon, 16 Apr 2018 21:23:14 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/312/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/312/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/burst-balloons/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Cutting stick! From bottom to top!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Cutting stick! From bottom to top!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>10. Regular Expression Matching</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/10/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/10/</link>
       <pubDate>Mon, 16 Apr 2018 20:49:18 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/10/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/10/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/regular-expression-matching/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;DFS/DP 好題！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;DFS/DP 好題！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>139. Word Break</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/139/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/139/</link>
       <pubDate>Mon, 16 Apr 2018 20:45:00 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/139/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/word-break/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/139/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/word-break/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>279. Perfect Squares</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/279/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/279/</link>
       <pubDate>Sun, 15 Apr 2018 22:47:53 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/279/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/279/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/perfect-squares/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Coin change!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Coin change!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>418. Sentence Screen Fitting</title>
-      <link>https://henrybear327.github.io/blog/post/leetcode/418/</link>
+      <link>https://henrybear327.github.io/blog1/post/leetcode/418/</link>
       <pubDate>Sun, 15 Apr 2018 12:00:35 +0800</pubDate>
       
-      <guid>https://henrybear327.github.io/blog/post/leetcode/418/</guid>
+      <guid>https://henrybear327.github.io/blog1/post/leetcode/418/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://leetcode.com/problems/sentence-screen-fitting/description/&#34;&gt;題目連結&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;DP紀錄什麼呢？紀錄下如果用某字開頭的話，這個row可以裝下多少字！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;DP紀錄什麼呢？紀錄下如果用某字開頭的話，這個row可以裝下多少字！&lt;/p&gt;</description>
     </item>
     
   </channel>
